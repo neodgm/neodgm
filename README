@@ -1,0 +1,8 @@
+FILENAME        | DESCRIPTION               | W
+================================================
+u0000-u007f.fnt | Basic Latin 1             |  8
+u2500-u257f.fnt | Block Elements            |  8
+u2580-u259f.fnt | Box-drawing Characters    |  8
+u3131-u3163.fnt | Hangul Compatibility Jamo | 16
+ue0a0-ue0bf.fnt | PUA (Powerline Symbols)   |  8
+ue100-ue45f.fnt | PUA (Hangul Glyph Source) | 16
