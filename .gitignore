@@ -2,3 +2,7 @@
 *.swp
 *.swo
 *.swx
+
+# Files generated during font build process
+makesvg
+svg
