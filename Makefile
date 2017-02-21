@@ -10,7 +10,7 @@ SVGGEN=./makesvg
 all: font
 
 font: svgs
-	$(PY) font.py
+	$(PY) src/font.py
 	ttx -t "OS/2" neodgm.ttf
 	sed -r -i -e 's@<xAvgCharWidth value=".+"/>@<xAvgCharWidth value="8"/>@' neodgm.ttx
 	ttx -m neodgm.ttf neodgm.ttx
@@ -27,4 +27,10 @@ svgs: svg-generator
 
 svg-generator:
 	$(CXX) src/makesvg.cpp -o $(SVGGEN)
+
+clean:
+	rm -rf neodgm.sfd
+	rm -rf neodgm.ttf
+	rm -rf svg_8
+	rm -rf svg_16
 
