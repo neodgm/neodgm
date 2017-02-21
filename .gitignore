@@ -5,4 +5,6 @@
 
 # Files generated during font build process
 makesvg
-svg
+svg_*/
+*.sfd
+*.ttf

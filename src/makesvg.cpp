@@ -55,7 +55,7 @@ int main(int argc, const char *argv[])
   printf("Code from: U+%04X, Code to: U+%04X\n", g_code_from, g_code_to);
 
   auto glyphs = load_glyphs(fpath);
-  std::system("mkdir -p svg");
+  std::system(g_width == 8 ? "mkdir -p svg_8" : "mkdir -p svg_16");
   g_width == 8 ? generate_svgs_8(glyphs) : generate_svgs_16(glyphs);
 
   return 0;
@@ -69,7 +69,7 @@ void generate_svgs_8(const unique_ptr<uint8_t[][16]> &glyphs)
     const uint8_t (&glyph)[16] = glyphs[i - g_code_from];
     static char outname_buf[256];
 
-    std::snprintf(outname_buf, 256, "svg/%04x.svg", i);
+    std::snprintf(outname_buf, 256, "svg_8/%04x.svg", i);
     outname_buf[255] = '\0';
     std::cout << "Generating " << outname_buf << "... ";
 
@@ -96,7 +96,7 @@ void generate_svgs_16(const unique_ptr<uint8_t[][16]> &glyphs)
     const uint8_t (&lower)[16] = glyphs[index + 1];
     static char outname_buf[256];
 
-    std::snprintf(outname_buf, 256, "svg/%04x.svg", i);
+    std::snprintf(outname_buf, 256, "svg_16/%04x.svg", i);
     outname_buf[255] = '\0';
     std::cout << "Generating " << outname_buf << "... ";
 
