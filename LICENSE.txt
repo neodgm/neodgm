@@ -100,7 +100,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ****** SIL Opene Font License 끝 ******
 
-원본 비트맵 데이터로부터 TTF를 생성하는 프로그램(src/*)에는
+원본 비트맵 데이터로부터 TTF를 생성하는 프로그램(src/* 및 Makefile)에는
 아래 WTFPL이 적용됩니다. 이와 더불어 Dalgona는 이 프로그램을 사용하면서
 발생하는 문제에 대해 책임을 지지 않습니다.
 
