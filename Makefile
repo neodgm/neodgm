@@ -21,6 +21,7 @@ svgs: svg-generator
 	$(SVGGEN) 8 fnt/0000_007f.fnt
 	$(SVGGEN) 8 fnt/2500_257f.fnt
 	$(SVGGEN) 8 fnt/2580_259f.fnt
+	$(SVGGEN) 8 fnt/2800_28ff.fnt
 	$(SVGGEN) 8 fnt/e0a0_e0bf.fnt
 	$(SVGGEN) 16 fnt/3131_3163.fnt
 	$(SVGGEN) 16 fnt/e100_e267.fnt
