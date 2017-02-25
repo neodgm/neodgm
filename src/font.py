@@ -15,7 +15,7 @@ name = 'NeoDunggeunmo'
 font.familyname = name
 font.fontname = name
 font.fullname = name
-font.version = '1.0.0'
+font.version = '1.1.0'
 font.copyright = \
 """Original font was released under the public domain by Jungtae Kim in 1990s.
 Conversion & additional character design by Dalgona. <dalgona@hontou.moe>"""
