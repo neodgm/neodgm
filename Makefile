@@ -14,6 +14,8 @@ font: svgs
 
 svgs: svg-generator
 	$(SVGGEN) 8 fnt/0000_007f.fnt
+	$(SVGGEN) 8 fnt/00a1_00ac.fnt
+	$(SVGGEN) 8 fnt/00ae_00ff.fnt
 	$(SVGGEN) 8 fnt/2500_257f.fnt
 	$(SVGGEN) 8 fnt/2580_259f.fnt
 	$(SVGGEN) 8 fnt/2800_28ff.fnt
