@@ -11,14 +11,19 @@ jung_tbl = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]
 jong_tbl = [0, 2, 0, 2, 1, 2, 1, 2, 3, 0, 2, 1, 3, 3, 1, 2, 1, 3, 3, 1, 1]
 
 font = fontforge.font()
+
 name = 'NeoDunggeunmo'
 font.familyname = name
 font.fontname = name
 font.fullname = name
-font.version = '1.1.0'
+font.version = '1.1.0-master+201706162100'
 font.copyright = \
 """Original font was released under the public domain by Jungtae Kim in 1990s.
 Conversion & additional character design by Dalgona. <dalgona@hontou.moe>"""
+font.appendSFNTName(0x409, 14, 'http://scripts.sil.org/OFL')
+with open('ofl_raw.txt', 'r') as f:
+    font.appendSFNTName(0x409, 13, f.read())
+
 font.ascent = 12
 font.descent = 4
 font.upos = -4
