@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 import fontforge
@@ -71,8 +71,8 @@ for i in range(0xAC00, 0xD7A4):
     g = font.createChar(i)
     g.width = 16
     g.clear()
-    a = (i - 0xAC00) / (21 * 28)
-    b = ((i - 0xAC00) % (21 * 28)) / 28
+    a = (i - 0xAC00) // (21 * 28)
+    b = ((i - 0xAC00) % (21 * 28)) // 28
     c = (i - 0xAC00) % 28
     x = cho_tbl[1 if c else 0][b]
     y = jung_tbl[a] + (2 if c else 0)
