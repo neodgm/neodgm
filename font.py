@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 import os
 import fontforge
@@ -34,6 +34,7 @@ font.os2_panose = tuple(panose)
 
 svg_8 = [(x.split('.')[0], 'svg_8/' + x) for x in os.listdir('svg_8')]
 svg_16 = [(x.split('.')[0], 'svg_16/' + x) for x in os.listdir('svg_16')]
+svg_etc = [(x[:-4], 'svg_etc/' + x) for x in os.listdir('svg_etc')]
 
 def create_char(font, code, path, width):
     cp = int(code, 16)
@@ -45,11 +46,24 @@ def create_char(font, code, path, width):
     g.removeOverlap()
     g.simplify()
 
+def create_unmapped(font, name, path, width):
+    print('Creating glyph "%s"...' % name)
+    g = font.createChar(-1, name)
+    g.width = int(width)
+    g.importOutlines(path)
+    g.removeOverlap()
+    g.simplify()
+    pass
+
 for (code, path) in svg_8:
     create_char(font, code, path, 8);
 
 for (code, path) in svg_16:
     create_char(font, code, path, 16);
+
+for (name, path) in svg_etc:
+    [gname, width] = name.split('@')
+    create_unmapped(font, gname, path, width)
 
 print('Filling `Hangul Jamo` Unicode block...')
 # Fill Hangul Choseong

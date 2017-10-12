@@ -12,4 +12,5 @@ clean:
 	rm -rf neodgm.ttf
 	rm -rf svg_8
 	rm -rf svg_16
+	rm -rf svg_etc
 

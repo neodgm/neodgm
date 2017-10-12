@@ -1,7 +1,9 @@
 #!/usr/bin/elixir
 
 defmodule SvgExporter do
-  @type glyph :: {integer, integer, [charlist]}
+  @type glyph ::
+    {:unicode, integer, integer, [charlist]}
+    | {:unmapped, binary, integer, integer, [charlist]}
 
   @spec svg_header(integer) :: binary
 
@@ -25,6 +27,7 @@ defmodule SvgExporter do
     srcdir = String.ends_with?(srcdir, "/") && srcdir || srcdir <> "/"
     File.mkdir_p! "svg_8"
     File.mkdir_p! "svg_16"
+    File.mkdir_p! "svg_etc"
     case File.ls srcdir do
       {:ok, files} ->
         files
@@ -57,23 +60,46 @@ defmodule SvgExporter do
     |> IO.read(:all)
     |> String.split("\n")
     |> Stream.chunk(17)
-    |> Stream.map(fn [h|t] ->
-      [code, width] =
-        h
-        |> String.split()
-        |> Enum.map(fn x -> x |> Integer.parse |> elem(0) end)
-      lines = Enum.map(t, &String.to_charlist/1)
-      {code, width, lines}
-    end)
+    |> Stream.map(&create_glyph/1)
+  end
+
+  @spec create_glyph([binary]) :: glyph
+
+  defp create_glyph([header|data]) do
+    # Glyph Specification
+    #   I. Normal Unicode Character:
+    #     L1: <codepoint:int> <width:int>
+    #     L2~L17: 1bpp bitmap data
+    #   II. Unmapped Glyph (usually for ligatures)
+    #     L1: <name:str> <data-width:int> <glyph-width:int> <xoffset:int>
+    #     L2~L17: 1bpp bitmap data
+    i = & &1 |> Integer.parse |> elem(0)
+    lines = Enum.map data, &String.to_charlist/1
+    case String.split(header) do
+      [code, width] ->
+        {:unicode, i.(code), i.(width), lines}
+      [name, width, xoff] ->
+        {:unmapped, name, i.(width), i.(xoff), lines}
+    end
   end
 
   @spec write_svg(glyph) :: :ok
 
-  defp write_svg({code, width, lines}) do
+  defp write_svg({:unicode, code, width, lines}) do
     filename = code |> Integer.to_string(16) |> String.pad_leading(4, "0")
     {:ok, file} = File.open "#{outdir width}#{filename}.svg", [:write, :utf8]
     IO.write file, svg_header(width)
-    process_line lines, width, file, 0
+    process_line lines, 0, file, 0
+    IO.write file, svg_footer()
+    File.close file
+    IO.write "."
+  end
+
+  defp write_svg({:unmapped, name, gwidth, xoff, lines}) do
+    filename = "#{name}@#{gwidth}"
+    {:ok, file} = File.open "#{outdir :etc}#{filename}.svg", [:write, :utf8]
+    IO.write file, svg_header(gwidth)
+    process_line lines, xoff, file, 0
     IO.write file, svg_footer()
     File.close file
     IO.write "."
@@ -85,20 +111,21 @@ defmodule SvgExporter do
     :ok
   end
 
-  defp process_line([h|t], width, file, line_no) do
+  defp process_line([h|t], xoffset, file, line_no) do
     h
-    |> Enum.zip(0..(width - 1))
+    |> Enum.with_index(xoffset)
     |> Enum.each(fn
       {?0, _} -> :nop
       {?1, x} -> IO.write file, svg_rect(x, line_no)
     end)
-    process_line t, width, file, line_no + 1
+    process_line t, xoffset, file, line_no + 1
   end
 
   @spec outdir(integer) :: binary
 
   defp outdir(8), do: "svg_8/"
   defp outdir(16), do: "svg_16/"
+  defp outdir(:etc), do: "svg_etc/"
 end
 
 [srcdir|_] = System.argv()
