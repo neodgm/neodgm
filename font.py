@@ -16,7 +16,7 @@ name = 'NeoDunggeunmo'
 font.familyname = name
 font.fontname = name
 font.fullname = name
-font.version = '1.1.0-master+201706162100'
+font.version = '1.1.0-master+201710122140'
 font.copyright = \
 """Original font was released under the public domain by Jungtae Kim in 1990s.
 Conversion & additional character design by Dalgona. <dalgona@hontou.moe>"""
@@ -32,16 +32,15 @@ panose = list(font.os2_panose)
 panose[3] = 9
 font.os2_panose = tuple(panose)
 
-svg_8 = [(x.split('.')[0], 'svg_8/' + x) for x in os.listdir('svg_8')]
-svg_16 = [(x.split('.')[0], 'svg_16/' + x) for x in os.listdir('svg_16')]
-svg_etc = [(x[:-4], 'svg_etc/' + x) for x in os.listdir('svg_etc')]
+svg_8 = [(x.split('.')[0],'svg_8/'+x) for x in sorted(os.listdir('svg_8'))]
+svg_16 = [(x.split('.')[0],'svg_16/'+x) for x in sorted(os.listdir('svg_16'))]
+svg_etc = [(x[:-4],'svg_etc/'+x) for x in sorted(os.listdir('svg_etc'))]
 
 def create_char(font, code, path, width):
     cp = int(code, 16)
     print('Creating glyph %d...' % cp)
     g = font.createChar(cp)
     g.width = width
-    g.glyphname = 'U+%04X' % cp
     g.importOutlines(path)
     g.removeOverlap()
     g.simplify()
@@ -70,19 +69,19 @@ print('Filling `Hangul Jamo` Unicode block...')
 for i in range(0, 19):
     g = font.createChar(0x1100 + i)
     g.width = 16
-    g.addReference('U+%04X' % (0xE101 + i))
+    g.addReference('cho_%d_0' % i)
 
 # Fill Hangul Jungseong
 for i in range(0, 21):
     g = font.createChar(0x1161 + i)
     g.width = 16
-    g.addReference('U+%04X' % (0xE1A1 + i))
+    g.addReference('jung_%d_0' % i)
 
 # Fill Hangul Jongseong
 for i in range(0, 27):
     g = font.createChar(0x11A8 + i)
     g.width = 16
-    g.addReference('U+%04X' % (0xE1F9 + i))
+    g.addReference('jong_%d_0' % (i + 1))
 
 print('Filling `Hangul Syllables` Unicode block. This may take a while...')
 # Compose 11172 glyphs
@@ -96,9 +95,10 @@ for i in range(0xAC00, 0xD7A4):
     x = cho_tbl[1 if c else 0][b]
     y = jung_tbl[a] + (2 if c else 0)
     z = jong_tbl[b]
-    g.addReference('U+%04X' % (0xE100 + x * 20 + a + 1))
-    g.addReference('U+%04X' % (0xE100 + 160 + y * 22 + b + 1))
-    g.addReference('U+%04X' % (0xE100 + 248 + z * 28 + c))
+    g.addReference('cho_%d_%d' % (a, x))
+    g.addReference('jung_%d_%d' % (b, y))
+    if c != 0:
+        g.addReference('jong_%d_%d' % (c, z))
 
 # all done!
 print('Generating TTF...')
