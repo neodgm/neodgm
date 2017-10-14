@@ -8,16 +8,50 @@ defmodule GSUBData do
             "equal" => "equal.rarr"
           }
         ]},
-      {:single, "Left Arrow", 1,
+      {:single, "Left Arrow", 2,
         [
           %{
             "hyphen" => "hyphen.larr",
             "equal" => "equal.larr"
           }
+        ]},
+      {:single, "Markup Comment", 2,
+        [
+          %{
+            "exclam" => "exclam.markupcomment",
+            "hyphen" => "hyphen.markupcomment"
+          }
         ]}
     ],
 
     calt: [
+      {:chain, "Markup Comment Chain", 1,
+        [
+          %{
+            glyph: ["exclam"],
+            backtrack: ["less"],
+            look_ahead: ["hyphen", "hyphen"],
+            substitute: [
+              %{glyph: 0, lookup: "Markup Comment"}
+            ]
+          },
+          %{
+            glyph: ["hyphen"],
+            backtrack: ["exclam.markupcomment"],
+            look_ahead: [],
+            substitute: [
+              %{glyph: 0, lookup: "Markup Comment"}
+            ]
+          },
+          %{
+            glyph: ["hyphen"],
+            backtrack: ["hyphen.markupcomment"],
+            look_ahead: [],
+            substitute: [
+              %{glyph: 0, lookup: "Left Arrow"}
+            ]
+          }
+        ]},
       {:chain, "Right Arrow Chain", 1,
         [
           %{

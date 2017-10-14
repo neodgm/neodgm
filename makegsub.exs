@@ -1,6 +1,6 @@
 #!/usr/bin/elixir
 
-Code.load_file "gsubdata.exs"
+Code.require_file "gsubdata.exs"
 
 defmodule GSUBGenerator do
   require EEx

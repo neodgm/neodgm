@@ -30,13 +30,15 @@ td {
   vertical-align: middle;
 }
 
-.calt-off td {
+.calt-off td,
+td.calt-off {
   font-feature-settings: 'calt' off;
   border: 1px solid #ffc0c0;
   background-color: #ffeeee;
 }
 
-.calt-on td {
+.calt-on td,
+td.calt-on {
   font-feature-settings: 'calt' on;
   border: 1px solid #c0ffc0;
   background-color: #eeffee;
@@ -185,6 +187,29 @@ window.onload = (_e) => {
             </table>
             <p>(*) "&lt;="는 대부분의 프로그래밍 언어에서 "less than or
             equal to" 연산자로 사용되기 때문에 합자 처리가 되지 않습니다.</p>
+          </li>
+          <li>
+            <p>마크업 주석</p>
+            <table>
+              <tr>
+                <td class="calt-off">
+                  &lt;<br>
+                  &lt;!<br>
+                  &lt;!-<br>
+                  &lt;!-- comment --&gt;<br>
+                  &lt;!--- comment --&gt;<br>
+                  &lt;!---- comment --&gt;<br>
+                </td>
+                <td class="calt-on">
+                  &lt;<br>
+                  &lt;!<br>
+                  &lt;!-<br>
+                  &lt;!-- comment --&gt;<br>
+                  &lt;!--- comment --&gt;<br>
+                  &lt;!---- comment --&gt;<br>
+                </td>
+              </tr>
+            </table>
           </li>
         </ul>
       </li>
