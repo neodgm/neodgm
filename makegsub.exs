@@ -17,7 +17,8 @@ defmodule GSUBGenerator do
       {:single, "Left Arrow", 1,
         [
           %{
-            "hyphen" => "hyphen.larr"
+            "hyphen" => "hyphen.larr",
+            "equal" => "equal.larr"
           }
         ]}
     ],
@@ -55,6 +56,22 @@ defmodule GSUBGenerator do
           %{
             glyph: ["hyphen"],
             backtrack: ["hyphen.larr"],
+            look_ahead: [],
+            substitute: [
+              %{glyph: 0, lookup: "Left Arrow"}
+            ]
+          },
+          %{
+            glyph: ["equal"],
+            backtrack: ["less"],
+            look_ahead: ["equal"],
+            substitute: [
+              %{glyph: 0, lookup: "Left Arrow"}
+            ]
+          },
+          %{
+            glyph: ["equal"],
+            backtrack: ["equal.larr"],
             look_ahead: [],
             substitute: [
               %{glyph: 0, lookup: "Left Arrow"}
