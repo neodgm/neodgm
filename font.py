@@ -1,7 +1,12 @@
 #!/usr/bin/env python2
 
 import os
+import sys
 import fontforge
+
+if len(sys.argv) < 2:
+    print('Expected a version string as the first argument.')
+    sys.exit(1)
 
 cho_tbl = [
     [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 2, 4, 4, 4, 2, 1, 3, 0],
@@ -16,7 +21,7 @@ name = 'NeoDunggeunmo'
 font.familyname = name
 font.fontname = name
 font.fullname = name
-font.version = '1.2.0'
+font.version = sys.argv[1]
 font.copyright = \
 """Original font was released under the public domain by Jungtae Kim in 1990s.
 Conversion & additional character design by Dalgona. <dalgona@hontou.moe>"""

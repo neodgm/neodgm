@@ -1,3 +1,5 @@
+version=$(shell git describe --always | sed -e 's/^v//')
+
 all: complete-font
 
 complete-font: ttf
@@ -8,7 +10,7 @@ complete-font: ttf
 	ttx -o neodgm.ttf -m neodgm.ttf neodgm.gsub.ttx
 
 ttf: svgs
-	./font.py
+	./font.py $(version)
 
 svgs:
 	elixir ./makesvg.exs fnt
