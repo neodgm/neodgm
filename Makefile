@@ -19,7 +19,5 @@ clean:
 	rm -rf *.ttx
 	rm -rf *.sfd
 	rm -rf *.ttf
-	rm -rf svg_8
-	rm -rf svg_16
-	rm -rf svg_etc
+	rm -rf svg
 

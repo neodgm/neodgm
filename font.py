@@ -2,11 +2,16 @@
 
 import os
 import sys
+import glob
 import fontforge
 
 if len(sys.argv) < 2:
     print('Expected a version string as the first argument.')
     sys.exit(1)
+
+#
+# These tables are used to combine hangul syllable characters.
+#
 
 cho_tbl = [
     [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 2, 4, 4, 4, 2, 1, 3, 0],
@@ -15,9 +20,13 @@ cho_tbl = [
 jung_tbl = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]
 jong_tbl = [0, 2, 0, 2, 1, 2, 1, 2, 3, 0, 2, 1, 3, 3, 1, 2, 1, 3, 3, 1, 1]
 
-font = fontforge.font()
+#
+# Create an instance of FontForge font and set metadata.
+#
 
+# Font names
 name = 'NeoDunggeunmo'
+font = fontforge.font()
 font.familyname = name
 font.fontname = name
 font.fullname = name
@@ -29,6 +38,7 @@ font.appendSFNTName(0x409, 14, 'http://scripts.sil.org/OFL')
 with open('ofl_raw.txt', 'r') as f:
     font.appendSFNTName(0x409, 13, f.read())
 
+# Font metrics
 font.ascent = 12
 font.descent = 4
 font.upos = -4
@@ -37,37 +47,29 @@ panose = list(font.os2_panose)
 panose[3] = 9
 font.os2_panose = tuple(panose)
 
-svg_8 = [(x.split('.')[0],'svg_8/'+x) for x in sorted(os.listdir('svg_8'))]
-svg_16 = [(x.split('.')[0],'svg_16/'+x) for x in sorted(os.listdir('svg_16'))]
-svg_etc = [(x[:-4],'svg_etc/'+x) for x in sorted(os.listdir('svg_etc'))]
+svg_uni = glob.glob('svg/U*.svg')
+svg_named = glob.glob('svg/_*.svg')
 
-def create_char(font, code, path, width):
-    cp = int(code, 16)
-    print('Creating glyph %d...' % cp)
-    g = font.createChar(cp)
+for path in svg_uni:
+    code_str, width_str = path[5:-4].split('@')
+    code = int(code_str, 16)
+    width = int(width_str)
+    print('Creating Unicode glyph %d...' % code)
+    g = font.createChar(code)
     g.width = width
     g.importOutlines(path)
     g.removeOverlap()
     g.simplify()
 
-def create_unmapped(font, name, path, width):
-    print('Creating glyph "%s"...' % name)
+for path in svg_named:
+    name, width_str = path[5:-4].split('@')
+    width = int(width_str)
+    print('Creating named glyph "%s"...' % name)
     g = font.createChar(-1, name)
-    g.width = int(width)
+    g.width = width
     g.importOutlines(path)
     g.removeOverlap()
     g.simplify()
-    pass
-
-for (code, path) in svg_8:
-    create_char(font, code, path, 8);
-
-for (code, path) in svg_16:
-    create_char(font, code, path, 16);
-
-for (name, path) in svg_etc:
-    [gname, width] = name.split('@')
-    create_unmapped(font, gname, path, width)
 
 print('Filling `Hangul Jamo` Unicode block...')
 # Fill Hangul Choseong
