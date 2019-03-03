@@ -10,7 +10,7 @@ complete-font: ttf
 	ttx -o neodgm.ttf -m neodgm.ttf neodgm.gsub.ttx
 
 ttf: svgs
-	./font.py $(version)
+	python ./font.py $(version)
 
 svgs:
 	elixir ./makesvg.exs fnt
