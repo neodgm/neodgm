@@ -1,4 +1,4 @@
-version=$(shell git describe --always | sed -e 's/^v//')
+version=$(shell git describe --tags --always | sed -e 's/^v//')
 
 all: complete-font
 
