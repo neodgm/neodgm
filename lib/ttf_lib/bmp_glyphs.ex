@@ -28,15 +28,17 @@ defmodule TTFLib.BMPGlyphs do
       |> Path.transform({{1, 0}, {0, -1}}, {attrs.xmin, attrs.ymax})
 
     item =
-      %{
-        type: type,
-        id: id,
-        contours: contours
-      }
-      |> Map.merge(attrs)
+      quote do
+        %{
+          type: unquote(type),
+          id: unquote(id),
+          contours: unquote(contours)
+        }
+        |> Map.merge(unquote(Macro.escape(attrs)))
+      end
 
     quote do
-      @glyphs [unquote(Macro.escape(item)) | @glyphs]
+      @glyphs [unquote(item) | @glyphs]
     end
   end
 
