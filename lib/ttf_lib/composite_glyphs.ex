@@ -7,7 +7,7 @@ defmodule TTFLib.CompositeGlyphs do
     end
   end
 
-  defmacro glyph([{type, id}], [do: block]) when type in ~w(unicode name)a do
+  defmacro glyph([{type, id}], do: block) when type in ~w(unicode name)a do
     item =
       quote do
         %{

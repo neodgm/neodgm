@@ -13,10 +13,10 @@ defmodule NeoDGM.BitmapFont.HangulJamo do
     end
   end)
 
-  Enum.each(0x11a8..0x11c2, fn code ->
+  Enum.each(0x11A8..0x11C2, fn code ->
     glyph unicode: code do
       # Note that the jongseong index starts with 1.
-      component {:name, "jong_#{code - 0x11a7}_0"}, 0, 0
+      component {:name, "jong_#{code - 0x11A7}_0"}, 0, 0
     end
   end)
 

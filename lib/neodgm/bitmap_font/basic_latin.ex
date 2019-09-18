@@ -1207,7 +1207,7 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
-  glyph unicode: ?\ do
+  glyph unicode: ?\\ do
     advance 8
     xmin 0
     xmax 7

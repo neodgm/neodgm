@@ -1,13 +1,12 @@
 defmodule NeoDGM.BitmapFont.HangulSyllables do
   use TTFLib.CompositeGlyphs
 
-  make_map =
-    fn list ->
-      list
-      |> Enum.with_index()
-      |> Enum.map(fn {x, y} -> {y, x} end)
-      |> Map.new()
-    end
+  make_map = fn list ->
+    list
+    |> Enum.with_index()
+    |> Enum.map(fn {x, y} -> {y, x} end)
+    |> Map.new()
+  end
 
   cho_table = %{
     true: make_map.([0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 2, 4, 4, 4, 2, 1, 3, 0]),
@@ -23,7 +22,7 @@ defmodule NeoDGM.BitmapFont.HangulSyllables do
     jung = div(rem(index, 21 * 28), 28)
     jong = rem(index, 28)
     cho_set = cho_table[jong === 0][jung]
-    jung_set = jung_table[cho] + (if jong === 0, do: 0, else: 2)
+    jung_set = jung_table[cho] + if jong === 0, do: 0, else: 2
     jong_set = jong_table[jung]
 
     glyph unicode: code do

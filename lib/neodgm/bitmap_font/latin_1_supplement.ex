@@ -1,7 +1,7 @@
 defmodule NeoDGM.BitmapFont.Latin1Supplement do
   use TTFLib.BMPGlyphs
 
-  glyph unicode: 0xa0 do
+  glyph unicode: 0xA0 do
     advance 8
     xmin 0
     xmax 0

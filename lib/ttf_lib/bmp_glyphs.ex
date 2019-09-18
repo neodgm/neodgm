@@ -10,7 +10,7 @@ defmodule TTFLib.BMPGlyphs do
     end
   end
 
-  defmacro glyph([{type, id}], [do: block]) when type in ~w(unicode name)a do
+  defmacro glyph([{type, id}], do: block) when type in ~w(unicode name)a do
     attrs =
       block
       |> elem(2)
