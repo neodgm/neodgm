@@ -1,4 +1,4 @@
-defmodule NeoDGM.BitmapFont.LineDrawing do
+defmodule NeoDGM.BitmapFont.BoxDrawing do
   use TTFLib.BMPGlyphs
 
   glyph unicode: ?─ do
