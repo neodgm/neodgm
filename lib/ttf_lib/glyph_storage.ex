@@ -1,22 +1,8 @@
-defmodule NeoDGM.TTF.Glyphs do
+defmodule TTFLib.GlyphStorage do
   use GenServer
 
-  @glyph_sources [
-    NeoDGM.BitmapFont.BasicLatin,
-    NeoDGM.BitmapFont.Latin1Supplement,
-    NeoDGM.BitmapFont.HangulJamo,
-    NeoDGM.BitmapFont.GeneralPunctuation,
-    NeoDGM.BitmapFont.BoxDrawing,
-    NeoDGM.BitmapFont.BlockElements,
-    NeoDGM.BitmapFont.BraillePatterns,
-    NeoDGM.BitmapFont.HangulCompatibilityJamo,
-    NeoDGM.BitmapFont.HangulSyllables,
-    NeoDGM.BitmapFont.PowerlineSymbols,
-    NeoDGM.BitmapFont.HangulJamoSource
-  ]
-
-  def start_link(_) do
-    GenServer.start_link(__MODULE__, [], name: __MODULE__)
+  def start_link(glyph_sources) do
+    GenServer.start_link(__MODULE__, glyph_sources, name: __MODULE__)
   end
 
   def all do
@@ -28,9 +14,9 @@ defmodule NeoDGM.TTF.Glyphs do
   end
 
   @impl GenServer
-  def init(_) do
+  def init(glyph_sources) do
     loaded_glyphs =
-      @glyph_sources
+      glyph_sources
       |> Enum.map(& &1.glyphs)
       |> List.flatten()
       |> set_glyph_index([], 0)
