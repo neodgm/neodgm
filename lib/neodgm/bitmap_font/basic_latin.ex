@@ -1,6 +1,15 @@
 defmodule NeoDGM.BitmapFont.BasicLatin do
   use TTFLib.BMPGlyphs
 
+  glyph name: ".notdef" do
+    advance 8
+    xmin 0
+    xmax 0
+    ymin 0
+    ymax 0
+    data ""
+  end
+
   glyph unicode: 0 do
     advance 0
     xmin 0
