@@ -1,6 +1,4 @@
 defmodule TTFLib.TableSource.Hmtx.Record do
-  alias TTFLib.GlyphStorage
-
   defstruct ~w(advance lsb xmin xmax glyph_empty?)a
 
   @type t :: %__MODULE__{
@@ -25,7 +23,7 @@ defmodule TTFLib.TableSource.Hmtx.Record do
   end
 
   def new(%{components: components}) do
-    ref_glyphs = Enum.map(components, &GlyphStorage.get(&1.glyph))
+    ref_glyphs = Enum.map(components, & &1.glyph)
     advance = ref_glyphs |> Enum.map(& &1.advance) |> Enum.max(fn -> 0 end)
     xmin = ref_glyphs |> Enum.map(& &1.xmin) |> Enum.min(fn -> 0 end)
     xmax = ref_glyphs |> Enum.map(& &1.xmax) |> Enum.max(fn -> 0 end)

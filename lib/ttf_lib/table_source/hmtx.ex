@@ -7,11 +7,15 @@ defmodule TTFLib.TableSource.Hmtx do
 
   @type t :: %__MODULE__{records: [Record.t()]}
 
-  @spec compile() :: [CompiledTable.t()]
-  def compile do
+  @spec generate() :: t()
+  def generate do
     glyphs = GlyphStorage.all()
-    hmtx = %__MODULE__{records: Enum.map(glyphs, &Record.new/1)}
 
+    %__MODULE__{records: Enum.map(glyphs, &Record.new/1)}
+  end
+
+  @spec compile(t()) :: [CompiledTable.t()]
+  def compile(hmtx) do
     [
       compile_hmtx(hmtx),
       compile_hhea(hmtx)
@@ -52,22 +56,23 @@ defmodule TTFLib.TableSource.Hmtx do
     min_rsb = Enum.min(rsb, zero)
     max_ext = Enum.max(ext, zero)
 
-    hhea_data = [
-      # MajorVersion, MinorVersion, Ascender, Descender, LineGap
-      <<1::big-16, 0::big-16, 12::big-16, 4::big-16, 0::big-16>>,
-      <<max_adv::big-16>>,
-      <<min_lsb::big-16>>,
-      <<min_rsb::big-16>>,
-      <<max_ext::big-16>>,
-      # CaretSlopeRise, CaretSlopeRun, CaretOffset
-      <<1::big-16, 0::big-16, 0::big-16>>,
-      # Reserved
-      <<0::big-64>>,
-      # MetricDataFormat
-      <<0::big-16>>,
-      <<length(hmtx.records)::big-16>>
-    ]
-    |> IO.iodata_to_binary()
+    hhea_data =
+      [
+        # MajorVersion, MinorVersion, Ascender, Descender, LineGap
+        <<1::big-16, 0::big-16, 12::big-16, 4::big-16, 0::big-16>>,
+        <<max_adv::big-16>>,
+        <<min_lsb::big-16>>,
+        <<min_rsb::big-16>>,
+        <<max_ext::big-16>>,
+        # CaretSlopeRise, CaretSlopeRun, CaretOffset
+        <<1::big-16, 0::big-16, 0::big-16>>,
+        # Reserved
+        <<0::big-64>>,
+        # MetricDataFormat
+        <<0::big-16>>,
+        <<length(hmtx.records)::big-16>>
+      ]
+      |> IO.iodata_to_binary()
 
     CompiledTable.new("hhea", hhea_data)
   end
