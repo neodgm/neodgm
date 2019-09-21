@@ -7,8 +7,8 @@ defmodule TTFLib.TableSource.Glyf do
 
   @type t :: %__MODULE__{items: [Item.t()]}
 
-  @spec compile() :: [CompiledTable.t()]
-  def compile do
+  @spec generate() :: t()
+  def generate do
     glyphs = GlyphStorage.all()
 
     items =
@@ -20,10 +20,16 @@ defmodule TTFLib.TableSource.Glyf do
         %{components: _} = composite_glyph ->
           Item.new_composite(composite_glyph)
       end)
-      |> Enum.map(&Item.compile/1)
 
+    %__MODULE__{items: items}
+  end
+
+  @spec compile(t()) :: [CompiledTable.t()]
+  def compile(glyf) do
     {pos, offsets, data} =
-      Enum.reduce(items, {0, [], []}, fn item, {pos, offsets, data} ->
+      glyf.items
+      |> Enum.map(&Item.compile/1)
+      |> Enum.reduce({0, [], []}, fn item, {pos, offsets, data} ->
         {pos + item.padded_size, [pos | offsets], [item.data | data]}
       end)
 

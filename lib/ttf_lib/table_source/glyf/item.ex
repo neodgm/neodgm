@@ -1,5 +1,4 @@
 defmodule TTFLib.TableSource.Glyf.Item do
-  alias TTFLib.GlyphStorage
   alias TTFLib.TableSource.Glyf.Simple
   alias TTFLib.TableSource.Glyf.Composite
 
@@ -28,22 +27,23 @@ defmodule TTFLib.TableSource.Glyf.Item do
 
   @spec new_composite(map()) :: t()
   def new_composite(glyph) do
-    ref_glyphs = Enum.map(glyph.components, &GlyphStorage.get(&1.glyph))
-
     boundaries =
-      ref_glyphs
-      |> Enum.zip(glyph.components)
-      |> Enum.map(fn {glyph, %{x_offset: xoff, y_offset: yoff}} ->
-        {glyph.xmin + xoff, glyph.ymin + yoff, glyph.xmax + xoff, glyph.ymax + yoff}
+      glyph.components
+      |> Enum.map(fn %{glyph: ref_glyph, x_offset: xoff, y_offset: yoff} ->
+        %{xmin: xmin, ymin: ymin, xmax: xmax, ymax: ymax} = ref_glyph
+
+        {xmin + xoff, ymin + yoff, xmax + xoff, ymax + yoff}
       end)
+
+    zero = fn -> 0 end
 
     %__MODULE__{
       num_of_contours: -1,
-      xmin: elem(Enum.min_by(boundaries, &elem(&1, 0)), 0),
-      ymin: elem(Enum.min_by(boundaries, &elem(&1, 1)), 1),
-      xmax: elem(Enum.max_by(boundaries, &elem(&1, 2)), 2),
-      ymax: elem(Enum.max_by(boundaries, &elem(&1, 3)), 3),
-      description: Composite.new(glyph.components, ref_glyphs)
+      xmin: boundaries |> Enum.map(&elem(&1, 0)) |> Enum.min(zero),
+      ymin: boundaries |> Enum.map(&elem(&1, 1)) |> Enum.min(zero),
+      xmax: boundaries |> Enum.map(&elem(&1, 2)) |> Enum.max(zero),
+      ymax: boundaries |> Enum.map(&elem(&1, 3)) |> Enum.max(zero),
+      description: Composite.new(glyph.components)
     }
   end
 
