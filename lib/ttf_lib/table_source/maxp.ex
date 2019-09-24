@@ -29,7 +29,7 @@ defmodule TTFLib.TableSource.Maxp do
     num_glyphs = length(all_glyphs)
 
     %{simple: simple_glyphs, composite: composite_glyphs} =
-      Enum.group_by(all_glyphs, &get_glyph_type/1)
+      Map.merge(%{simple: [], composite: []}, Enum.group_by(all_glyphs, &get_glyph_type/1))
 
     {num_simple_points, num_simple_contours} =
       simple_glyphs
@@ -69,8 +69,8 @@ defmodule TTFLib.TableSource.Maxp do
       num_glyphs: num_glyphs,
       max_points: Enum.max(num_simple_points, zero),
       max_contours: Enum.max(num_simple_contours, zero),
-      max_composite_points: Enum.max(num_composite_points),
-      max_composite_contours: Enum.max(num_composite_contours),
+      max_composite_points: Enum.max(num_composite_points, zero),
+      max_composite_contours: Enum.max(num_composite_contours, zero),
       max_component_elements: max_component_elements,
       max_component_depth: 1
     }
