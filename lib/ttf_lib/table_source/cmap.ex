@@ -6,7 +6,7 @@ defmodule TTFLib.TableSource.Cmap do
   @spec compile() :: CompiledTable.t()
   def compile do
     unicode_ranges = get_unicode_ranges()
-    seg_count = length(unicode_ranges)
+    seg_count = length(unicode_ranges) + 1
     subtable_size = 16 + seg_count * 8
     platform_id = Defs.platform_id(:windows)
     encoding_id = Defs.encoding_id(:windows, :unicode_bmp)
@@ -50,9 +50,12 @@ defmodule TTFLib.TableSource.Cmap do
 
     [
       Enum.map(end_codes, &<<&1::16>>),
+      <<0xFFFF::16>>,
       <<0::16>>,
       Enum.map(start_codes, &<<&1::16>>),
-      Enum.map(id_deltas, &<<&1::16>>)
+      <<0xFFFF::16>>,
+      Enum.map(id_deltas, &<<&1::16>>),
+      <<1::16>>
     ]
   end
 
