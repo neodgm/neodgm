@@ -48,6 +48,16 @@ defmodule TTFLib.TableSource.Glyf.Item do
   end
 
   @spec compile(t()) :: map()
+  def compile(item)
+
+  def compile(%{num_of_contours: 0}) do
+    %{
+      data: "",
+      real_size: 0,
+      padded_size: 0
+    }
+  end
+
   def compile(item) do
     data = [
       <<item.num_of_contours::big-16>>,
