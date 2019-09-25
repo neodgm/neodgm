@@ -162,24 +162,24 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
   glyph unicode: 0x2014 do
     advance 16
     xmin 1
-    xmax 8
+    xmax 15
     ymin 4
     ymax 5
 
     data """
-    11111111
+    11111111111111
     """
   end
 
   glyph unicode: 0x2015 do
     advance 16
     xmin 1
-    xmax 8
+    xmax 15
     ymin 4
     ymax 5
 
     data """
-    11111111
+    11111111111111
     """
   end
 
