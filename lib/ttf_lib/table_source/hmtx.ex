@@ -59,7 +59,7 @@ defmodule TTFLib.TableSource.Hmtx do
     hhea_data =
       [
         # MajorVersion, MinorVersion, Ascender, Descender, LineGap
-        <<1::big-16, 0::big-16, 12::big-16, 4::big-16, 0::big-16>>,
+        <<1::big-16, 0::big-16, 12::big-16, -4::big-16, 0::big-16>>,
         <<max_adv::big-16>>,
         <<min_lsb::big-16>>,
         <<min_rsb::big-16>>,
