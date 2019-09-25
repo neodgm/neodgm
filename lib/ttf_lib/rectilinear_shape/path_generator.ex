@@ -29,7 +29,7 @@ defmodule TTFLib.RectilinearShape.PathGenerator do
   defp get_path_component(edge_map, [point | points]) do
     case edge_map[point] do
       nil ->
-        {edge_map, Enum.reverse([point | points])}
+        {edge_map, Enum.reverse(points)}
 
       [edge] ->
         edge_map2 = Map.delete(edge_map, point)
