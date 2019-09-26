@@ -1,5 +1,6 @@
 defmodule TTFLib.GlyphStorage do
   use GenServer
+  alias TTFLib.BMPGlyphs.NotDef
 
   def start_link(glyph_sources) do
     GenServer.start_link(__MODULE__, glyph_sources, name: __MODULE__)
@@ -26,6 +27,7 @@ defmodule TTFLib.GlyphStorage do
 
     sorted_glyphs =
       [
+        NotDef.glyphs(),
         Enum.sort(unicode_glyphs, &(&1.id <= &2.id)),
         named_glyphs
       ]
