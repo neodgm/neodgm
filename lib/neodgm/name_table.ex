@@ -2,7 +2,7 @@ defmodule NeoDGM.NameTable do
   require TTFLib.NameTableBuilder
   import TTFLib.NameTableBuilder
 
-  ofl = File.read!(Path.join(File.cwd!(), "ofl_raw.txt"))
+  ofl = String.trim(File.read!(Path.join(File.cwd!(), "ofl_raw.txt")))
   ver = Version.parse!(Mix.Project.config()[:version])
   version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"
 
