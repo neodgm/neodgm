@@ -16,7 +16,7 @@ defmodule TTFLib.TableSource.OS_2.UnicodeRanges do
         [first, _last] =
           range_str
           |> String.split("-", trim: true)
-          |> Enum.map(& &1 |> Integer.parse(16) |> elem(0))
+          |> Enum.map(&(&1 |> Integer.parse(16) |> elem(0)))
 
         {first, bit_num}
       end)
@@ -40,7 +40,7 @@ defmodule TTFLib.TableSource.OS_2.UnicodeRanges do
       |> Enum.map(&if(&1 in bit_positions, do: 1, else: 0))
       |> Enum.reverse()
       |> Enum.chunk_every(32)
-      |> Enum.reverse
+      |> Enum.reverse()
 
     Enum.map(bit_chunks, fn bits ->
       for bit <- bits, into: <<>>, do: <<bit::1>>
