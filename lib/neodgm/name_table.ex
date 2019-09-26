@@ -3,8 +3,8 @@ defmodule NeoDGM.NameTable do
   import TTFLib.NameTableBuilder
 
   ofl = File.read!(Path.join(File.cwd!(), "ofl_raw.txt"))
-
-  version_str = "Version 1.20"
+  ver = Version.parse!(Mix.Project.config()[:version])
+  version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"
 
   copyright_en = """
   Original font was released under the public domain by Jungtae Kim \
