@@ -3,11 +3,27 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
 
   glyph name: ".notdef" do
     advance 8
-    xmin 0
-    xmax 0
-    ymin 0
-    ymax 0
-    data ""
+    xmin 1
+    xmax 7
+    ymin -3
+    ymax 11
+
+    data """
+    111111
+    100001
+    100001
+    100001
+    101101
+    100101
+    101101
+    101001
+    100001
+    101001
+    100001
+    100001
+    100001
+    111111
+    """
   end
 
   glyph unicode: 0 do
