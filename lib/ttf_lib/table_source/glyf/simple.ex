@@ -30,7 +30,7 @@ defmodule TTFLib.TableSource.Glyf.Simple do
       |> Enum.map(fn {x, y} ->
         x_is_positive = if x >= 0, do: 1, else: 0
         y_is_positive = if y >= 0, do: 1, else: 0
-        flag = <<1::2, y_is_positive::1, x_is_positive::1, 7::4>>
+        flag = <<0::2, y_is_positive::1, x_is_positive::1, 7::4>>
 
         {flag, {abs(x), abs(y)}}
       end)
