@@ -1,16 +1,17 @@
 defmodule TTFLib.TableSource.OS_2 do
   alias TTFLib.CompiledTable
   alias TTFLib.GlyphStorage
+  alias TTFLib.TableSource.OS_2.UnicodeRanges
 
   @spec compile(integer()) :: CompiledTable.t()
   def compile(version)
 
   def compile(4) do
     all_glyphs = GlyphStorage.all()
+    unicode_glyphs = Enum.filter(all_glyphs, &(&1.type === :unicode))
 
     {first_char, last_char} =
-      all_glyphs
-      |> Enum.filter(&(&1.type === :unicode))
+      unicode_glyphs
       |> Enum.map(& &1.id)
       |> Enum.min_max(fn -> {0, 0} end)
 
@@ -49,14 +50,8 @@ defmodule TTFLib.TableSource.OS_2 do
       <<0::16>>,
       # panose[10]
       <<2::8, 1::8, 5::8, 9::8, 6::8, 2::8, 1::8, 4::8, 2::8, 3::8>>,
-      # ulUnicodeRange1
-      <<0b1001_0000_0000_0000_0000_0000_0000_0011::32>>,
-      # ulUnicodeRange2
-      <<0b0001_0001_0001_0000_0001_1000_0000_0000::32>>,
-      # ulUnicodeRange3
-      <<0b0000_0000_0000_0100_0000_0000_0000_0000::32>>,
-      # ulUnicodeRange4
-      <<0b0000_0000_0000_0000_0000_0000_0000_1000::32>>,
+      # ulUnicodeRange1..4
+      UnicodeRanges.generate(unicode_glyphs),
       # achVendID
       "5757",
       # fsSelection
