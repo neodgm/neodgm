@@ -19,10 +19,21 @@ defmodule TTFLib.GlyphStorage do
       glyph_sources
       |> Enum.map(& &1.glyphs)
       |> List.flatten()
+
+    groups = Enum.group_by(glyphs, & &1.type)
+    unicode_glyphs = groups[:unicode] || []
+    named_glyphs = groups[:name] || []
+
+    sorted_glyphs =
+      [
+        Enum.sort(unicode_glyphs, &(&1.id <= &2.id)),
+        named_glyphs
+      ]
+      |> List.flatten()
       |> set_glyph_index([], 0)
 
-    tmp_lookup = make_lookup(glyphs)
-    linked = Enum.map(glyphs, &link_composite(&1, tmp_lookup))
+    tmp_lookup = make_lookup(sorted_glyphs)
+    linked = Enum.map(sorted_glyphs, &link_composite(&1, tmp_lookup))
     lookup = make_lookup(linked)
 
     {:ok, {linked, lookup}}
