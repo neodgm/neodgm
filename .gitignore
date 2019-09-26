@@ -1,8 +1,5 @@
 # Files generated during font build process
-svg/
-*.sfd
 *.ttf
-*.ttx
 
 _build/
 deps/
