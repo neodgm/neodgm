@@ -1,5 +1,6 @@
 defmodule NeoDGM.BitmapFont.HangulSyllables do
-  use TTFLib.CompositeGlyphs
+  require TTFLib.CompositeGlyphs
+  import TTFLib.CompositeGlyphs
 
   make_map = fn list ->
     list
@@ -22,24 +23,24 @@ defmodule NeoDGM.BitmapFont.HangulSyllables do
       _ -> [?가, ?힣]
     end
 
-  Enum.each(range, fn code ->
-    index = code - ?가
-    cho = div(index, 21 * 28)
-    jung = div(rem(index, 21 * 28), 28)
-    jong = rem(index, 28)
-    cho_set = cho_table[jong === 0][jung]
-    jung_set = jung_table[cho] + if jong === 0, do: 0, else: 2
-    jong_set = jong_table[jung]
+  export_glyphs do
+    Enum.map(range, fn code ->
+      index = code - ?가
+      cho = div(index, 21 * 28)
+      jung = div(rem(index, 21 * 28), 28)
+      jong = rem(index, 28)
+      cho_set = cho_table[jong === 0][jung]
+      jung_set = jung_table[cho] + if jong === 0, do: 0, else: 2
+      jong_set = jong_table[jung]
 
-    glyph unicode: code do
-      component {:name, "cho_#{cho}_#{cho_set}"}, 0, 0
-      component {:name, "jung_#{jung}_#{jung_set}"}, 0, 0
+      glyph unicode: code do
+        component {:name, "cho_#{cho}_#{cho_set}"}, 0, 0
+        component {:name, "jung_#{jung}_#{jung_set}"}, 0, 0
 
-      if jong !== 0 do
-        component {:name, "jong_#{jong}_#{jong_set}"}, 0, 0
+        if jong !== 0 do
+          component {:name, "jong_#{jong}_#{jong_set}"}, 0, 0
+        end
       end
-    end
-  end)
-
-  export_glyphs()
+    end)
+  end
 end
