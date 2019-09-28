@@ -36,10 +36,10 @@ defmodule TTFLib.GSUBBuilder.ChainingContextualLookup do
     {type, Enum.map(sequence, fn coverage -> Enum.map(coverage, &get_glyph_id/1) end)}
   end
 
-  defmacro substitution(do: do_block) do
+  defmacro substitutions(do: do_block) do
     substitutions = Enum.map(do_block, fn {:->, _, [[lhs], rhs]} -> {lhs, rhs} end)
 
-    {:substitution, substitutions}
+    {:substitutions, substitutions}
   end
 
   defp mangle_sequence_call(ast, subtable_format)

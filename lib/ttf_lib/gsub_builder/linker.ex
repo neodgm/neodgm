@@ -86,10 +86,10 @@ defmodule TTFLib.GSUBBuilder.Linker do
 
   defp link_subtables(subtables, lookup_map) do
     Enum.map(subtables, fn subtable ->
-      subs = subtable[:substitution] || []
+      subs = subtable[:substitutions] || []
       linked_subs = Enum.map(subs, fn {k, v} -> {k, lookup_map[v]} end)
 
-      Map.put(subtable, :substitution, linked_subs)
+      Map.put(subtable, :substitutions, linked_subs)
     end)
   end
 
