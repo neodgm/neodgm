@@ -4,38 +4,28 @@ defmodule TTFLib.TableSource.OTFLayout.ScriptList do
   defstruct ~w(scripts)a
 
   @type t :: %__MODULE__{scripts: [Script.t()]}
-end
 
-defmodule TTFLib.TableSource.OTFLayout.Script do
-  alias TTFLib.TableSource.OTFLayout.LanguageSystem
+  @spec compile(t()) :: binary()
+  def compile(%{scripts: scripts}) do
+    script_count = length(scripts)
+    offset_base = 2 + script_count * 6
 
-  defstruct ~w(tag default_language languages)a
+    {_, records, tables} =
+      Enum.reduce(scripts, {0, [], []}, fn script, {pos, records, tables} ->
+        record = [script.tag, <<offset_base + pos::16>>]
+        table = Script.compile(script)
 
-  @type t :: %__MODULE__{
-          tag: <<_::32>>,
-          default_language: LanguageSystem.t() | nil,
-          languages: [LanguageSystem.t()]
-        }
-end
+        {pos + byte_size(table), [record | records], [table | tables]}
+      end)
 
-defmodule TTFLib.TableSource.OTFLayout.LanguageSystem do
-  defstruct [
-    :tag,
-    :required_feature_key,
-    :required_feature_index,
-    :feature_keys,
-    :feature_indices
-  ]
+    data = [
+      <<script_count::16>>,
+      Enum.reverse(records),
+      Enum.reverse(tables)
+    ]
 
-  @type feature_key :: {<<_::32>>, term()}
-
-  @type t :: %__MODULE__{
-          tag: <<_::32>>,
-          required_feature_key: feature_key() | nil,
-          required_feature_index: integer() | 0xFFFF,
-          feature_keys: [feature_key()],
-          feature_indices: [integer()]
-        }
+    IO.iodata_to_binary(data)
+  end
 end
 
 defmodule TTFLib.TableSource.OTFLayout.FeatureList do
