@@ -32,6 +32,12 @@
     typographic_family: 1,
     typographic_subfamily: 1,
     sample_text: 1,
-    postscript_cid_findfont_name: 1
+    postscript_cid_findfont_name: 1,
+    use_feature: 2,
+    use_lookup: 1,
+    backtrack: 1,
+    input: 1,
+    lookahead: 1,
+    subtitution: 1
   ]
 ]
