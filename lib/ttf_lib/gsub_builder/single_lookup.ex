@@ -1,5 +1,6 @@
 defmodule TTFLib.GSUBBuilder.SingleLookup do
   import TTFLib.GSUBBuilder.Common
+  alias TTFLib.TableSource.GSUB
   alias TTFLib.TableSource.OTFLayout.Lookup
 
   defmacro single_subst(name, do: do_block) do
@@ -9,7 +10,7 @@ defmodule TTFLib.GSUBBuilder.SingleLookup do
       |> replace_subtable(:subtable@single)
 
     quote bind_quoted: [name: name, subtables: subtables] do
-      %Lookup{type: 1, name: name, subtables: subtables}
+      %Lookup{owner: GSUB, type: 1, name: name, subtables: subtables}
     end
   end
 

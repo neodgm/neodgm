@@ -1,5 +1,6 @@
 defmodule TTFLib.GSUBBuilder.ChainingContextualLookup do
   import TTFLib.GSUBBuilder.Common
+  alias TTFLib.TableSource.GSUB
   alias TTFLib.TableSource.OTFLayout.Lookup
 
   defmacro chaining_contextual_subst(name, do: do_block) do
@@ -9,7 +10,7 @@ defmodule TTFLib.GSUBBuilder.ChainingContextualLookup do
       |> replace_subtable(:subtable@chaining_contextual)
 
     quote bind_quoted: [name: name, subtables: subtables] do
-      %Lookup{type: 6, name: name, subtables: subtables}
+      %Lookup{owner: GSUB, type: 6, name: name, subtables: subtables}
     end
   end
 

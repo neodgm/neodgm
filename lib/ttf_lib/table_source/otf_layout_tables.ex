@@ -67,7 +67,12 @@ defmodule TTFLib.TableSource.OTFLayout.LookupList do
 end
 
 defmodule TTFLib.TableSource.OTFLayout.Lookup do
-  defstruct ~w(type name subtables)a
+  defstruct ~w(owner type name subtables)a
 
-  @type t :: %__MODULE__{type: integer(), name: term(), subtables: [map()]}
+  @type t :: %__MODULE__{
+          owner: module(),
+          type: integer(),
+          name: term(),
+          subtables: [map()]
+        }
 end
