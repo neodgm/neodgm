@@ -98,8 +98,18 @@ defmodule NeoDGM.GSUB do
       chaining_contextual_subst "Left arrow head chain" do
         subtable format: 3 do
           backtrack ['<']
-          input ['-=']
+          input ['-']
           lookahead []
+
+          substitutions do
+            0 -> use_lookup "Left arrow head"
+          end
+        end
+
+        subtable format: 3 do
+          backtrack ['<']
+          input ['=']
+          lookahead ['=']
 
           substitutions do
             0 -> use_lookup "Left arrow head"
