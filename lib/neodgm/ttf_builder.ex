@@ -2,7 +2,7 @@ defmodule NeoDGM.TTFBuilder do
   alias NeoDGM.NameTable
   alias TTFLib.CompiledTable
   alias TTFLib.GlyphStorage
-  alias TTFLib.TableSource.{Cmap, Glyf, Hmtx, Maxp, Name, OS_2, Post}
+  alias TTFLib.TableSource.{Cmap, Glyf, GSUB, Hmtx, Maxp, Name, OS_2, Post}
 
   @glyph_sources [
     NeoDGM.BitmapFont.BasicLatin,
@@ -30,6 +30,7 @@ defmodule NeoDGM.TTFBuilder do
     glyf = Glyf.generate()
     hmtx = Hmtx.generate()
     maxp = Maxp.generate()
+    gsub = NeoDGM.GSUB.gsub()
 
     compiled_tables = [
       Glyf.compile(glyf),
@@ -38,7 +39,8 @@ defmodule NeoDGM.TTFBuilder do
       Name.compile(NameTable.name_table(), 0),
       Cmap.compile(),
       Post.compile(2),
-      OS_2.compile(4)
+      OS_2.compile(4),
+      GSUB.compile(gsub)
     ]
 
     :ok = GenServer.stop(GlyphStorage)
