@@ -20,6 +20,7 @@ defmodule NeoDGM.GSUB do
         use_lookup "Right arrow head"
         use_lookup "Right arrow head alt"
         use_lookup "Right arrow body"
+        use_lookup "Markup comment exclam"
       end
 
       feature "calt", "Ligation for program codes" do
@@ -30,6 +31,7 @@ defmodule NeoDGM.GSUB do
         use_lookup "Bidirectional arrow joiner chain"
         use_lookup "Left arrow tail chain"
         use_lookup "Right arrow body chain"
+        use_lookup "Markup comment chain"
       end
     end
 
@@ -80,6 +82,12 @@ defmodule NeoDGM.GSUB do
         subtable format: 2 do
           ?- -> "hyphen.rarr.body"
           ?= -> "equal.rarr.body"
+        end
+      end
+
+      single_subst "Markup comment exclam" do
+        subtable format: 2 do
+          ?! -> "exclam.markupcomment"
         end
       end
 
@@ -217,6 +225,20 @@ defmodule NeoDGM.GSUB do
           substitutions do
             ?- -> "hyphen.rarr.body"
             ?= -> "equal.rarr.body"
+          end
+        end
+      end
+
+      chaining_contextual_subst "Markup comment chain" do
+        subtable format: 3 do
+          backtrack ['<']
+          input ['!', '-', '-']
+          lookahead []
+
+          substitutions do
+            0 -> "Markup comment exclam"
+            1 -> "Left arrow body"
+            2 -> "Left arrow body"
           end
         end
       end
