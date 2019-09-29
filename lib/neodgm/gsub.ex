@@ -29,6 +29,7 @@ defmodule NeoDGM.GSUB do
         use_lookup "Left arrow body chain"
         use_lookup "Bidirectional arrow joiner chain"
         use_lookup "Left arrow tail chain"
+        use_lookup "Right arrow body chain"
       end
     end
 
@@ -186,6 +187,26 @@ defmodule NeoDGM.GSUB do
 
           substitutions do
             0 -> use_lookup "Left arrow body"
+          end
+        end
+      end
+
+      reverse_chain_single_subst "Right arrow body chain" do
+        subtable format: 1 do
+          backtrack []
+
+          lookahead [
+            [
+              "hyphen.rarr.head",
+              "hyphen.rarr.body",
+              "equal.rarr.head",
+              "equal.rarr.body"
+            ]
+          ]
+
+          substitutions do
+            ?- -> "hyphen.rarr.body"
+            ?= -> "equal.rarr.body"
           end
         end
       end
