@@ -21,7 +21,8 @@ defmodule NeoDGM.TTFBuilder do
     NeoDGM.BitmapFont.PowerlineSymbols,
     NeoDGM.BitmapFont.Trigrams,
     # For programming ligatures
-    NeoDGM.BitmapFont.ProgrammingLigatures.Arrows
+    NeoDGM.BitmapFont.ProgrammingLigatures.Arrows,
+    NeoDGM.BitmapFont.ProgrammingLigatures.Markup
   ]
 
   def build_font do
