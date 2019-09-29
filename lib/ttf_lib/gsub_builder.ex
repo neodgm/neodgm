@@ -6,6 +6,7 @@ defmodule TTFLib.GSUBBuilder do
       import unquote(__MODULE__)
       import unquote(__MODULE__.SingleLookup)
       import unquote(__MODULE__.ChainingContextualLookup)
+      import unquote(__MODULE__.ReverseChainSingleLookup)
     end
   end
 

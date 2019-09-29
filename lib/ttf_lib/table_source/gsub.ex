@@ -77,12 +77,70 @@ defmodule TTFLib.TableSource.GSUB do
   def compile_subtable(%{format: 3} = subtable, 6) do
     sub_count = length(subtable.substitutions)
     seq_keys = ~w(backtrack input lookahead)a
-    counts = Enum.map(seq_keys, &length(subtable[&1]))
-    offset_base = 10 + Enum.sum(counts) * 2 + sub_count * 4
+    counts = seq_keys |> Enum.map(&length(subtable[&1])) |> Enum.sum()
+    offset_base = 10 + counts * 2 + sub_count * 4
 
-    {_, offsets, coverages} =
+    {offsets, coverages} =
       seq_keys
       |> Enum.map(&subtable[&1])
+      |> make_coverage_records(offset_base)
+
+    sub_records = Enum.map(subtable.substitutions, &<<elem(&1, 0)::16, elem(&1, 1)::16>>)
+
+    data = [
+      <<3::16>>,
+      Enum.reverse(offsets),
+      <<sub_count::16>>,
+      sub_records,
+      Enum.reverse(coverages)
+    ]
+
+    IO.iodata_to_binary(data)
+  end
+
+  # 8.1 Reverse Chaining Contextual Single Substitution, Format 1 (Coverage-based)
+  def compile_subtable(%{format: 1} = subtable, 8) do
+    import TTFLib.GSUBBuilder.Common, only: [get_glyph_id: 1]
+
+    {from_glyphs, to_glyphs} =
+      subtable.substitutions
+      |> Enum.map(fn {from, to} ->
+        from_id = get_glyph_id(from)
+        to_id = get_glyph_id(to)
+
+        {GlyphStorage.get(from_id).index, GlyphStorage.get(to_id).index}
+      end)
+      |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
+      |> Enum.unzip()
+
+    input_count = length(from_glyphs)
+    seq_keys = ~w(backtrack lookahead)a
+    counts = seq_keys |> Enum.map(&length(subtable[&1])) |> Enum.sum()
+    offset_base = 10 + counts * 2 + input_count * 2
+
+    input_coverage = compile_coverage(from_glyphs)
+
+    {offsets, coverages} =
+      seq_keys
+      |> Enum.map(&subtable[&1])
+      |> make_coverage_records(offset_base + byte_size(input_coverage))
+
+    data = [
+      <<1::16>>,
+      <<offset_base::16>>,
+      Enum.reverse(offsets),
+      <<input_count::16>>,
+      Enum.map(to_glyphs, &<<&1::16>>),
+      input_coverage,
+      Enum.reverse(coverages)
+    ]
+
+    IO.iodata_to_binary(data)
+  end
+
+  defp make_coverage_records(sequences, offset_base) do
+    {_, offsets, coverages} =
+      sequences
       |> Enum.reduce({offset_base, [], []}, fn seq, {pos, data1, data2} ->
         {next_pos, offsets, data} =
           seq
@@ -99,17 +157,7 @@ defmodule TTFLib.TableSource.GSUB do
         {next_pos, [offsets_bin | data1], [Enum.reverse(data) | data2]}
       end)
 
-    sub_records = Enum.map(subtable.substitutions, &<<elem(&1, 0)::16, elem(&1, 1)::16>>)
-
-    data = [
-      <<3::16>>,
-      Enum.reverse(offsets),
-      <<sub_count::16>>,
-      sub_records,
-      Enum.reverse(coverages)
-    ]
-
-    IO.iodata_to_binary(data)
+    {offsets, coverages}
   end
 
   @spec compile_covseq([list()]) :: [binary()]

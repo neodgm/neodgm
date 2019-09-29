@@ -72,10 +72,10 @@ defmodule TTFLib.GSUBBuilder.Linker do
   defp link_lookup(lookup_list, lookup_map) do
     linked_lookups =
       Enum.map(lookup_list.lookups, fn
-        %Lookup{type: type} = lookup when type in 1..4 ->
+        %Lookup{type: type} = lookup when type in 1..4 or type === 8 ->
           lookup
 
-        %Lookup{type: type, subtables: subtables} = lookup when type in 5..8 ->
+        %Lookup{type: type, subtables: subtables} = lookup when type in 5..7 ->
           linked_subtables = link_subtables(subtables, lookup_map)
 
           %Lookup{lookup | subtables: linked_subtables}

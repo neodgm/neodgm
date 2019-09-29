@@ -27,13 +27,13 @@ defmodule TTFLib.GSUBBuilder.ChainingContextualLookup do
     end
   end
 
-  defmacro sequence(type, subtable_format, sequence)
+  defmacro unquote(:sequence@chaining_contextual)(type, subtable_format, sequence)
 
-  defmacro sequence(type, 1, sequence) do
+  defmacro unquote(:sequence@chaining_contextual)(type, 1, sequence) do
     {type, Enum.map(sequence, &get_glyph_id/1)}
   end
 
-  defmacro sequence(type, 3, sequence) do
+  defmacro unquote(:sequence@chaining_contextual)(type, 3, sequence) do
     {type, Enum.map(sequence, fn coverage -> Enum.map(coverage, &get_glyph_id/1) end)}
   end
 
@@ -46,15 +46,15 @@ defmodule TTFLib.GSUBBuilder.ChainingContextualLookup do
   defp mangle_sequence_call(ast, subtable_format)
 
   defp mangle_sequence_call({:backtrack, meta, args}, subtable_format) do
-    {:sequence, meta, [:backtrack, subtable_format | args]}
+    {:sequence@chaining_contextual, meta, [:backtrack, subtable_format | args]}
   end
 
   defp mangle_sequence_call({:input, meta, args}, subtable_format) do
-    {:sequence, meta, [:input, subtable_format | args]}
+    {:sequence@chaining_contextual, meta, [:input, subtable_format | args]}
   end
 
   defp mangle_sequence_call({:lookahead, meta, args}, subtable_format) do
-    {:sequence, meta, [:lookahead, subtable_format | args]}
+    {:sequence@chaining_contextual, meta, [:lookahead, subtable_format | args]}
   end
 
   defp mangle_sequence_call(x, _), do: x
