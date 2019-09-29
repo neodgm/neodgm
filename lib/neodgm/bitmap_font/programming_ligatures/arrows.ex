@@ -39,6 +39,18 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
+    glyph name: "hyphen.rarr.head2" do
+      advance 8
+      xmin -1
+      xmax 13
+      ymin 4
+      ymax 5
+
+      data """
+      11111111111111
+      """
+    end
+
     glyph name: "hyphen.rarr.body" do
       advance 8
       xmin 0
@@ -51,7 +63,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.marr.body" do
+    glyph name: "hyphen.bidiarr.short" do
       advance 8
       xmin -5
       xmax 13
@@ -60,6 +72,18 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
 
       data """
       111111111111111111
+      """
+    end
+
+    glyph name: "hyphen.bidiarr.joiner" do
+      advance 8
+      xmin -1
+      xmax 8
+      ymin 4
+      ymax 5
+
+      data """
+      111111111
       """
     end
 
@@ -105,6 +129,20 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
+    glyph name: "equal.rarr.head2" do
+      advance 8
+      xmin -1
+      xmax 12
+      ymin 3
+      ymax 6
+
+      data """
+      1111111111111
+      0000000000000
+      1111111111111
+      """
+    end
+
     glyph name: "equal.rarr.body" do
       advance 8
       xmin 1
@@ -119,7 +157,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.marr.body" do
+    glyph name: "equal.bidiarr.short" do
       advance 8
       xmin -4
       xmax 12
@@ -130,6 +168,20 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       1111111111111111
       0000000000000000
       1111111111111111
+      """
+    end
+
+    glyph name: "equal.bidiarr.joiner" do
+      advance 8
+      xmin -1
+      xmax 9
+      ymin 3
+      ymax 6
+
+      data """
+      1111111111
+      0000000000
+      1111111111
       """
     end
   end
