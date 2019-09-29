@@ -88,12 +88,15 @@ defmodule TTFLib.TableSource.GSUB do
           seq
           |> compile_covseq()
           |> Enum.reduce({pos, [], []}, fn compiled_cov, {pos2, offsets, data} ->
-            {pos2 + byte_size(compiled_cov), [pos | offsets], [compiled_cov | data]}
+            {pos2 + byte_size(compiled_cov), [pos2 | offsets], [compiled_cov | data]}
           end)
 
-        offsets_bin = [<<length(offsets)::16>>, Enum.map(offsets, &<<&1::16>>)]
+        offsets_bin = [
+          <<length(offsets)::16>>,
+          offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>)
+        ]
 
-        {next_pos, [offsets_bin | data1], [data | data2]}
+        {next_pos, [offsets_bin | data1], [Enum.reverse(data) | data2]}
       end)
 
     sub_records = Enum.map(subtable.substitutions, &<<elem(&1, 0)::16, elem(&1, 1)::16>>)
