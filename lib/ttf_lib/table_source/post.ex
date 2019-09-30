@@ -3,10 +3,10 @@ defmodule TTFLib.TableSource.Post do
   alias TTFLib.GlyphStorage
   alias TTFLib.TableSource.Post.AGLFN
 
-  @spec compile(integer()) :: CompiledTable.t()
-  def compile(version)
+  @spec compile(map(), integer()) :: CompiledTable.t()
+  def compile(metrics, version)
 
-  def compile(2) do
+  def compile(metrics, 2) do
     [_notdef | all_glyphs] = GlyphStorage.all()
     aglfn = AGLFN.get_map()
 
@@ -31,19 +31,14 @@ defmodule TTFLib.TableSource.Post do
       <<0, 2, 0, 0>>,
       # Italic angle
       <<0::16, 0::16>>,
-      # Underline position
-      <<-1::16>>,
-      # Underline thickness
-      <<1::16>>,
-      # Non-zero if the font is fixed-pitch
-      <<1::32>>,
+      <<metrics.underline_position::16>>,
+      <<metrics.underline_size::16>>,
+      <<if(metrics.is_fixed_pitch, do: 1, else: 0)::32>>,
       # Memory usage (zero if unknown)
       <<0::4*32>>,
-      # numGlyphs
       <<length(all_glyphs) + 1::16>>,
       # glyphNameIndex
       [<<0::16>>, Enum.map(indexes, &<<&1::16>>)],
-      # names
       name_data
     ]
 

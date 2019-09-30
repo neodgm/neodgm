@@ -26,6 +26,33 @@ defmodule NeoDGM.TTFBuilder do
   ]
 
   def build_font do
+    metrics = %{
+      units_per_em: 16,
+      ascender: 12,
+      descender: 4,
+      line_gap: 0,
+      underline_size: 1,
+      underline_position: -1,
+      is_fixed_pitch: true
+    }
+
+    os_2 = %{
+      avg_char_width: 8,
+      weight_class: :normal,
+      width_class: :medium,
+      subscript_size: {8, 16},
+      subscript_offset: {0, 8},
+      superscript_size: {8, 16},
+      superscript_offset: {0, 8},
+      strike_size: 1,
+      strike_position: 4,
+      family_class: {:sans_serif, :no_classification},
+      panose: [2, 1, 5, 9, 6, 2, 1, 4, 2, 3],
+      vendor_id: "5757",
+      x_height: 7,
+      cap_height: 10
+    }
+
     {:ok, _} = GlyphStorage.start_link(@glyph_sources)
 
     glyf = Glyf.generate()
@@ -35,18 +62,18 @@ defmodule NeoDGM.TTFBuilder do
 
     compiled_tables = [
       Glyf.compile(glyf),
-      Hmtx.compile(hmtx),
+      Hmtx.compile(hmtx, metrics),
       Maxp.compile(maxp),
       Name.compile(NameTable.name_table(), 0),
       Cmap.compile(),
-      Post.compile(2),
-      OS_2.compile(4),
+      Post.compile(metrics, 2),
+      OS_2.compile(os_2, metrics, 4),
       GSUB.compile(gsub)
     ]
 
     :ok = GenServer.stop(GlyphStorage)
 
-    head = compile_head(glyf)
+    head = compile_head(glyf, metrics)
     tables = sort_tables([head, compiled_tables])
     preamble = make_preamble(tables)
     table_record = make_table_record(tables)
@@ -104,7 +131,7 @@ defmodule NeoDGM.TTFBuilder do
     IO.iodata_to_binary([preamble, table_record, Enum.map(tables, & &1.data)])
   end
 
-  defp compile_head(glyf) do
+  defp compile_head(glyf, metrics) do
     ver = Version.parse!(Mix.Project.config()[:version])
     ver_frac = trunc(655.36 * (ver.minor * 10 + ver.patch))
     epoch = :calendar.datetime_to_gregorian_seconds({{1904, 1, 1}, {0, 0, 0}})
@@ -133,7 +160,7 @@ defmodule NeoDGM.TTFBuilder do
       # Flags
       <<0b0000_0000_0000_1011::16>>,
       # Units per em
-      <<16::16>>,
+      <<metrics.units_per_em::16>>,
       # Created
       timestamp,
       # Modified

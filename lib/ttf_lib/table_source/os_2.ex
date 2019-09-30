@@ -1,14 +1,16 @@
 defmodule TTFLib.TableSource.OS_2 do
   alias TTFLib.CompiledTable
   alias TTFLib.GlyphStorage
+  alias TTFLib.TableSource.OS_2.Enums
   alias TTFLib.TableSource.OS_2.UnicodeRanges
 
-  @spec compile(integer()) :: CompiledTable.t()
-  def compile(version)
+  @spec compile(map(), map(), integer()) :: CompiledTable.t()
+  def compile(params, metrics, version)
 
-  def compile(4) do
+  def compile(params, metrics, 4) do
     all_glyphs = GlyphStorage.all()
     unicode_glyphs = Enum.filter(all_glyphs, &(&1.type === :unicode))
+    avg_char_width = calculate_avg_char_width(all_glyphs, params)
 
     {first_char, last_char} =
       unicode_glyphs
@@ -18,66 +20,45 @@ defmodule TTFLib.TableSource.OS_2 do
     data = [
       # Version
       <<4::16>>,
-      # xAvgCharWidth
-      <<8::16>>,
-      # usWeightClass (400 Regular)
-      <<400::16>>,
-      # usWidthClass (5 Medium)
-      <<5::16>>,
+      <<avg_char_width::16>>,
+      <<Enums.weight_class(params.weight_class)::16>>,
+      <<Enums.width_class(params.width_class)::16>>,
       # fsType
       <<0::4, 0::2, 0::1, 0::1, 0::4, 0::4>>,
-      # ySubscriptXSize
-      <<8::16>>,
-      # ySubscriptYSize
-      <<16::16>>,
-      # ySubscriptXOffset
-      <<0::16>>,
-      # ySubscriptYOffset
-      <<8::16>>,
-      # ySuperscriptXSize
-      <<8::16>>,
-      # ySuperscriptYSize
-      <<16::16>>,
-      # ySuperscriptXOffset
-      <<0::16>>,
-      # ySuperscriptYOffset
-      <<8::16>>,
-      # yStrikeoutSize
-      <<1::16>>,
-      # yStrikeoutPosition
-      <<4::16>>,
-      # sFamilyClass
-      <<0::16>>,
-      # panose[10]
-      <<2::8, 1::8, 5::8, 9::8, 6::8, 2::8, 1::8, 4::8, 2::8, 3::8>>,
+      <<elem(params.subscript_size, 0)::16>>,
+      <<elem(params.subscript_size, 1)::16>>,
+      <<elem(params.subscript_offset, 0)::16>>,
+      <<elem(params.subscript_offset, 1)::16>>,
+      <<elem(params.superscript_size, 0)::16>>,
+      <<elem(params.superscript_size, 1)::16>>,
+      <<elem(params.superscript_offset, 0)::16>>,
+      <<elem(params.superscript_offset, 1)::16>>,
+      <<params.strike_size::16>>,
+      <<params.strike_position::16>>,
+      <<Enums.family_class(params.family_class)::little-16>>,
+      for(x <- params.panose, into: "", do: <<x::8>>),
       # ulUnicodeRange1..4
       UnicodeRanges.generate(unicode_glyphs),
-      # achVendID
-      "5757",
+      params.vendor_id,
       # fsSelection
       <<0b0000_0000_0100_0000::16>>,
-      # usFirstCharIndex
       <<first_char::16>>,
-      # usLastCharIndex
       <<last_char::16>>,
       # sTypoAscender
-      <<12::16>>,
+      <<metrics.ascender::16>>,
       # sTypoDescender
-      <<-4::16>>,
-      # sTypoLineGap
-      <<0::16>>,
+      <<-metrics.descender::16>>,
+      <<metrics.line_gap::16>>,
       # usWinAscent
-      <<12::16>>,
+      <<metrics.ascender::16>>,
       # usWinDescent
-      <<4::16>>,
+      <<metrics.descender::16>>,
       # ulCodePageRange1
       <<0b0100_0000_0010_1000_0000_0000_0000_0000::32>>,
       # ulCodePageRange2
       <<0b0000_0000_0000_0000_0000_0000_0000_0000::32>>,
-      # sxHeight
-      <<7::16>>,
-      # sCapHeight
-      <<10::16>>,
+      <<params.x_height::16>>,
+      <<params.cap_height::16>>,
       # usDefaultChar
       <<0::16>>,
       # usBreakChar
@@ -87,5 +68,25 @@ defmodule TTFLib.TableSource.OS_2 do
     ]
 
     CompiledTable.new("OS/2", IO.iodata_to_binary(data))
+  end
+
+  defp calculate_avg_char_width(glyphs, options)
+  defp calculate_avg_char_width(_glyphs, %{avg_char_width: x}) when is_integer(x), do: x
+
+  defp calculate_avg_char_width(glyphs, %{avg_char_width: :auto}) do
+    num_glyphs = length(glyphs)
+
+    glyphs
+    |> Enum.map(fn
+      %{advance: advance} ->
+        advance
+
+      %{components: components} ->
+        components
+        |> Enum.map(& &1.glyph.advance)
+        |> Enum.max(fn -> 0 end)
+    end)
+    |> Enum.sum()
+    |> div(num_glyphs)
   end
 end

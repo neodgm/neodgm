@@ -14,11 +14,11 @@ defmodule TTFLib.TableSource.Hmtx do
     %__MODULE__{records: Enum.map(glyphs, &Record.new/1)}
   end
 
-  @spec compile(t()) :: [CompiledTable.t()]
-  def compile(hmtx) do
+  @spec compile(t(), map()) :: [CompiledTable.t()]
+  def compile(hmtx, metrics) do
     [
       compile_hmtx(hmtx),
-      compile_hhea(hmtx)
+      compile_hhea(hmtx, metrics)
     ]
   end
 
@@ -32,8 +32,8 @@ defmodule TTFLib.TableSource.Hmtx do
     CompiledTable.new("hmtx", hmtx_data)
   end
 
-  @spec compile_hhea(t()) :: CompiledTable.t()
-  defp compile_hhea(hmtx) do
+  @spec compile_hhea(t(), map()) :: CompiledTable.t()
+  defp compile_hhea(hmtx, metrics) do
     [adv, lsb, rsb, ext] =
       hmtx.records
       |> Enum.reject(& &1.glyph_empty?)
@@ -58,8 +58,11 @@ defmodule TTFLib.TableSource.Hmtx do
 
     hhea_data =
       [
-        # MajorVersion, MinorVersion, Ascender, Descender, LineGap
-        <<1::big-16, 0::big-16, 12::big-16, -4::big-16, 0::big-16>>,
+        # MajorVersion, MinorVersion
+        <<1::big-16, 0::big-16>>,
+        <<metrics.ascender::big-16>>,
+        <<-metrics.descender::big-16>>,
+        <<metrics.line_gap::big-16>>,
         <<max_adv::big-16>>,
         <<min_lsb::big-16>>,
         <<min_rsb::big-16>>,
