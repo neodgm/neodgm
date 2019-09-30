@@ -2,13 +2,6 @@ defmodule NeoDGM.NameTable do
   require TTFLib.NameTableBuilder
   import TTFLib.NameTableBuilder
 
-  ofl =
-    :neodgm
-    |> :code.priv_dir()
-    |> Path.join("ofl.txt")
-    |> File.read!()
-    |> String.trim()
-
   ver = Version.parse!(Mix.Project.config()[:version])
   version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"
 
@@ -25,6 +18,16 @@ defmodule NeoDGM.NameTable do
   변환 및 추가적인 문자 디자인: Dalgona. <dalgona@hontou.moe>\
   """
 
+  license_en = """
+  This font software may be used, studied, modified, embedded and \
+  redistributed under the SIL Open Font License 1.1.\
+  """
+
+  license_ko = """
+  이 폰트 소프트웨어는 SIL Open Font License 1.1에서 허용하는 범위 내에서 \
+  사용, 연구, 수정, 임베드 및 재배포될 수 있습니다.\
+  """
+
   name_table do
     platform :macintosh do
       encoding :roman do
@@ -35,7 +38,7 @@ defmodule NeoDGM.NameTable do
           full_name "NeoDunggeunmo Regular"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
-          license ofl
+          license license_en
           license_url "https://scripts.sil.org/OFL"
         end
       end
@@ -51,7 +54,7 @@ defmodule NeoDGM.NameTable do
           full_name "NeoDunggeunmo Regular"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
-          license ofl
+          license license_en
           license_url "https://scripts.sil.org/OFL"
         end
 
@@ -62,7 +65,7 @@ defmodule NeoDGM.NameTable do
           full_name "Neo둥근모 보통"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
-          license ofl
+          license license_ko
           license_url "https://scripts.sil.org/OFL"
         end
       end
