@@ -56,6 +56,6 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 
 ## 라이센스
 
-Neo둥근모 글꼴 파일과 원본 비트맵 데이터는 SIL Open Font License 하에
-배포됩니다. Neo둥근모 TTF를 생성하는 프로그램은 MIT License 하에 배포됩니다.
-`LICENSE.txt`에 자세한 내용과 각각 라이센스의 전문(영문)이 수록되어 있습니다.
+Neo둥근모 글꼴 파일과 원본 비트맵 데이터 및 글꼴 파일을 생성하는 프로그램과 그
+소스 코드는 SIL Open Font License 1.1 하에 배포됩니다. SIL Open Font License
+1.1의 전체 내용은 `README.md`에 수록되어 있습니다.
