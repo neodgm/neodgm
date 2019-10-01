@@ -1879,8 +1879,8 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 0
       xmax 7
-      ymin 9
-      ymax 11
+      ymin 4
+      ymax 6
 
       data """
       0111011
