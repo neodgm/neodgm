@@ -142,16 +142,16 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
 
     glyph unicode: ?' do
       advance 8
-      xmin 1
-      xmax 4
+      xmin 3
+      xmax 5
       ymin 7
       ymax 11
 
       data """
-      011
-      011
-      011
-      110
+      11
+      11
+      11
+      10
       """
     end
 
@@ -159,11 +159,12 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 2
       xmax 6
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
-      0111
+      0011
+      0110
       1100
       1100
       1100
@@ -172,7 +173,9 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       1100
       1100
       1100
-      0111
+      1100
+      0110
+      0011
       """
     end
 
@@ -180,11 +183,12 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 2
       xmax 6
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
-      1110
+      1100
+      0110
       0011
       0011
       0011
@@ -193,7 +197,9 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       0011
       0011
       0011
-      1110
+      0011
+      0110
+      1100
       """
     end
 
@@ -1183,11 +1189,14 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 2
       xmax 6
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
       1111
+      1100
+      1100
+      1100
       1100
       1100
       1100
@@ -1223,11 +1232,14 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 2
       xmax 6
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
       1111
+      0011
+      0011
+      0011
       0011
       0011
       0011
@@ -1795,15 +1807,18 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 1
       xmax 7
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
       000111
       001100
       001100
       001100
+      001100
+      001100
       111000
+      001100
       001100
       001100
       001100
@@ -1816,10 +1831,13 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 3
       xmax 5
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
+      11
+      11
+      11
       11
       11
       11
@@ -1837,15 +1855,18 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 1
       xmax 7
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
       111000
       001100
       001100
       001100
+      001100
+      001100
       000111
+      001100
       001100
       001100
       001100
@@ -1858,8 +1879,8 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       advance 8
       xmin 0
       xmax 7
-      ymin 9
-      ymax 11
+      ymin 4
+      ymax 6
 
       data """
       0111011
