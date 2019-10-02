@@ -48,7 +48,10 @@ defmodule TTFLib.TableSource.GSUB do
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->
-        {GlyphStorage.get(from).index, GlyphStorage.get(to).index}
+        from_id = get_glyph_id(from)
+        to_id = get_glyph_id(to)
+
+        {GlyphStorage.get(from_id).index, GlyphStorage.get(to_id).index}
       end)
       |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
       |> Enum.unzip()
@@ -100,8 +103,6 @@ defmodule TTFLib.TableSource.GSUB do
 
   # 8.1 Reverse Chaining Contextual Single Substitution, Format 1 (Coverage-based)
   def compile_subtable(%{format: 1} = subtable, 8) do
-    import TTFLib.GSUBBuilder.Common, only: [get_glyph_id: 1]
-
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->
@@ -165,7 +166,7 @@ defmodule TTFLib.TableSource.GSUB do
     seq
     |> Enum.map(fn glyphs ->
       glyphs
-      |> Enum.map(&GlyphStorage.get(&1).index)
+      |> Enum.map(&GlyphStorage.get(get_glyph_id(&1)).index)
       |> Enum.sort()
       |> compile_coverage()
     end)
@@ -183,4 +184,8 @@ defmodule TTFLib.TableSource.GSUB do
 
     IO.iodata_to_binary(data)
   end
+
+  defp get_glyph_id(expr)
+  defp get_glyph_id(code) when is_integer(code), do: {:unicode, code}
+  defp get_glyph_id(name) when is_binary(name), do: {:name, name}
 end
