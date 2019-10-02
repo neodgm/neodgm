@@ -1,6 +1,6 @@
 defmodule NeoDGM.GSUB do
-  alias TTFLib.GSUBBuilder.Linker
   alias TTFLib.TableSource.GSUB
+  alias TTFLib.TableSource.GSUB.Linker
   alias TTFLib.TableSource.OTFLayout.{Feature, FeatureList}
   alias TTFLib.TableSource.OTFLayout.{Lookup, LookupList}
   alias TTFLib.TableSource.OTFLayout.{LanguageSystem, Script, ScriptList}

@@ -1,4 +1,4 @@
-defmodule TTFLib.GSUBBuilder.Linker do
+defmodule TTFLib.TableSource.GSUB.Linker do
   alias TTFLib.TableSource.GSUB
   alias TTFLib.TableSource.OTFLayout.Feature
   alias TTFLib.TableSource.OTFLayout.FeatureList
