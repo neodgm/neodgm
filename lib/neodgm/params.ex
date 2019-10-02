@@ -1,4 +1,5 @@
 defmodule NeoDGM.Params do
+  alias NeoDGM.BitmapFont
   alias NeoDGM.NameTable
 
   @version Version.parse!(Mix.Project.config()[:version])
@@ -7,18 +8,12 @@ defmodule NeoDGM.Params do
   def params(opts \\ []) do
     variant = to_string(opts[:variant])
 
-    glyph_sources =
-      case variant do
-        "ligature" -> glyph_sources() ++ ligature_glyph_sources()
-        _ -> glyph_sources()
-      end
-
     %{
       version: @version,
       name_table: NameTable.name_table(),
       metrics: metrics(),
       os_2: os_2(),
-      glyph_sources: glyph_sources,
+      glyph_sources: BitmapFont.get_sources(variant),
       gsub: if(variant === "ligature", do: NeoDGM.GSUB.gsub())
     }
   end
@@ -52,32 +47,5 @@ defmodule NeoDGM.Params do
       x_height: 7,
       cap_height: 10
     }
-  end
-
-  defp glyph_sources do
-    [
-      NeoDGM.BitmapFont.BasicLatin,
-      NeoDGM.BitmapFont.BlockElements,
-      NeoDGM.BitmapFont.BoxDrawing,
-      NeoDGM.BitmapFont.BraillePatterns,
-      NeoDGM.BitmapFont.Dingbats,
-      NeoDGM.BitmapFont.EnclosedAlphanumerics,
-      NeoDGM.BitmapFont.GeneralPunctuation,
-      NeoDGM.BitmapFont.GeometricShapes,
-      NeoDGM.BitmapFont.HangulCompatibilityJamo,
-      NeoDGM.BitmapFont.HangulJamo,
-      NeoDGM.BitmapFont.HangulJamoSource,
-      NeoDGM.BitmapFont.HangulSyllables,
-      NeoDGM.BitmapFont.Latin1Supplement,
-      NeoDGM.BitmapFont.PowerlineSymbols,
-      NeoDGM.BitmapFont.Trigrams,
-    ]
-  end
-
-  defp ligature_glyph_sources do
-    [
-      NeoDGM.BitmapFont.ProgrammingLigatures.Arrows,
-      NeoDGM.BitmapFont.ProgrammingLigatures.Markup
-    ]
   end
 end
