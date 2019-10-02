@@ -9,15 +9,18 @@ defmodule TTFLib.TableSource.OTFLayout.Script do
           languages: [LanguageSystem.t()]
         }
 
-  @spec compile(t()) :: binary()
-  def compile(%{languages: langs} = script) do
+  @spec compile(t(), keyword()) :: binary()
+  def compile(%{languages: langs} = script, opts) do
     lang_count = length(langs)
     offset_base = 4 + lang_count * 6
 
     {compiled_def_lang, def_lang_offset} =
       case script.default_language do
-        nil -> {"", 0}
-        %LanguageSystem{} = def_lang -> {LanguageSystem.compile(def_lang), offset_base}
+        nil ->
+          {"", 0}
+
+        %LanguageSystem{} = def_lang ->
+          {LanguageSystem.compile(def_lang, opts), offset_base}
       end
 
     offset_base = offset_base + byte_size(compiled_def_lang)
@@ -25,7 +28,7 @@ defmodule TTFLib.TableSource.OTFLayout.Script do
     {_, records, tables} =
       Enum.reduce(langs, {0, [], []}, fn lang, {pos, records, tables} ->
         record = [lang.tag, <<offset_base + pos::16>>]
-        table = LanguageSystem.compile(lang)
+        table = LanguageSystem.compile(lang, opts)
 
         {pos + byte_size(table), [record | records], [table | tables]}
       end)

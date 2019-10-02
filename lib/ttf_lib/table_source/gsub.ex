@@ -5,22 +5,51 @@ defmodule TTFLib.TableSource.GSUB do
   alias TTFLib.TableSource.OTFLayout.FeatureList
   alias TTFLib.TableSource.OTFLayout.LookupList
 
-  defstruct ~w(script_list feature_list lookup_list)a
+  defstruct [
+    :script_list,
+    :feature_list,
+    :lookup_list,
+    :feature_indices,
+    :lookup_indices
+  ]
 
   @type t :: %__MODULE__{
           script_list: ScriptList.t(),
           feature_list: FeatureList.t(),
-          lookup_list: LookupList.t()
+          lookup_list: LookupList.t(),
+          feature_indices: %{optional({<<_::4>>, term()}) => integer()},
+          lookup_indices: %{optional(binary()) => integer()}
         }
+
+  @spec populate_indices(t()) :: t()
+  def populate_indices(gsub) do
+    %__MODULE__{
+      gsub
+      | feature_indices: index_map(gsub.feature_list.features, &{&1.tag, &1.name}),
+        lookup_indices: index_map(gsub.lookup_list.lookups, & &1.name)
+    }
+  end
+
+  defp index_map(enumerable, fun) do
+    enumerable
+    |> Enum.with_index()
+    |> Enum.map(fn {item, index} -> {fun.(item), index} end)
+    |> Map.new()
+  end
 
   @spec compile(t()) :: CompiledTable.t()
   def compile(gsub) do
     offset_base = 14
 
+    list_compile_opts = [
+      feature_indices: gsub.feature_indices,
+      lookup_indices: gsub.lookup_indices
+    ]
+
     {_, offsets, compiled_lists} =
       [gsub.script_list, gsub.feature_list, gsub.lookup_list]
       |> Enum.reduce({offset_base, [], []}, fn list, {pos, offsets, lists} ->
-        compiled = list.__struct__.compile(list)
+        compiled = list.__struct__.compile(list, list_compile_opts)
 
         {pos + byte_size(compiled), [pos | offsets], [compiled | lists]}
       end)
@@ -37,14 +66,14 @@ defmodule TTFLib.TableSource.GSUB do
     CompiledTable.new("GSUB", IO.iodata_to_binary(data))
   end
 
-  @spec compile_subtable(map(), integer()) :: binary()
-  def compile_subtable(subtable, lookup_type)
+  @spec compile_subtable(map(), integer(), keyword()) :: binary()
+  def compile_subtable(subtable, lookup_type, opts)
 
   # 1.1: Single Substitution, Format 1 (substitute by delta glyph IDs)
   # NOT IMPLEMENTED
 
   # 1.2: Single Substitution, Format 2 (substitute by glyph IDs)
-  def compile_subtable(%{format: 2} = subtable, 1) do
+  def compile_subtable(%{format: 2} = subtable, 1, _opts) do
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->
@@ -77,7 +106,8 @@ defmodule TTFLib.TableSource.GSUB do
   # NOT IMPLEMENTED
 
   # 6.3: Chaining Contextual Substitution, Format 3 (Coverage-based)
-  def compile_subtable(%{format: 3} = subtable, 6) do
+  def compile_subtable(%{format: 3} = subtable, 6, opts) do
+    lookup_indices = opts[:lookup_indices]
     sub_count = length(subtable.substitutions)
     seq_keys = ~w(backtrack input lookahead)a
     counts = seq_keys |> Enum.map(&length(subtable[&1])) |> Enum.sum()
@@ -88,7 +118,10 @@ defmodule TTFLib.TableSource.GSUB do
       |> Enum.map(&subtable[&1])
       |> make_coverage_records(offset_base)
 
-    sub_records = Enum.map(subtable.substitutions, &<<elem(&1, 0)::16, elem(&1, 1)::16>>)
+    sub_records =
+      Enum.map(subtable.substitutions, fn {glyph_pos, lookup_name} ->
+        <<glyph_pos::16, lookup_indices[lookup_name]::16>>
+      end)
 
     data = [
       <<3::16>>,
@@ -102,7 +135,7 @@ defmodule TTFLib.TableSource.GSUB do
   end
 
   # 8.1 Reverse Chaining Contextual Single Substitution, Format 1 (Coverage-based)
-  def compile_subtable(%{format: 1} = subtable, 8) do
+  def compile_subtable(%{format: 1} = subtable, 8, _opts) do
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->

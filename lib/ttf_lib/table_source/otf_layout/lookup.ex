@@ -8,8 +8,8 @@ defmodule TTFLib.TableSource.OTFLayout.Lookup do
           subtables: [map()]
         }
 
-  @spec compile(t()) :: binary()
-  def compile(%{subtables: subtables} = lookup) do
+  @spec compile(t(), keyword()) :: binary()
+  def compile(%{subtables: subtables} = lookup, opts) do
     subtable_count = length(subtables)
 
     # Size of MarkFilteringSet: 0
@@ -17,7 +17,7 @@ defmodule TTFLib.TableSource.OTFLayout.Lookup do
 
     {_, offsets, compiled_subtables} =
       Enum.reduce(subtables, {offset_base, [], []}, fn subtable, {pos, offsets, tables} ->
-        compiled = lookup.owner.compile_subtable(subtable, lookup.type)
+        compiled = lookup.owner.compile_subtable(subtable, lookup.type, opts)
 
         {pos + byte_size(compiled), [pos | offsets], [compiled | tables]}
       end)

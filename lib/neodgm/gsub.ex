@@ -1,6 +1,5 @@
 defmodule NeoDGM.GSUB do
   alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.GSUB.Linker
   alias TTFLib.TableSource.OTFLayout.{Feature, FeatureList}
   alias TTFLib.TableSource.OTFLayout.LookupList
   alias TTFLib.TableSource.OTFLayout.{LanguageSystem, Script, ScriptList}
@@ -11,7 +10,7 @@ defmodule NeoDGM.GSUB do
         tag: "DFLT",
         default_language: %LanguageSystem{
           tag: "dflt",
-          feature_keys: [
+          features: [
             {"aalt", "Ligation for program codes"},
             {"calt", "Ligation for program codes"}
           ]
@@ -26,7 +25,7 @@ defmodule NeoDGM.GSUB do
       %Feature{
         tag: "aalt",
         name: "Ligation for program codes",
-        lookup_keys: [
+        lookups: [
           "Short bidirectional arrow body",
           "Bidirectional arrow joiner",
           "Left arrow head",
@@ -40,7 +39,7 @@ defmodule NeoDGM.GSUB do
       %Feature{
         tag: "calt",
         name: "Ligation for program codes",
-        lookup_keys: [
+        lookups: [
           "Short bidirectional arrow chain",
           "Left arrow head chain",
           "Right arrow head chain",
@@ -65,7 +64,7 @@ defmodule NeoDGM.GSUB do
   }
 
   gsub =
-    Linker.link(%GSUB{
+    GSUB.populate_indices(%GSUB{
       script_list: script_list,
       feature_list: feature_list,
       lookup_list: lookup_list

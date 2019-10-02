@@ -3,7 +3,7 @@ defmodule TTFLib.Builder do
   alias TTFLib.TableSource.{Cmap, Glyf, GSUB, Head, Hmtx, Maxp, Name, OS_2, Post}
   alias TTFLib.TableSource.OTFLayout.{ScriptList, FeatureList, LookupList}
 
-  @default_gsub %{
+  @default_gsub %GSUB{
     script_list: %ScriptList{scripts: []},
     feature_list: %FeatureList{features: []},
     lookup_list: %LookupList{lookups: []}
