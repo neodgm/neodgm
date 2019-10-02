@@ -7,8 +7,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -32,8 +32,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -57,8 +57,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -82,8 +82,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -107,8 +107,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -132,8 +132,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -157,8 +157,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -182,8 +182,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -207,8 +207,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -232,8 +232,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -257,8 +257,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -282,8 +282,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -307,8 +307,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -332,8 +332,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -357,8 +357,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -382,8 +382,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -407,8 +407,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -432,8 +432,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -457,8 +457,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -482,8 +482,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -507,8 +507,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -532,8 +532,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -557,8 +557,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -582,8 +582,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -607,8 +607,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -632,8 +632,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -657,8 +657,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -682,8 +682,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -707,8 +707,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -732,8 +732,8 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000

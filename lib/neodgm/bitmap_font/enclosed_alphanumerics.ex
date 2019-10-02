@@ -7,8 +7,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -32,8 +32,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -57,8 +57,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -82,8 +82,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -107,8 +107,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -132,8 +132,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -157,8 +157,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -182,8 +182,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -207,8 +207,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -232,8 +232,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -257,8 +257,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -282,8 +282,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -307,8 +307,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -332,8 +332,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -357,8 +357,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -382,8 +382,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -407,8 +407,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -432,8 +432,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -457,8 +457,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -482,8 +482,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -507,8 +507,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -532,8 +532,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -557,8 +557,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -582,8 +582,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -607,8 +607,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -632,8 +632,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -657,8 +657,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -682,8 +682,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -707,8 +707,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -732,8 +732,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -757,8 +757,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -782,8 +782,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -807,8 +807,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -832,8 +832,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -857,8 +857,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -882,8 +882,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -907,8 +907,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -932,8 +932,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -957,8 +957,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -982,8 +982,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00100000000100
@@ -1007,8 +1007,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       001100000
@@ -1028,8 +1028,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       111110000
@@ -1049,8 +1049,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       111110000
@@ -1070,8 +1070,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       001110000
@@ -1091,8 +1091,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       111111000
@@ -1112,8 +1112,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       011110000
@@ -1133,8 +1133,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       111111000
@@ -1154,8 +1154,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       011110000
@@ -1175,8 +1175,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 3
       xmax 12
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       011110000
@@ -1196,8 +1196,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110011110000
@@ -1217,8 +1217,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110001100000
@@ -1238,8 +1238,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110111110000
@@ -1259,8 +1259,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110111110000
@@ -1280,8 +1280,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110001110000
@@ -1301,8 +1301,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110111111000
@@ -1322,8 +1322,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110011110000
@@ -1343,8 +1343,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110111111000
@@ -1364,8 +1364,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110011110000
@@ -1385,8 +1385,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       0110011110000
@@ -1406,8 +1406,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 14
-      ymin -1
-      ymax 9
+      ymin 0
+      ymax 10
 
       data """
       1110001110000
@@ -1427,8 +1427,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1452,8 +1452,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1477,8 +1477,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1502,8 +1502,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1527,8 +1527,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1552,8 +1552,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1577,8 +1577,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1602,8 +1602,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1627,8 +1627,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1652,8 +1652,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1677,8 +1677,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
@@ -1702,8 +1702,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       advance 16
       xmin 1
       xmax 15
-      ymin -3
-      ymax 11
+      ymin -2
+      ymax 12
 
       data """
       00011111111000
