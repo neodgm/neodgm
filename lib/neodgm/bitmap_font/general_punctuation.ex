@@ -189,10 +189,13 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       advance 8
       xmin 1
       xmax 7
-      ymin 0
-      ymax 10
+      ymin -2
+      ymax 11
 
       data """
+      110011
+      110011
+      110011
       110011
       110011
       110011
