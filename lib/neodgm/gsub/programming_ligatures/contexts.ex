@@ -26,22 +26,27 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         name: "Left arrow head chain",
         subtables: [
           %{
-            format: 3,
-            backtrack: ['<'],
-            input: ['-'],
-            lookahead: [],
-            substitutions: [
-              {0, "Left arrow head"}
-            ]
-          },
-          %{
-            format: 3,
-            backtrack: ['<'],
-            input: ['='],
-            lookahead: ['='],
-            substitutions: [
-              {0, "Left arrow head"}
-            ]
+            format: 1,
+            subrulesets: %{
+              ?< => [
+                %{
+                  backtrack: '',
+                  input: '-',
+                  lookahead: '',
+                  substitutions: [
+                    {1, "Left arrow head"}
+                  ]
+                },
+                %{
+                  backtrack: '',
+                  input: '=',
+                  lookahead: '=',
+                  substitutions: [
+                    {1, "Left arrow head"}
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
