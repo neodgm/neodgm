@@ -1,7 +1,7 @@
 defmodule TTFLib.NameTableBuilder do
   alias TTFLib.TableSource.Name.Definitions, as: Defs
 
-  defmacro name_table(do: do_block) do
+  defmacro name_table(variant, do: do_block) do
     exprs =
       case do_block do
         {:__block__, _, exprs} -> exprs
@@ -11,7 +11,7 @@ defmodule TTFLib.NameTableBuilder do
     quote do
       @name Map.new(unquote(exprs))
 
-      def name_table do
+      def name_table(unquote(variant)) do
         @name
       end
     end

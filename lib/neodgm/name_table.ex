@@ -28,18 +28,69 @@ defmodule NeoDGM.NameTable do
   사용, 연구, 수정, 임베드 및 재배포될 수 있습니다.\
   """
 
-  name_table do
+  name_table "code" do
+    platform :macintosh do
+      encoding :roman do
+        language :en do
+          copyright copyright_en
+          family "NeoDunggeunmo Code"
+          subfamily "Regular"
+          full_name "NeoDunggeunmo Code"
+          version version_str
+          postscript_name "NeoDunggeunmoCode-Regular"
+          license license_en
+          license_url "https://scripts.sil.org/OFL"
+          typographic_family "NeoDunggeunmo"
+          typographic_subfamily "Code"
+        end
+      end
+    end
+
+    platform :windows do
+      encoding :unicode_bmp do
+        language :en_us do
+          copyright copyright_en
+          unique_id "Dalgona : NeoDunggeunmo Code : 2019"
+          family "NeoDunggeunmo Code"
+          subfamily "Regular"
+          full_name "NeoDunggeunmo Code"
+          version version_str
+          postscript_name "NeoDunggeunmoCode-Regular"
+          license license_en
+          license_url "https://scripts.sil.org/OFL"
+          typographic_family "NeoDunggeunmo"
+          typographic_subfamily "Code"
+        end
+
+        language :ko_kr do
+          copyright copyright_ko
+          family "Neo둥근모 Code"
+          subfamily "보통"
+          full_name "Neo둥근모 Code"
+          version version_str
+          postscript_name "NeoDunggeunmoCode-Regular"
+          license license_ko
+          license_url "https://scripts.sil.org/OFL"
+          typographic_family "Neo둥근모"
+          typographic_subfamily "Code"
+        end
+      end
+    end
+  end
+
+  name_table _ do
     platform :macintosh do
       encoding :roman do
         language :en do
           copyright copyright_en
           family "NeoDunggeunmo"
           subfamily "Regular"
-          full_name "NeoDunggeunmo Regular"
+          full_name "NeoDunggeunmo"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
+          typographic_family "NeoDunggeunmo"
         end
       end
     end
@@ -51,22 +102,24 @@ defmodule NeoDGM.NameTable do
           unique_id "Dalgona : NeoDunggeunmo : 2019"
           family "NeoDunggeunmo"
           subfamily "Regular"
-          full_name "NeoDunggeunmo Regular"
+          full_name "NeoDunggeunmo"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
+          typographic_family "NeoDunggeunmo"
         end
 
         language :ko_kr do
           copyright copyright_ko
           family "Neo둥근모"
           subfamily "보통"
-          full_name "Neo둥근모 보통"
+          full_name "Neo둥근모"
           version version_str
           postscript_name "NeoDunggeunmo-Regular"
           license license_ko
           license_url "https://scripts.sil.org/OFL"
+          typographic_family "Neo둥근모"
         end
       end
     end

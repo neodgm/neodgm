@@ -10,7 +10,7 @@ defmodule NeoDGM.Params do
 
     %{
       version: @version,
-      name_table: NameTable.name_table(),
+      name_table: NameTable.name_table(variant),
       metrics: metrics(),
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(variant),
