@@ -119,8 +119,10 @@ defmodule TTFLib.TableSource.GSUB do
 
     {_, offsets, compiled_subrulesets} =
       Util.offsetted_binaries(subrulesets, offset_base, fn subrules ->
+        subrule_offset_base = 2 + length(subrules) * 2
+
         {_, offsets2, compiled_subrules} =
-          Util.offsetted_binaries(subrules, 4, fn subrule ->
+          Util.offsetted_binaries(subrules, subrule_offset_base, fn subrule ->
             sub_records =
               Enum.map(subrule.substitutions, fn {glyph_pos, lookup_name} ->
                 <<glyph_pos::16, lookup_indices[lookup_name]::16>>
