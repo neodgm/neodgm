@@ -22,7 +22,8 @@ defmodule NeoDGM.BitmapFont do
   ligature_glyph_sources =
     [
       ProgrammingLigatures.Arrows,
-      ProgrammingLigatures.Markup
+      ProgrammingLigatures.Markup,
+      ProgrammingLigatures.Pipes
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
 
