@@ -114,6 +114,21 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
             ]
           }
         ]
+      },
+      %Lookup{
+        owner: GSUB,
+        type: 1,
+        name: "Pipe operator",
+        subtables: [
+          %{
+            format: 2,
+            substitutions: [
+              {?<, "less.pipeoperator"},
+              {?>, "greater.pipeoperator"},
+              {?|, "bar.pipeoperator"}
+            ]
+          }
+        ]
       }
     ]
   end

@@ -33,7 +33,8 @@ defmodule NeoDGM.GSUB do
           "Right arrow head",
           "Right arrow head alt",
           "Right arrow body",
-          "Markup comment exclam"
+          "Markup comment exclam",
+          "Pipe operator"
         ]
       },
       %Feature{
@@ -47,7 +48,9 @@ defmodule NeoDGM.GSUB do
           "Bidirectional arrow joiner chain",
           "Left arrow tail chain",
           "Right arrow body chain",
-          "Markup comment chain"
+          "Markup comment chain",
+          "Pipe operator chain",
+          "Right pipe operator chain"
         ]
       }
     ]

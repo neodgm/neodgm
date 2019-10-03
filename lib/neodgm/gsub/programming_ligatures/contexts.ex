@@ -192,6 +192,73 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
             }
           }
         ]
+      },
+      %Lookup{
+        owner: GSUB,
+        type: 6,
+        name: "Pipe operator chain",
+        subtables: [
+          %{
+            format: 1,
+            subrulesets: %{
+              ?< => [
+                %{
+                  backtrack: '',
+                  input: '|',
+                  lookahead: '',
+                  substitutions: [
+                    {0, "Pipe operator"},
+                    {1, "Pipe operator"}
+                  ]
+                }
+              ],
+              ?| => [
+                %{
+                  backtrack: ["bar.pipeoperator"],
+                  input: '',
+                  lookahead: '',
+                  substitutions: [
+                    {0, "Pipe operator"}
+                  ]
+                },
+                %{
+                  backtrack: '',
+                  input: '>',
+                  lookahead: '',
+                  substitutions: [
+                    {0, "Pipe operator"},
+                    {1, "Pipe operator"}
+                  ]
+                }
+              ],
+              ?> => [
+                %{
+                  backtrack: ["bar.pipeoperator"],
+                  input: '',
+                  lookahead: '',
+                  substitutions: [
+                    {0, "Pipe operator"}
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      %Lookup{
+        owner: GSUB,
+        type: 8,
+        name: "Right pipe operator chain",
+        subtables: [
+          %{
+            format: 1,
+            backtrack: [],
+            lookahead: [["bar.pipeoperator"]],
+            substitutions: [
+              {?|, "bar.pipeoperator"}
+            ]
+          }
+        ]
       }
     ]
   end
