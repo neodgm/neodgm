@@ -12,14 +12,20 @@ defmodule NeoDGM.Params do
     %{
       version: @version,
       name_table: NameTable.name_table(variant),
-      metrics: metrics(),
-      os_2: os_2(),
+      metrics: metrics(variant),
+      os_2: os_2(variant),
       glyph_sources: BitmapFont.get_sources(variant),
       gsub: GSUB.get_gsub(variant)
     }
   end
 
-  defp metrics do
+  defp metrics("pro") do
+    Map.merge(metrics(nil), %{
+      is_fixed_pitch: false
+    })
+  end
+
+  defp metrics(_) do
     %{
       units_per_em: 16,
       ascender: 12,
@@ -31,7 +37,14 @@ defmodule NeoDGM.Params do
     }
   end
 
-  defp os_2 do
+  defp os_2("pro") do
+    Map.merge(os_2(nil), %{
+      avg_char_width: :auto,
+      panose: [2, 1, 5, 3, 6, 2, 1, 4, 2, 3]
+    })
+  end
+
+  defp os_2(_) do
     %{
       avg_char_width: 8,
       weight_class: :normal,

@@ -3,7 +3,7 @@ defmodule Mix.Tasks.BuildFont do
   alias NeoDGM.Params
   alias TTFLib.Builder
 
-  @defined_variants ~w(code)
+  @defined_variants ~w(code pro)
 
   def run(args) do
     options = [variant: :string]
