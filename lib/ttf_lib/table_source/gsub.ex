@@ -48,19 +48,17 @@ defmodule TTFLib.TableSource.GSUB do
 
     {_, offsets, compiled_lists} =
       [gsub.script_list, gsub.feature_list, gsub.lookup_list]
-      |> Enum.reduce({offset_base, [], []}, fn list, {pos, offsets, lists} ->
-        compiled = list.__struct__.compile(list, list_compile_opts)
-
-        {pos + byte_size(compiled), [pos | offsets], [compiled | lists]}
+      |> offsetted_binaries(offset_base, fn list ->
+        list.__struct__.compile(list, list_compile_opts)
       end)
 
     data = [
       # GSUB version 1.1
       <<1::16, 1::16>>,
-      offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>),
+      offsets,
       # FeatureVariationsOffset (Not used yet)
       <<0::32>>,
-      Enum.reverse(compiled_lists)
+      compiled_lists
     ]
 
     CompiledTable.new("GSUB", IO.iodata_to_binary(data))
@@ -116,19 +114,18 @@ defmodule TTFLib.TableSource.GSUB do
 
     coverage = compile_coverage(glyphs)
     coverage_offset = 6 + ruleset_count * 2
+    offset_base = coverage_offset + byte_size(coverage)
 
     {_, offsets, compiled_subrulesets} =
-      subrulesets
-      |> Enum.reduce({coverage_offset + byte_size(coverage), [], []}, fn subrules, {pos, offsets, compiled_subrulesets} ->
+      offsetted_binaries(subrulesets, offset_base, fn subrules ->
         {_, offsets2, compiled_subrules} =
-          subrules
-          |> Enum.reduce({4, [], []}, fn subrule, {pos, offsets, compiled_subrules} ->
+          offsetted_binaries(subrules, 4, fn subrule ->
             sub_records =
               Enum.map(subrule.substitutions, fn {glyph_pos, lookup_name} ->
                 <<glyph_pos::16, lookup_indices[lookup_name]::16>>
               end)
 
-            data = [
+            [
               <<length(subrule.backtrack)::16>>,
               Enum.map(subrule.backtrack, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
               <<length(subrule.input) + 1::16>>,
@@ -138,30 +135,18 @@ defmodule TTFLib.TableSource.GSUB do
               <<length(sub_records)::16>>,
               sub_records
             ]
-
-            data = IO.iodata_to_binary(data)
-
-            {pos + byte_size(data), [pos | offsets], [data | compiled_subrules]}
           end)
 
-        data = [
-          <<length(subrules)::16>>,
-          offsets2 |> Enum.reverse() |> Enum.map(&<<&1::16>>),
-          Enum.reverse(compiled_subrules)
-        ]
-
-        data = IO.iodata_to_binary(data)
-
-        {pos + byte_size(data), [pos | offsets], [data | compiled_subrulesets]}
+        [<<length(subrules)::16>>, offsets2, compiled_subrules]
       end)
 
     data = [
       <<1::16>>,
       <<coverage_offset::16>>,
       <<ruleset_count::16>>,
-      offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>),
+      offsets,
       coverage,
-      Enum.reverse(compiled_subrulesets)
+      compiled_subrulesets
     ]
 
     IO.iodata_to_binary(data)
@@ -237,6 +222,18 @@ defmodule TTFLib.TableSource.GSUB do
     IO.iodata_to_binary(data)
   end
 
+  defp offsetted_binaries(sources, offset_base, fun) do
+    {pos, offsets, data} =
+      sources
+      |> Enum.reduce({offset_base, [], []}, fn source, {pos, offsets, data} ->
+        binary = IO.iodata_to_binary(fun.(source))
+
+        {pos + byte_size(binary), [pos | offsets], [binary | data]}
+      end)
+
+    {pos, offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>), Enum.reverse(data)}
+  end
+
   defp make_coverage_records(sequences, offset_base) do
     {_, offsets, coverages} =
       sequences
@@ -244,16 +241,11 @@ defmodule TTFLib.TableSource.GSUB do
         {next_pos, offsets, data} =
           seq
           |> compile_covseq()
-          |> Enum.reduce({pos, [], []}, fn compiled_cov, {pos2, offsets, data} ->
-            {pos2 + byte_size(compiled_cov), [pos2 | offsets], [compiled_cov | data]}
-          end)
+          |> offsetted_binaries(pos, & &1)
 
-        offsets_bin = [
-          <<length(offsets)::16>>,
-          offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>)
-        ]
+        offsets_bin = [<<length(offsets)::16>>, offsets]
 
-        {next_pos, [offsets_bin | data1], [Enum.reverse(data) | data2]}
+        {next_pos, [offsets_bin | data1], [data | data2]}
       end)
 
     {offsets, coverages}
