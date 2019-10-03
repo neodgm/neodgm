@@ -72,6 +72,50 @@ defmodule NeoDGM.NameTable do
     end
   end
 
+  name_table "pro" do
+    platform :macintosh do
+      encoding :roman do
+        language :en do
+          copyright copyright_en
+          family "NeoDunggeunmo Pro"
+          subfamily "Regular"
+          full_name "NeoDunggeunmo Pro"
+          version version_str
+          postscript_name "NeoDunggeunmoPro-Regular"
+          license license_en
+          license_url "https://scripts.sil.org/OFL"
+        end
+      end
+    end
+
+    platform :windows do
+      encoding :unicode_bmp do
+        language :en_us do
+          copyright copyright_en
+          unique_id "Dalgona : NeoDunggeunmo Pro : 2019"
+          family "NeoDunggeunmo Pro"
+          subfamily "Regular"
+          full_name "NeoDunggeunmo Pro"
+          version version_str
+          postscript_name "NeoDunggeunmoPro-Regular"
+          license license_en
+          license_url "https://scripts.sil.org/OFL"
+        end
+
+        language :ko_kr do
+          copyright copyright_ko
+          family "Neo둥근모 Pro"
+          subfamily "보통"
+          full_name "Neo둥근모 Pro"
+          version version_str
+          postscript_name "NeoDunggeunmoPro-Regular"
+          license license_ko
+          license_url "https://scripts.sil.org/OFL"
+        end
+      end
+    end
+  end
+
   name_table _ do
     platform :macintosh do
       encoding :roman do
