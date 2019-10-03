@@ -1,5 +1,7 @@
 # Files generated during font build process
 *.ttf
+*.woff
+*.woff2
 
 _build/
 deps/
