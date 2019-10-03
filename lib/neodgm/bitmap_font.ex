@@ -30,7 +30,7 @@ defmodule NeoDGM.BitmapFont do
   @spec get_sources(term()) :: [module()]
   def get_sources(variant)
 
-  def get_sources("ligature") do
+  def get_sources("code") do
     [
       unquote_splicing(base_glyph_sources),
       unquote_splicing(ligature_glyph_sources)

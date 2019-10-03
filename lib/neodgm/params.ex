@@ -14,7 +14,7 @@ defmodule NeoDGM.Params do
       metrics: metrics(),
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(variant),
-      gsub: if(variant === "ligature", do: NeoDGM.GSUB.gsub())
+      gsub: if(variant === "code", do: NeoDGM.GSUB.gsub())
     }
   end
 
