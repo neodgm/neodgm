@@ -170,15 +170,21 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         name: "Markup comment chain",
         subtables: [
           %{
-            format: 3,
-            backtrack: ['<'],
-            input: ['!', '-', '-'],
-            lookahead: [],
-            substitutions: [
-              {0, "Markup comment exclam"},
-              {1, "Left arrow body"},
-              {2, "Left arrow body"}
-            ]
+            format: 1,
+            subrulesets: %{
+              ?! => [
+                %{
+                  backtrack: '<',
+                  input: '--',
+                  lookahead: [],
+                  substitutions: [
+                    {0, "Markup comment exclam"},
+                    {1, "Left arrow body"},
+                    {2, "Left arrow body"}
+                  ]
+                }
+              ]
+            }
           }
         ]
       }

@@ -100,7 +100,72 @@ defmodule TTFLib.TableSource.GSUB do
   end
 
   # 6.1: Chaining Contextual Substitution, Format 1 (GlyphID-based)
-  # NOT IMPLEMENTED
+  def compile_subtable(%{format: 1} = subtable, 6, opts) do
+    lookup_indices = opts[:lookup_indices]
+    ruleset_count = map_size(subtable.subrulesets)
+
+    {glyphs, subrulesets} =
+      subtable.subrulesets
+      |> Enum.map(fn {key, value} ->
+        glyph_index = GlyphStorage.get(get_glyph_id(key)).index
+
+        {glyph_index, value}
+      end)
+      |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
+      |> Enum.unzip()
+
+    coverage = compile_coverage(glyphs)
+    coverage_offset = 6 + ruleset_count * 2
+
+    {_, offsets, compiled_subrulesets} =
+      subrulesets
+      |> Enum.reduce({coverage_offset + byte_size(coverage), [], []}, fn subrules, {pos, offsets, compiled_subrulesets} ->
+        {_, offsets2, compiled_subrules} =
+          subrules
+          |> Enum.reduce({4, [], []}, fn subrule, {pos, offsets, compiled_subrules} ->
+            sub_records =
+              Enum.map(subrule.substitutions, fn {glyph_pos, lookup_name} ->
+                <<glyph_pos::16, lookup_indices[lookup_name]::16>>
+              end)
+
+            data = [
+              <<length(subrule.backtrack)::16>>,
+              Enum.map(subrule.backtrack, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              <<length(subrule.input) + 1::16>>,
+              Enum.map(subrule.input, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              <<length(subrule.lookahead)::16>>,
+              Enum.map(subrule.lookahead, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              <<length(sub_records)::16>>,
+              sub_records
+            ]
+
+            data = IO.iodata_to_binary(data)
+
+            {pos + byte_size(data), [pos | offsets], [data | compiled_subrules]}
+          end)
+
+        data = [
+          <<length(subrules)::16>>,
+          offsets2 |> Enum.reverse() |> Enum.map(&<<&1::16>>),
+          Enum.reverse(compiled_subrules)
+        ]
+
+        data = IO.iodata_to_binary(data)
+
+        {pos + byte_size(data), [pos | offsets], [data | compiled_subrulesets]}
+      end)
+
+    data = [
+      <<1::16>>,
+      <<coverage_offset::16>>,
+      <<ruleset_count::16>>,
+      offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>),
+      coverage,
+      Enum.reverse(compiled_subrulesets)
+    ]
+
+    IO.iodata_to_binary(data)
+  end
 
   # 6.2: Chaining Contextual Substitution, Format 2 (Class-based)
   # NOT IMPLEMENTED
