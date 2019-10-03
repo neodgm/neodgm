@@ -1,4 +1,6 @@
 defmodule TTFLib.TableSource.OTFLayout.Lookup do
+  alias TTFLib.Util
+
   defstruct ~w(owner type name subtables)a
 
   @type t :: %__MODULE__{
@@ -16,10 +18,8 @@ defmodule TTFLib.TableSource.OTFLayout.Lookup do
     offset_base = 6 + subtable_count * 2 + 0
 
     {_, offsets, compiled_subtables} =
-      Enum.reduce(subtables, {offset_base, [], []}, fn subtable, {pos, offsets, tables} ->
-        compiled = lookup.owner.compile_subtable(subtable, lookup.type, opts)
-
-        {pos + byte_size(compiled), [pos | offsets], [compiled | tables]}
+      Util.offsetted_binaries(subtables, offset_base, fn subtable ->
+        lookup.owner.compile_subtable(subtable, lookup.type, opts)
       end)
 
     data = [
@@ -27,10 +27,10 @@ defmodule TTFLib.TableSource.OTFLayout.Lookup do
       # LookupFlag (Not used yet)
       <<0::16>>,
       <<subtable_count::16>>,
-      offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>),
+      offsets,
       # MarkFilteringSet (Not present)
       "",
-      Enum.reverse(compiled_subtables)
+      compiled_subtables
     ]
 
     IO.iodata_to_binary(data)
