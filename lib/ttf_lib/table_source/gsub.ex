@@ -4,6 +4,7 @@ defmodule TTFLib.TableSource.GSUB do
   alias TTFLib.TableSource.OTFLayout.ScriptList
   alias TTFLib.TableSource.OTFLayout.FeatureList
   alias TTFLib.TableSource.OTFLayout.LookupList
+  alias TTFLib.Util
 
   defstruct [
     :script_list,
@@ -48,7 +49,7 @@ defmodule TTFLib.TableSource.GSUB do
 
     {_, offsets, compiled_lists} =
       [gsub.script_list, gsub.feature_list, gsub.lookup_list]
-      |> offsetted_binaries(offset_base, fn list ->
+      |> Util.offsetted_binaries(offset_base, fn list ->
         list.__struct__.compile(list, list_compile_opts)
       end)
 
@@ -117,9 +118,9 @@ defmodule TTFLib.TableSource.GSUB do
     offset_base = coverage_offset + byte_size(coverage)
 
     {_, offsets, compiled_subrulesets} =
-      offsetted_binaries(subrulesets, offset_base, fn subrules ->
+      Util.offsetted_binaries(subrulesets, offset_base, fn subrules ->
         {_, offsets2, compiled_subrules} =
-          offsetted_binaries(subrules, 4, fn subrule ->
+          Util.offsetted_binaries(subrules, 4, fn subrule ->
             sub_records =
               Enum.map(subrule.substitutions, fn {glyph_pos, lookup_name} ->
                 <<glyph_pos::16, lookup_indices[lookup_name]::16>>
@@ -222,18 +223,6 @@ defmodule TTFLib.TableSource.GSUB do
     IO.iodata_to_binary(data)
   end
 
-  defp offsetted_binaries(sources, offset_base, fun) do
-    {pos, offsets, data} =
-      sources
-      |> Enum.reduce({offset_base, [], []}, fn source, {pos, offsets, data} ->
-        binary = IO.iodata_to_binary(fun.(source))
-
-        {pos + byte_size(binary), [pos | offsets], [binary | data]}
-      end)
-
-    {pos, offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>), Enum.reverse(data)}
-  end
-
   defp make_coverage_records(sequences, offset_base) do
     {_, offsets, coverages} =
       sequences
@@ -241,7 +230,7 @@ defmodule TTFLib.TableSource.GSUB do
         {next_pos, offsets, data} =
           seq
           |> compile_covseq()
-          |> offsetted_binaries(pos, & &1)
+          |> Util.offsetted_binaries(pos, & &1)
 
         offsets_bin = [<<length(offsets)::16>>, offsets]
 
