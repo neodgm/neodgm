@@ -25,7 +25,7 @@ defmodule NeoDGM.Params do
       descender: 4,
       line_gap: 0,
       underline_size: 1,
-      underline_position: -1,
+      underline_position: -2,
       is_fixed_pitch: true
     }
   end
