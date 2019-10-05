@@ -43,14 +43,10 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
     ```sh
     $ mix deps.get
 
-    # Programming ligatures가 없는 버전을 빌드합니다.
-    $ MIX_ENV=prod mix build_font
-
-    # Programming ligatures가 있는 버전을 빌드합니다. (Experimental)
-    $ MIX_ENV=prod mix build_font --variant ligature
+    $ MIX_ENV=prod mix build_font [--variant code]
     ```
 
-1. 현재 작업 디렉토리에 `neodgm.ttf` 파일이 생성됩니다.
+1. 현재 작업 디렉토리에 `neodgm[_<variant_name>].ttf` 파일이 생성됩니다.
 
 ## 문의
 
