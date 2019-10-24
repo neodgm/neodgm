@@ -22,6 +22,47 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 글꼴을 받으시려면 [Releases](https://github.com/Dalgona/neodgm/releases)를
 이용해 주세요.
 
+## 패키지 관리자를 통해 설치하기
+
+**주의: 아래 패키지는 공식적으로 지원되지 않으며, 아래 방법으로 글꼴을 설치했을
+때 발생한 문제에 대해서 Neo둥근모의 개발자는 책임을 지지 않습니다. 커뮤니티
+패키지에 관한 문의는 패키지 유지보수 담당자에게 직접 해 주시기 바랍니다.**
+
+현재 아래 플랫폼에서 패키지 관리자를 통해 손쉽게 글꼴을 설치할 수 있습니다.
+
+### Arch Linux
+
+AUR (Arch User Repository)에서 `ttf-neodgm` 패키지를 설치하세요.
+
+```bash
+# Git
+$ git clone https://aur.archlinux.org/neodgm.git
+$ cd neodgm
+$ makepkg -si
+```
+
+```bash
+# AUR Helpers (yay for example)
+$ yay -S ttf-neodgm
+```
+
+이 AUR 패키지는 [@gaeulbyul](https://github.com/gaeulbyul) 님께서 제작해
+주셨습니다. 💕
+
+### macOS
+
+Homebrew Cask를 통해 패키지를 설치할 수 있습니다.
+
+```bash
+$ brew tap homebrew/cask-fonts
+
+$ brew cask install font-neodunggeunmo
+# 또는,
+$ brew cask install font-neodunggeunmo-code
+```
+
+이 Cask는 [@nyeong](https://github.com/nyeong) 님께서 제작해 주셨습니다. 💕
+
 ## 직접 빌드하기
 
 대부분의 경우에는 이미 빌드된 글꼴 파일을 다운로드 받아서 사용하는 것으로도
