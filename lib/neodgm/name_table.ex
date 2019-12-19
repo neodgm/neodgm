@@ -40,8 +40,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmoCode-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "NeoDunggeunmo"
-          typographic_subfamily "Code"
         end
       end
     end
@@ -58,8 +56,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmoCode-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "NeoDunggeunmo"
-          typographic_subfamily "Code"
         end
 
         language :ko_kr do
@@ -71,8 +67,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmoCode-Regular"
           license license_ko
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "Neo둥근모"
-          typographic_subfamily "Code"
         end
       end
     end
@@ -90,7 +84,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmo-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "NeoDunggeunmo"
         end
       end
     end
@@ -107,7 +100,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmo-Regular"
           license license_en
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "NeoDunggeunmo"
         end
 
         language :ko_kr do
@@ -119,7 +111,6 @@ defmodule NeoDGM.NameTable do
           postscript_name "NeoDunggeunmo-Regular"
           license license_ko
           license_url "https://scripts.sil.org/OFL"
-          typographic_family "Neo둥근모"
         end
       end
     end
