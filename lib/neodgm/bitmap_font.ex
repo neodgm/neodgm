@@ -15,7 +15,9 @@ defmodule NeoDGM.BitmapFont do
       HangulSyllables,
       Latin1Supplement,
       PowerlineSymbols,
-      Trigrams
+      Trigrams,
+      Components.ShortCapitals,
+      Components.Diacritics
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
 
