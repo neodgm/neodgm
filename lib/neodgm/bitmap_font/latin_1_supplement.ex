@@ -575,7 +575,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Á do
-      component {:unicode, 0x00b4}, 0, 0
+      component {:unicode, 0x00B4}, 0, 0
       component {:name, "A.short"}, 0, 0
     end
 
@@ -590,7 +590,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ä do
-      component {:unicode, 0x00a8}, 0, 0
+      component {:unicode, 0x00A8}, 0, 0
       component {:name, "A.short"}, 0, 0
     end
 
@@ -621,7 +621,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ç do
-      component {:unicode, 0x00b8}, 0, 0
+      component {:unicode, 0x00B8}, 0, 0
       component {:unicode, ?C}, 0, 0
     end
 
@@ -631,7 +631,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?É do
-      component {:unicode, 0x00b4}, 0, 0
+      component {:unicode, 0x00B4}, 0, 0
       component {:name, "E.short"}, 0, 0
     end
 
@@ -641,7 +641,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ë do
-      component {:unicode, 0x00a8}, 0, 0
+      component {:unicode, 0x00A8}, 0, 0
       component {:name, "E.short"}, 0, 0
     end
 
@@ -651,7 +651,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Í do
-      component {:unicode, 0x00b4}, 0, 0
+      component {:unicode, 0x00B4}, 0, 0
       component {:name, "I.short"}, 0, 0
     end
 
@@ -714,7 +714,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ó do
-      component {:unicode, 0x00b4}, 0, 0
+      component {:unicode, 0x00B4}, 0, 0
       component {:name, "O.short"}, 0, 0
     end
 
@@ -729,7 +729,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ö do
-      component {:unicode, 0x00a8}, 0, 0
+      component {:unicode, 0x00A8}, 0, 0
       component {:name, "O.short"}, 0, 0
     end
 
@@ -780,7 +780,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ú do
-      component {:unicode, 0x00b4}, 0, 0
+      component {:unicode, 0x00B4}, 0, 0
       component {:name, "U.short"}, 0, 0
     end
 
@@ -790,12 +790,12 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ü do
-      component {:unicode, 0x00a8}, 0, 0
+      component {:unicode, 0x00A8}, 0, 0
       component {:name, "U.short"}, 0, 0
     end
 
     composite_glyph unicode: ?Ý do
-      component {:unicode, 0x00b4}, 1, 0
+      component {:unicode, 0x00B4}, 1, 0
       component {:name, "Y.short"}, 0, 0
     end
 
@@ -847,7 +847,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?á do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, ?a}, 0, 0
     end
 
@@ -862,7 +862,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ä do
-      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, 0x00A8}, 0, -2
       component {:unicode, ?a}, 0, 0
     end
 
@@ -890,7 +890,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ç do
-      component {:unicode, 0x00b8}, 0, 0
+      component {:unicode, 0x00B8}, 0, 0
       component {:unicode, ?c}, 0, 0
     end
 
@@ -900,7 +900,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?é do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, ?e}, 0, 0
     end
 
@@ -910,7 +910,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ë do
-      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, 0x00A8}, 0, -2
       component {:unicode, ?e}, 0, 0
     end
 
@@ -920,7 +920,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?í do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, 0x0131}, 0, 0
     end
 
@@ -982,7 +982,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ó do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, ?o}, 0, 0
     end
 
@@ -997,7 +997,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ö do
-      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, 0x00A8}, 0, -2
       component {:unicode, ?o}, 0, 0
     end
 
@@ -1045,7 +1045,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ú do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, ?u}, 0, 0
     end
 
@@ -1055,12 +1055,12 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ü do
-      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, 0x00A8}, 0, -2
       component {:unicode, ?u}, 0, 0
     end
 
     composite_glyph unicode: ?ý do
-      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x00B4}, 0, -2
       component {:unicode, ?y}, 0, 0
     end
 
@@ -1089,7 +1089,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ÿ do
-      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, 0x00A8}, 0, -2
       component {:unicode, ?y}, 0, 0
     end
 
