@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.HangulSyllables do
-  require TTFLib.CompositeGlyphs
-  import TTFLib.CompositeGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   make_map = fn list ->
     list
@@ -33,7 +33,7 @@ defmodule NeoDGM.BitmapFont.HangulSyllables do
       jung_set = jung_table[cho] + if jong === 0, do: 0, else: 2
       jong_set = jong_table[jung]
 
-      glyph unicode: code do
+      composite_glyph unicode: code do
         component {:name, "cho_#{cho}_#{cho_set}"}, 0, 0
         component {:name, "jung_#{jung}_#{jung_set}"}, 0, 0
 
