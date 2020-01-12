@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    bmp_glyph unicode: 9312 do
+    bmp_glyph name: "circle.enclosure" do
       advance 16
       xmin 1
       xmax 15
@@ -13,497 +13,22 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       data """
       00011111111000
       00100000000100
-      01000011000010
-      10000111000001
-      10001111000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      01000011000010
+      01000000000010
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      01000000000010
       00100000000100
       00011111111000
       """
     end
 
-    bmp_glyph unicode: 9313 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01001111100010
-      10000000110001
-      10000000110001
-      10000000110001
-      10000111100001
-      10001100000001
-      10001100000001
-      10001100000001
-      10001100000001
-      01001111110010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9314 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01001111100010
-      10000000110001
-      10000000110001
-      10000000110001
-      10000111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      01001111100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9315 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01000011100010
-      10000111100001
-      10001101100001
-      10001101100001
-      10001101100001
-      10001111110001
-      10000001100001
-      10000001100001
-      10000001100001
-      01000001100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9316 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01001111110010
-      10001100000001
-      10001100000001
-      10001100000001
-      10001111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      01001111100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9317 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01000111100010
-      10001100000001
-      10001100000001
-      10001100000001
-      10001111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      01000111100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9318 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01001111110010
-      10000000110001
-      10000000110001
-      10000000110001
-      10000001100001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      01000011000010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9319 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01000111100010
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      01000111100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9320 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01000111100010
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      01000111100010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9321 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011001111010
-      10111011001101
-      10011011001101
-      10011011011101
-      10011011111101
-      10011011101101
-      10011011001101
-      10011011001101
-      10011011001101
-      01011001111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9322 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01001100110010
-      10011101110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      01001100110010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9323 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011011111010
-      10111000001101
-      10011000001101
-      10011000001101
-      10011001111001
-      10011011000001
-      10011011000001
-      10011011000001
-      10011011000001
-      01011011111110
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9324 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011011111010
-      10111000001101
-      10011000001101
-      10011000001101
-      10011001111001
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      01011011111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9325 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011000111010
-      10111001111001
-      10011011011001
-      10011011011001
-      10011011011001
-      10011011111101
-      10011000011001
-      10011000011001
-      10011000011001
-      01011000011010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9326 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011011111110
-      10111011000001
-      10011011000001
-      10011011000001
-      10011011111001
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      01011011111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9327 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011001111010
-      10111011000001
-      10011011000001
-      10011011000001
-      10011011111001
-      10011011001101
-      10011011001101
-      10011011001101
-      10011011001101
-      01011001111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9328 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011011111110
-      10111000001101
-      10011000001101
-      10011000001101
-      10011000011001
-      10011000110001
-      10011000110001
-      10011000110001
-      10011000110001
-      01011000110010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9329 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011001111010
-      10111011001101
-      10011011001101
-      10011011001101
-      10011001111001
-      10011011001101
-      10011011001101
-      10011011001101
-      10011011001101
-      01011001111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9330 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01011001111010
-      10111011001101
-      10011011001101
-      10011011001101
-      10011001111101
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      01011001111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9331 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01111000111010
-      10001101101101
-      10001101101101
-      10001101101101
-      10011101101101
-      10110001101101
-      10110001101101
-      10110001101101
-      10110001101101
-      01111100111010
-      00100000000100
-      00011111111000
-      """
-    end
-
-    bmp_glyph unicode: 9332 do
+    bmp_glyph name: "parens.enclosure" do
       advance 16
       xmin 1
       xmax 15
@@ -513,495 +38,500 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       data """
       00100000000100
       01000000000010
-      10000011000001
-      10000111000001
-      10001111000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
+      10000000000001
       01000000000010
       00100000000100
       """
     end
 
-    bmp_glyph unicode: 9333 do
+    bmp_glyph name: "zero.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10001111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000111100001
-      10001100000001
-      10001100000001
-      10001100000001
-      10001100000001
-      10001111110001
-      01000000000010
-      00100000000100
+      011110
+      110011
+      110011
+      110111
+      111111
+      111011
+      110011
+      110011
+      110011
+      011110
       """
     end
 
-    bmp_glyph unicode: 9334 do
+    bmp_glyph name: "zero.enclosed2" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 8
+      xmax 13
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10001111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10001111100001
-      01000000000010
-      00100000000100
+      01110
+      11011
+      11011
+      11011
+      11011
+      11011
+      11011
+      11011
+      11011
+      01110
       """
     end
 
-    bmp_glyph unicode: 9335 do
+    bmp_glyph name: "one.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 3
+      xmax 6
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10000011100001
-      10000111100001
-      10001101100001
-      10001101100001
-      10001101100001
-      10001111110001
-      10000001100001
-      10000001100001
-      10000001100001
-      10000001100001
-      01000000000010
-      00100000000100
+      011
+      111
+      011
+      011
+      011
+      011
+      011
+      011
+      011
+      011
       """
     end
 
-    bmp_glyph unicode: 9336 do
+    bmp_glyph name: "two.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10001111110001
-      10001100000001
-      10001100000001
-      10001100000001
-      10001111100001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10001111100001
-      01000000000010
-      00100000000100
+      111110
+      000011
+      000011
+      000011
+      011110
+      110000
+      110000
+      110000
+      110000
+      111111
       """
     end
 
-    bmp_glyph unicode: 9337 do
+    bmp_glyph name: "two.enclosed2" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 3
+      xmax 7
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10000111100001
-      10001100000001
-      10001100000001
-      10001100000001
-      10001111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111100001
-      01000000000010
-      00100000000100
+      1110
+      0011
+      0011
+      0011
+      0111
+      1100
+      1100
+      1100
+      1100
+      1111
       """
     end
 
-    bmp_glyph unicode: 9338 do
+    bmp_glyph name: "three.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10001111110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000001100001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      10000011000001
-      01000000000010
-      00100000000100
+      111110
+      000011
+      000011
+      000011
+      011110
+      000011
+      000011
+      000011
+      000011
+      111110
       """
     end
 
-    bmp_glyph unicode: 9339 do
+    bmp_glyph name: "four.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10000111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111100001
-      01000000000010
-      00100000000100
+      001110
+      011110
+      110110
+      110110
+      110110
+      111111
+      000110
+      000110
+      000110
+      000110
       """
     end
 
-    bmp_glyph unicode: 9340 do
+    bmp_glyph name: "five.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10000111100001
-      10001100110001
-      10001100110001
-      10001100110001
-      10000111110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000000110001
-      10000111100001
-      01000000000010
-      00100000000100
+      111111
+      110000
+      110000
+      110000
+      111110
+      000011
+      000011
+      000011
+      000011
+      111110
       """
     end
 
-    bmp_glyph unicode: 9341 do
+    bmp_glyph name: "six.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10011001111001
-      10111011001101
-      10011011001101
-      10011011011101
-      10011011111101
-      10011011101101
-      10011011001101
-      10011011001101
-      10011011001101
-      10011001111001
-      01000000000010
-      00100000000100
+      011110
+      110000
+      110000
+      110000
+      111110
+      110011
+      110011
+      110011
+      110011
+      011110
       """
     end
 
-    bmp_glyph unicode: 9342 do
+    bmp_glyph name: "seven.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10001100110001
-      10011101110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      10001100110001
-      01000000000010
-      00100000000100
+      111111
+      000011
+      000011
+      000011
+      000110
+      001100
+      001100
+      001100
+      001100
+      001100
       """
     end
 
-    bmp_glyph unicode: 9343 do
+    bmp_glyph name: "eight.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10011011111001
-      10111000001101
-      10011000001101
-      10011000001101
-      10011001111001
-      10011011000001
-      10011011000001
-      10011011000001
-      10011011000001
-      10011011111101
-      01000000000010
-      00100000000100
+      011110
+      110011
+      110011
+      110011
+      011110
+      110011
+      110011
+      110011
+      110011
+      011110
       """
     end
 
-    bmp_glyph unicode: 9344 do
+    bmp_glyph name: "nine.enclosed" do
       advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+      xmin 5
+      xmax 11
+      ymin 0
+      ymax 10
 
       data """
-      00100000000100
-      01000000000010
-      10011011111001
-      10111000001101
-      10011000001101
-      10011000001101
-      10011001111001
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      10011011111001
-      01000000000010
-      00100000000100
+      011110
+      110011
+      110011
+      110011
+      011111
+      000011
+      000011
+      000011
+      000011
+      011110
       """
     end
 
-    bmp_glyph unicode: 9345 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
+    # Circled Numbers
 
-      data """
-      00100000000100
-      01000000000010
-      10011000111001
-      10111001111001
-      10011011011001
-      10011011011001
-      10011011011001
-      10011011111101
-      10011000011001
-      10011000011001
-      10011000011001
-      10011000011001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9312 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:unicode, ?1}, 4, 0
     end
 
-    bmp_glyph unicode: 9346 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10011011111101
-      10111011000001
-      10011011000001
-      10011011000001
-      10011011111001
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      10011011111001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9313 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "two.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9347 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10011001111001
-      10111011000001
-      10011011000001
-      10011011000001
-      10011011111001
-      10011011001101
-      10011011001101
-      10011011001101
-      10011011001101
-      10011001111001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9314 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "three.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9348 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10011011111101
-      10111000001101
-      10011000001101
-      10011000001101
-      10011000011001
-      10011000110001
-      10011000110001
-      10011000110001
-      10011000110001
-      10011000110001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9315 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "four.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9349 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10011001111001
-      10111011001101
-      10011011001101
-      10011011001101
-      10011001111001
-      10011011001101
-      10011011001101
-      10011011001101
-      10011011001101
-      10011001111001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9316 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "five.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9350 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10011001111001
-      10111011001101
-      10011011001101
-      10011011001101
-      10011001111101
-      10011000001101
-      10011000001101
-      10011000001101
-      10011000001101
-      10011001111001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9317 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "six.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9351 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00100000000100
-      01000000000010
-      10111000111001
-      10001101101101
-      10001101101101
-      10001101101101
-      10011101101101
-      10110001101101
-      10110001101101
-      10110001101101
-      10110001101101
-      10111100111001
-      01000000000010
-      00100000000100
-      """
+    composite_glyph unicode: 9318 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "seven.enclosed"}, 0, 0
     end
+
+    composite_glyph unicode: 9319 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "eight.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9320 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "nine.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9321 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "zero.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9322 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 1, 0
+      component {:name, "one.enclosed"}, 5, 0
+    end
+
+    composite_glyph unicode: 9323 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "two.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9324 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "three.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9325 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "four.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9326 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "five.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9327 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "six.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9328 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "seven.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9329 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "eight.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9330 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "nine.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9331 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "two.enclosed2"}, 0, 0
+      component {:name, "zero.enclosed2"}, 0, 0
+    end
+
+    # Parenthesized Numbers
+
+    composite_glyph unicode: 9332 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:unicode, ?1}, 4, 0
+    end
+
+    composite_glyph unicode: 9333 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "two.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9334 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "three.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9335 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "four.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9336 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "five.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9337 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "six.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9338 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "seven.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9339 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "eight.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9340 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "nine.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 9341 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "zero.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9342 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 1, 0
+      component {:name, "one.enclosed"}, 5, 0
+    end
+
+    composite_glyph unicode: 9343 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "two.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9344 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "three.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9345 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "four.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9346 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "five.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9347 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "six.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9348 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "seven.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9349 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "eight.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9350 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, 0, 0
+      component {:name, "nine.enclosed"}, 2, 0
+    end
+
+    composite_glyph unicode: 9351 do
+      component {:name, "parens.enclosure"}, 0, 0
+      component {:name, "two.enclosed2"}, 0, 0
+      component {:name, "zero.enclosed2"}, 0, 0
+    end
+
+    # Numbers with a Period
 
     bmp_glyph unicode: 9352 do
       advance 16
@@ -1423,29 +953,9 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    bmp_glyph unicode: 9450 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin -2
-      ymax 12
-
-      data """
-      00011111111000
-      00100000000100
-      01000111100010
-      10001100110001
-      10001100110001
-      10001101110001
-      10001111110001
-      10001110110001
-      10001100110001
-      10001100110001
-      10001100110001
-      01000111100010
-      00100000000100
-      00011111111000
-      """
+    composite_glyph unicode: 9450 do
+      component {:name, "circle.enclosure"}, 0, 0
+      component {:name, "zero.enclosed"}, 0, 0
     end
 
     bmp_glyph unicode: 9451 do
