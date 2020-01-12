@@ -12,7 +12,7 @@ defmodule TTFLib.GlyphSource do
     end
   end
 
-  defmacro glyph([{type, id}], do: block) when type in ~w(unicode name)a do
+  defmacro bmp_glyph([{type, id}], do: block) when type in ~w(unicode name)a do
     attrs =
       block
       |> elem(2)

@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 0xE0A0 do
+    bmp_glyph unicode: 0xE0A0 do
       advance 8
       xmin 0
       xmax 7
@@ -30,7 +30,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0A1 do
+    bmp_glyph unicode: 0xE0A1 do
       advance 8
       xmin 1
       xmax 7
@@ -53,7 +53,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0A2 do
+    bmp_glyph unicode: 0xE0A2 do
       advance 8
       xmin 1
       xmax 7
@@ -72,7 +72,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0B0 do
+    bmp_glyph unicode: 0xE0B0 do
       advance 8
       xmin 0
       xmax 8
@@ -99,7 +99,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0B1 do
+    bmp_glyph unicode: 0xE0B1 do
       advance 8
       xmin 0
       xmax 8
@@ -126,7 +126,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0B2 do
+    bmp_glyph unicode: 0xE0B2 do
       advance 8
       xmin 0
       xmax 8
@@ -153,7 +153,7 @@ defmodule NeoDGM.BitmapFont.PowerlineSymbols do
       """
     end
 
-    glyph unicode: 0xE0B3 do
+    bmp_glyph unicode: 0xE0B3 do
       advance 8
       xmin 0
       xmax 8

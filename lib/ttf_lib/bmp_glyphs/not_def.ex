@@ -3,7 +3,7 @@ defmodule TTFLib.BMPGlyphs.NotDef do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph name: ".notdef" do
+    bmp_glyph name: ".notdef" do
       advance 8
       xmin 1
       xmax 7

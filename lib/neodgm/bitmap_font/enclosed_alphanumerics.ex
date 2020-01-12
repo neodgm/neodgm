@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 9312 do
+    bmp_glyph unicode: 9312 do
       advance 16
       xmin 1
       xmax 15
@@ -28,7 +28,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9313 do
+    bmp_glyph unicode: 9313 do
       advance 16
       xmin 1
       xmax 15
@@ -53,7 +53,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9314 do
+    bmp_glyph unicode: 9314 do
       advance 16
       xmin 1
       xmax 15
@@ -78,7 +78,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9315 do
+    bmp_glyph unicode: 9315 do
       advance 16
       xmin 1
       xmax 15
@@ -103,7 +103,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9316 do
+    bmp_glyph unicode: 9316 do
       advance 16
       xmin 1
       xmax 15
@@ -128,7 +128,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9317 do
+    bmp_glyph unicode: 9317 do
       advance 16
       xmin 1
       xmax 15
@@ -153,7 +153,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9318 do
+    bmp_glyph unicode: 9318 do
       advance 16
       xmin 1
       xmax 15
@@ -178,7 +178,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9319 do
+    bmp_glyph unicode: 9319 do
       advance 16
       xmin 1
       xmax 15
@@ -203,7 +203,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9320 do
+    bmp_glyph unicode: 9320 do
       advance 16
       xmin 1
       xmax 15
@@ -228,7 +228,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9321 do
+    bmp_glyph unicode: 9321 do
       advance 16
       xmin 1
       xmax 15
@@ -253,7 +253,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9322 do
+    bmp_glyph unicode: 9322 do
       advance 16
       xmin 1
       xmax 15
@@ -278,7 +278,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9323 do
+    bmp_glyph unicode: 9323 do
       advance 16
       xmin 1
       xmax 15
@@ -303,7 +303,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9324 do
+    bmp_glyph unicode: 9324 do
       advance 16
       xmin 1
       xmax 15
@@ -328,7 +328,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9325 do
+    bmp_glyph unicode: 9325 do
       advance 16
       xmin 1
       xmax 15
@@ -353,7 +353,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9326 do
+    bmp_glyph unicode: 9326 do
       advance 16
       xmin 1
       xmax 15
@@ -378,7 +378,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9327 do
+    bmp_glyph unicode: 9327 do
       advance 16
       xmin 1
       xmax 15
@@ -403,7 +403,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9328 do
+    bmp_glyph unicode: 9328 do
       advance 16
       xmin 1
       xmax 15
@@ -428,7 +428,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9329 do
+    bmp_glyph unicode: 9329 do
       advance 16
       xmin 1
       xmax 15
@@ -453,7 +453,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9330 do
+    bmp_glyph unicode: 9330 do
       advance 16
       xmin 1
       xmax 15
@@ -478,7 +478,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9331 do
+    bmp_glyph unicode: 9331 do
       advance 16
       xmin 1
       xmax 15
@@ -503,7 +503,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9332 do
+    bmp_glyph unicode: 9332 do
       advance 16
       xmin 1
       xmax 15
@@ -528,7 +528,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9333 do
+    bmp_glyph unicode: 9333 do
       advance 16
       xmin 1
       xmax 15
@@ -553,7 +553,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9334 do
+    bmp_glyph unicode: 9334 do
       advance 16
       xmin 1
       xmax 15
@@ -578,7 +578,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9335 do
+    bmp_glyph unicode: 9335 do
       advance 16
       xmin 1
       xmax 15
@@ -603,7 +603,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9336 do
+    bmp_glyph unicode: 9336 do
       advance 16
       xmin 1
       xmax 15
@@ -628,7 +628,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9337 do
+    bmp_glyph unicode: 9337 do
       advance 16
       xmin 1
       xmax 15
@@ -653,7 +653,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9338 do
+    bmp_glyph unicode: 9338 do
       advance 16
       xmin 1
       xmax 15
@@ -678,7 +678,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9339 do
+    bmp_glyph unicode: 9339 do
       advance 16
       xmin 1
       xmax 15
@@ -703,7 +703,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9340 do
+    bmp_glyph unicode: 9340 do
       advance 16
       xmin 1
       xmax 15
@@ -728,7 +728,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9341 do
+    bmp_glyph unicode: 9341 do
       advance 16
       xmin 1
       xmax 15
@@ -753,7 +753,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9342 do
+    bmp_glyph unicode: 9342 do
       advance 16
       xmin 1
       xmax 15
@@ -778,7 +778,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9343 do
+    bmp_glyph unicode: 9343 do
       advance 16
       xmin 1
       xmax 15
@@ -803,7 +803,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9344 do
+    bmp_glyph unicode: 9344 do
       advance 16
       xmin 1
       xmax 15
@@ -828,7 +828,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9345 do
+    bmp_glyph unicode: 9345 do
       advance 16
       xmin 1
       xmax 15
@@ -853,7 +853,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9346 do
+    bmp_glyph unicode: 9346 do
       advance 16
       xmin 1
       xmax 15
@@ -878,7 +878,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9347 do
+    bmp_glyph unicode: 9347 do
       advance 16
       xmin 1
       xmax 15
@@ -903,7 +903,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9348 do
+    bmp_glyph unicode: 9348 do
       advance 16
       xmin 1
       xmax 15
@@ -928,7 +928,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9349 do
+    bmp_glyph unicode: 9349 do
       advance 16
       xmin 1
       xmax 15
@@ -953,7 +953,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9350 do
+    bmp_glyph unicode: 9350 do
       advance 16
       xmin 1
       xmax 15
@@ -978,7 +978,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9351 do
+    bmp_glyph unicode: 9351 do
       advance 16
       xmin 1
       xmax 15
@@ -1003,7 +1003,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9352 do
+    bmp_glyph unicode: 9352 do
       advance 16
       xmin 3
       xmax 12
@@ -1024,7 +1024,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9353 do
+    bmp_glyph unicode: 9353 do
       advance 16
       xmin 3
       xmax 12
@@ -1045,7 +1045,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9354 do
+    bmp_glyph unicode: 9354 do
       advance 16
       xmin 3
       xmax 12
@@ -1066,7 +1066,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9355 do
+    bmp_glyph unicode: 9355 do
       advance 16
       xmin 3
       xmax 12
@@ -1087,7 +1087,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9356 do
+    bmp_glyph unicode: 9356 do
       advance 16
       xmin 3
       xmax 12
@@ -1108,7 +1108,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9357 do
+    bmp_glyph unicode: 9357 do
       advance 16
       xmin 3
       xmax 12
@@ -1129,7 +1129,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9358 do
+    bmp_glyph unicode: 9358 do
       advance 16
       xmin 3
       xmax 12
@@ -1150,7 +1150,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9359 do
+    bmp_glyph unicode: 9359 do
       advance 16
       xmin 3
       xmax 12
@@ -1171,7 +1171,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9360 do
+    bmp_glyph unicode: 9360 do
       advance 16
       xmin 3
       xmax 12
@@ -1192,7 +1192,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9361 do
+    bmp_glyph unicode: 9361 do
       advance 16
       xmin 1
       xmax 14
@@ -1213,7 +1213,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9362 do
+    bmp_glyph unicode: 9362 do
       advance 16
       xmin 1
       xmax 14
@@ -1234,7 +1234,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9363 do
+    bmp_glyph unicode: 9363 do
       advance 16
       xmin 1
       xmax 14
@@ -1255,7 +1255,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9364 do
+    bmp_glyph unicode: 9364 do
       advance 16
       xmin 1
       xmax 14
@@ -1276,7 +1276,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9365 do
+    bmp_glyph unicode: 9365 do
       advance 16
       xmin 1
       xmax 14
@@ -1297,7 +1297,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9366 do
+    bmp_glyph unicode: 9366 do
       advance 16
       xmin 1
       xmax 14
@@ -1318,7 +1318,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9367 do
+    bmp_glyph unicode: 9367 do
       advance 16
       xmin 1
       xmax 14
@@ -1339,7 +1339,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9368 do
+    bmp_glyph unicode: 9368 do
       advance 16
       xmin 1
       xmax 14
@@ -1360,7 +1360,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9369 do
+    bmp_glyph unicode: 9369 do
       advance 16
       xmin 1
       xmax 14
@@ -1381,7 +1381,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9370 do
+    bmp_glyph unicode: 9370 do
       advance 16
       xmin 1
       xmax 14
@@ -1402,7 +1402,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9371 do
+    bmp_glyph unicode: 9371 do
       advance 16
       xmin 1
       xmax 14
@@ -1423,7 +1423,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9450 do
+    bmp_glyph unicode: 9450 do
       advance 16
       xmin 1
       xmax 15
@@ -1448,7 +1448,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9451 do
+    bmp_glyph unicode: 9451 do
       advance 16
       xmin 1
       xmax 15
@@ -1473,7 +1473,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9452 do
+    bmp_glyph unicode: 9452 do
       advance 16
       xmin 1
       xmax 15
@@ -1498,7 +1498,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9453 do
+    bmp_glyph unicode: 9453 do
       advance 16
       xmin 1
       xmax 15
@@ -1523,7 +1523,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9454 do
+    bmp_glyph unicode: 9454 do
       advance 16
       xmin 1
       xmax 15
@@ -1548,7 +1548,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9455 do
+    bmp_glyph unicode: 9455 do
       advance 16
       xmin 1
       xmax 15
@@ -1573,7 +1573,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9456 do
+    bmp_glyph unicode: 9456 do
       advance 16
       xmin 1
       xmax 15
@@ -1598,7 +1598,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9457 do
+    bmp_glyph unicode: 9457 do
       advance 16
       xmin 1
       xmax 15
@@ -1623,7 +1623,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9458 do
+    bmp_glyph unicode: 9458 do
       advance 16
       xmin 1
       xmax 15
@@ -1648,7 +1648,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9459 do
+    bmp_glyph unicode: 9459 do
       advance 16
       xmin 1
       xmax 15
@@ -1673,7 +1673,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9460 do
+    bmp_glyph unicode: 9460 do
       advance 16
       xmin 1
       xmax 15
@@ -1698,7 +1698,7 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
-    glyph unicode: 9471 do
+    bmp_glyph unicode: 9471 do
       advance 16
       xmin 1
       xmax 15

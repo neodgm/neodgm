@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 9632 do
+    bmp_glyph unicode: 9632 do
       advance 16
       xmin 3
       xmax 14
@@ -25,7 +25,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9633 do
+    bmp_glyph unicode: 9633 do
       advance 16
       xmin 3
       xmax 14
@@ -47,7 +47,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9634 do
+    bmp_glyph unicode: 9634 do
       advance 16
       xmin 3
       xmax 14
@@ -69,7 +69,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9635 do
+    bmp_glyph unicode: 9635 do
       advance 16
       xmin 3
       xmax 14
@@ -91,7 +91,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9636 do
+    bmp_glyph unicode: 9636 do
       advance 16
       xmin 3
       xmax 14
@@ -113,7 +113,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9637 do
+    bmp_glyph unicode: 9637 do
       advance 16
       xmin 3
       xmax 14
@@ -135,7 +135,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9638 do
+    bmp_glyph unicode: 9638 do
       advance 16
       xmin 3
       xmax 14
@@ -157,7 +157,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9639 do
+    bmp_glyph unicode: 9639 do
       advance 16
       xmin 3
       xmax 14
@@ -179,7 +179,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9640 do
+    bmp_glyph unicode: 9640 do
       advance 16
       xmin 3
       xmax 14
@@ -201,7 +201,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9641 do
+    bmp_glyph unicode: 9641 do
       advance 16
       xmin 3
       xmax 14
@@ -223,7 +223,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9642 do
+    bmp_glyph unicode: 9642 do
       advance 16
       xmin 6
       xmax 11
@@ -239,7 +239,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9643 do
+    bmp_glyph unicode: 9643 do
       advance 16
       xmin 6
       xmax 11
@@ -255,7 +255,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9644 do
+    bmp_glyph unicode: 9644 do
       advance 16
       xmin 3
       xmax 14
@@ -273,7 +273,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9645 do
+    bmp_glyph unicode: 9645 do
       advance 16
       xmin 3
       xmax 14
@@ -291,7 +291,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9646 do
+    bmp_glyph unicode: 9646 do
       advance 16
       xmin 5
       xmax 12
@@ -313,7 +313,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9647 do
+    bmp_glyph unicode: 9647 do
       advance 16
       xmin 5
       xmax 12
@@ -335,7 +335,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9648 do
+    bmp_glyph unicode: 9648 do
       advance 16
       xmin 3
       xmax 14
@@ -353,7 +353,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9649 do
+    bmp_glyph unicode: 9649 do
       advance 16
       xmin 3
       xmax 14
@@ -371,7 +371,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9650 do
+    bmp_glyph unicode: 9650 do
       advance 16
       xmin 3
       xmax 14
@@ -393,7 +393,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9651 do
+    bmp_glyph unicode: 9651 do
       advance 16
       xmin 3
       xmax 14
@@ -415,7 +415,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9652 do
+    bmp_glyph unicode: 9652 do
       advance 16
       xmin 5
       xmax 12
@@ -430,7 +430,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9653 do
+    bmp_glyph unicode: 9653 do
       advance 16
       xmin 5
       xmax 12
@@ -445,7 +445,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9654 do
+    bmp_glyph unicode: 9654 do
       advance 16
       xmin 3
       xmax 14
@@ -467,7 +467,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9655 do
+    bmp_glyph unicode: 9655 do
       advance 16
       xmin 3
       xmax 14
@@ -489,7 +489,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9656 do
+    bmp_glyph unicode: 9656 do
       advance 16
       xmin 6
       xmax 10
@@ -507,7 +507,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9657 do
+    bmp_glyph unicode: 9657 do
       advance 16
       xmin 6
       xmax 10
@@ -525,7 +525,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9658 do
+    bmp_glyph unicode: 9658 do
       advance 16
       xmin 3
       xmax 14
@@ -543,7 +543,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9659 do
+    bmp_glyph unicode: 9659 do
       advance 16
       xmin 3
       xmax 14
@@ -561,7 +561,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9660 do
+    bmp_glyph unicode: 9660 do
       advance 16
       xmin 3
       xmax 14
@@ -583,7 +583,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9661 do
+    bmp_glyph unicode: 9661 do
       advance 16
       xmin 3
       xmax 14
@@ -605,7 +605,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9662 do
+    bmp_glyph unicode: 9662 do
       advance 16
       xmin 5
       xmax 12
@@ -620,7 +620,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9663 do
+    bmp_glyph unicode: 9663 do
       advance 16
       xmin 5
       xmax 12
@@ -635,7 +635,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9664 do
+    bmp_glyph unicode: 9664 do
       advance 16
       xmin 3
       xmax 14
@@ -657,7 +657,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9665 do
+    bmp_glyph unicode: 9665 do
       advance 16
       xmin 3
       xmax 14
@@ -679,7 +679,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9666 do
+    bmp_glyph unicode: 9666 do
       advance 16
       xmin 7
       xmax 11
@@ -697,7 +697,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9667 do
+    bmp_glyph unicode: 9667 do
       advance 16
       xmin 7
       xmax 11
@@ -715,7 +715,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9668 do
+    bmp_glyph unicode: 9668 do
       advance 16
       xmin 3
       xmax 14
@@ -733,7 +733,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9669 do
+    bmp_glyph unicode: 9669 do
       advance 16
       xmin 3
       xmax 14
@@ -751,7 +751,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9670 do
+    bmp_glyph unicode: 9670 do
       advance 16
       xmin 3
       xmax 14
@@ -773,7 +773,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9671 do
+    bmp_glyph unicode: 9671 do
       advance 16
       xmin 3
       xmax 14
@@ -795,7 +795,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9672 do
+    bmp_glyph unicode: 9672 do
       advance 16
       xmin 3
       xmax 14
@@ -817,7 +817,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9673 do
+    bmp_glyph unicode: 9673 do
       advance 16
       xmin 3
       xmax 14
@@ -839,7 +839,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9674 do
+    bmp_glyph unicode: 9674 do
       advance 16
       xmin 6
       xmax 11
@@ -861,7 +861,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9675 do
+    bmp_glyph unicode: 9675 do
       advance 16
       xmin 3
       xmax 14
@@ -883,7 +883,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9676 do
+    bmp_glyph unicode: 9676 do
       advance 16
       xmin 3
       xmax 14
@@ -905,7 +905,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9677 do
+    bmp_glyph unicode: 9677 do
       advance 16
       xmin 3
       xmax 14
@@ -927,7 +927,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9678 do
+    bmp_glyph unicode: 9678 do
       advance 16
       xmin 3
       xmax 14
@@ -949,7 +949,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9679 do
+    bmp_glyph unicode: 9679 do
       advance 16
       xmin 3
       xmax 14
@@ -971,7 +971,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9680 do
+    bmp_glyph unicode: 9680 do
       advance 16
       xmin 3
       xmax 14
@@ -993,7 +993,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9681 do
+    bmp_glyph unicode: 9681 do
       advance 16
       xmin 3
       xmax 14
@@ -1015,7 +1015,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9682 do
+    bmp_glyph unicode: 9682 do
       advance 16
       xmin 3
       xmax 14
@@ -1037,7 +1037,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9683 do
+    bmp_glyph unicode: 9683 do
       advance 16
       xmin 3
       xmax 14
@@ -1059,7 +1059,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9684 do
+    bmp_glyph unicode: 9684 do
       advance 16
       xmin 3
       xmax 14
@@ -1081,7 +1081,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9685 do
+    bmp_glyph unicode: 9685 do
       advance 16
       xmin 3
       xmax 14
@@ -1103,7 +1103,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9686 do
+    bmp_glyph unicode: 9686 do
       advance 16
       xmin 3
       xmax 9
@@ -1125,7 +1125,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9687 do
+    bmp_glyph unicode: 9687 do
       advance 16
       xmin 8
       xmax 14
@@ -1147,7 +1147,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9688 do
+    bmp_glyph unicode: 9688 do
       advance 8
       xmin 1
       xmax 15
@@ -1170,7 +1170,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9689 do
+    bmp_glyph unicode: 9689 do
       advance 16
       xmin 2
       xmax 15
@@ -1194,7 +1194,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9690 do
+    bmp_glyph unicode: 9690 do
       advance 16
       xmin 2
       xmax 15
@@ -1212,7 +1212,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9691 do
+    bmp_glyph unicode: 9691 do
       advance 16
       xmin 2
       xmax 15
@@ -1230,7 +1230,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9692 do
+    bmp_glyph unicode: 9692 do
       advance 16
       xmin 3
       xmax 9
@@ -1247,7 +1247,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9693 do
+    bmp_glyph unicode: 9693 do
       advance 16
       xmin 8
       xmax 14
@@ -1264,7 +1264,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9694 do
+    bmp_glyph unicode: 9694 do
       advance 16
       xmin 8
       xmax 14
@@ -1281,7 +1281,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9695 do
+    bmp_glyph unicode: 9695 do
       advance 16
       xmin 3
       xmax 9
@@ -1298,7 +1298,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9696 do
+    bmp_glyph unicode: 9696 do
       advance 16
       xmin 3
       xmax 14
@@ -1315,7 +1315,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9697 do
+    bmp_glyph unicode: 9697 do
       advance 16
       xmin 3
       xmax 14
@@ -1332,7 +1332,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9698 do
+    bmp_glyph unicode: 9698 do
       advance 16
       xmin 3
       xmax 14
@@ -1354,7 +1354,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9699 do
+    bmp_glyph unicode: 9699 do
       advance 16
       xmin 3
       xmax 14
@@ -1376,7 +1376,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9700 do
+    bmp_glyph unicode: 9700 do
       advance 16
       xmin 3
       xmax 14
@@ -1398,7 +1398,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9701 do
+    bmp_glyph unicode: 9701 do
       advance 16
       xmin 3
       xmax 14
@@ -1420,7 +1420,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9702 do
+    bmp_glyph unicode: 9702 do
       advance 8
       xmin 1
       xmax 15
@@ -1437,7 +1437,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9703 do
+    bmp_glyph unicode: 9703 do
       advance 16
       xmin 3
       xmax 14
@@ -1459,7 +1459,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9704 do
+    bmp_glyph unicode: 9704 do
       advance 16
       xmin 3
       xmax 14
@@ -1481,7 +1481,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9705 do
+    bmp_glyph unicode: 9705 do
       advance 16
       xmin 3
       xmax 14
@@ -1503,7 +1503,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9706 do
+    bmp_glyph unicode: 9706 do
       advance 16
       xmin 3
       xmax 14
@@ -1525,7 +1525,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9707 do
+    bmp_glyph unicode: 9707 do
       advance 16
       xmin 3
       xmax 14
@@ -1547,7 +1547,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9708 do
+    bmp_glyph unicode: 9708 do
       advance 16
       xmin 3
       xmax 14
@@ -1569,7 +1569,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9709 do
+    bmp_glyph unicode: 9709 do
       advance 16
       xmin 3
       xmax 14
@@ -1591,7 +1591,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9710 do
+    bmp_glyph unicode: 9710 do
       advance 16
       xmin 3
       xmax 14
@@ -1613,7 +1613,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9711 do
+    bmp_glyph unicode: 9711 do
       advance 16
       xmin 2
       xmax 15
@@ -1637,7 +1637,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9712 do
+    bmp_glyph unicode: 9712 do
       advance 16
       xmin 3
       xmax 14
@@ -1659,7 +1659,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9713 do
+    bmp_glyph unicode: 9713 do
       advance 16
       xmin 3
       xmax 14
@@ -1681,7 +1681,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9714 do
+    bmp_glyph unicode: 9714 do
       advance 16
       xmin 3
       xmax 14
@@ -1703,7 +1703,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9715 do
+    bmp_glyph unicode: 9715 do
       advance 16
       xmin 3
       xmax 14
@@ -1725,7 +1725,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9716 do
+    bmp_glyph unicode: 9716 do
       advance 16
       xmin 3
       xmax 14
@@ -1747,7 +1747,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9717 do
+    bmp_glyph unicode: 9717 do
       advance 16
       xmin 3
       xmax 14
@@ -1769,7 +1769,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9718 do
+    bmp_glyph unicode: 9718 do
       advance 16
       xmin 3
       xmax 14
@@ -1791,7 +1791,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9719 do
+    bmp_glyph unicode: 9719 do
       advance 16
       xmin 3
       xmax 14
@@ -1813,7 +1813,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9720 do
+    bmp_glyph unicode: 9720 do
       advance 16
       xmin 4
       xmax 13
@@ -1833,7 +1833,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9721 do
+    bmp_glyph unicode: 9721 do
       advance 16
       xmin 4
       xmax 13
@@ -1853,7 +1853,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9722 do
+    bmp_glyph unicode: 9722 do
       advance 16
       xmin 4
       xmax 13
@@ -1873,7 +1873,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9723 do
+    bmp_glyph unicode: 9723 do
       advance 16
       xmin 4
       xmax 13
@@ -1893,7 +1893,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9724 do
+    bmp_glyph unicode: 9724 do
       advance 16
       xmin 4
       xmax 13
@@ -1913,7 +1913,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9725 do
+    bmp_glyph unicode: 9725 do
       advance 16
       xmin 5
       xmax 12
@@ -1931,7 +1931,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9726 do
+    bmp_glyph unicode: 9726 do
       advance 16
       xmin 5
       xmax 12
@@ -1949,7 +1949,7 @@ defmodule NeoDGM.BitmapFont.GeometricShapes do
       """
     end
 
-    glyph unicode: 9727 do
+    bmp_glyph unicode: 9727 do
       advance 16
       xmin 4
       xmax 13

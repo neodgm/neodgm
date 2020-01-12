@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: ?─ do
+    bmp_glyph unicode: ?─ do
       advance 8
       xmin 0
       xmax 8
@@ -15,7 +15,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?━ do
+    bmp_glyph unicode: ?━ do
       advance 8
       xmin 0
       xmax 8
@@ -28,7 +28,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?│ do
+    bmp_glyph unicode: ?│ do
       advance 8
       xmin 4
       xmax 5
@@ -55,7 +55,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┃ do
+    bmp_glyph unicode: ?┃ do
       advance 8
       xmin 3
       xmax 5
@@ -82,7 +82,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┄ do
+    bmp_glyph unicode: ?┄ do
       advance 8
       xmin 0
       xmax 7
@@ -94,7 +94,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┅ do
+    bmp_glyph unicode: ?┅ do
       advance 8
       xmin 0
       xmax 7
@@ -107,7 +107,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┆ do
+    bmp_glyph unicode: ?┆ do
       advance 8
       xmin 4
       xmax 5
@@ -131,7 +131,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┇ do
+    bmp_glyph unicode: ?┇ do
       advance 8
       xmin 3
       xmax 5
@@ -155,7 +155,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┈ do
+    bmp_glyph unicode: ?┈ do
       advance 8
       xmin 0
       xmax 7
@@ -167,7 +167,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┉ do
+    bmp_glyph unicode: ?┉ do
       advance 8
       xmin 0
       xmax 7
@@ -180,7 +180,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┊ do
+    bmp_glyph unicode: ?┊ do
       advance 8
       xmin 4
       xmax 5
@@ -205,7 +205,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┋ do
+    bmp_glyph unicode: ?┋ do
       advance 8
       xmin 3
       xmax 5
@@ -230,7 +230,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┌ do
+    bmp_glyph unicode: ?┌ do
       advance 8
       xmin 4
       xmax 8
@@ -250,7 +250,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┍ do
+    bmp_glyph unicode: ?┍ do
       advance 8
       xmin 4
       xmax 8
@@ -270,7 +270,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┎ do
+    bmp_glyph unicode: ?┎ do
       advance 8
       xmin 3
       xmax 8
@@ -290,7 +290,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┏ do
+    bmp_glyph unicode: ?┏ do
       advance 8
       xmin 3
       xmax 8
@@ -310,7 +310,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┐ do
+    bmp_glyph unicode: ?┐ do
       advance 8
       xmin 0
       xmax 5
@@ -330,7 +330,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┑ do
+    bmp_glyph unicode: ?┑ do
       advance 8
       xmin 0
       xmax 5
@@ -350,7 +350,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┒ do
+    bmp_glyph unicode: ?┒ do
       advance 8
       xmin 0
       xmax 5
@@ -370,7 +370,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┓ do
+    bmp_glyph unicode: ?┓ do
       advance 8
       xmin 0
       xmax 5
@@ -390,7 +390,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?└ do
+    bmp_glyph unicode: ?└ do
       advance 8
       xmin 4
       xmax 8
@@ -409,7 +409,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┕ do
+    bmp_glyph unicode: ?┕ do
       advance 8
       xmin 4
       xmax 8
@@ -429,7 +429,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┖ do
+    bmp_glyph unicode: ?┖ do
       advance 8
       xmin 3
       xmax 8
@@ -448,7 +448,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┗ do
+    bmp_glyph unicode: ?┗ do
       advance 8
       xmin 3
       xmax 8
@@ -468,7 +468,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┘ do
+    bmp_glyph unicode: ?┘ do
       advance 8
       xmin 0
       xmax 5
@@ -487,7 +487,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┙ do
+    bmp_glyph unicode: ?┙ do
       advance 8
       xmin 0
       xmax 5
@@ -507,7 +507,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┚ do
+    bmp_glyph unicode: ?┚ do
       advance 8
       xmin 0
       xmax 5
@@ -526,7 +526,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┛ do
+    bmp_glyph unicode: ?┛ do
       advance 8
       xmin 0
       xmax 5
@@ -546,7 +546,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?├ do
+    bmp_glyph unicode: ?├ do
       advance 8
       xmin 4
       xmax 8
@@ -573,7 +573,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┝ do
+    bmp_glyph unicode: ?┝ do
       advance 8
       xmin 4
       xmax 8
@@ -600,7 +600,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┞ do
+    bmp_glyph unicode: ?┞ do
       advance 8
       xmin 3
       xmax 8
@@ -627,7 +627,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┟ do
+    bmp_glyph unicode: ?┟ do
       advance 8
       xmin 3
       xmax 8
@@ -654,7 +654,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┠ do
+    bmp_glyph unicode: ?┠ do
       advance 8
       xmin 3
       xmax 8
@@ -681,7 +681,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┡ do
+    bmp_glyph unicode: ?┡ do
       advance 8
       xmin 3
       xmax 8
@@ -708,7 +708,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┢ do
+    bmp_glyph unicode: ?┢ do
       advance 8
       xmin 3
       xmax 8
@@ -735,7 +735,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┣ do
+    bmp_glyph unicode: ?┣ do
       advance 8
       xmin 3
       xmax 8
@@ -762,7 +762,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┤ do
+    bmp_glyph unicode: ?┤ do
       advance 8
       xmin 0
       xmax 5
@@ -789,7 +789,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┥ do
+    bmp_glyph unicode: ?┥ do
       advance 8
       xmin 0
       xmax 5
@@ -816,7 +816,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┦ do
+    bmp_glyph unicode: ?┦ do
       advance 8
       xmin 0
       xmax 5
@@ -843,7 +843,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┧ do
+    bmp_glyph unicode: ?┧ do
       advance 8
       xmin 0
       xmax 5
@@ -870,7 +870,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┨ do
+    bmp_glyph unicode: ?┨ do
       advance 8
       xmin 0
       xmax 5
@@ -897,7 +897,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┩ do
+    bmp_glyph unicode: ?┩ do
       advance 8
       xmin 0
       xmax 5
@@ -924,7 +924,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┪ do
+    bmp_glyph unicode: ?┪ do
       advance 8
       xmin 0
       xmax 5
@@ -951,7 +951,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┫ do
+    bmp_glyph unicode: ?┫ do
       advance 8
       xmin 0
       xmax 5
@@ -978,7 +978,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┬ do
+    bmp_glyph unicode: ?┬ do
       advance 8
       xmin 0
       xmax 8
@@ -998,7 +998,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┭ do
+    bmp_glyph unicode: ?┭ do
       advance 8
       xmin 0
       xmax 8
@@ -1018,7 +1018,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┮ do
+    bmp_glyph unicode: ?┮ do
       advance 8
       xmin 0
       xmax 8
@@ -1038,7 +1038,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┯ do
+    bmp_glyph unicode: ?┯ do
       advance 8
       xmin 0
       xmax 8
@@ -1058,7 +1058,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┰ do
+    bmp_glyph unicode: ?┰ do
       advance 8
       xmin 0
       xmax 8
@@ -1078,7 +1078,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┱ do
+    bmp_glyph unicode: ?┱ do
       advance 8
       xmin 0
       xmax 8
@@ -1098,7 +1098,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┲ do
+    bmp_glyph unicode: ?┲ do
       advance 8
       xmin 0
       xmax 8
@@ -1118,7 +1118,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┳ do
+    bmp_glyph unicode: ?┳ do
       advance 8
       xmin 0
       xmax 8
@@ -1138,7 +1138,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┴ do
+    bmp_glyph unicode: ?┴ do
       advance 8
       xmin 0
       xmax 8
@@ -1157,7 +1157,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┵ do
+    bmp_glyph unicode: ?┵ do
       advance 8
       xmin 0
       xmax 8
@@ -1177,7 +1177,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┶ do
+    bmp_glyph unicode: ?┶ do
       advance 8
       xmin 0
       xmax 8
@@ -1197,7 +1197,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┷ do
+    bmp_glyph unicode: ?┷ do
       advance 8
       xmin 0
       xmax 8
@@ -1217,7 +1217,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┸ do
+    bmp_glyph unicode: ?┸ do
       advance 8
       xmin 0
       xmax 8
@@ -1236,7 +1236,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┹ do
+    bmp_glyph unicode: ?┹ do
       advance 8
       xmin 0
       xmax 8
@@ -1256,7 +1256,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┺ do
+    bmp_glyph unicode: ?┺ do
       advance 8
       xmin 0
       xmax 8
@@ -1276,7 +1276,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┻ do
+    bmp_glyph unicode: ?┻ do
       advance 8
       xmin 0
       xmax 8
@@ -1296,7 +1296,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┼ do
+    bmp_glyph unicode: ?┼ do
       advance 8
       xmin 0
       xmax 8
@@ -1323,7 +1323,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┽ do
+    bmp_glyph unicode: ?┽ do
       advance 8
       xmin 0
       xmax 8
@@ -1350,7 +1350,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┾ do
+    bmp_glyph unicode: ?┾ do
       advance 8
       xmin 0
       xmax 8
@@ -1377,7 +1377,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?┿ do
+    bmp_glyph unicode: ?┿ do
       advance 8
       xmin 0
       xmax 8
@@ -1404,7 +1404,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╀ do
+    bmp_glyph unicode: ?╀ do
       advance 8
       xmin 0
       xmax 8
@@ -1431,7 +1431,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╁ do
+    bmp_glyph unicode: ?╁ do
       advance 8
       xmin 0
       xmax 8
@@ -1458,7 +1458,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╂ do
+    bmp_glyph unicode: ?╂ do
       advance 8
       xmin 0
       xmax 8
@@ -1485,7 +1485,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╃ do
+    bmp_glyph unicode: ?╃ do
       advance 8
       xmin 0
       xmax 8
@@ -1512,7 +1512,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╄ do
+    bmp_glyph unicode: ?╄ do
       advance 8
       xmin 0
       xmax 8
@@ -1539,7 +1539,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╅ do
+    bmp_glyph unicode: ?╅ do
       advance 8
       xmin 0
       xmax 8
@@ -1566,7 +1566,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╆ do
+    bmp_glyph unicode: ?╆ do
       advance 8
       xmin 0
       xmax 8
@@ -1593,7 +1593,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╇ do
+    bmp_glyph unicode: ?╇ do
       advance 8
       xmin 0
       xmax 8
@@ -1620,7 +1620,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╈ do
+    bmp_glyph unicode: ?╈ do
       advance 8
       xmin 0
       xmax 8
@@ -1647,7 +1647,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╉ do
+    bmp_glyph unicode: ?╉ do
       advance 8
       xmin 0
       xmax 8
@@ -1674,7 +1674,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╊ do
+    bmp_glyph unicode: ?╊ do
       advance 8
       xmin 0
       xmax 8
@@ -1701,7 +1701,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╋ do
+    bmp_glyph unicode: ?╋ do
       advance 8
       xmin 0
       xmax 8
@@ -1728,7 +1728,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╌ do
+    bmp_glyph unicode: ?╌ do
       advance 8
       xmin 1
       xmax 7
@@ -1740,7 +1740,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╍ do
+    bmp_glyph unicode: ?╍ do
       advance 8
       xmin 1
       xmax 7
@@ -1753,7 +1753,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╎ do
+    bmp_glyph unicode: ?╎ do
       advance 8
       xmin 4
       xmax 5
@@ -1776,7 +1776,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╏ do
+    bmp_glyph unicode: ?╏ do
       advance 8
       xmin 3
       xmax 5
@@ -1799,7 +1799,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?═ do
+    bmp_glyph unicode: ?═ do
       advance 8
       xmin 0
       xmax 8
@@ -1813,7 +1813,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?║ do
+    bmp_glyph unicode: ?║ do
       advance 8
       xmin 3
       xmax 6
@@ -1840,7 +1840,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╒ do
+    bmp_glyph unicode: ?╒ do
       advance 8
       xmin 4
       xmax 8
@@ -1861,7 +1861,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╓ do
+    bmp_glyph unicode: ?╓ do
       advance 8
       xmin 3
       xmax 8
@@ -1881,7 +1881,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╔ do
+    bmp_glyph unicode: ?╔ do
       advance 8
       xmin 3
       xmax 8
@@ -1902,7 +1902,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╕ do
+    bmp_glyph unicode: ?╕ do
       advance 8
       xmin 0
       xmax 5
@@ -1923,7 +1923,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╖ do
+    bmp_glyph unicode: ?╖ do
       advance 8
       xmin 0
       xmax 6
@@ -1943,7 +1943,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╗ do
+    bmp_glyph unicode: ?╗ do
       advance 8
       xmin 0
       xmax 6
@@ -1964,7 +1964,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╘ do
+    bmp_glyph unicode: ?╘ do
       advance 8
       xmin 4
       xmax 8
@@ -1984,7 +1984,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╙ do
+    bmp_glyph unicode: ?╙ do
       advance 8
       xmin 3
       xmax 8
@@ -2003,7 +2003,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╚ do
+    bmp_glyph unicode: ?╚ do
       advance 8
       xmin 3
       xmax 8
@@ -2023,7 +2023,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╛ do
+    bmp_glyph unicode: ?╛ do
       advance 8
       xmin 0
       xmax 5
@@ -2043,7 +2043,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╜ do
+    bmp_glyph unicode: ?╜ do
       advance 8
       xmin 0
       xmax 6
@@ -2062,7 +2062,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╝ do
+    bmp_glyph unicode: ?╝ do
       advance 8
       xmin 0
       xmax 6
@@ -2082,7 +2082,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╞ do
+    bmp_glyph unicode: ?╞ do
       advance 8
       xmin 4
       xmax 8
@@ -2109,7 +2109,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╟ do
+    bmp_glyph unicode: ?╟ do
       advance 8
       xmin 3
       xmax 8
@@ -2136,7 +2136,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╠ do
+    bmp_glyph unicode: ?╠ do
       advance 8
       xmin 3
       xmax 8
@@ -2163,7 +2163,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╡ do
+    bmp_glyph unicode: ?╡ do
       advance 8
       xmin 0
       xmax 5
@@ -2190,7 +2190,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╢ do
+    bmp_glyph unicode: ?╢ do
       advance 8
       xmin 0
       xmax 6
@@ -2217,7 +2217,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╣ do
+    bmp_glyph unicode: ?╣ do
       advance 8
       xmin 0
       xmax 6
@@ -2244,7 +2244,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╤ do
+    bmp_glyph unicode: ?╤ do
       advance 8
       xmin 0
       xmax 8
@@ -2265,7 +2265,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╥ do
+    bmp_glyph unicode: ?╥ do
       advance 8
       xmin 0
       xmax 8
@@ -2285,7 +2285,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╦ do
+    bmp_glyph unicode: ?╦ do
       advance 8
       xmin 0
       xmax 8
@@ -2306,7 +2306,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╧ do
+    bmp_glyph unicode: ?╧ do
       advance 8
       xmin 0
       xmax 8
@@ -2326,7 +2326,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╨ do
+    bmp_glyph unicode: ?╨ do
       advance 8
       xmin 0
       xmax 8
@@ -2345,7 +2345,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╩ do
+    bmp_glyph unicode: ?╩ do
       advance 8
       xmin 0
       xmax 8
@@ -2365,7 +2365,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╪ do
+    bmp_glyph unicode: ?╪ do
       advance 8
       xmin 0
       xmax 8
@@ -2392,7 +2392,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╫ do
+    bmp_glyph unicode: ?╫ do
       advance 8
       xmin 0
       xmax 8
@@ -2419,7 +2419,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╬ do
+    bmp_glyph unicode: ?╬ do
       advance 8
       xmin 0
       xmax 8
@@ -2446,7 +2446,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╭ do
+    bmp_glyph unicode: ?╭ do
       advance 8
       xmin 4
       xmax 8
@@ -2466,7 +2466,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╮ do
+    bmp_glyph unicode: ?╮ do
       advance 8
       xmin 0
       xmax 5
@@ -2486,7 +2486,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╯ do
+    bmp_glyph unicode: ?╯ do
       advance 8
       xmin 0
       xmax 5
@@ -2505,7 +2505,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╰ do
+    bmp_glyph unicode: ?╰ do
       advance 8
       xmin 4
       xmax 8
@@ -2524,7 +2524,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╱ do
+    bmp_glyph unicode: ?╱ do
       advance 8
       xmin 0
       xmax 8
@@ -2551,7 +2551,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╲ do
+    bmp_glyph unicode: ?╲ do
       advance 8
       xmin 0
       xmax 8
@@ -2578,7 +2578,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╳ do
+    bmp_glyph unicode: ?╳ do
       advance 8
       xmin 0
       xmax 8
@@ -2605,7 +2605,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╴ do
+    bmp_glyph unicode: ?╴ do
       advance 8
       xmin 0
       xmax 5
@@ -2617,7 +2617,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╵ do
+    bmp_glyph unicode: ?╵ do
       advance 8
       xmin 4
       xmax 5
@@ -2636,7 +2636,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╶ do
+    bmp_glyph unicode: ?╶ do
       advance 8
       xmin 4
       xmax 8
@@ -2648,7 +2648,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╷ do
+    bmp_glyph unicode: ?╷ do
       advance 8
       xmin 4
       xmax 5
@@ -2668,7 +2668,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╸ do
+    bmp_glyph unicode: ?╸ do
       advance 8
       xmin 0
       xmax 5
@@ -2681,7 +2681,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╹ do
+    bmp_glyph unicode: ?╹ do
       advance 8
       xmin 3
       xmax 5
@@ -2701,7 +2701,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╺ do
+    bmp_glyph unicode: ?╺ do
       advance 8
       xmin 3
       xmax 8
@@ -2714,7 +2714,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╻ do
+    bmp_glyph unicode: ?╻ do
       advance 8
       xmin 3
       xmax 5
@@ -2734,7 +2734,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╼ do
+    bmp_glyph unicode: ?╼ do
       advance 8
       xmin 0
       xmax 8
@@ -2747,7 +2747,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╽ do
+    bmp_glyph unicode: ?╽ do
       advance 8
       xmin 3
       xmax 5
@@ -2774,7 +2774,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╾ do
+    bmp_glyph unicode: ?╾ do
       advance 8
       xmin 0
       xmax 8
@@ -2787,7 +2787,7 @@ defmodule NeoDGM.BitmapFont.BoxDrawing do
       """
     end
 
-    glyph unicode: ?╿ do
+    bmp_glyph unicode: ?╿ do
       advance 8
       xmin 3
       xmax 5

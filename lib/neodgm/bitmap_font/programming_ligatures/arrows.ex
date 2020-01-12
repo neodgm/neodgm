@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph name: "hyphen.larr.head" do
+    bmp_glyph name: "hyphen.larr.head" do
       advance 8
       xmin -5
       xmax 7
@@ -15,7 +15,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.larr.body" do
+    bmp_glyph name: "hyphen.larr.body" do
       advance 8
       xmin -1
       xmax 7
@@ -27,7 +27,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.rarr.head" do
+    bmp_glyph name: "hyphen.rarr.head" do
       advance 8
       xmin 0
       xmax 13
@@ -39,7 +39,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.rarr.head2" do
+    bmp_glyph name: "hyphen.rarr.head2" do
       advance 8
       xmin -1
       xmax 13
@@ -51,7 +51,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.rarr.body" do
+    bmp_glyph name: "hyphen.rarr.body" do
       advance 8
       xmin 0
       xmax 8
@@ -63,7 +63,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.bidiarr.short" do
+    bmp_glyph name: "hyphen.bidiarr.short" do
       advance 8
       xmin -5
       xmax 13
@@ -75,7 +75,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "hyphen.bidiarr.joiner" do
+    bmp_glyph name: "hyphen.bidiarr.joiner" do
       advance 8
       xmin -1
       xmax 8
@@ -87,7 +87,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.larr.head" do
+    bmp_glyph name: "equal.larr.head" do
       advance 8
       xmin -4
       xmax 7
@@ -101,7 +101,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.larr.body" do
+    bmp_glyph name: "equal.larr.body" do
       advance 8
       xmin -1
       xmax 7
@@ -115,7 +115,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.rarr.head" do
+    bmp_glyph name: "equal.rarr.head" do
       advance 8
       xmin 1
       xmax 12
@@ -129,7 +129,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.rarr.head2" do
+    bmp_glyph name: "equal.rarr.head2" do
       advance 8
       xmin -1
       xmax 12
@@ -143,7 +143,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.rarr.body" do
+    bmp_glyph name: "equal.rarr.body" do
       advance 8
       xmin 1
       xmax 9
@@ -157,7 +157,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.bidiarr.short" do
+    bmp_glyph name: "equal.bidiarr.short" do
       advance 8
       xmin -4
       xmax 12
@@ -171,7 +171,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
       """
     end
 
-    glyph name: "equal.bidiarr.joiner" do
+    bmp_glyph name: "equal.bidiarr.joiner" do
       advance 8
       xmin -1
       xmax 9

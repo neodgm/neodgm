@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 9776 do
+    bmp_glyph unicode: 9776 do
       advance 16
       xmin 2
       xmax 14
@@ -26,7 +26,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9777 do
+    bmp_glyph unicode: 9777 do
       advance 16
       xmin 2
       xmax 14
@@ -49,7 +49,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9778 do
+    bmp_glyph unicode: 9778 do
       advance 16
       xmin 2
       xmax 14
@@ -72,7 +72,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9779 do
+    bmp_glyph unicode: 9779 do
       advance 16
       xmin 2
       xmax 14
@@ -95,7 +95,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9780 do
+    bmp_glyph unicode: 9780 do
       advance 16
       xmin 2
       xmax 14
@@ -118,7 +118,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9781 do
+    bmp_glyph unicode: 9781 do
       advance 16
       xmin 2
       xmax 14
@@ -141,7 +141,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9782 do
+    bmp_glyph unicode: 9782 do
       advance 16
       xmin 2
       xmax 14
@@ -164,7 +164,7 @@ defmodule NeoDGM.BitmapFont.Trigrams do
       """
     end
 
-    glyph unicode: 9783 do
+    bmp_glyph unicode: 9783 do
       advance 16
       xmin 2
       xmax 14

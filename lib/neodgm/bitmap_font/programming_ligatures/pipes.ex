@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph name: "less.pipeoperator" do
+    bmp_glyph name: "less.pipeoperator" do
       advance 8
       xmin 1
       xmax 8
@@ -25,7 +25,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
       """
     end
 
-    glyph name: "greater.pipeoperator" do
+    bmp_glyph name: "greater.pipeoperator" do
       advance 8
       xmin 0
       xmax 7
@@ -47,7 +47,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
       """
     end
 
-    glyph name: "bar.pipeoperator" do
+    bmp_glyph name: "bar.pipeoperator" do
       advance 8
       xmin 3
       xmax 5

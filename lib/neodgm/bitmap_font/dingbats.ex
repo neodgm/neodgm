@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 10102 do
+    bmp_glyph unicode: 10102 do
       advance 16
       xmin 1
       xmax 15
@@ -28,7 +28,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10103 do
+    bmp_glyph unicode: 10103 do
       advance 16
       xmin 1
       xmax 15
@@ -53,7 +53,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10104 do
+    bmp_glyph unicode: 10104 do
       advance 16
       xmin 1
       xmax 15
@@ -78,7 +78,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10105 do
+    bmp_glyph unicode: 10105 do
       advance 16
       xmin 1
       xmax 15
@@ -103,7 +103,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10106 do
+    bmp_glyph unicode: 10106 do
       advance 16
       xmin 1
       xmax 15
@@ -128,7 +128,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10107 do
+    bmp_glyph unicode: 10107 do
       advance 16
       xmin 1
       xmax 15
@@ -153,7 +153,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10108 do
+    bmp_glyph unicode: 10108 do
       advance 16
       xmin 1
       xmax 15
@@ -178,7 +178,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10109 do
+    bmp_glyph unicode: 10109 do
       advance 16
       xmin 1
       xmax 15
@@ -203,7 +203,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10110 do
+    bmp_glyph unicode: 10110 do
       advance 16
       xmin 1
       xmax 15
@@ -228,7 +228,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10111 do
+    bmp_glyph unicode: 10111 do
       advance 16
       xmin 1
       xmax 15
@@ -253,7 +253,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10112 do
+    bmp_glyph unicode: 10112 do
       advance 16
       xmin 1
       xmax 15
@@ -278,7 +278,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10113 do
+    bmp_glyph unicode: 10113 do
       advance 16
       xmin 1
       xmax 15
@@ -303,7 +303,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10114 do
+    bmp_glyph unicode: 10114 do
       advance 16
       xmin 1
       xmax 15
@@ -328,7 +328,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10115 do
+    bmp_glyph unicode: 10115 do
       advance 16
       xmin 1
       xmax 15
@@ -353,7 +353,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10116 do
+    bmp_glyph unicode: 10116 do
       advance 16
       xmin 1
       xmax 15
@@ -378,7 +378,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10117 do
+    bmp_glyph unicode: 10117 do
       advance 16
       xmin 1
       xmax 15
@@ -403,7 +403,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10118 do
+    bmp_glyph unicode: 10118 do
       advance 16
       xmin 1
       xmax 15
@@ -428,7 +428,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10119 do
+    bmp_glyph unicode: 10119 do
       advance 16
       xmin 1
       xmax 15
@@ -453,7 +453,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10120 do
+    bmp_glyph unicode: 10120 do
       advance 16
       xmin 1
       xmax 15
@@ -478,7 +478,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10121 do
+    bmp_glyph unicode: 10121 do
       advance 16
       xmin 1
       xmax 15
@@ -503,7 +503,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10122 do
+    bmp_glyph unicode: 10122 do
       advance 16
       xmin 1
       xmax 15
@@ -528,7 +528,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10123 do
+    bmp_glyph unicode: 10123 do
       advance 16
       xmin 1
       xmax 15
@@ -553,7 +553,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10124 do
+    bmp_glyph unicode: 10124 do
       advance 16
       xmin 1
       xmax 15
@@ -578,7 +578,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10125 do
+    bmp_glyph unicode: 10125 do
       advance 16
       xmin 1
       xmax 15
@@ -603,7 +603,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10126 do
+    bmp_glyph unicode: 10126 do
       advance 16
       xmin 1
       xmax 15
@@ -628,7 +628,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10127 do
+    bmp_glyph unicode: 10127 do
       advance 16
       xmin 1
       xmax 15
@@ -653,7 +653,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10128 do
+    bmp_glyph unicode: 10128 do
       advance 16
       xmin 1
       xmax 15
@@ -678,7 +678,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10129 do
+    bmp_glyph unicode: 10129 do
       advance 16
       xmin 1
       xmax 15
@@ -703,7 +703,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10130 do
+    bmp_glyph unicode: 10130 do
       advance 16
       xmin 1
       xmax 15
@@ -728,7 +728,7 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    glyph unicode: 10131 do
+    bmp_glyph unicode: 10131 do
       advance 16
       xmin 1
       xmax 15

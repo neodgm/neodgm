@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 0xA0 do
+    bmp_glyph unicode: 0xA0 do
       advance 8
       xmin 0
       xmax 0
@@ -12,7 +12,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       data ""
     end
 
-    glyph unicode: ?¡ do
+    bmp_glyph unicode: ?¡ do
       advance 8
       xmin 3
       xmax 5
@@ -33,7 +33,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¢ do
+    bmp_glyph unicode: ?¢ do
       advance 8
       xmin 0
       xmax 7
@@ -54,7 +54,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?£ do
+    bmp_glyph unicode: ?£ do
       advance 8
       xmin 0
       xmax 7
@@ -75,7 +75,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¤ do
+    bmp_glyph unicode: ?¤ do
       advance 8
       xmin 0
       xmax 7
@@ -93,7 +93,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¥ do
+    bmp_glyph unicode: ?¥ do
       advance 8
       xmin 1
       xmax 7
@@ -114,7 +114,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¦ do
+    bmp_glyph unicode: ?¦ do
       advance 8
       xmin 3
       xmax 5
@@ -137,7 +137,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?§ do
+    bmp_glyph unicode: ?§ do
       advance 8
       xmin 1
       xmax 7
@@ -160,7 +160,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¨ do
+    bmp_glyph unicode: ?¨ do
       advance 8
       xmin 1
       xmax 6
@@ -172,7 +172,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?© do
+    bmp_glyph unicode: ?© do
       advance 8
       xmin 0
       xmax 7
@@ -194,7 +194,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ª do
+    bmp_glyph unicode: ?ª do
       advance 8
       xmin 1
       xmax 7
@@ -211,7 +211,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?« do
+    bmp_glyph unicode: ?« do
       advance 8
       xmin 0
       xmax 7
@@ -227,7 +227,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¬ do
+    bmp_glyph unicode: ?¬ do
       advance 8
       xmin 0
       xmax 7
@@ -243,7 +243,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?® do
+    bmp_glyph unicode: ?® do
       advance 8
       xmin 0
       xmax 7
@@ -265,7 +265,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¯ do
+    bmp_glyph unicode: ?¯ do
       advance 8
       xmin 1
       xmax 6
@@ -277,7 +277,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?° do
+    bmp_glyph unicode: ?° do
       advance 8
       xmin 2
       xmax 6
@@ -292,7 +292,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?± do
+    bmp_glyph unicode: ?± do
       advance 8
       xmin 1
       xmax 7
@@ -310,7 +310,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?² do
+    bmp_glyph unicode: ?² do
       advance 8
       xmin 1
       xmax 6
@@ -328,7 +328,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?³ do
+    bmp_glyph unicode: ?³ do
       advance 8
       xmin 1
       xmax 6
@@ -346,7 +346,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?´ do
+    bmp_glyph unicode: ?´ do
       advance 8
       xmin 2
       xmax 5
@@ -359,7 +359,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?µ do
+    bmp_glyph unicode: ?µ do
       advance 8
       xmin 0
       xmax 7
@@ -380,7 +380,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¶ do
+    bmp_glyph unicode: ?¶ do
       advance 8
       xmin 0
       xmax 7
@@ -401,7 +401,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?· do
+    bmp_glyph unicode: ?· do
       advance 8
       xmin 3
       xmax 5
@@ -414,7 +414,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¸ do
+    bmp_glyph unicode: ?¸ do
       advance 8
       xmin 2
       xmax 6
@@ -428,7 +428,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¹ do
+    bmp_glyph unicode: ?¹ do
       advance 8
       xmin 1
       xmax 5
@@ -446,7 +446,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?º do
+    bmp_glyph unicode: ?º do
       advance 8
       xmin 1
       xmax 7
@@ -463,7 +463,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?» do
+    bmp_glyph unicode: ?» do
       advance 8
       xmin 0
       xmax 7
@@ -479,7 +479,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¼ do
+    bmp_glyph unicode: ?¼ do
       advance 8
       xmin 0
       xmax 8
@@ -502,7 +502,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?½ do
+    bmp_glyph unicode: ?½ do
       advance 8
       xmin 0
       xmax 7
@@ -525,7 +525,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¾ do
+    bmp_glyph unicode: ?¾ do
       advance 8
       xmin 0
       xmax 8
@@ -548,7 +548,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?¿ do
+    bmp_glyph unicode: ?¿ do
       advance 8
       xmin 0
       xmax 7
@@ -569,7 +569,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?À do
+    bmp_glyph unicode: ?À do
       advance 8
       xmin 0
       xmax 7
@@ -592,7 +592,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Á do
+    bmp_glyph unicode: ?Á do
       advance 8
       xmin 0
       xmax 7
@@ -615,7 +615,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Â do
+    bmp_glyph unicode: ?Â do
       advance 8
       xmin 0
       xmax 7
@@ -638,7 +638,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ã do
+    bmp_glyph unicode: ?Ã do
       advance 8
       xmin 0
       xmax 7
@@ -661,7 +661,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ä do
+    bmp_glyph unicode: ?Ä do
       advance 8
       xmin 0
       xmax 7
@@ -683,7 +683,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Å do
+    bmp_glyph unicode: ?Å do
       advance 8
       xmin 0
       xmax 7
@@ -706,7 +706,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Æ do
+    bmp_glyph unicode: ?Æ do
       advance 8
       xmin 0
       xmax 7
@@ -727,7 +727,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ç do
+    bmp_glyph unicode: ?Ç do
       advance 8
       xmin 0
       xmax 7
@@ -751,7 +751,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?È do
+    bmp_glyph unicode: ?È do
       advance 8
       xmin 0
       xmax 7
@@ -774,7 +774,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?É do
+    bmp_glyph unicode: ?É do
       advance 8
       xmin 0
       xmax 7
@@ -797,7 +797,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ê do
+    bmp_glyph unicode: ?Ê do
       advance 8
       xmin 0
       xmax 7
@@ -820,7 +820,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ë do
+    bmp_glyph unicode: ?Ë do
       advance 8
       xmin 0
       xmax 7
@@ -842,7 +842,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ì do
+    bmp_glyph unicode: ?Ì do
       advance 8
       xmin 1
       xmax 7
@@ -865,7 +865,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Í do
+    bmp_glyph unicode: ?Í do
       advance 8
       xmin 1
       xmax 7
@@ -888,7 +888,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Î do
+    bmp_glyph unicode: ?Î do
       advance 8
       xmin 1
       xmax 7
@@ -911,7 +911,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ï do
+    bmp_glyph unicode: ?Ï do
       advance 8
       xmin 1
       xmax 7
@@ -933,7 +933,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ð do
+    bmp_glyph unicode: ?Ð do
       advance 8
       xmin 0
       xmax 7
@@ -954,7 +954,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ñ do
+    bmp_glyph unicode: ?Ñ do
       advance 8
       xmin 0
       xmax 7
@@ -977,7 +977,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ò do
+    bmp_glyph unicode: ?Ò do
       advance 8
       xmin 0
       xmax 7
@@ -1000,7 +1000,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ó do
+    bmp_glyph unicode: ?Ó do
       advance 8
       xmin 0
       xmax 7
@@ -1023,7 +1023,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ô do
+    bmp_glyph unicode: ?Ô do
       advance 8
       xmin 0
       xmax 7
@@ -1046,7 +1046,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Õ do
+    bmp_glyph unicode: ?Õ do
       advance 8
       xmin 0
       xmax 7
@@ -1069,7 +1069,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ö do
+    bmp_glyph unicode: ?Ö do
       advance 8
       xmin 0
       xmax 7
@@ -1091,7 +1091,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?× do
+    bmp_glyph unicode: ?× do
       advance 8
       xmin 1
       xmax 7
@@ -1108,7 +1108,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ø do
+    bmp_glyph unicode: ?Ø do
       advance 8
       xmin 0
       xmax 7
@@ -1132,7 +1132,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ù do
+    bmp_glyph unicode: ?Ù do
       advance 8
       xmin 0
       xmax 7
@@ -1155,7 +1155,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ú do
+    bmp_glyph unicode: ?Ú do
       advance 8
       xmin 0
       xmax 7
@@ -1178,7 +1178,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Û do
+    bmp_glyph unicode: ?Û do
       advance 8
       xmin 0
       xmax 7
@@ -1201,7 +1201,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ü do
+    bmp_glyph unicode: ?Ü do
       advance 8
       xmin 0
       xmax 7
@@ -1223,7 +1223,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Ý do
+    bmp_glyph unicode: ?Ý do
       advance 8
       xmin 1
       xmax 7
@@ -1246,7 +1246,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?Þ do
+    bmp_glyph unicode: ?Þ do
       advance 8
       xmin 0
       xmax 7
@@ -1267,7 +1267,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ß do
+    bmp_glyph unicode: ?ß do
       advance 8
       xmin 0
       xmax 7
@@ -1288,7 +1288,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?à do
+    bmp_glyph unicode: ?à do
       advance 8
       xmin 0
       xmax 7
@@ -1309,7 +1309,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?á do
+    bmp_glyph unicode: ?á do
       advance 8
       xmin 0
       xmax 7
@@ -1330,7 +1330,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?â do
+    bmp_glyph unicode: ?â do
       advance 8
       xmin 0
       xmax 7
@@ -1351,7 +1351,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ã do
+    bmp_glyph unicode: ?ã do
       advance 8
       xmin 0
       xmax 7
@@ -1372,7 +1372,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ä do
+    bmp_glyph unicode: ?ä do
       advance 8
       xmin 0
       xmax 7
@@ -1392,7 +1392,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?å do
+    bmp_glyph unicode: ?å do
       advance 8
       xmin 0
       xmax 7
@@ -1414,7 +1414,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?æ do
+    bmp_glyph unicode: ?æ do
       advance 8
       xmin 0
       xmax 8
@@ -1432,7 +1432,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ç do
+    bmp_glyph unicode: ?ç do
       advance 8
       xmin 0
       xmax 7
@@ -1453,7 +1453,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?è do
+    bmp_glyph unicode: ?è do
       advance 8
       xmin 0
       xmax 7
@@ -1474,7 +1474,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?é do
+    bmp_glyph unicode: ?é do
       advance 8
       xmin 0
       xmax 7
@@ -1495,7 +1495,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ê do
+    bmp_glyph unicode: ?ê do
       advance 8
       xmin 0
       xmax 7
@@ -1516,7 +1516,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ë do
+    bmp_glyph unicode: ?ë do
       advance 8
       xmin 0
       xmax 7
@@ -1536,7 +1536,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ì do
+    bmp_glyph unicode: ?ì do
       advance 8
       xmin 2
       xmax 6
@@ -1557,7 +1557,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?í do
+    bmp_glyph unicode: ?í do
       advance 8
       xmin 3
       xmax 6
@@ -1578,7 +1578,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?î do
+    bmp_glyph unicode: ?î do
       advance 8
       xmin 2
       xmax 7
@@ -1599,7 +1599,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ï do
+    bmp_glyph unicode: ?ï do
       advance 8
       xmin 1
       xmax 7
@@ -1619,7 +1619,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ð do
+    bmp_glyph unicode: ?ð do
       advance 8
       xmin 0
       xmax 7
@@ -1641,7 +1641,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ñ do
+    bmp_glyph unicode: ?ñ do
       advance 8
       xmin 0
       xmax 7
@@ -1662,7 +1662,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ò do
+    bmp_glyph unicode: ?ò do
       advance 8
       xmin 0
       xmax 7
@@ -1683,7 +1683,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ó do
+    bmp_glyph unicode: ?ó do
       advance 8
       xmin 0
       xmax 7
@@ -1704,7 +1704,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ô do
+    bmp_glyph unicode: ?ô do
       advance 8
       xmin 0
       xmax 7
@@ -1725,7 +1725,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?õ do
+    bmp_glyph unicode: ?õ do
       advance 8
       xmin 0
       xmax 7
@@ -1746,7 +1746,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ö do
+    bmp_glyph unicode: ?ö do
       advance 8
       xmin 0
       xmax 7
@@ -1766,7 +1766,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?÷ do
+    bmp_glyph unicode: ?÷ do
       advance 8
       xmin 1
       xmax 7
@@ -1782,7 +1782,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ø do
+    bmp_glyph unicode: ?ø do
       advance 8
       xmin 0
       xmax 7
@@ -1804,7 +1804,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ù do
+    bmp_glyph unicode: ?ù do
       advance 8
       xmin 0
       xmax 7
@@ -1825,7 +1825,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ú do
+    bmp_glyph unicode: ?ú do
       advance 8
       xmin 0
       xmax 7
@@ -1846,7 +1846,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?û do
+    bmp_glyph unicode: ?û do
       advance 8
       xmin 0
       xmax 7
@@ -1867,7 +1867,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ü do
+    bmp_glyph unicode: ?ü do
       advance 8
       xmin 0
       xmax 7
@@ -1887,7 +1887,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ý do
+    bmp_glyph unicode: ?ý do
       advance 8
       xmin 0
       xmax 7
@@ -1911,7 +1911,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?þ do
+    bmp_glyph unicode: ?þ do
       advance 8
       xmin 0
       xmax 7
@@ -1935,7 +1935,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    glyph unicode: ?ÿ do
+    bmp_glyph unicode: ?ÿ do
       advance 8
       xmin 0
       xmax 7

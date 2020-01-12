@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Markup do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph name: "exclam.markupcomment" do
+    bmp_glyph name: "exclam.markupcomment" do
       advance 8
       xmin -5
       xmax 7

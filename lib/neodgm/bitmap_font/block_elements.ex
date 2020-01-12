@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: ?▀ do
+    bmp_glyph unicode: ?▀ do
       advance 8
       xmin 0
       xmax 8
@@ -22,7 +22,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▁ do
+    bmp_glyph unicode: ?▁ do
       advance 8
       xmin 0
       xmax 8
@@ -35,7 +35,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▂ do
+    bmp_glyph unicode: ?▂ do
       advance 8
       xmin 0
       xmax 8
@@ -50,7 +50,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▃ do
+    bmp_glyph unicode: ?▃ do
       advance 8
       xmin 0
       xmax 8
@@ -67,7 +67,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▄ do
+    bmp_glyph unicode: ?▄ do
       advance 8
       xmin 0
       xmax 8
@@ -86,7 +86,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▅ do
+    bmp_glyph unicode: ?▅ do
       advance 8
       xmin 0
       xmax 8
@@ -107,7 +107,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▆ do
+    bmp_glyph unicode: ?▆ do
       advance 8
       xmin 0
       xmax 8
@@ -130,7 +130,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▇ do
+    bmp_glyph unicode: ?▇ do
       advance 8
       xmin 0
       xmax 8
@@ -155,7 +155,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?█ do
+    bmp_glyph unicode: ?█ do
       advance 8
       xmin 0
       xmax 8
@@ -182,7 +182,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▉ do
+    bmp_glyph unicode: ?▉ do
       advance 8
       xmin 0
       xmax 7
@@ -209,7 +209,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▊ do
+    bmp_glyph unicode: ?▊ do
       advance 8
       xmin 0
       xmax 6
@@ -236,7 +236,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▋ do
+    bmp_glyph unicode: ?▋ do
       advance 8
       xmin 0
       xmax 5
@@ -263,7 +263,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▌ do
+    bmp_glyph unicode: ?▌ do
       advance 8
       xmin 0
       xmax 4
@@ -290,7 +290,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▍ do
+    bmp_glyph unicode: ?▍ do
       advance 8
       xmin 0
       xmax 3
@@ -317,7 +317,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▎ do
+    bmp_glyph unicode: ?▎ do
       advance 8
       xmin 0
       xmax 2
@@ -344,7 +344,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▏ do
+    bmp_glyph unicode: ?▏ do
       advance 8
       xmin 0
       xmax 1
@@ -371,7 +371,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▐ do
+    bmp_glyph unicode: ?▐ do
       advance 8
       xmin 4
       xmax 8
@@ -398,7 +398,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?░ do
+    bmp_glyph unicode: ?░ do
       advance 8
       xmin 0
       xmax 7
@@ -424,7 +424,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▒ do
+    bmp_glyph unicode: ?▒ do
       advance 8
       xmin 0
       xmax 8
@@ -451,7 +451,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▓ do
+    bmp_glyph unicode: ?▓ do
       advance 8
       xmin 0
       xmax 8
@@ -478,7 +478,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▔ do
+    bmp_glyph unicode: ?▔ do
       advance 8
       xmin 0
       xmax 8
@@ -491,7 +491,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▕ do
+    bmp_glyph unicode: ?▕ do
       advance 8
       xmin 7
       xmax 8
@@ -518,7 +518,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▖ do
+    bmp_glyph unicode: ?▖ do
       advance 8
       xmin 0
       xmax 4
@@ -537,7 +537,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▗ do
+    bmp_glyph unicode: ?▗ do
       advance 8
       xmin 4
       xmax 8
@@ -556,7 +556,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▘ do
+    bmp_glyph unicode: ?▘ do
       advance 8
       xmin 0
       xmax 4
@@ -575,7 +575,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▙ do
+    bmp_glyph unicode: ?▙ do
       advance 8
       xmin 0
       xmax 8
@@ -602,7 +602,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▚ do
+    bmp_glyph unicode: ?▚ do
       advance 8
       xmin 0
       xmax 8
@@ -629,7 +629,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▛ do
+    bmp_glyph unicode: ?▛ do
       advance 8
       xmin 0
       xmax 8
@@ -656,7 +656,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▜ do
+    bmp_glyph unicode: ?▜ do
       advance 8
       xmin 0
       xmax 8
@@ -683,7 +683,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▝ do
+    bmp_glyph unicode: ?▝ do
       advance 8
       xmin 4
       xmax 8
@@ -702,7 +702,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▞ do
+    bmp_glyph unicode: ?▞ do
       advance 8
       xmin 0
       xmax 8
@@ -729,7 +729,7 @@ defmodule NeoDGM.BitmapFont.BlockElements do
       """
     end
 
-    glyph unicode: ?▟ do
+    bmp_glyph unicode: ?▟ do
       advance 8
       xmin 0
       xmax 8

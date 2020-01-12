@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: ?⠀ do
+    bmp_glyph unicode: ?⠀ do
       advance 8
       xmin 0
       xmax 0
@@ -13,7 +13,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       data ""
     end
 
-    glyph unicode: ?⠁ do
+    bmp_glyph unicode: ?⠁ do
       advance 8
       xmin 1
       xmax 3
@@ -26,7 +26,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠂ do
+    bmp_glyph unicode: ?⠂ do
       advance 8
       xmin 1
       xmax 3
@@ -39,7 +39,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠃ do
+    bmp_glyph unicode: ?⠃ do
       advance 8
       xmin 1
       xmax 3
@@ -56,7 +56,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠄ do
+    bmp_glyph unicode: ?⠄ do
       advance 8
       xmin 1
       xmax 3
@@ -69,7 +69,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠅ do
+    bmp_glyph unicode: ?⠅ do
       advance 8
       xmin 1
       xmax 3
@@ -90,7 +90,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠆ do
+    bmp_glyph unicode: ?⠆ do
       advance 8
       xmin 1
       xmax 3
@@ -107,7 +107,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠇ do
+    bmp_glyph unicode: ?⠇ do
       advance 8
       xmin 1
       xmax 3
@@ -128,7 +128,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠈ do
+    bmp_glyph unicode: ?⠈ do
       advance 8
       xmin 5
       xmax 7
@@ -141,7 +141,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠉ do
+    bmp_glyph unicode: ?⠉ do
       advance 8
       xmin 1
       xmax 7
@@ -154,7 +154,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠊ do
+    bmp_glyph unicode: ?⠊ do
       advance 8
       xmin 1
       xmax 7
@@ -171,7 +171,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠋ do
+    bmp_glyph unicode: ?⠋ do
       advance 8
       xmin 1
       xmax 7
@@ -188,7 +188,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠌ do
+    bmp_glyph unicode: ?⠌ do
       advance 8
       xmin 1
       xmax 7
@@ -209,7 +209,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠍ do
+    bmp_glyph unicode: ?⠍ do
       advance 8
       xmin 1
       xmax 7
@@ -230,7 +230,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠎ do
+    bmp_glyph unicode: ?⠎ do
       advance 8
       xmin 1
       xmax 7
@@ -251,7 +251,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠏ do
+    bmp_glyph unicode: ?⠏ do
       advance 8
       xmin 1
       xmax 7
@@ -272,7 +272,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠐ do
+    bmp_glyph unicode: ?⠐ do
       advance 8
       xmin 5
       xmax 7
@@ -285,7 +285,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠑ do
+    bmp_glyph unicode: ?⠑ do
       advance 8
       xmin 1
       xmax 7
@@ -302,7 +302,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠒ do
+    bmp_glyph unicode: ?⠒ do
       advance 8
       xmin 1
       xmax 7
@@ -315,7 +315,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠓ do
+    bmp_glyph unicode: ?⠓ do
       advance 8
       xmin 1
       xmax 7
@@ -332,7 +332,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠔ do
+    bmp_glyph unicode: ?⠔ do
       advance 8
       xmin 1
       xmax 7
@@ -349,7 +349,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠕ do
+    bmp_glyph unicode: ?⠕ do
       advance 8
       xmin 1
       xmax 7
@@ -370,7 +370,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠖ do
+    bmp_glyph unicode: ?⠖ do
       advance 8
       xmin 1
       xmax 7
@@ -387,7 +387,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠗ do
+    bmp_glyph unicode: ?⠗ do
       advance 8
       xmin 1
       xmax 7
@@ -408,7 +408,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠘ do
+    bmp_glyph unicode: ?⠘ do
       advance 8
       xmin 5
       xmax 7
@@ -425,7 +425,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠙ do
+    bmp_glyph unicode: ?⠙ do
       advance 8
       xmin 1
       xmax 7
@@ -442,7 +442,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠚ do
+    bmp_glyph unicode: ?⠚ do
       advance 8
       xmin 1
       xmax 7
@@ -459,7 +459,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠛ do
+    bmp_glyph unicode: ?⠛ do
       advance 8
       xmin 1
       xmax 7
@@ -476,7 +476,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠜ do
+    bmp_glyph unicode: ?⠜ do
       advance 8
       xmin 1
       xmax 7
@@ -497,7 +497,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠝ do
+    bmp_glyph unicode: ?⠝ do
       advance 8
       xmin 1
       xmax 7
@@ -518,7 +518,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠞ do
+    bmp_glyph unicode: ?⠞ do
       advance 8
       xmin 1
       xmax 7
@@ -539,7 +539,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠟ do
+    bmp_glyph unicode: ?⠟ do
       advance 8
       xmin 1
       xmax 7
@@ -560,7 +560,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠠ do
+    bmp_glyph unicode: ?⠠ do
       advance 8
       xmin 5
       xmax 7
@@ -573,7 +573,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠡ do
+    bmp_glyph unicode: ?⠡ do
       advance 8
       xmin 1
       xmax 7
@@ -594,7 +594,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠢ do
+    bmp_glyph unicode: ?⠢ do
       advance 8
       xmin 1
       xmax 7
@@ -611,7 +611,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠣ do
+    bmp_glyph unicode: ?⠣ do
       advance 8
       xmin 1
       xmax 7
@@ -632,7 +632,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠤ do
+    bmp_glyph unicode: ?⠤ do
       advance 8
       xmin 1
       xmax 7
@@ -645,7 +645,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠥ do
+    bmp_glyph unicode: ?⠥ do
       advance 8
       xmin 1
       xmax 7
@@ -666,7 +666,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠦ do
+    bmp_glyph unicode: ?⠦ do
       advance 8
       xmin 1
       xmax 7
@@ -683,7 +683,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠧ do
+    bmp_glyph unicode: ?⠧ do
       advance 8
       xmin 1
       xmax 7
@@ -704,7 +704,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠨ do
+    bmp_glyph unicode: ?⠨ do
       advance 8
       xmin 5
       xmax 7
@@ -725,7 +725,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠩ do
+    bmp_glyph unicode: ?⠩ do
       advance 8
       xmin 1
       xmax 7
@@ -746,7 +746,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠪ do
+    bmp_glyph unicode: ?⠪ do
       advance 8
       xmin 1
       xmax 7
@@ -767,7 +767,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠫ do
+    bmp_glyph unicode: ?⠫ do
       advance 8
       xmin 1
       xmax 7
@@ -788,7 +788,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠬ do
+    bmp_glyph unicode: ?⠬ do
       advance 8
       xmin 1
       xmax 7
@@ -809,7 +809,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠭ do
+    bmp_glyph unicode: ?⠭ do
       advance 8
       xmin 1
       xmax 7
@@ -830,7 +830,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠮ do
+    bmp_glyph unicode: ?⠮ do
       advance 8
       xmin 1
       xmax 7
@@ -851,7 +851,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠯ do
+    bmp_glyph unicode: ?⠯ do
       advance 8
       xmin 1
       xmax 7
@@ -872,7 +872,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠰ do
+    bmp_glyph unicode: ?⠰ do
       advance 8
       xmin 5
       xmax 7
@@ -889,7 +889,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠱ do
+    bmp_glyph unicode: ?⠱ do
       advance 8
       xmin 1
       xmax 7
@@ -910,7 +910,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠲ do
+    bmp_glyph unicode: ?⠲ do
       advance 8
       xmin 1
       xmax 7
@@ -927,7 +927,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠳ do
+    bmp_glyph unicode: ?⠳ do
       advance 8
       xmin 1
       xmax 7
@@ -948,7 +948,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠴ do
+    bmp_glyph unicode: ?⠴ do
       advance 8
       xmin 1
       xmax 7
@@ -965,7 +965,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠵ do
+    bmp_glyph unicode: ?⠵ do
       advance 8
       xmin 1
       xmax 7
@@ -986,7 +986,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠶ do
+    bmp_glyph unicode: ?⠶ do
       advance 8
       xmin 1
       xmax 7
@@ -1003,7 +1003,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠷ do
+    bmp_glyph unicode: ?⠷ do
       advance 8
       xmin 1
       xmax 7
@@ -1024,7 +1024,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠸ do
+    bmp_glyph unicode: ?⠸ do
       advance 8
       xmin 5
       xmax 7
@@ -1045,7 +1045,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠹ do
+    bmp_glyph unicode: ?⠹ do
       advance 8
       xmin 1
       xmax 7
@@ -1066,7 +1066,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠺ do
+    bmp_glyph unicode: ?⠺ do
       advance 8
       xmin 1
       xmax 7
@@ -1087,7 +1087,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠻ do
+    bmp_glyph unicode: ?⠻ do
       advance 8
       xmin 1
       xmax 7
@@ -1108,7 +1108,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠼ do
+    bmp_glyph unicode: ?⠼ do
       advance 8
       xmin 1
       xmax 7
@@ -1129,7 +1129,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠽ do
+    bmp_glyph unicode: ?⠽ do
       advance 8
       xmin 1
       xmax 7
@@ -1150,7 +1150,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠾ do
+    bmp_glyph unicode: ?⠾ do
       advance 8
       xmin 1
       xmax 7
@@ -1171,7 +1171,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⠿ do
+    bmp_glyph unicode: ?⠿ do
       advance 8
       xmin 1
       xmax 7
@@ -1192,7 +1192,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡀ do
+    bmp_glyph unicode: ?⡀ do
       advance 8
       xmin 1
       xmax 3
@@ -1205,7 +1205,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡁ do
+    bmp_glyph unicode: ?⡁ do
       advance 8
       xmin 1
       xmax 3
@@ -1230,7 +1230,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡂ do
+    bmp_glyph unicode: ?⡂ do
       advance 8
       xmin 1
       xmax 3
@@ -1251,7 +1251,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡃ do
+    bmp_glyph unicode: ?⡃ do
       advance 8
       xmin 1
       xmax 3
@@ -1276,7 +1276,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡄ do
+    bmp_glyph unicode: ?⡄ do
       advance 8
       xmin 1
       xmax 3
@@ -1293,7 +1293,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡅ do
+    bmp_glyph unicode: ?⡅ do
       advance 8
       xmin 1
       xmax 3
@@ -1318,7 +1318,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡆ do
+    bmp_glyph unicode: ?⡆ do
       advance 8
       xmin 1
       xmax 3
@@ -1339,7 +1339,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡇ do
+    bmp_glyph unicode: ?⡇ do
       advance 8
       xmin 1
       xmax 3
@@ -1364,7 +1364,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡈ do
+    bmp_glyph unicode: ?⡈ do
       advance 8
       xmin 1
       xmax 7
@@ -1389,7 +1389,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡉ do
+    bmp_glyph unicode: ?⡉ do
       advance 8
       xmin 1
       xmax 7
@@ -1414,107 +1414,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡊ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      000011
-      000011
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110000
-      110000
-      """
-    end
-
-    glyph unicode: ?⡋ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      110011
-      110011
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110000
-      110000
-      """
-    end
-
-    glyph unicode: ?⡌ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      000011
-      000011
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      110000
-      110000
-      """
-    end
-
-    glyph unicode: ?⡍ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      110011
-      110011
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      110000
-      110000
-      """
-    end
-
-    glyph unicode: ?⡎ do
+    bmp_glyph unicode: ?⡊ do
       advance 8
       xmin 1
       xmax 7
@@ -1530,6 +1430,56 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       110000
       000000
       000000
+      000000
+      000000
+      000000
+      000000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph unicode: ?⡋ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      110011
+      110011
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph unicode: ?⡌ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      000011
+      000011
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
       110000
       110000
       000000
@@ -1539,7 +1489,57 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡏ do
+    bmp_glyph unicode: ?⡍ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      110011
+      110011
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph unicode: ?⡎ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      000011
+      000011
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph unicode: ?⡏ do
       advance 8
       xmin 1
       xmax 7
@@ -1564,7 +1564,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡐ do
+    bmp_glyph unicode: ?⡐ do
       advance 8
       xmin 1
       xmax 7
@@ -1585,7 +1585,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡑ do
+    bmp_glyph unicode: ?⡑ do
       advance 8
       xmin 1
       xmax 7
@@ -1610,7 +1610,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡒ do
+    bmp_glyph unicode: ?⡒ do
       advance 8
       xmin 1
       xmax 7
@@ -1631,7 +1631,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡓ do
+    bmp_glyph unicode: ?⡓ do
       advance 8
       xmin 1
       xmax 7
@@ -1656,7 +1656,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡔ do
+    bmp_glyph unicode: ?⡔ do
       advance 8
       xmin 1
       xmax 7
@@ -1677,7 +1677,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡕ do
+    bmp_glyph unicode: ?⡕ do
       advance 8
       xmin 1
       xmax 7
@@ -1702,7 +1702,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡖ do
+    bmp_glyph unicode: ?⡖ do
       advance 8
       xmin 1
       xmax 7
@@ -1723,7 +1723,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡗ do
+    bmp_glyph unicode: ?⡗ do
       advance 8
       xmin 1
       xmax 7
@@ -1748,7 +1748,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡘ do
+    bmp_glyph unicode: ?⡘ do
       advance 8
       xmin 1
       xmax 7
@@ -1773,7 +1773,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡙ do
+    bmp_glyph unicode: ?⡙ do
       advance 8
       xmin 1
       xmax 7
@@ -1798,7 +1798,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡚ do
+    bmp_glyph unicode: ?⡚ do
       advance 8
       xmin 1
       xmax 7
@@ -1823,7 +1823,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡛ do
+    bmp_glyph unicode: ?⡛ do
       advance 8
       xmin 1
       xmax 7
@@ -1848,7 +1848,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡜ do
+    bmp_glyph unicode: ?⡜ do
       advance 8
       xmin 1
       xmax 7
@@ -1873,7 +1873,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡝ do
+    bmp_glyph unicode: ?⡝ do
       advance 8
       xmin 1
       xmax 7
@@ -1898,7 +1898,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡞ do
+    bmp_glyph unicode: ?⡞ do
       advance 8
       xmin 1
       xmax 7
@@ -1923,7 +1923,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡟ do
+    bmp_glyph unicode: ?⡟ do
       advance 8
       xmin 1
       xmax 7
@@ -1948,7 +1948,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡠ do
+    bmp_glyph unicode: ?⡠ do
       advance 8
       xmin 1
       xmax 7
@@ -1965,7 +1965,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡡ do
+    bmp_glyph unicode: ?⡡ do
       advance 8
       xmin 1
       xmax 7
@@ -1990,7 +1990,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡢ do
+    bmp_glyph unicode: ?⡢ do
       advance 8
       xmin 1
       xmax 7
@@ -2011,7 +2011,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡣ do
+    bmp_glyph unicode: ?⡣ do
       advance 8
       xmin 1
       xmax 7
@@ -2036,7 +2036,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡤ do
+    bmp_glyph unicode: ?⡤ do
       advance 8
       xmin 1
       xmax 7
@@ -2053,7 +2053,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡥ do
+    bmp_glyph unicode: ?⡥ do
       advance 8
       xmin 1
       xmax 7
@@ -2078,7 +2078,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡦ do
+    bmp_glyph unicode: ?⡦ do
       advance 8
       xmin 1
       xmax 7
@@ -2099,7 +2099,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡧ do
+    bmp_glyph unicode: ?⡧ do
       advance 8
       xmin 1
       xmax 7
@@ -2124,7 +2124,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡨ do
+    bmp_glyph unicode: ?⡨ do
       advance 8
       xmin 1
       xmax 7
@@ -2149,7 +2149,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡩ do
+    bmp_glyph unicode: ?⡩ do
       advance 8
       xmin 1
       xmax 7
@@ -2174,7 +2174,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡪ do
+    bmp_glyph unicode: ?⡪ do
       advance 8
       xmin 1
       xmax 7
@@ -2199,7 +2199,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡫ do
+    bmp_glyph unicode: ?⡫ do
       advance 8
       xmin 1
       xmax 7
@@ -2224,7 +2224,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡬ do
+    bmp_glyph unicode: ?⡬ do
       advance 8
       xmin 1
       xmax 7
@@ -2249,7 +2249,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡭ do
+    bmp_glyph unicode: ?⡭ do
       advance 8
       xmin 1
       xmax 7
@@ -2274,7 +2274,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡮ do
+    bmp_glyph unicode: ?⡮ do
       advance 8
       xmin 1
       xmax 7
@@ -2299,7 +2299,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡯ do
+    bmp_glyph unicode: ?⡯ do
       advance 8
       xmin 1
       xmax 7
@@ -2324,7 +2324,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡰ do
+    bmp_glyph unicode: ?⡰ do
       advance 8
       xmin 1
       xmax 7
@@ -2345,7 +2345,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡱ do
+    bmp_glyph unicode: ?⡱ do
       advance 8
       xmin 1
       xmax 7
@@ -2370,7 +2370,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡲ do
+    bmp_glyph unicode: ?⡲ do
       advance 8
       xmin 1
       xmax 7
@@ -2391,7 +2391,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡳ do
+    bmp_glyph unicode: ?⡳ do
       advance 8
       xmin 1
       xmax 7
@@ -2416,7 +2416,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡴ do
+    bmp_glyph unicode: ?⡴ do
       advance 8
       xmin 1
       xmax 7
@@ -2437,7 +2437,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡵ do
+    bmp_glyph unicode: ?⡵ do
       advance 8
       xmin 1
       xmax 7
@@ -2462,7 +2462,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡶ do
+    bmp_glyph unicode: ?⡶ do
       advance 8
       xmin 1
       xmax 7
@@ -2483,7 +2483,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡷ do
+    bmp_glyph unicode: ?⡷ do
       advance 8
       xmin 1
       xmax 7
@@ -2508,7 +2508,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡸ do
+    bmp_glyph unicode: ?⡸ do
       advance 8
       xmin 1
       xmax 7
@@ -2533,7 +2533,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡹ do
+    bmp_glyph unicode: ?⡹ do
       advance 8
       xmin 1
       xmax 7
@@ -2558,7 +2558,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡺ do
+    bmp_glyph unicode: ?⡺ do
       advance 8
       xmin 1
       xmax 7
@@ -2583,7 +2583,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡻ do
+    bmp_glyph unicode: ?⡻ do
       advance 8
       xmin 1
       xmax 7
@@ -2608,7 +2608,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡼ do
+    bmp_glyph unicode: ?⡼ do
       advance 8
       xmin 1
       xmax 7
@@ -2633,7 +2633,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡽ do
+    bmp_glyph unicode: ?⡽ do
       advance 8
       xmin 1
       xmax 7
@@ -2658,7 +2658,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡾ do
+    bmp_glyph unicode: ?⡾ do
       advance 8
       xmin 1
       xmax 7
@@ -2683,7 +2683,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⡿ do
+    bmp_glyph unicode: ?⡿ do
       advance 8
       xmin 1
       xmax 7
@@ -2708,7 +2708,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢀ do
+    bmp_glyph unicode: ?⢀ do
       advance 8
       xmin 5
       xmax 7
@@ -2721,7 +2721,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢁ do
+    bmp_glyph unicode: ?⢁ do
       advance 8
       xmin 1
       xmax 7
@@ -2746,7 +2746,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢂ do
+    bmp_glyph unicode: ?⢂ do
       advance 8
       xmin 1
       xmax 7
@@ -2767,7 +2767,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢃ do
+    bmp_glyph unicode: ?⢃ do
       advance 8
       xmin 1
       xmax 7
@@ -2792,7 +2792,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢄ do
+    bmp_glyph unicode: ?⢄ do
       advance 8
       xmin 1
       xmax 7
@@ -2809,7 +2809,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢅ do
+    bmp_glyph unicode: ?⢅ do
       advance 8
       xmin 1
       xmax 7
@@ -2834,7 +2834,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢆ do
+    bmp_glyph unicode: ?⢆ do
       advance 8
       xmin 1
       xmax 7
@@ -2855,7 +2855,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢇ do
+    bmp_glyph unicode: ?⢇ do
       advance 8
       xmin 1
       xmax 7
@@ -2880,7 +2880,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢈ do
+    bmp_glyph unicode: ?⢈ do
       advance 8
       xmin 5
       xmax 7
@@ -2905,7 +2905,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢉ do
+    bmp_glyph unicode: ?⢉ do
       advance 8
       xmin 1
       xmax 7
@@ -2930,7 +2930,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢊ do
+    bmp_glyph unicode: ?⢊ do
       advance 8
       xmin 1
       xmax 7
@@ -2955,7 +2955,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢋ do
+    bmp_glyph unicode: ?⢋ do
       advance 8
       xmin 1
       xmax 7
@@ -2980,7 +2980,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢌ do
+    bmp_glyph unicode: ?⢌ do
       advance 8
       xmin 1
       xmax 7
@@ -3005,7 +3005,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢍ do
+    bmp_glyph unicode: ?⢍ do
       advance 8
       xmin 1
       xmax 7
@@ -3030,7 +3030,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢎ do
+    bmp_glyph unicode: ?⢎ do
       advance 8
       xmin 1
       xmax 7
@@ -3055,7 +3055,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢏ do
+    bmp_glyph unicode: ?⢏ do
       advance 8
       xmin 1
       xmax 7
@@ -3080,7 +3080,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢐ do
+    bmp_glyph unicode: ?⢐ do
       advance 8
       xmin 5
       xmax 7
@@ -3101,7 +3101,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢑ do
+    bmp_glyph unicode: ?⢑ do
       advance 8
       xmin 1
       xmax 7
@@ -3126,7 +3126,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢒ do
+    bmp_glyph unicode: ?⢒ do
       advance 8
       xmin 1
       xmax 7
@@ -3147,7 +3147,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢓ do
+    bmp_glyph unicode: ?⢓ do
       advance 8
       xmin 1
       xmax 7
@@ -3172,7 +3172,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢔ do
+    bmp_glyph unicode: ?⢔ do
       advance 8
       xmin 1
       xmax 7
@@ -3193,7 +3193,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢕ do
+    bmp_glyph unicode: ?⢕ do
       advance 8
       xmin 1
       xmax 7
@@ -3218,7 +3218,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢖ do
+    bmp_glyph unicode: ?⢖ do
       advance 8
       xmin 1
       xmax 7
@@ -3239,7 +3239,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢗ do
+    bmp_glyph unicode: ?⢗ do
       advance 8
       xmin 1
       xmax 7
@@ -3264,7 +3264,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢘ do
+    bmp_glyph unicode: ?⢘ do
       advance 8
       xmin 5
       xmax 7
@@ -3289,7 +3289,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢙ do
+    bmp_glyph unicode: ?⢙ do
       advance 8
       xmin 1
       xmax 7
@@ -3314,7 +3314,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢚ do
+    bmp_glyph unicode: ?⢚ do
       advance 8
       xmin 1
       xmax 7
@@ -3339,7 +3339,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢛ do
+    bmp_glyph unicode: ?⢛ do
       advance 8
       xmin 1
       xmax 7
@@ -3364,7 +3364,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢜ do
+    bmp_glyph unicode: ?⢜ do
       advance 8
       xmin 1
       xmax 7
@@ -3389,7 +3389,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢝ do
+    bmp_glyph unicode: ?⢝ do
       advance 8
       xmin 1
       xmax 7
@@ -3414,7 +3414,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢞ do
+    bmp_glyph unicode: ?⢞ do
       advance 8
       xmin 1
       xmax 7
@@ -3439,7 +3439,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢟ do
+    bmp_glyph unicode: ?⢟ do
       advance 8
       xmin 1
       xmax 7
@@ -3464,7 +3464,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢠ do
+    bmp_glyph unicode: ?⢠ do
       advance 8
       xmin 5
       xmax 7
@@ -3481,7 +3481,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢡ do
+    bmp_glyph unicode: ?⢡ do
       advance 8
       xmin 1
       xmax 7
@@ -3506,7 +3506,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢢ do
+    bmp_glyph unicode: ?⢢ do
       advance 8
       xmin 1
       xmax 7
@@ -3527,7 +3527,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢣ do
+    bmp_glyph unicode: ?⢣ do
       advance 8
       xmin 1
       xmax 7
@@ -3552,7 +3552,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢤ do
+    bmp_glyph unicode: ?⢤ do
       advance 8
       xmin 1
       xmax 7
@@ -3569,7 +3569,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢥ do
+    bmp_glyph unicode: ?⢥ do
       advance 8
       xmin 1
       xmax 7
@@ -3594,7 +3594,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢦ do
+    bmp_glyph unicode: ?⢦ do
       advance 8
       xmin 1
       xmax 7
@@ -3615,7 +3615,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢧ do
+    bmp_glyph unicode: ?⢧ do
       advance 8
       xmin 1
       xmax 7
@@ -3640,7 +3640,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢨ do
+    bmp_glyph unicode: ?⢨ do
       advance 8
       xmin 5
       xmax 7
@@ -3665,7 +3665,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢩ do
+    bmp_glyph unicode: ?⢩ do
       advance 8
       xmin 1
       xmax 7
@@ -3690,7 +3690,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢪ do
+    bmp_glyph unicode: ?⢪ do
       advance 8
       xmin 1
       xmax 7
@@ -3715,7 +3715,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢫ do
+    bmp_glyph unicode: ?⢫ do
       advance 8
       xmin 1
       xmax 7
@@ -3740,7 +3740,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢬ do
+    bmp_glyph unicode: ?⢬ do
       advance 8
       xmin 1
       xmax 7
@@ -3765,7 +3765,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢭ do
+    bmp_glyph unicode: ?⢭ do
       advance 8
       xmin 1
       xmax 7
@@ -3790,7 +3790,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢮ do
+    bmp_glyph unicode: ?⢮ do
       advance 8
       xmin 1
       xmax 7
@@ -3815,7 +3815,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢯ do
+    bmp_glyph unicode: ?⢯ do
       advance 8
       xmin 1
       xmax 7
@@ -3840,7 +3840,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢰ do
+    bmp_glyph unicode: ?⢰ do
       advance 8
       xmin 5
       xmax 7
@@ -3861,7 +3861,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢱ do
+    bmp_glyph unicode: ?⢱ do
       advance 8
       xmin 1
       xmax 7
@@ -3886,7 +3886,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢲ do
+    bmp_glyph unicode: ?⢲ do
       advance 8
       xmin 1
       xmax 7
@@ -3907,7 +3907,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢳ do
+    bmp_glyph unicode: ?⢳ do
       advance 8
       xmin 1
       xmax 7
@@ -3932,7 +3932,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢴ do
+    bmp_glyph unicode: ?⢴ do
       advance 8
       xmin 1
       xmax 7
@@ -3953,7 +3953,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢵ do
+    bmp_glyph unicode: ?⢵ do
       advance 8
       xmin 1
       xmax 7
@@ -3978,7 +3978,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢶ do
+    bmp_glyph unicode: ?⢶ do
       advance 8
       xmin 1
       xmax 7
@@ -3999,7 +3999,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢷ do
+    bmp_glyph unicode: ?⢷ do
       advance 8
       xmin 1
       xmax 7
@@ -4024,7 +4024,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢸ do
+    bmp_glyph unicode: ?⢸ do
       advance 8
       xmin 5
       xmax 7
@@ -4049,7 +4049,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢹ do
+    bmp_glyph unicode: ?⢹ do
       advance 8
       xmin 1
       xmax 7
@@ -4074,7 +4074,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢺ do
+    bmp_glyph unicode: ?⢺ do
       advance 8
       xmin 1
       xmax 7
@@ -4099,7 +4099,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢻ do
+    bmp_glyph unicode: ?⢻ do
       advance 8
       xmin 1
       xmax 7
@@ -4124,7 +4124,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢼ do
+    bmp_glyph unicode: ?⢼ do
       advance 8
       xmin 1
       xmax 7
@@ -4149,7 +4149,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢽ do
+    bmp_glyph unicode: ?⢽ do
       advance 8
       xmin 1
       xmax 7
@@ -4174,7 +4174,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢾ do
+    bmp_glyph unicode: ?⢾ do
       advance 8
       xmin 1
       xmax 7
@@ -4199,7 +4199,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⢿ do
+    bmp_glyph unicode: ?⢿ do
       advance 8
       xmin 1
       xmax 7
@@ -4224,7 +4224,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣀ do
+    bmp_glyph unicode: ?⣀ do
       advance 8
       xmin 1
       xmax 7
@@ -4237,7 +4237,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣁ do
+    bmp_glyph unicode: ?⣁ do
       advance 8
       xmin 1
       xmax 7
@@ -4262,7 +4262,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣂ do
+    bmp_glyph unicode: ?⣂ do
       advance 8
       xmin 1
       xmax 7
@@ -4283,7 +4283,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣃ do
+    bmp_glyph unicode: ?⣃ do
       advance 8
       xmin 1
       xmax 7
@@ -4308,7 +4308,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣄ do
+    bmp_glyph unicode: ?⣄ do
       advance 8
       xmin 1
       xmax 7
@@ -4325,7 +4325,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣅ do
+    bmp_glyph unicode: ?⣅ do
       advance 8
       xmin 1
       xmax 7
@@ -4350,7 +4350,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣆ do
+    bmp_glyph unicode: ?⣆ do
       advance 8
       xmin 1
       xmax 7
@@ -4371,7 +4371,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣇ do
+    bmp_glyph unicode: ?⣇ do
       advance 8
       xmin 1
       xmax 7
@@ -4396,107 +4396,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣈ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      000011
-      000011
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110011
-      110011
-      """
-    end
-
-    glyph unicode: ?⣉ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      110011
-      110011
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110011
-      110011
-      """
-    end
-
-    glyph unicode: ?⣊ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      000011
-      000011
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110011
-      110011
-      """
-    end
-
-    glyph unicode: ?⣋ do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin -3
-      ymax 11
-
-      data """
-      110011
-      110011
-      000000
-      000000
-      110000
-      110000
-      000000
-      000000
-      000000
-      000000
-      000000
-      000000
-      110011
-      110011
-      """
-    end
-
-    glyph unicode: ?⣌ do
+    bmp_glyph unicode: ?⣈ do
       advance 8
       xmin 1
       xmax 7
@@ -4512,6 +4412,106 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       000000
       000000
       000000
+      000000
+      000000
+      000000
+      000000
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph unicode: ?⣉ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      110011
+      110011
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph unicode: ?⣊ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      000011
+      000011
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph unicode: ?⣋ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      110011
+      110011
+      000000
+      000000
+      110000
+      110000
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph unicode: ?⣌ do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin -3
+      ymax 11
+
+      data """
+      000011
+      000011
+      000000
+      000000
+      000000
+      000000
+      000000
+      000000
       110000
       110000
       000000
@@ -4521,7 +4521,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣍ do
+    bmp_glyph unicode: ?⣍ do
       advance 8
       xmin 1
       xmax 7
@@ -4546,7 +4546,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣎ do
+    bmp_glyph unicode: ?⣎ do
       advance 8
       xmin 1
       xmax 7
@@ -4571,7 +4571,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣏ do
+    bmp_glyph unicode: ?⣏ do
       advance 8
       xmin 1
       xmax 7
@@ -4596,7 +4596,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣐ do
+    bmp_glyph unicode: ?⣐ do
       advance 8
       xmin 1
       xmax 7
@@ -4617,7 +4617,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣑ do
+    bmp_glyph unicode: ?⣑ do
       advance 8
       xmin 1
       xmax 7
@@ -4642,7 +4642,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣒ do
+    bmp_glyph unicode: ?⣒ do
       advance 8
       xmin 1
       xmax 7
@@ -4663,7 +4663,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣓ do
+    bmp_glyph unicode: ?⣓ do
       advance 8
       xmin 1
       xmax 7
@@ -4688,7 +4688,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣔ do
+    bmp_glyph unicode: ?⣔ do
       advance 8
       xmin 1
       xmax 7
@@ -4709,7 +4709,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣕ do
+    bmp_glyph unicode: ?⣕ do
       advance 8
       xmin 1
       xmax 7
@@ -4734,7 +4734,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣖ do
+    bmp_glyph unicode: ?⣖ do
       advance 8
       xmin 1
       xmax 7
@@ -4755,7 +4755,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣗ do
+    bmp_glyph unicode: ?⣗ do
       advance 8
       xmin 1
       xmax 7
@@ -4780,7 +4780,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣘ do
+    bmp_glyph unicode: ?⣘ do
       advance 8
       xmin 1
       xmax 7
@@ -4805,7 +4805,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣙ do
+    bmp_glyph unicode: ?⣙ do
       advance 8
       xmin 1
       xmax 7
@@ -4830,7 +4830,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣚ do
+    bmp_glyph unicode: ?⣚ do
       advance 8
       xmin 1
       xmax 7
@@ -4855,7 +4855,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣛ do
+    bmp_glyph unicode: ?⣛ do
       advance 8
       xmin 1
       xmax 7
@@ -4880,7 +4880,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣜ do
+    bmp_glyph unicode: ?⣜ do
       advance 8
       xmin 1
       xmax 7
@@ -4905,7 +4905,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣝ do
+    bmp_glyph unicode: ?⣝ do
       advance 8
       xmin 1
       xmax 7
@@ -4930,7 +4930,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣞ do
+    bmp_glyph unicode: ?⣞ do
       advance 8
       xmin 1
       xmax 7
@@ -4955,7 +4955,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣟ do
+    bmp_glyph unicode: ?⣟ do
       advance 8
       xmin 1
       xmax 7
@@ -4980,7 +4980,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣠ do
+    bmp_glyph unicode: ?⣠ do
       advance 8
       xmin 1
       xmax 7
@@ -4997,7 +4997,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣡ do
+    bmp_glyph unicode: ?⣡ do
       advance 8
       xmin 1
       xmax 7
@@ -5022,7 +5022,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣢ do
+    bmp_glyph unicode: ?⣢ do
       advance 8
       xmin 1
       xmax 7
@@ -5043,7 +5043,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣣ do
+    bmp_glyph unicode: ?⣣ do
       advance 8
       xmin 1
       xmax 7
@@ -5068,7 +5068,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣤ do
+    bmp_glyph unicode: ?⣤ do
       advance 8
       xmin 1
       xmax 7
@@ -5085,7 +5085,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣥ do
+    bmp_glyph unicode: ?⣥ do
       advance 8
       xmin 1
       xmax 7
@@ -5110,7 +5110,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣦ do
+    bmp_glyph unicode: ?⣦ do
       advance 8
       xmin 1
       xmax 7
@@ -5131,7 +5131,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣧ do
+    bmp_glyph unicode: ?⣧ do
       advance 8
       xmin 1
       xmax 7
@@ -5156,7 +5156,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣨ do
+    bmp_glyph unicode: ?⣨ do
       advance 8
       xmin 1
       xmax 7
@@ -5181,7 +5181,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣩ do
+    bmp_glyph unicode: ?⣩ do
       advance 8
       xmin 1
       xmax 7
@@ -5206,7 +5206,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣪ do
+    bmp_glyph unicode: ?⣪ do
       advance 8
       xmin 1
       xmax 7
@@ -5231,7 +5231,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣫ do
+    bmp_glyph unicode: ?⣫ do
       advance 8
       xmin 1
       xmax 7
@@ -5256,7 +5256,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣬ do
+    bmp_glyph unicode: ?⣬ do
       advance 8
       xmin 1
       xmax 7
@@ -5281,7 +5281,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣭ do
+    bmp_glyph unicode: ?⣭ do
       advance 8
       xmin 1
       xmax 7
@@ -5306,7 +5306,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣮ do
+    bmp_glyph unicode: ?⣮ do
       advance 8
       xmin 1
       xmax 7
@@ -5331,7 +5331,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣯ do
+    bmp_glyph unicode: ?⣯ do
       advance 8
       xmin 1
       xmax 7
@@ -5356,7 +5356,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣰ do
+    bmp_glyph unicode: ?⣰ do
       advance 8
       xmin 1
       xmax 7
@@ -5377,7 +5377,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣱ do
+    bmp_glyph unicode: ?⣱ do
       advance 8
       xmin 1
       xmax 7
@@ -5402,7 +5402,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣲ do
+    bmp_glyph unicode: ?⣲ do
       advance 8
       xmin 1
       xmax 7
@@ -5423,7 +5423,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣳ do
+    bmp_glyph unicode: ?⣳ do
       advance 8
       xmin 1
       xmax 7
@@ -5448,7 +5448,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣴ do
+    bmp_glyph unicode: ?⣴ do
       advance 8
       xmin 1
       xmax 7
@@ -5469,7 +5469,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣵ do
+    bmp_glyph unicode: ?⣵ do
       advance 8
       xmin 1
       xmax 7
@@ -5494,7 +5494,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣶ do
+    bmp_glyph unicode: ?⣶ do
       advance 8
       xmin 1
       xmax 7
@@ -5515,7 +5515,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣷ do
+    bmp_glyph unicode: ?⣷ do
       advance 8
       xmin 1
       xmax 7
@@ -5540,7 +5540,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣸ do
+    bmp_glyph unicode: ?⣸ do
       advance 8
       xmin 1
       xmax 7
@@ -5565,7 +5565,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣹ do
+    bmp_glyph unicode: ?⣹ do
       advance 8
       xmin 1
       xmax 7
@@ -5590,7 +5590,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣺ do
+    bmp_glyph unicode: ?⣺ do
       advance 8
       xmin 1
       xmax 7
@@ -5615,7 +5615,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣻ do
+    bmp_glyph unicode: ?⣻ do
       advance 8
       xmin 1
       xmax 7
@@ -5640,7 +5640,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣼ do
+    bmp_glyph unicode: ?⣼ do
       advance 8
       xmin 1
       xmax 7
@@ -5665,7 +5665,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣽ do
+    bmp_glyph unicode: ?⣽ do
       advance 8
       xmin 1
       xmax 7
@@ -5690,7 +5690,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣾ do
+    bmp_glyph unicode: ?⣾ do
       advance 8
       xmin 1
       xmax 7
@@ -5715,7 +5715,7 @@ defmodule NeoDGM.BitmapFont.BraillePatterns do
       """
     end
 
-    glyph unicode: ?⣿ do
+    bmp_glyph unicode: ?⣿ do
       advance 8
       xmin 1
       xmax 7

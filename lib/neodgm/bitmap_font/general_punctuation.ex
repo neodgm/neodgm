@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 0x2000 do
+    bmp_glyph unicode: 0x2000 do
       advance 8
       xmin 0
       xmax 0
@@ -12,7 +12,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2001 do
+    bmp_glyph unicode: 0x2001 do
       advance 16
       xmin 0
       xmax 0
@@ -21,7 +21,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2002 do
+    bmp_glyph unicode: 0x2002 do
       advance 8
       xmin 0
       xmax 0
@@ -30,7 +30,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2003 do
+    bmp_glyph unicode: 0x2003 do
       advance 16
       xmin 0
       xmax 0
@@ -39,7 +39,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2004 do
+    bmp_glyph unicode: 0x2004 do
       advance 8
       xmin 0
       xmax 0
@@ -48,7 +48,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2005 do
+    bmp_glyph unicode: 0x2005 do
       advance 8
       xmin 0
       xmax 0
@@ -57,7 +57,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2006 do
+    bmp_glyph unicode: 0x2006 do
       advance 8
       xmin 0
       xmax 0
@@ -66,7 +66,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2007 do
+    bmp_glyph unicode: 0x2007 do
       advance 8
       xmin 0
       xmax 0
@@ -75,7 +75,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2008 do
+    bmp_glyph unicode: 0x2008 do
       advance 8
       xmin 0
       xmax 0
@@ -84,7 +84,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x2009 do
+    bmp_glyph unicode: 0x2009 do
       advance 8
       xmin 0
       xmax 0
@@ -93,7 +93,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       data ""
     end
 
-    glyph unicode: 0x200A do
+    bmp_glyph unicode: 0x200A do
       advance 8
       xmin 0
       xmax 0
@@ -103,7 +103,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
     end
 
     Enum.map(0x200B..0x200F, fn code ->
-      glyph unicode: code do
+      bmp_glyph unicode: code do
         advance 0
         xmin 0
         xmax 0
@@ -113,7 +113,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       end
     end)
 
-    glyph unicode: 0x2010 do
+    bmp_glyph unicode: 0x2010 do
       advance 8
       xmin 0
       xmax 7
@@ -125,7 +125,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2011 do
+    bmp_glyph unicode: 0x2011 do
       advance 8
       xmin 0
       xmax 7
@@ -137,7 +137,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2012 do
+    bmp_glyph unicode: 0x2012 do
       advance 8
       xmin 0
       xmax 7
@@ -149,7 +149,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2013 do
+    bmp_glyph unicode: 0x2013 do
       advance 8
       xmin 0
       xmax 7
@@ -161,7 +161,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2014 do
+    bmp_glyph unicode: 0x2014 do
       advance 16
       xmin 1
       xmax 15
@@ -173,7 +173,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2015 do
+    bmp_glyph unicode: 0x2015 do
       advance 16
       xmin 1
       xmax 15
@@ -185,7 +185,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2016 do
+    bmp_glyph unicode: 0x2016 do
       advance 8
       xmin 1
       xmax 7
@@ -209,7 +209,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2017 do
+    bmp_glyph unicode: 0x2017 do
       advance 8
       xmin 0
       xmax 7
@@ -223,7 +223,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2018 do
+    bmp_glyph unicode: 0x2018 do
       advance 8
       xmin 4
       xmax 6
@@ -238,7 +238,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2019 do
+    bmp_glyph unicode: 0x2019 do
       advance 8
       xmin 2
       xmax 4
@@ -253,7 +253,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201A do
+    bmp_glyph unicode: 0x201A do
       advance 8
       xmin 2
       xmax 4
@@ -268,7 +268,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201B do
+    bmp_glyph unicode: 0x201B do
       advance 8
       xmin 4
       xmax 6
@@ -283,7 +283,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201C do
+    bmp_glyph unicode: 0x201C do
       advance 8
       xmin 2
       xmax 7
@@ -298,7 +298,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201D do
+    bmp_glyph unicode: 0x201D do
       advance 8
       xmin 1
       xmax 6
@@ -313,7 +313,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201E do
+    bmp_glyph unicode: 0x201E do
       advance 8
       xmin 1
       xmax 6
@@ -328,7 +328,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x201F do
+    bmp_glyph unicode: 0x201F do
       advance 8
       xmin 2
       xmax 7
@@ -343,7 +343,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2020 do
+    bmp_glyph unicode: 0x2020 do
       advance 8
       xmin 0
       xmax 7
@@ -365,7 +365,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2021 do
+    bmp_glyph unicode: 0x2021 do
       advance 8
       xmin 0
       xmax 7
@@ -388,7 +388,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2022 do
+    bmp_glyph unicode: 0x2022 do
       advance 8
       xmin 2
       xmax 6
@@ -403,7 +403,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2023 do
+    bmp_glyph unicode: 0x2023 do
       advance 8
       xmin 2
       xmax 5
@@ -419,7 +419,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2024 do
+    bmp_glyph unicode: 0x2024 do
       advance 8
       xmin 3
       xmax 5
@@ -432,7 +432,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2025 do
+    bmp_glyph unicode: 0x2025 do
       advance 8
       xmin 1
       xmax 7
@@ -445,7 +445,7 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       """
     end
 
-    glyph unicode: 0x2026 do
+    bmp_glyph unicode: 0x2026 do
       advance 8
       xmin 1
       xmax 6

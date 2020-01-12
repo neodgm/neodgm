@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph name: "cho_0_0" do
+    bmp_glyph name: "cho_0_0" do
       advance 16
       xmin 1
       xmax 7
@@ -25,7 +25,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_0" do
+    bmp_glyph name: "cho_1_0" do
       advance 16
       xmin 1
       xmax 8
@@ -47,7 +47,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_0" do
+    bmp_glyph name: "cho_2_0" do
       advance 16
       xmin 1
       xmax 9
@@ -69,7 +69,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_0" do
+    bmp_glyph name: "cho_3_0" do
       advance 16
       xmin 1
       xmax 8
@@ -91,7 +91,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_0" do
+    bmp_glyph name: "cho_4_0" do
       advance 16
       xmin 1
       xmax 9
@@ -113,7 +113,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_0" do
+    bmp_glyph name: "cho_5_0" do
       advance 16
       xmin 1
       xmax 8
@@ -135,7 +135,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_0" do
+    bmp_glyph name: "cho_6_0" do
       advance 16
       xmin 1
       xmax 8
@@ -157,7 +157,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_0" do
+    bmp_glyph name: "cho_7_0" do
       advance 16
       xmin 1
       xmax 8
@@ -179,7 +179,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_0" do
+    bmp_glyph name: "cho_8_0" do
       advance 16
       xmin 1
       xmax 9
@@ -201,7 +201,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_0" do
+    bmp_glyph name: "cho_9_0" do
       advance 16
       xmin 1
       xmax 9
@@ -223,7 +223,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_0" do
+    bmp_glyph name: "cho_10_0" do
       advance 16
       xmin 0
       xmax 9
@@ -245,7 +245,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_0" do
+    bmp_glyph name: "cho_11_0" do
       advance 16
       xmin 1
       xmax 9
@@ -267,7 +267,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_0" do
+    bmp_glyph name: "cho_12_0" do
       advance 16
       xmin 1
       xmax 9
@@ -289,7 +289,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_0" do
+    bmp_glyph name: "cho_13_0" do
       advance 16
       xmin 0
       xmax 9
@@ -311,7 +311,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_0" do
+    bmp_glyph name: "cho_14_0" do
       advance 16
       xmin 1
       xmax 9
@@ -334,7 +334,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_0" do
+    bmp_glyph name: "cho_15_0" do
       advance 16
       xmin 1
       xmax 7
@@ -356,7 +356,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_0" do
+    bmp_glyph name: "cho_16_0" do
       advance 16
       xmin 1
       xmax 8
@@ -378,7 +378,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_0" do
+    bmp_glyph name: "cho_17_0" do
       advance 16
       xmin 1
       xmax 8
@@ -400,7 +400,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_0" do
+    bmp_glyph name: "cho_18_0" do
       advance 16
       xmin 1
       xmax 9
@@ -423,7 +423,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_1" do
+    bmp_glyph name: "cho_0_1" do
       advance 16
       xmin 2
       xmax 14
@@ -441,7 +441,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_1" do
+    bmp_glyph name: "cho_1_1" do
       advance 16
       xmin 2
       xmax 14
@@ -459,7 +459,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_1" do
+    bmp_glyph name: "cho_2_1" do
       advance 16
       xmin 2
       xmax 14
@@ -477,7 +477,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_1" do
+    bmp_glyph name: "cho_3_1" do
       advance 16
       xmin 2
       xmax 14
@@ -495,7 +495,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_1" do
+    bmp_glyph name: "cho_4_1" do
       advance 16
       xmin 2
       xmax 14
@@ -513,7 +513,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_1" do
+    bmp_glyph name: "cho_5_1" do
       advance 16
       xmin 2
       xmax 14
@@ -531,7 +531,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_1" do
+    bmp_glyph name: "cho_6_1" do
       advance 16
       xmin 2
       xmax 14
@@ -549,7 +549,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_1" do
+    bmp_glyph name: "cho_7_1" do
       advance 16
       xmin 2
       xmax 14
@@ -567,7 +567,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_1" do
+    bmp_glyph name: "cho_8_1" do
       advance 16
       xmin 2
       xmax 14
@@ -585,7 +585,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_1" do
+    bmp_glyph name: "cho_9_1" do
       advance 16
       xmin 2
       xmax 14
@@ -602,7 +602,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_1" do
+    bmp_glyph name: "cho_10_1" do
       advance 16
       xmin 2
       xmax 14
@@ -620,7 +620,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_1" do
+    bmp_glyph name: "cho_11_1" do
       advance 16
       xmin 2
       xmax 14
@@ -638,7 +638,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_1" do
+    bmp_glyph name: "cho_12_1" do
       advance 16
       xmin 2
       xmax 14
@@ -656,7 +656,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_1" do
+    bmp_glyph name: "cho_13_1" do
       advance 16
       xmin 2
       xmax 14
@@ -674,7 +674,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_1" do
+    bmp_glyph name: "cho_14_1" do
       advance 16
       xmin 2
       xmax 14
@@ -692,7 +692,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_1" do
+    bmp_glyph name: "cho_15_1" do
       advance 16
       xmin 2
       xmax 14
@@ -710,7 +710,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_1" do
+    bmp_glyph name: "cho_16_1" do
       advance 16
       xmin 2
       xmax 14
@@ -728,7 +728,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_1" do
+    bmp_glyph name: "cho_17_1" do
       advance 16
       xmin 2
       xmax 14
@@ -746,7 +746,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_1" do
+    bmp_glyph name: "cho_18_1" do
       advance 16
       xmin 2
       xmax 14
@@ -765,7 +765,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_2" do
+    bmp_glyph name: "cho_0_2" do
       advance 16
       xmin 2
       xmax 14
@@ -783,7 +783,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_2" do
+    bmp_glyph name: "cho_1_2" do
       advance 16
       xmin 2
       xmax 14
@@ -801,7 +801,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_2" do
+    bmp_glyph name: "cho_2_2" do
       advance 16
       xmin 2
       xmax 14
@@ -817,7 +817,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_2" do
+    bmp_glyph name: "cho_3_2" do
       advance 16
       xmin 2
       xmax 14
@@ -833,7 +833,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_2" do
+    bmp_glyph name: "cho_4_2" do
       advance 16
       xmin 2
       xmax 14
@@ -849,7 +849,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_2" do
+    bmp_glyph name: "cho_5_2" do
       advance 16
       xmin 2
       xmax 14
@@ -865,7 +865,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_2" do
+    bmp_glyph name: "cho_6_2" do
       advance 16
       xmin 2
       xmax 14
@@ -881,7 +881,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_2" do
+    bmp_glyph name: "cho_7_2" do
       advance 16
       xmin 2
       xmax 14
@@ -897,7 +897,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_2" do
+    bmp_glyph name: "cho_8_2" do
       advance 16
       xmin 2
       xmax 14
@@ -913,7 +913,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_2" do
+    bmp_glyph name: "cho_9_2" do
       advance 16
       xmin 2
       xmax 14
@@ -930,7 +930,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_2" do
+    bmp_glyph name: "cho_10_2" do
       advance 16
       xmin 2
       xmax 14
@@ -947,7 +947,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_2" do
+    bmp_glyph name: "cho_11_2" do
       advance 16
       xmin 2
       xmax 14
@@ -964,7 +964,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_2" do
+    bmp_glyph name: "cho_12_2" do
       advance 16
       xmin 2
       xmax 14
@@ -981,7 +981,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_2" do
+    bmp_glyph name: "cho_13_2" do
       advance 16
       xmin 2
       xmax 14
@@ -998,7 +998,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_2" do
+    bmp_glyph name: "cho_14_2" do
       advance 16
       xmin 2
       xmax 14
@@ -1016,7 +1016,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_2" do
+    bmp_glyph name: "cho_15_2" do
       advance 16
       xmin 2
       xmax 14
@@ -1034,7 +1034,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_2" do
+    bmp_glyph name: "cho_16_2" do
       advance 16
       xmin 2
       xmax 14
@@ -1050,7 +1050,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_2" do
+    bmp_glyph name: "cho_17_2" do
       advance 16
       xmin 2
       xmax 14
@@ -1066,7 +1066,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_2" do
+    bmp_glyph name: "cho_18_2" do
       advance 16
       xmin 2
       xmax 14
@@ -1084,7 +1084,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_3" do
+    bmp_glyph name: "cho_0_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1102,7 +1102,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_3" do
+    bmp_glyph name: "cho_1_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1120,7 +1120,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_3" do
+    bmp_glyph name: "cho_2_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1138,7 +1138,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_3" do
+    bmp_glyph name: "cho_3_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1156,7 +1156,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_3" do
+    bmp_glyph name: "cho_4_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1174,7 +1174,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_3" do
+    bmp_glyph name: "cho_5_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1192,7 +1192,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_3" do
+    bmp_glyph name: "cho_6_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1210,7 +1210,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_3" do
+    bmp_glyph name: "cho_7_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1228,7 +1228,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_3" do
+    bmp_glyph name: "cho_8_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1246,7 +1246,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_3" do
+    bmp_glyph name: "cho_9_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1264,7 +1264,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_3" do
+    bmp_glyph name: "cho_10_3" do
       advance 16
       xmin 0
       xmax 9
@@ -1282,7 +1282,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_3" do
+    bmp_glyph name: "cho_11_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1300,7 +1300,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_3" do
+    bmp_glyph name: "cho_12_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1318,7 +1318,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_3" do
+    bmp_glyph name: "cho_13_3" do
       advance 16
       xmin 1
       xmax 10
@@ -1336,7 +1336,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_3" do
+    bmp_glyph name: "cho_14_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1354,7 +1354,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_3" do
+    bmp_glyph name: "cho_15_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1372,7 +1372,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_3" do
+    bmp_glyph name: "cho_16_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1390,7 +1390,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_3" do
+    bmp_glyph name: "cho_17_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1408,7 +1408,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_3" do
+    bmp_glyph name: "cho_18_3" do
       advance 16
       xmin 1
       xmax 9
@@ -1427,7 +1427,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_4" do
+    bmp_glyph name: "cho_0_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1444,7 +1444,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_4" do
+    bmp_glyph name: "cho_1_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1460,7 +1460,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_4" do
+    bmp_glyph name: "cho_2_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1476,7 +1476,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_4" do
+    bmp_glyph name: "cho_3_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1492,7 +1492,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_4" do
+    bmp_glyph name: "cho_4_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1508,7 +1508,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_4" do
+    bmp_glyph name: "cho_5_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1524,7 +1524,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_4" do
+    bmp_glyph name: "cho_6_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1540,7 +1540,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_4" do
+    bmp_glyph name: "cho_7_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1556,7 +1556,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_4" do
+    bmp_glyph name: "cho_8_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1572,7 +1572,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_4" do
+    bmp_glyph name: "cho_9_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1588,7 +1588,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_4" do
+    bmp_glyph name: "cho_10_4" do
       advance 16
       xmin 0
       xmax 9
@@ -1604,7 +1604,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_4" do
+    bmp_glyph name: "cho_11_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1620,7 +1620,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_4" do
+    bmp_glyph name: "cho_12_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1636,7 +1636,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_4" do
+    bmp_glyph name: "cho_13_4" do
       advance 16
       xmin 1
       xmax 10
@@ -1652,7 +1652,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_4" do
+    bmp_glyph name: "cho_14_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1669,7 +1669,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_4" do
+    bmp_glyph name: "cho_15_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1686,7 +1686,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_4" do
+    bmp_glyph name: "cho_16_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1702,7 +1702,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_4" do
+    bmp_glyph name: "cho_17_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1718,7 +1718,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_4" do
+    bmp_glyph name: "cho_18_4" do
       advance 16
       xmin 1
       xmax 9
@@ -1735,7 +1735,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_5" do
+    bmp_glyph name: "cho_0_5" do
       advance 16
       xmin 1
       xmax 7
@@ -1753,7 +1753,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_5" do
+    bmp_glyph name: "cho_1_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1771,7 +1771,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_5" do
+    bmp_glyph name: "cho_2_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1789,7 +1789,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_5" do
+    bmp_glyph name: "cho_3_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1807,7 +1807,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_5" do
+    bmp_glyph name: "cho_4_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1825,7 +1825,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_5" do
+    bmp_glyph name: "cho_5_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1843,7 +1843,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_5" do
+    bmp_glyph name: "cho_6_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1861,7 +1861,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_5" do
+    bmp_glyph name: "cho_7_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1879,7 +1879,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_5" do
+    bmp_glyph name: "cho_8_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1897,7 +1897,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_5" do
+    bmp_glyph name: "cho_9_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1915,7 +1915,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_5" do
+    bmp_glyph name: "cho_10_5" do
       advance 16
       xmin 0
       xmax 9
@@ -1933,7 +1933,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_5" do
+    bmp_glyph name: "cho_11_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1951,7 +1951,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_5" do
+    bmp_glyph name: "cho_12_5" do
       advance 16
       xmin 1
       xmax 9
@@ -1969,7 +1969,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_5" do
+    bmp_glyph name: "cho_13_5" do
       advance 16
       xmin 1
       xmax 10
@@ -1987,7 +1987,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_5" do
+    bmp_glyph name: "cho_14_5" do
       advance 16
       xmin 1
       xmax 9
@@ -2005,7 +2005,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_5" do
+    bmp_glyph name: "cho_15_5" do
       advance 16
       xmin 1
       xmax 8
@@ -2023,7 +2023,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_5" do
+    bmp_glyph name: "cho_16_5" do
       advance 16
       xmin 1
       xmax 9
@@ -2041,7 +2041,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_5" do
+    bmp_glyph name: "cho_17_5" do
       advance 16
       xmin 1
       xmax 9
@@ -2059,7 +2059,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_5" do
+    bmp_glyph name: "cho_18_5" do
       advance 16
       xmin 1
       xmax 9
@@ -2077,7 +2077,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_6" do
+    bmp_glyph name: "cho_0_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2094,7 +2094,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_6" do
+    bmp_glyph name: "cho_1_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2110,7 +2110,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_6" do
+    bmp_glyph name: "cho_2_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2126,7 +2126,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_6" do
+    bmp_glyph name: "cho_3_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2142,7 +2142,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_6" do
+    bmp_glyph name: "cho_4_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2158,7 +2158,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_6" do
+    bmp_glyph name: "cho_5_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2174,7 +2174,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_6" do
+    bmp_glyph name: "cho_6_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2190,7 +2190,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_6" do
+    bmp_glyph name: "cho_7_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2206,7 +2206,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_6" do
+    bmp_glyph name: "cho_8_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2222,7 +2222,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_6" do
+    bmp_glyph name: "cho_9_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2238,7 +2238,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_6" do
+    bmp_glyph name: "cho_10_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2254,7 +2254,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_6" do
+    bmp_glyph name: "cho_11_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2270,7 +2270,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_6" do
+    bmp_glyph name: "cho_12_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2286,7 +2286,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_6" do
+    bmp_glyph name: "cho_13_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2302,7 +2302,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_6" do
+    bmp_glyph name: "cho_14_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2318,7 +2318,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_6" do
+    bmp_glyph name: "cho_15_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2335,7 +2335,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_6" do
+    bmp_glyph name: "cho_16_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2351,7 +2351,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_6" do
+    bmp_glyph name: "cho_17_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2367,7 +2367,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_6" do
+    bmp_glyph name: "cho_18_6" do
       advance 16
       xmin 2
       xmax 14
@@ -2383,7 +2383,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_0_7" do
+    bmp_glyph name: "cho_0_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2399,7 +2399,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_1_7" do
+    bmp_glyph name: "cho_1_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2415,7 +2415,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_2_7" do
+    bmp_glyph name: "cho_2_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2430,7 +2430,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_3_7" do
+    bmp_glyph name: "cho_3_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2445,7 +2445,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_4_7" do
+    bmp_glyph name: "cho_4_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2460,7 +2460,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_5_7" do
+    bmp_glyph name: "cho_5_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2476,7 +2476,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_6_7" do
+    bmp_glyph name: "cho_6_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2491,7 +2491,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_7_7" do
+    bmp_glyph name: "cho_7_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2506,7 +2506,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_8_7" do
+    bmp_glyph name: "cho_8_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2521,7 +2521,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_9_7" do
+    bmp_glyph name: "cho_9_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2536,7 +2536,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_10_7" do
+    bmp_glyph name: "cho_10_7" do
       advance 16
       xmin 0
       xmax 9
@@ -2551,7 +2551,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_11_7" do
+    bmp_glyph name: "cho_11_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2567,7 +2567,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_12_7" do
+    bmp_glyph name: "cho_12_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2582,7 +2582,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_13_7" do
+    bmp_glyph name: "cho_13_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2597,7 +2597,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_14_7" do
+    bmp_glyph name: "cho_14_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2613,7 +2613,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_15_7" do
+    bmp_glyph name: "cho_15_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2629,7 +2629,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_16_7" do
+    bmp_glyph name: "cho_16_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2645,7 +2645,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_17_7" do
+    bmp_glyph name: "cho_17_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2660,7 +2660,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "cho_18_7" do
+    bmp_glyph name: "cho_18_7" do
       advance 16
       xmin 1
       xmax 9
@@ -2676,7 +2676,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_0_0" do
+    bmp_glyph name: "jung_0_0" do
       advance 16
       xmin 11
       xmax 16
@@ -2700,7 +2700,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_1_0" do
+    bmp_glyph name: "jung_1_0" do
       advance 16
       xmin 10
       xmax 15
@@ -2724,7 +2724,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_2_0" do
+    bmp_glyph name: "jung_2_0" do
       advance 16
       xmin 11
       xmax 16
@@ -2748,7 +2748,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_3_0" do
+    bmp_glyph name: "jung_3_0" do
       advance 16
       xmin 10
       xmax 15
@@ -2772,7 +2772,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_4_0" do
+    bmp_glyph name: "jung_4_0" do
       advance 16
       xmin 9
       xmax 14
@@ -2796,7 +2796,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_5_0" do
+    bmp_glyph name: "jung_5_0" do
       advance 16
       xmin 8
       xmax 15
@@ -2820,7 +2820,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_6_0" do
+    bmp_glyph name: "jung_6_0" do
       advance 16
       xmin 9
       xmax 14
@@ -2844,7 +2844,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_7_0" do
+    bmp_glyph name: "jung_7_0" do
       advance 16
       xmin 8
       xmax 15
@@ -2868,7 +2868,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_8_0" do
+    bmp_glyph name: "jung_8_0" do
       advance 16
       xmin 1
       xmax 15
@@ -2885,7 +2885,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_9_0" do
+    bmp_glyph name: "jung_9_0" do
       advance 16
       xmin 1
       xmax 16
@@ -2909,7 +2909,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_10_0" do
+    bmp_glyph name: "jung_10_0" do
       advance 16
       xmin 1
       xmax 15
@@ -2933,7 +2933,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_11_0" do
+    bmp_glyph name: "jung_11_0" do
       advance 16
       xmin 1
       xmax 14
@@ -2957,7 +2957,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_12_0" do
+    bmp_glyph name: "jung_12_0" do
       advance 16
       xmin 1
       xmax 15
@@ -2974,7 +2974,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_13_0" do
+    bmp_glyph name: "jung_13_0" do
       advance 16
       xmin 1
       xmax 15
@@ -2990,7 +2990,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_14_0" do
+    bmp_glyph name: "jung_14_0" do
       advance 16
       xmin 1
       xmax 14
@@ -3014,7 +3014,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_15_0" do
+    bmp_glyph name: "jung_15_0" do
       advance 16
       xmin 1
       xmax 15
@@ -3038,7 +3038,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_16_0" do
+    bmp_glyph name: "jung_16_0" do
       advance 16
       xmin 1
       xmax 14
@@ -3062,7 +3062,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_17_0" do
+    bmp_glyph name: "jung_17_0" do
       advance 16
       xmin 1
       xmax 15
@@ -3078,7 +3078,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_18_0" do
+    bmp_glyph name: "jung_18_0" do
       advance 16
       xmin 1
       xmax 15
@@ -3090,7 +3090,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_19_0" do
+    bmp_glyph name: "jung_19_0" do
       advance 16
       xmin 1
       xmax 14
@@ -3114,7 +3114,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_20_0" do
+    bmp_glyph name: "jung_20_0" do
       advance 16
       xmin 12
       xmax 14
@@ -3138,7 +3138,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_0_1" do
+    bmp_glyph name: "jung_0_1" do
       advance 16
       xmin 11
       xmax 16
@@ -3162,7 +3162,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_1_1" do
+    bmp_glyph name: "jung_1_1" do
       advance 16
       xmin 10
       xmax 15
@@ -3186,7 +3186,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_2_1" do
+    bmp_glyph name: "jung_2_1" do
       advance 16
       xmin 11
       xmax 16
@@ -3210,7 +3210,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_3_1" do
+    bmp_glyph name: "jung_3_1" do
       advance 16
       xmin 10
       xmax 15
@@ -3234,7 +3234,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_4_1" do
+    bmp_glyph name: "jung_4_1" do
       advance 16
       xmin 9
       xmax 14
@@ -3258,7 +3258,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_5_1" do
+    bmp_glyph name: "jung_5_1" do
       advance 16
       xmin 8
       xmax 15
@@ -3282,7 +3282,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_6_1" do
+    bmp_glyph name: "jung_6_1" do
       advance 16
       xmin 9
       xmax 14
@@ -3306,7 +3306,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_7_1" do
+    bmp_glyph name: "jung_7_1" do
       advance 16
       xmin 8
       xmax 15
@@ -3330,7 +3330,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_8_1" do
+    bmp_glyph name: "jung_8_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3345,7 +3345,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_9_1" do
+    bmp_glyph name: "jung_9_1" do
       advance 16
       xmin 1
       xmax 16
@@ -3369,7 +3369,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_10_1" do
+    bmp_glyph name: "jung_10_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3393,7 +3393,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_11_1" do
+    bmp_glyph name: "jung_11_1" do
       advance 16
       xmin 1
       xmax 14
@@ -3417,7 +3417,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_12_1" do
+    bmp_glyph name: "jung_12_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3432,7 +3432,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_13_1" do
+    bmp_glyph name: "jung_13_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3448,7 +3448,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_14_1" do
+    bmp_glyph name: "jung_14_1" do
       advance 16
       xmin 1
       xmax 14
@@ -3472,7 +3472,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_15_1" do
+    bmp_glyph name: "jung_15_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3496,7 +3496,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_16_1" do
+    bmp_glyph name: "jung_16_1" do
       advance 16
       xmin 1
       xmax 14
@@ -3520,7 +3520,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_17_1" do
+    bmp_glyph name: "jung_17_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3536,7 +3536,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_18_1" do
+    bmp_glyph name: "jung_18_1" do
       advance 16
       xmin 1
       xmax 15
@@ -3548,7 +3548,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_19_1" do
+    bmp_glyph name: "jung_19_1" do
       advance 16
       xmin 1
       xmax 14
@@ -3572,7 +3572,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_20_1" do
+    bmp_glyph name: "jung_20_1" do
       advance 16
       xmin 12
       xmax 14
@@ -3596,7 +3596,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_0_2" do
+    bmp_glyph name: "jung_0_2" do
       advance 16
       xmin 11
       xmax 16
@@ -3614,7 +3614,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_1_2" do
+    bmp_glyph name: "jung_1_2" do
       advance 16
       xmin 10
       xmax 15
@@ -3632,7 +3632,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_2_2" do
+    bmp_glyph name: "jung_2_2" do
       advance 16
       xmin 11
       xmax 16
@@ -3650,7 +3650,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_3_2" do
+    bmp_glyph name: "jung_3_2" do
       advance 16
       xmin 10
       xmax 15
@@ -3668,7 +3668,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_4_2" do
+    bmp_glyph name: "jung_4_2" do
       advance 16
       xmin 9
       xmax 14
@@ -3686,7 +3686,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_5_2" do
+    bmp_glyph name: "jung_5_2" do
       advance 16
       xmin 8
       xmax 15
@@ -3704,7 +3704,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_6_2" do
+    bmp_glyph name: "jung_6_2" do
       advance 16
       xmin 9
       xmax 14
@@ -3722,7 +3722,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_7_2" do
+    bmp_glyph name: "jung_7_2" do
       advance 16
       xmin 8
       xmax 15
@@ -3740,7 +3740,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_8_2" do
+    bmp_glyph name: "jung_8_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3755,7 +3755,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_9_2" do
+    bmp_glyph name: "jung_9_2" do
       advance 16
       xmin 1
       xmax 16
@@ -3774,7 +3774,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_10_2" do
+    bmp_glyph name: "jung_10_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3793,7 +3793,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_11_2" do
+    bmp_glyph name: "jung_11_2" do
       advance 16
       xmin 1
       xmax 14
@@ -3812,7 +3812,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_12_2" do
+    bmp_glyph name: "jung_12_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3827,7 +3827,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_13_2" do
+    bmp_glyph name: "jung_13_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3841,7 +3841,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_14_2" do
+    bmp_glyph name: "jung_14_2" do
       advance 16
       xmin 1
       xmax 14
@@ -3860,7 +3860,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_15_2" do
+    bmp_glyph name: "jung_15_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3879,7 +3879,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_16_2" do
+    bmp_glyph name: "jung_16_2" do
       advance 16
       xmin 1
       xmax 14
@@ -3898,7 +3898,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_17_2" do
+    bmp_glyph name: "jung_17_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3912,7 +3912,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_18_2" do
+    bmp_glyph name: "jung_18_2" do
       advance 16
       xmin 1
       xmax 15
@@ -3924,7 +3924,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_19_2" do
+    bmp_glyph name: "jung_19_2" do
       advance 16
       xmin 1
       xmax 14
@@ -3943,7 +3943,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_20_2" do
+    bmp_glyph name: "jung_20_2" do
       advance 16
       xmin 12
       xmax 14
@@ -3961,7 +3961,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_0_3" do
+    bmp_glyph name: "jung_0_3" do
       advance 16
       xmin 11
       xmax 16
@@ -3979,7 +3979,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_1_3" do
+    bmp_glyph name: "jung_1_3" do
       advance 16
       xmin 10
       xmax 15
@@ -3997,7 +3997,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_2_3" do
+    bmp_glyph name: "jung_2_3" do
       advance 16
       xmin 11
       xmax 16
@@ -4015,7 +4015,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_3_3" do
+    bmp_glyph name: "jung_3_3" do
       advance 16
       xmin 10
       xmax 15
@@ -4033,7 +4033,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_4_3" do
+    bmp_glyph name: "jung_4_3" do
       advance 16
       xmin 9
       xmax 14
@@ -4051,7 +4051,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_5_3" do
+    bmp_glyph name: "jung_5_3" do
       advance 16
       xmin 8
       xmax 15
@@ -4069,7 +4069,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_6_3" do
+    bmp_glyph name: "jung_6_3" do
       advance 16
       xmin 9
       xmax 14
@@ -4087,7 +4087,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_7_3" do
+    bmp_glyph name: "jung_7_3" do
       advance 16
       xmin 8
       xmax 15
@@ -4105,7 +4105,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_8_3" do
+    bmp_glyph name: "jung_8_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4119,7 +4119,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_9_3" do
+    bmp_glyph name: "jung_9_3" do
       advance 16
       xmin 1
       xmax 16
@@ -4138,7 +4138,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_10_3" do
+    bmp_glyph name: "jung_10_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4157,7 +4157,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_11_3" do
+    bmp_glyph name: "jung_11_3" do
       advance 16
       xmin 1
       xmax 14
@@ -4176,7 +4176,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_12_3" do
+    bmp_glyph name: "jung_12_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4190,7 +4190,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_13_3" do
+    bmp_glyph name: "jung_13_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4204,7 +4204,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_14_3" do
+    bmp_glyph name: "jung_14_3" do
       advance 16
       xmin 1
       xmax 14
@@ -4223,7 +4223,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_15_3" do
+    bmp_glyph name: "jung_15_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4242,7 +4242,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_16_3" do
+    bmp_glyph name: "jung_16_3" do
       advance 16
       xmin 1
       xmax 14
@@ -4261,7 +4261,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_17_3" do
+    bmp_glyph name: "jung_17_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4275,7 +4275,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_18_3" do
+    bmp_glyph name: "jung_18_3" do
       advance 16
       xmin 1
       xmax 15
@@ -4287,7 +4287,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_19_3" do
+    bmp_glyph name: "jung_19_3" do
       advance 16
       xmin 1
       xmax 14
@@ -4306,7 +4306,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jung_20_3" do
+    bmp_glyph name: "jung_20_3" do
       advance 16
       xmin 12
       xmax 14
@@ -4324,7 +4324,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_1_0" do
+    bmp_glyph name: "jong_1_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4340,7 +4340,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_2_0" do
+    bmp_glyph name: "jong_2_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4356,7 +4356,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_3_0" do
+    bmp_glyph name: "jong_3_0" do
       advance 16
       xmin 2
       xmax 15
@@ -4372,7 +4372,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_4_0" do
+    bmp_glyph name: "jong_4_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4388,7 +4388,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_5_0" do
+    bmp_glyph name: "jong_5_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4404,7 +4404,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_6_0" do
+    bmp_glyph name: "jong_6_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4420,7 +4420,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_7_0" do
+    bmp_glyph name: "jong_7_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4436,7 +4436,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_8_0" do
+    bmp_glyph name: "jong_8_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4452,7 +4452,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_9_0" do
+    bmp_glyph name: "jong_9_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4468,7 +4468,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_10_0" do
+    bmp_glyph name: "jong_10_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4484,7 +4484,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_11_0" do
+    bmp_glyph name: "jong_11_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4500,7 +4500,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_12_0" do
+    bmp_glyph name: "jong_12_0" do
       advance 16
       xmin 2
       xmax 14
@@ -4516,7 +4516,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_13_0" do
+    bmp_glyph name: "jong_13_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4532,7 +4532,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_14_0" do
+    bmp_glyph name: "jong_14_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4548,7 +4548,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_15_0" do
+    bmp_glyph name: "jong_15_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4564,7 +4564,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_16_0" do
+    bmp_glyph name: "jong_16_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4580,7 +4580,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_17_0" do
+    bmp_glyph name: "jong_17_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4596,7 +4596,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_18_0" do
+    bmp_glyph name: "jong_18_0" do
       advance 16
       xmin 2
       xmax 14
@@ -4612,7 +4612,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_19_0" do
+    bmp_glyph name: "jong_19_0" do
       advance 16
       xmin 1
       xmax 13
@@ -4628,7 +4628,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_20_0" do
+    bmp_glyph name: "jong_20_0" do
       advance 16
       xmin 2
       xmax 14
@@ -4644,7 +4644,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_21_0" do
+    bmp_glyph name: "jong_21_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4660,7 +4660,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_22_0" do
+    bmp_glyph name: "jong_22_0" do
       advance 16
       xmin 1
       xmax 13
@@ -4676,7 +4676,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_23_0" do
+    bmp_glyph name: "jong_23_0" do
       advance 16
       xmin 1
       xmax 13
@@ -4693,7 +4693,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_24_0" do
+    bmp_glyph name: "jong_24_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4709,7 +4709,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_25_0" do
+    bmp_glyph name: "jong_25_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4725,7 +4725,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_26_0" do
+    bmp_glyph name: "jong_26_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4741,7 +4741,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_27_0" do
+    bmp_glyph name: "jong_27_0" do
       advance 16
       xmin 2
       xmax 13
@@ -4758,7 +4758,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_1_1" do
+    bmp_glyph name: "jong_1_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4774,7 +4774,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_2_1" do
+    bmp_glyph name: "jong_2_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4790,7 +4790,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_3_1" do
+    bmp_glyph name: "jong_3_1" do
       advance 16
       xmin 2
       xmax 15
@@ -4806,7 +4806,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_4_1" do
+    bmp_glyph name: "jong_4_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4822,7 +4822,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_5_1" do
+    bmp_glyph name: "jong_5_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4838,7 +4838,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_6_1" do
+    bmp_glyph name: "jong_6_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4854,7 +4854,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_7_1" do
+    bmp_glyph name: "jong_7_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4870,7 +4870,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_8_1" do
+    bmp_glyph name: "jong_8_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4886,7 +4886,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_9_1" do
+    bmp_glyph name: "jong_9_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4902,7 +4902,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_10_1" do
+    bmp_glyph name: "jong_10_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4918,7 +4918,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_11_1" do
+    bmp_glyph name: "jong_11_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4934,7 +4934,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_12_1" do
+    bmp_glyph name: "jong_12_1" do
       advance 16
       xmin 2
       xmax 15
@@ -4950,7 +4950,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_13_1" do
+    bmp_glyph name: "jong_13_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4966,7 +4966,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_14_1" do
+    bmp_glyph name: "jong_14_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4982,7 +4982,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_15_1" do
+    bmp_glyph name: "jong_15_1" do
       advance 16
       xmin 2
       xmax 14
@@ -4998,7 +4998,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_16_1" do
+    bmp_glyph name: "jong_16_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5014,7 +5014,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_17_1" do
+    bmp_glyph name: "jong_17_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5030,7 +5030,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_18_1" do
+    bmp_glyph name: "jong_18_1" do
       advance 16
       xmin 2
       xmax 15
@@ -5046,7 +5046,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_19_1" do
+    bmp_glyph name: "jong_19_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5062,7 +5062,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_20_1" do
+    bmp_glyph name: "jong_20_1" do
       advance 16
       xmin 2
       xmax 15
@@ -5078,7 +5078,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_21_1" do
+    bmp_glyph name: "jong_21_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5094,7 +5094,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_22_1" do
+    bmp_glyph name: "jong_22_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5110,7 +5110,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_23_1" do
+    bmp_glyph name: "jong_23_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5126,7 +5126,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_24_1" do
+    bmp_glyph name: "jong_24_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5142,7 +5142,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_25_1" do
+    bmp_glyph name: "jong_25_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5158,7 +5158,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_26_1" do
+    bmp_glyph name: "jong_26_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5174,7 +5174,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_27_1" do
+    bmp_glyph name: "jong_27_1" do
       advance 16
       xmin 2
       xmax 14
@@ -5190,7 +5190,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_1_2" do
+    bmp_glyph name: "jong_1_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5206,7 +5206,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_2_2" do
+    bmp_glyph name: "jong_2_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5222,7 +5222,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_3_2" do
+    bmp_glyph name: "jong_3_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5238,7 +5238,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_4_2" do
+    bmp_glyph name: "jong_4_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5254,7 +5254,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_5_2" do
+    bmp_glyph name: "jong_5_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5270,7 +5270,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_6_2" do
+    bmp_glyph name: "jong_6_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5286,7 +5286,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_7_2" do
+    bmp_glyph name: "jong_7_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5302,7 +5302,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_8_2" do
+    bmp_glyph name: "jong_8_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5318,7 +5318,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_9_2" do
+    bmp_glyph name: "jong_9_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5334,7 +5334,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_10_2" do
+    bmp_glyph name: "jong_10_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5350,7 +5350,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_11_2" do
+    bmp_glyph name: "jong_11_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5366,7 +5366,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_12_2" do
+    bmp_glyph name: "jong_12_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5382,7 +5382,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_13_2" do
+    bmp_glyph name: "jong_13_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5398,7 +5398,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_14_2" do
+    bmp_glyph name: "jong_14_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5414,7 +5414,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_15_2" do
+    bmp_glyph name: "jong_15_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5430,7 +5430,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_16_2" do
+    bmp_glyph name: "jong_16_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5446,7 +5446,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_17_2" do
+    bmp_glyph name: "jong_17_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5462,7 +5462,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_18_2" do
+    bmp_glyph name: "jong_18_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5478,7 +5478,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_19_2" do
+    bmp_glyph name: "jong_19_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5494,7 +5494,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_20_2" do
+    bmp_glyph name: "jong_20_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5510,7 +5510,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_21_2" do
+    bmp_glyph name: "jong_21_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5526,7 +5526,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_22_2" do
+    bmp_glyph name: "jong_22_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5542,7 +5542,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_23_2" do
+    bmp_glyph name: "jong_23_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5558,7 +5558,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_24_2" do
+    bmp_glyph name: "jong_24_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5574,7 +5574,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_25_2" do
+    bmp_glyph name: "jong_25_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5590,7 +5590,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_26_2" do
+    bmp_glyph name: "jong_26_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5606,7 +5606,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_27_2" do
+    bmp_glyph name: "jong_27_2" do
       advance 16
       xmin 2
       xmax 15
@@ -5622,7 +5622,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_1_3" do
+    bmp_glyph name: "jong_1_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5638,7 +5638,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_2_3" do
+    bmp_glyph name: "jong_2_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5654,7 +5654,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_3_3" do
+    bmp_glyph name: "jong_3_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5670,7 +5670,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_4_3" do
+    bmp_glyph name: "jong_4_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5686,7 +5686,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_5_3" do
+    bmp_glyph name: "jong_5_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5702,7 +5702,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_6_3" do
+    bmp_glyph name: "jong_6_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5718,7 +5718,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_7_3" do
+    bmp_glyph name: "jong_7_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5734,7 +5734,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_8_3" do
+    bmp_glyph name: "jong_8_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5750,7 +5750,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_9_3" do
+    bmp_glyph name: "jong_9_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5766,7 +5766,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_10_3" do
+    bmp_glyph name: "jong_10_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5782,7 +5782,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_11_3" do
+    bmp_glyph name: "jong_11_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5798,7 +5798,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_12_3" do
+    bmp_glyph name: "jong_12_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5814,7 +5814,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_13_3" do
+    bmp_glyph name: "jong_13_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5830,7 +5830,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_14_3" do
+    bmp_glyph name: "jong_14_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5846,7 +5846,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_15_3" do
+    bmp_glyph name: "jong_15_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5862,7 +5862,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_16_3" do
+    bmp_glyph name: "jong_16_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5878,7 +5878,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_17_3" do
+    bmp_glyph name: "jong_17_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5894,7 +5894,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_18_3" do
+    bmp_glyph name: "jong_18_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5910,7 +5910,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_19_3" do
+    bmp_glyph name: "jong_19_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5926,7 +5926,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_20_3" do
+    bmp_glyph name: "jong_20_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5942,7 +5942,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_21_3" do
+    bmp_glyph name: "jong_21_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5958,7 +5958,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_22_3" do
+    bmp_glyph name: "jong_22_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5974,7 +5974,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_23_3" do
+    bmp_glyph name: "jong_23_3" do
       advance 16
       xmin 2
       xmax 14
@@ -5990,7 +5990,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_24_3" do
+    bmp_glyph name: "jong_24_3" do
       advance 16
       xmin 2
       xmax 14
@@ -6006,7 +6006,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_25_3" do
+    bmp_glyph name: "jong_25_3" do
       advance 16
       xmin 2
       xmax 14
@@ -6022,7 +6022,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_26_3" do
+    bmp_glyph name: "jong_26_3" do
       advance 16
       xmin 2
       xmax 14
@@ -6038,7 +6038,7 @@ defmodule NeoDGM.BitmapFont.HangulJamoSource do
       """
     end
 
-    glyph name: "jong_27_3" do
+    bmp_glyph name: "jong_27_3" do
       advance 16
       xmin 2
       xmax 14

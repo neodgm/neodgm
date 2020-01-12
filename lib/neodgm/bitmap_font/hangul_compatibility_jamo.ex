@@ -3,7 +3,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
   import TTFLib.GlyphSource
 
   export_glyphs do
-    glyph unicode: 0x3131 do
+    bmp_glyph unicode: 0x3131 do
       advance 16
       xmin 2
       xmax 14
@@ -21,7 +21,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3132 do
+    bmp_glyph unicode: 0x3132 do
       advance 16
       xmin 2
       xmax 14
@@ -39,7 +39,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3133 do
+    bmp_glyph unicode: 0x3133 do
       advance 16
       xmin 2
       xmax 14
@@ -57,7 +57,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3134 do
+    bmp_glyph unicode: 0x3134 do
       advance 16
       xmin 2
       xmax 14
@@ -75,7 +75,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3135 do
+    bmp_glyph unicode: 0x3135 do
       advance 16
       xmin 2
       xmax 14
@@ -93,7 +93,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3136 do
+    bmp_glyph unicode: 0x3136 do
       advance 16
       xmin 2
       xmax 14
@@ -111,7 +111,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3137 do
+    bmp_glyph unicode: 0x3137 do
       advance 16
       xmin 2
       xmax 14
@@ -129,7 +129,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3138 do
+    bmp_glyph unicode: 0x3138 do
       advance 16
       xmin 2
       xmax 14
@@ -147,7 +147,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3139 do
+    bmp_glyph unicode: 0x3139 do
       advance 16
       xmin 2
       xmax 14
@@ -165,7 +165,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313A do
+    bmp_glyph unicode: 0x313A do
       advance 16
       xmin 2
       xmax 14
@@ -183,7 +183,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313B do
+    bmp_glyph unicode: 0x313B do
       advance 16
       xmin 2
       xmax 14
@@ -201,7 +201,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313C do
+    bmp_glyph unicode: 0x313C do
       advance 16
       xmin 2
       xmax 14
@@ -219,7 +219,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313D do
+    bmp_glyph unicode: 0x313D do
       advance 16
       xmin 2
       xmax 14
@@ -237,7 +237,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313E do
+    bmp_glyph unicode: 0x313E do
       advance 16
       xmin 2
       xmax 14
@@ -255,7 +255,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x313F do
+    bmp_glyph unicode: 0x313F do
       advance 16
       xmin 2
       xmax 15
@@ -273,7 +273,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3140 do
+    bmp_glyph unicode: 0x3140 do
       advance 16
       xmin 2
       xmax 14
@@ -291,7 +291,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3141 do
+    bmp_glyph unicode: 0x3141 do
       advance 16
       xmin 2
       xmax 14
@@ -309,7 +309,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3142 do
+    bmp_glyph unicode: 0x3142 do
       advance 16
       xmin 2
       xmax 14
@@ -327,7 +327,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3143 do
+    bmp_glyph unicode: 0x3143 do
       advance 16
       xmin 2
       xmax 14
@@ -345,7 +345,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3144 do
+    bmp_glyph unicode: 0x3144 do
       advance 16
       xmin 2
       xmax 14
@@ -363,7 +363,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3145 do
+    bmp_glyph unicode: 0x3145 do
       advance 16
       xmin 2
       xmax 14
@@ -380,7 +380,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3146 do
+    bmp_glyph unicode: 0x3146 do
       advance 16
       xmin 2
       xmax 14
@@ -398,7 +398,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3147 do
+    bmp_glyph unicode: 0x3147 do
       advance 16
       xmin 2
       xmax 14
@@ -416,7 +416,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3148 do
+    bmp_glyph unicode: 0x3148 do
       advance 16
       xmin 2
       xmax 14
@@ -434,7 +434,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3149 do
+    bmp_glyph unicode: 0x3149 do
       advance 16
       xmin 2
       xmax 14
@@ -452,7 +452,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314A do
+    bmp_glyph unicode: 0x314A do
       advance 16
       xmin 2
       xmax 14
@@ -470,7 +470,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314B do
+    bmp_glyph unicode: 0x314B do
       advance 16
       xmin 2
       xmax 14
@@ -488,7 +488,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314C do
+    bmp_glyph unicode: 0x314C do
       advance 16
       xmin 2
       xmax 14
@@ -506,7 +506,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314D do
+    bmp_glyph unicode: 0x314D do
       advance 16
       xmin 2
       xmax 14
@@ -524,7 +524,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314E do
+    bmp_glyph unicode: 0x314E do
       advance 16
       xmin 2
       xmax 14
@@ -543,7 +543,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x314F do
+    bmp_glyph unicode: 0x314F do
       advance 16
       xmin 11
       xmax 16
@@ -567,7 +567,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3150 do
+    bmp_glyph unicode: 0x3150 do
       advance 16
       xmin 10
       xmax 15
@@ -591,7 +591,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3151 do
+    bmp_glyph unicode: 0x3151 do
       advance 16
       xmin 11
       xmax 16
@@ -615,7 +615,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3152 do
+    bmp_glyph unicode: 0x3152 do
       advance 16
       xmin 10
       xmax 15
@@ -639,7 +639,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3153 do
+    bmp_glyph unicode: 0x3153 do
       advance 16
       xmin 9
       xmax 14
@@ -663,7 +663,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3154 do
+    bmp_glyph unicode: 0x3154 do
       advance 16
       xmin 8
       xmax 15
@@ -687,7 +687,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3155 do
+    bmp_glyph unicode: 0x3155 do
       advance 16
       xmin 9
       xmax 14
@@ -711,7 +711,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3156 do
+    bmp_glyph unicode: 0x3156 do
       advance 16
       xmin 8
       xmax 15
@@ -735,7 +735,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3157 do
+    bmp_glyph unicode: 0x3157 do
       advance 16
       xmin 1
       xmax 15
@@ -752,7 +752,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3158 do
+    bmp_glyph unicode: 0x3158 do
       advance 16
       xmin 1
       xmax 16
@@ -776,7 +776,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3159 do
+    bmp_glyph unicode: 0x3159 do
       advance 16
       xmin 1
       xmax 15
@@ -800,7 +800,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315A do
+    bmp_glyph unicode: 0x315A do
       advance 16
       xmin 1
       xmax 14
@@ -824,7 +824,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315B do
+    bmp_glyph unicode: 0x315B do
       advance 16
       xmin 1
       xmax 15
@@ -841,7 +841,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315C do
+    bmp_glyph unicode: 0x315C do
       advance 16
       xmin 1
       xmax 15
@@ -857,7 +857,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315D do
+    bmp_glyph unicode: 0x315D do
       advance 16
       xmin 1
       xmax 14
@@ -881,7 +881,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315E do
+    bmp_glyph unicode: 0x315E do
       advance 16
       xmin 1
       xmax 15
@@ -905,7 +905,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x315F do
+    bmp_glyph unicode: 0x315F do
       advance 16
       xmin 1
       xmax 14
@@ -929,7 +929,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3160 do
+    bmp_glyph unicode: 0x3160 do
       advance 16
       xmin 1
       xmax 15
@@ -945,7 +945,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3161 do
+    bmp_glyph unicode: 0x3161 do
       advance 16
       xmin 1
       xmax 15
@@ -957,7 +957,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3162 do
+    bmp_glyph unicode: 0x3162 do
       advance 16
       xmin 1
       xmax 14
@@ -981,7 +981,7 @@ defmodule NeoDGM.BitmapFont.HangulCompatibilityJamo do
       """
     end
 
-    glyph unicode: 0x3163 do
+    bmp_glyph unicode: 0x3163 do
       advance 16
       xmin 12
       xmax 14
