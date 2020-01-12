@@ -569,141 +569,34 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?À do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011000
-      0001100
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?À do
+      component {:name, "grave.component"}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Á do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0001100
-      0011000
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Á do
+      component {:unicode, 0x00b4}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Â do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011100
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Â do
+      component {:name, "circumflex.component"}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ã do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0111011
-      1101110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Ã do
+      component {:name, "tilde.component"}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ä do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Ä do
+      component {:unicode, 0x00a8}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Å do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011100
-      0110110
-      0011100
-      0111110
-      1100011
-      1100011
-      1100011
-      1111111
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Å do
+      component {:name, "ring.component"}, 0, 0
+      component {:name, "A.short"}, 0, 0
     end
 
     bmp_glyph unicode: ?Æ do
@@ -727,188 +620,44 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?Ç do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin -3
-      ymax 10
-
-      data """
-      0111110
-      1100011
-      1100000
-      1100000
-      1100000
-      1100000
-      1100000
-      1100000
-      1100011
-      0111110
-      0001100
-      0000110
-      0011100
-      """
+    composite_glyph unicode: ?Ç do
+      component {:unicode, 0x00b8}, 0, 0
+      component {:unicode, ?C}, 0, 0
     end
 
-    bmp_glyph unicode: ?È do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011000
-      0001100
-      0000000
-      0111111
-      1100000
-      1100000
-      1100000
-      1111110
-      1100000
-      1100000
-      1100000
-      0111111
-      """
+    composite_glyph unicode: ?È do
+      component {:name, "grave.component"}, 0, 0
+      component {:name, "E.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?É do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0001100
-      0011000
-      0000000
-      0111111
-      1100000
-      1100000
-      1100000
-      1111110
-      1100000
-      1100000
-      1100000
-      0111111
-      """
+    composite_glyph unicode: ?É do
+      component {:unicode, 0x00b4}, 0, 0
+      component {:name, "E.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ê do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011100
-      0110110
-      0000000
-      0111111
-      1100000
-      1100000
-      1100000
-      1111110
-      1100000
-      1100000
-      1100000
-      0111111
-      """
+    composite_glyph unicode: ?Ê do
+      component {:name, "circumflex.component"}, 0, 0
+      component {:name, "E.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ë do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      0110110
-      0000000
-      0111111
-      1100000
-      1100000
-      1100000
-      1111110
-      1100000
-      1100000
-      1100000
-      0111111
-      """
+    composite_glyph unicode: ?Ë do
+      component {:unicode, 0x00a8}, 0, 0
+      component {:name, "E.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ì do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      011000
-      001100
-      000000
-      111111
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      111111
-      """
+    composite_glyph unicode: ?Ì do
+      component {:name, "grave.component"}, 0, 0
+      component {:name, "I.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Í do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      001100
-      011000
-      000000
-      111111
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      111111
-      """
+    composite_glyph unicode: ?Í do
+      component {:unicode, 0x00b4}, 0, 0
+      component {:name, "I.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Î do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      011100
-      110110
-      000000
-      111111
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      111111
-      """
+    composite_glyph unicode: ?Î do
+      component {:name, "circumflex.component"}, 0, 0
+      component {:name, "I.short"}, 0, 0
     end
 
     bmp_glyph unicode: ?Ï do
@@ -954,141 +703,34 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?Ñ do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0111011
-      1101110
-      0000000
-      1111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?Ñ do
+      component {:name, "tilde.component"}, 0, 0
+      component {:name, "N.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ò do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011000
-      0001100
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ò do
+      component {:name, "grave.component"}, 0, 0
+      component {:name, "O.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ó do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0001100
-      0011000
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ó do
+      component {:unicode, 0x00b4}, 0, 0
+      component {:name, "O.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ô do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011100
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ô do
+      component {:name, "circumflex.component"}, 0, 0
+      component {:name, "O.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Õ do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0111011
-      1101110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Õ do
+      component {:name, "tilde.component"}, 0, 0
+      component {:name, "O.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ö do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ö do
+      component {:unicode, 0x00a8}, 0, 0
+      component {:name, "O.short"}, 0, 0
     end
 
     bmp_glyph unicode: ?× do
@@ -1132,118 +774,29 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?Ù do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011000
-      0001100
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ù do
+      component {:name, "grave.component"}, 0, 0
+      component {:name, "U.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ú do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0001100
-      0011000
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ú do
+      component {:unicode, 0x00b4}, 0, 0
+      component {:name, "U.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Û do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      0011100
-      0110110
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Û do
+      component {:name, "circumflex.component"}, 0, 0
+      component {:name, "U.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ü do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      0110110
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?Ü do
+      component {:unicode, 0x00a8}, 0, 0
+      component {:name, "U.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ý do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 12
-
-      data """
-      000110
-      001100
-      000000
-      110011
-      110011
-      110011
-      110011
-      011110
-      001100
-      001100
-      001100
-      001100
-      """
+    composite_glyph unicode: ?Ý do
+      component {:unicode, 0x00b4}, 1, 0
+      component {:name, "Y.short"}, 0, 0
     end
 
     bmp_glyph unicode: ?Þ do
@@ -1288,130 +841,34 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?à do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011000
-      0001100
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?à do
+      component {:name, "grave.component"}, 0, -2
+      component {:unicode, ?a}, 0, 0
     end
 
-    bmp_glyph unicode: ?á do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0001100
-      0011000
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?á do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, ?a}, 0, 0
     end
 
-    bmp_glyph unicode: ?â do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011100
-      0110110
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?â do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:unicode, ?a}, 0, 0
     end
 
-    bmp_glyph unicode: ?ã do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0111011
-      1101110
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?ã do
+      component {:name, "tilde.component"}, 0, -2
+      component {:unicode, ?a}, 0, 0
     end
 
-    bmp_glyph unicode: ?ä do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 9
-
-      data """
-      0110110
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?ä do
+      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, ?a}, 0, 0
     end
 
-    bmp_glyph unicode: ?å do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      0011100
-      0110110
-      0011100
-      0000000
-      1111110
-      0000011
-      0111111
-      1100011
-      1100011
-      1100011
-      0111111
-      """
+    composite_glyph unicode: ?å do
+      component {:name, "ring.component"}, 0, -1
+      component {:unicode, ?a}, 0, 0
     end
 
     bmp_glyph unicode: ?æ do
@@ -1432,171 +889,44 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?ç do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin -3
-      ymax 7
-
-      data """
-      0111110
-      1100011
-      1100000
-      1100000
-      1100000
-      1100011
-      0111110
-      0001100
-      0000110
-      0011100
-      """
+    composite_glyph unicode: ?ç do
+      component {:unicode, 0x00b8}, 0, 0
+      component {:unicode, ?c}, 0, 0
     end
 
-    bmp_glyph unicode: ?è do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011000
-      0001100
-      0000000
-      0111110
-      1100011
-      1111111
-      1100000
-      1100000
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?è do
+      component {:name, "grave.component"}, 0, -2
+      component {:unicode, ?e}, 0, 0
     end
 
-    bmp_glyph unicode: ?é do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0001100
-      0011000
-      0000000
-      0111110
-      1100011
-      1111111
-      1100000
-      1100000
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?é do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, ?e}, 0, 0
     end
 
-    bmp_glyph unicode: ?ê do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011100
-      0110110
-      0000000
-      0111110
-      1100011
-      1111111
-      1100000
-      1100000
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ê do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:unicode, ?e}, 0, 0
     end
 
-    bmp_glyph unicode: ?ë do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 9
-
-      data """
-      0110110
-      0000000
-      0111110
-      1100011
-      1111111
-      1100000
-      1100000
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ë do
+      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, ?e}, 0, 0
     end
 
-    bmp_glyph unicode: ?ì do
-      advance 8
-      xmin 2
-      xmax 6
-      ymin 0
-      ymax 10
-
-      data """
-      1100
-      0110
-      0000
-      0110
-      0110
-      0110
-      0110
-      0110
-      0110
-      0011
-      """
+    composite_glyph unicode: ?ì do
+      component {:name, "grave.component"}, -1, -2
+      component {:unicode, 0x0131}, 0, 0
     end
 
-    bmp_glyph unicode: ?í do
-      advance 8
-      xmin 3
-      xmax 6
-      ymin 0
-      ymax 10
-
-      data """
-      011
-      110
-      000
-      110
-      110
-      110
-      110
-      110
-      110
-      011
-      """
+    composite_glyph unicode: ?í do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, 0x0131}, 0, 0
     end
 
-    bmp_glyph unicode: ?î do
-      advance 8
-      xmin 2
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      01110
-      11011
-      00000
-      01100
-      01100
-      01100
-      01100
-      01100
-      01100
-      00110
-      """
+    composite_glyph unicode: ?î do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:unicode, 0x0131}, 0, 0
     end
 
     bmp_glyph unicode: ?ï do
@@ -1641,129 +971,34 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?ñ do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0111011
-      1101110
-      0000000
-      1111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      """
+    composite_glyph unicode: ?ñ do
+      component {:name, "tilde.component"}, 0, -2
+      component {:unicode, ?n}, 0, 0
     end
 
-    bmp_glyph unicode: ?ò do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011000
-      0001100
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ò do
+      component {:name, "grave.component"}, 0, -2
+      component {:unicode, ?o}, 0, 0
     end
 
-    bmp_glyph unicode: ?ó do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0001100
-      0011000
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ó do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, ?o}, 0, 0
     end
 
-    bmp_glyph unicode: ?ô do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011100
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ô do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:unicode, ?o}, 0, 0
     end
 
-    bmp_glyph unicode: ?õ do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0111011
-      1101110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?õ do
+      component {:name, "tilde.component"}, 0, -2
+      component {:unicode, ?o}, 0, 0
     end
 
-    bmp_glyph unicode: ?ö do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 9
-
-      data """
-      0110110
-      0000000
-      0111110
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ö do
+      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, ?o}, 0, 0
     end
 
     bmp_glyph unicode: ?÷ do
@@ -1804,111 +1039,29 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?ù do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011000
-      0001100
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ù do
+      component {:name, "grave.component"}, 0, -2
+      component {:unicode, ?u}, 0, 0
     end
 
-    bmp_glyph unicode: ?ú do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0001100
-      0011000
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ú do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, ?u}, 0, 0
     end
 
-    bmp_glyph unicode: ?û do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 10
-
-      data """
-      0011100
-      0110110
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?û do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:unicode, ?u}, 0, 0
     end
 
-    bmp_glyph unicode: ?ü do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 0
-      ymax 9
-
-      data """
-      0110110
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111110
-      """
+    composite_glyph unicode: ?ü do
+      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, ?u}, 0, 0
     end
 
-    bmp_glyph unicode: ?ý do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin -3
-      ymax 10
-
-      data """
-      0001100
-      0011000
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111111
-      0000011
-      0000011
-      0111110
-      """
+    composite_glyph unicode: ?ý do
+      component {:unicode, 0x00b4}, 0, -2
+      component {:unicode, ?y}, 0, 0
     end
 
     bmp_glyph unicode: ?þ do
@@ -1935,26 +1088,28 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?ÿ do
+    composite_glyph unicode: ?ÿ do
+      component {:unicode, 0x00a8}, 0, -2
+      component {:unicode, ?y}, 0, 0
+    end
+
+    # dotless i
+    # TODO: Move this glyph to Latin Extended-A module later.
+    bmp_glyph unicode: 0x0131 do
       advance 8
-      xmin 0
-      xmax 7
-      ymin -3
-      ymax 9
+      xmin 2
+      xmax 5
+      ymin 0
+      ymax 7
 
       data """
-      0110110
-      0000000
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      1100011
-      0111111
-      0000011
-      0000011
-      0111110
+      110
+      110
+      110
+      110
+      110
+      110
+      011
       """
     end
   end
