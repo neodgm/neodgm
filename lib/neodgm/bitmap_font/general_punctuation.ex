@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.GeneralPunctuation do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph unicode: 0x2000 do

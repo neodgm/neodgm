@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph name: "less.pipeoperator" do

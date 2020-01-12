@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.PowerlineSymbols do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph unicode: 0xE0A0 do

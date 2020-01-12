@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.Latin1Supplement do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph unicode: 0xA0 do

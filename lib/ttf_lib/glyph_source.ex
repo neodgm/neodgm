@@ -1,4 +1,4 @@
-defmodule TTFLib.BMPGlyphs do
+defmodule TTFLib.GlyphSource do
   alias TTFLib.RectilinearShape
   alias TTFLib.RectilinearShape.Path
 

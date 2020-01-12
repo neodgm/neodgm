@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph name: "hyphen.larr.head" do

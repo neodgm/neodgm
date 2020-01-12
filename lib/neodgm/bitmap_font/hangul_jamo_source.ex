@@ -1,6 +1,6 @@
 defmodule NeoDGM.BitmapFont.HangulJamoSource do
-  require TTFLib.BMPGlyphs
-  import TTFLib.BMPGlyphs
+  require TTFLib.GlyphSource
+  import TTFLib.GlyphSource
 
   export_glyphs do
     glyph name: "cho_0_0" do
