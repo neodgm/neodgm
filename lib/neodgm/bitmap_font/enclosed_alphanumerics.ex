@@ -53,6 +53,19 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
+    bmp_glyph name: "period.enclosure" do
+      advance 16
+      xmin 12
+      xmax 14
+      ymin 0
+      ymax 2
+
+      data """
+      11
+      11
+      """
+    end
+
     bmp_glyph name: "zero.enclosed" do
       advance 16
       xmin 5
@@ -533,430 +546,125 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
     # Numbers with a Period
 
-    bmp_glyph unicode: 9352 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      001100000
-      011100000
-      111100000
-      001100000
-      001100000
-      001100000
-      001100000
-      001100000
-      001100011
-      001100011
-      """
+    composite_glyph unicode: 9352 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:unicode, ?1}, 4, 0
     end
 
-    bmp_glyph unicode: 9353 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      111110000
-      000011000
-      000011000
-      000011000
-      011110000
-      110000000
-      110000000
-      110000000
-      110000011
-      111111011
-      """
+    composite_glyph unicode: 9353 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "two.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9354 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      111110000
-      000011000
-      000011000
-      000011000
-      011110000
-      000011000
-      000011000
-      000011000
-      000011011
-      111110011
-      """
+    composite_glyph unicode: 9354 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "three.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9355 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      001110000
-      011110000
-      110110000
-      110110000
-      110110000
-      111111000
-      000110000
-      000110000
-      000110011
-      000110011
-      """
+    composite_glyph unicode: 9355 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "four.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9356 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      111111000
-      110000000
-      110000000
-      110000000
-      111110000
-      000011000
-      000011000
-      000011000
-      000011011
-      111110011
-      """
+    composite_glyph unicode: 9356 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "five.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9357 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      011110000
-      110000000
-      110000000
-      110000000
-      111110000
-      110011000
-      110011000
-      110011000
-      110011011
-      011110011
-      """
+    composite_glyph unicode: 9357 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "six.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9358 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      111111000
-      000011000
-      000011000
-      000011000
-      000110000
-      001100000
-      001100000
-      001100000
-      001100011
-      001100011
-      """
+    composite_glyph unicode: 9358 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "seven.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9359 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      011110000
-      110011000
-      110011000
-      110011000
-      011110000
-      110011000
-      110011000
-      110011000
-      110011011
-      011110011
-      """
+    composite_glyph unicode: 9359 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "eight.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9360 do
-      advance 16
-      xmin 3
-      xmax 12
-      ymin 0
-      ymax 10
-
-      data """
-      011110000
-      110011000
-      110011000
-      110011000
-      011111000
-      000011000
-      000011000
-      000011000
-      000011011
-      011110011
-      """
+    composite_glyph unicode: 9360 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "nine.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9361 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110011110000
-      1110110011000
-      0110110011000
-      0110110111000
-      0110111111000
-      0110111011000
-      0110110011000
-      0110110011000
-      0110110011011
-      0110011110011
-      """
+    composite_glyph unicode: 9361 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "zero.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9362 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110001100000
-      1110011100000
-      0110001100000
-      0110001100000
-      0110001100000
-      0110001100000
-      0110001100000
-      0110001100000
-      0110001100011
-      0110001100011
-      """
+    composite_glyph unicode: 9362 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "one.enclosed"}, 3, 0
     end
 
-    bmp_glyph unicode: 9363 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110111110000
-      1110000011000
-      0110000011000
-      0110000011000
-      0110011110000
-      0110110000000
-      0110110000000
-      0110110000000
-      0110110000011
-      0110111111011
-      """
+    composite_glyph unicode: 9363 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "two.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9364 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110111110000
-      1110000011000
-      0110000011000
-      0110000011000
-      0110011110000
-      0110000011000
-      0110000011000
-      0110000011000
-      0110000011011
-      0110111110011
-      """
+    composite_glyph unicode: 9364 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "three.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9365 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110001110000
-      1110011110000
-      0110110110000
-      0110110110000
-      0110110110000
-      0110111111000
-      0110000110000
-      0110000110000
-      0110000110011
-      0110000110011
-      """
+    composite_glyph unicode: 9365 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "four.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9366 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110111111000
-      1110110000000
-      0110110000000
-      0110110000000
-      0110111110000
-      0110000011000
-      0110000011000
-      0110000011000
-      0110000011011
-      0110111110011
-      """
+    composite_glyph unicode: 9366 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "five.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9367 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110011110000
-      1110110000000
-      0110110000000
-      0110110000000
-      0110111110000
-      0110110011000
-      0110110011000
-      0110110011000
-      0110110011011
-      0110011110011
-      """
+    composite_glyph unicode: 9367 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "six.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9368 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110111111000
-      1110000011000
-      0110000011000
-      0110000011000
-      0110000110000
-      0110001100000
-      0110001100000
-      0110001100000
-      0110001100011
-      0110001100011
-      """
+    composite_glyph unicode: 9368 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "seven.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9369 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110011110000
-      1110110011000
-      0110110011000
-      0110110011000
-      0110011110000
-      0110110011000
-      0110110011000
-      0110110011000
-      0110110011011
-      0110011110011
-      """
+    composite_glyph unicode: 9369 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "eight.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9370 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      0110011110000
-      1110110011000
-      0110110011000
-      0110110011000
-      0110011111000
-      0110000011000
-      0110000011000
-      0110000011000
-      0110000011011
-      0110011110011
-      """
+    composite_glyph unicode: 9370 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "one.enclosed"}, -2, 0
+      component {:name, "nine.enclosed"}, 0, 0
     end
 
-    bmp_glyph unicode: 9371 do
-      advance 16
-      xmin 1
-      xmax 14
-      ymin 0
-      ymax 10
-
-      data """
-      1110001110000
-      0011011011000
-      0011011011000
-      0011011011000
-      0111011011000
-      1100011011000
-      1100011011000
-      1100011011000
-      1100011011011
-      1111001110011
-      """
+    composite_glyph unicode: 9371 do
+      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "two.enclosed2"}, -2, 0
+      component {:name, "zero.enclosed2"}, -2, 0
     end
+
+    # Circled Digit Zero
 
     composite_glyph unicode: 9450 do
       component {:name, "circle.enclosure"}, 0, 0
       component {:name, "zero.enclosed"}, 0, 0
     end
+
+    # Negative Circled Numbers
 
     bmp_glyph unicode: 9451 do
       advance 16
