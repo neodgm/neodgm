@@ -42,7 +42,7 @@ defmodule TTFLib.RectilinearShape.PathGenerator do
 
         next_edge =
           Enum.find(edges, fn edge ->
-            rem(facing + 1, 4) == direction(point, Edge.end_point(edge))
+            rem(facing + 3, 4) == direction(point, Edge.end_point(edge))
           end)
 
         edge_map2 = Map.put(edge_map, point, List.delete(edges, next_edge))
