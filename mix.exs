@@ -7,7 +7,7 @@ defmodule NeoDGM.Mixfile do
     [
       app: :neodgm,
       version: @neodgm_version,
-      elixir: "~> 1.8",
+      elixir: "~> 1.9",
       deps: deps()
     ]
   end
