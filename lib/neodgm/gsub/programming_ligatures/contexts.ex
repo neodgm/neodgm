@@ -1,5 +1,6 @@
 defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
   alias TTFLib.TableSource.GSUB
+  alias TTFLib.TableSource.OTFLayout.GlyphCoverage
   alias TTFLib.TableSource.OTFLayout.Lookup
 
   def data do
@@ -11,9 +12,9 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         subtables: [
           %{
             format: 3,
-            backtrack: ['<'],
-            input: ['-='],
-            lookahead: ['>'],
+            backtrack: [%GlyphCoverage{glyphs: '<'}],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [%GlyphCoverage{glyphs: '>'}],
             substitutions: [
               {0, "Short bidirectional arrow body"}
             ]
@@ -57,9 +58,12 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         subtables: [
           %{
             format: 3,
-            backtrack: [["hyphen.larr.head", "equal.larr.head"], '<'],
-            input: ['-='],
-            lookahead: ['>'],
+            backtrack: [
+              %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
+              %GlyphCoverage{glyphs: '<'}
+            ],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [%GlyphCoverage{glyphs: '>'}],
             substitutions: [
               {0, "Right arrow head alt"}
             ]
@@ -67,8 +71,8 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
           %{
             format: 3,
             backtrack: [],
-            input: ['-='],
-            lookahead: ['>'],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [%GlyphCoverage{glyphs: '>'}],
             substitutions: [
               {0, "Right arrow head"}
             ]
@@ -82,18 +86,23 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         subtables: [
           %{
             format: 3,
-            backtrack: [["hyphen.larr.head", "equal.larr.head"], '<'],
-            input: ['-='],
-            lookahead: ['-='],
+            backtrack: [
+              %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
+              %GlyphCoverage{glyphs: '<'}
+            ],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [%GlyphCoverage{glyphs: '-='}],
             substitutions: [
               {0, "Left arrow body"}
             ]
           },
           %{
             format: 3,
-            backtrack: [["hyphen.larr.body", "equal.larr.body"]],
-            input: ['-='],
-            lookahead: ['-='],
+            backtrack: [
+              %GlyphCoverage{glyphs: ["hyphen.larr.body", "equal.larr.body"]}
+            ],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [%GlyphCoverage{glyphs: '-='}],
             substitutions: [
               {0, "Left arrow body"}
             ]
@@ -108,15 +117,18 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
           %{
             format: 3,
             backtrack: [
-              [
+              %GlyphCoverage{glyphs: [
                 "hyphen.larr.head",
                 "hyphen.larr.body",
                 "equal.larr.head",
                 "equal.larr.body"
-              ]
+              ]}
             ],
-            input: ['-='],
-            lookahead: [["hyphen.rarr.head", "equal.rarr.head"], '>'],
+            input: [%GlyphCoverage{glyphs: '-='}],
+            lookahead: [
+              %GlyphCoverage{glyphs: ["hyphen.rarr.head", "equal.rarr.head"]},
+              %GlyphCoverage{glyphs: '>'}
+            ],
             substitutions: [
               {0, "Bidirectional arrow joiner"}
             ]
@@ -131,14 +143,14 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
           %{
             format: 3,
             backtrack: [
-              [
+              %GlyphCoverage{glyphs: [
                 "hyphen.larr.head",
                 "hyphen.larr.body",
                 "equal.larr.head",
                 "equal.larr.body"
-              ]
+              ]}
             ],
-            input: ['-='],
+            input: [%GlyphCoverage{glyphs: '-='}],
             lookahead: [],
             substitutions: [
               {0, "Left arrow body"}
@@ -155,12 +167,12 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
             format: 1,
             backtrack: [],
             lookahead: [
-              [
+              %GlyphCoverage{glyphs: [
                 "hyphen.rarr.head",
                 "hyphen.rarr.body",
                 "equal.rarr.head",
                 "equal.rarr.body"
-              ]
+              ]}
             ],
             substitutions: [
               {?-, "hyphen.rarr.body"},
@@ -253,7 +265,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
           %{
             format: 1,
             backtrack: [],
-            lookahead: [["bar.pipeoperator"]],
+            lookahead: [%GlyphCoverage{glyphs: ["bar.pipeoperator"]}],
             substitutions: [
               {?|, "bar.pipeoperator"}
             ]
