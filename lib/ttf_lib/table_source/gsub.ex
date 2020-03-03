@@ -1,9 +1,10 @@
 defmodule TTFLib.TableSource.GSUB do
   alias TTFLib.CompiledTable
   alias TTFLib.GlyphStorage
-  alias TTFLib.TableSource.OTFLayout.ScriptList
   alias TTFLib.TableSource.OTFLayout.FeatureList
+  alias TTFLib.TableSource.OTFLayout.GlyphCoverage
   alias TTFLib.TableSource.OTFLayout.LookupList
+  alias TTFLib.TableSource.OTFLayout.ScriptList
   alias TTFLib.Util
 
   defstruct [
@@ -84,7 +85,7 @@ defmodule TTFLib.TableSource.GSUB do
       |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
       |> Enum.unzip()
 
-    coverage = compile_coverage(from_glyphs)
+    coverage = %GlyphCoverage{glyphs: from_glyphs}
     coverage_offset = 6 + length(from_glyphs) * 2
 
     data = [
@@ -92,7 +93,7 @@ defmodule TTFLib.TableSource.GSUB do
       <<coverage_offset::16>>,
       <<length(from_glyphs)::16>>,
       Enum.map(to_glyphs, &<<&1::16>>),
-      coverage
+      GlyphCoverage.compile(coverage, internal: true)
     ]
 
     IO.iodata_to_binary(data)
@@ -113,9 +114,10 @@ defmodule TTFLib.TableSource.GSUB do
       |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
       |> Enum.unzip()
 
-    coverage = compile_coverage(glyphs)
+    coverage = %GlyphCoverage{glyphs: glyphs}
+    compiled_coverage = GlyphCoverage.compile(coverage, internal: true)
     coverage_offset = 6 + ruleset_count * 2
-    offset_base = coverage_offset + byte_size(coverage)
+    offset_base = coverage_offset + byte_size(compiled_coverage)
 
     {_, offsets, compiled_subrulesets} =
       Util.offsetted_binaries(subrulesets, offset_base, fn subrules ->
@@ -148,7 +150,7 @@ defmodule TTFLib.TableSource.GSUB do
       <<coverage_offset::16>>,
       <<ruleset_count::16>>,
       offsets,
-      coverage,
+      compiled_coverage,
       compiled_subrulesets
     ]
 
@@ -205,12 +207,13 @@ defmodule TTFLib.TableSource.GSUB do
     counts = seq_keys |> Enum.map(&length(subtable[&1])) |> Enum.sum()
     offset_base = 10 + counts * 2 + input_count * 2
 
-    input_coverage = compile_coverage(from_glyphs)
+    coverage = %GlyphCoverage{glyphs: from_glyphs}
+    compiled_coverage = GlyphCoverage.compile(coverage, internal: true)
 
     {offsets, coverages} =
       seq_keys
       |> Enum.map(&subtable[&1])
-      |> make_coverage_records(offset_base + byte_size(input_coverage))
+      |> make_coverage_records(offset_base + byte_size(compiled_coverage))
 
     data = [
       <<1::16>>,
@@ -218,7 +221,7 @@ defmodule TTFLib.TableSource.GSUB do
       Enum.reverse(offsets),
       <<input_count::16>>,
       Enum.map(to_glyphs, &<<&1::16>>),
-      input_coverage,
+      compiled_coverage,
       Enum.reverse(coverages)
     ]
 
@@ -242,14 +245,18 @@ defmodule TTFLib.TableSource.GSUB do
     {offsets, coverages}
   end
 
-  @spec compile_covseq([list()]) :: [binary()]
+  @spec compile_covseq([list() | GlyphCoverage.t()]) :: [binary()]
   defp compile_covseq(seq) do
     seq
-    |> Enum.map(fn glyphs ->
-      glyphs
-      |> Enum.map(&GlyphStorage.get(get_glyph_id(&1)).index)
-      |> Enum.sort()
-      |> compile_coverage()
+    |> Enum.map(fn
+      %GlyphCoverage{} = coverage ->
+        GlyphCoverage.compile(coverage)
+
+      glyphs when is_list(glyphs) ->
+        glyphs
+        |> Enum.map(&GlyphStorage.get(get_glyph_id(&1)).index)
+        |> Enum.sort()
+        |> compile_coverage()
     end)
   end
 
