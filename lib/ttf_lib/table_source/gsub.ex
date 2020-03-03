@@ -246,32 +246,7 @@ defmodule TTFLib.TableSource.GSUB do
   end
 
   @spec compile_covseq([list() | GlyphCoverage.t()]) :: [binary()]
-  defp compile_covseq(seq) do
-    seq
-    |> Enum.map(fn
-      %GlyphCoverage{} = coverage ->
-        GlyphCoverage.compile(coverage)
-
-      glyphs when is_list(glyphs) ->
-        glyphs
-        |> Enum.map(&GlyphStorage.get(get_glyph_id(&1)).index)
-        |> Enum.sort()
-        |> compile_coverage()
-    end)
-  end
-
-  # TODO: Move this function to the separate module.
-  @spec compile_coverage([integer()]) :: binary()
-  def compile_coverage(glyph_ids) do
-    data = [
-      # Coverage format 1 (Glyph ID List)
-      <<1::16>>,
-      <<length(glyph_ids)::16>>,
-      Enum.map(glyph_ids, &<<&1::16>>)
-    ]
-
-    IO.iodata_to_binary(data)
-  end
+  defp compile_covseq(seq), do: Enum.map(seq, &GlyphCoverage.compile/1)
 
   defp get_glyph_id(expr)
   defp get_glyph_id(code) when is_integer(code), do: {:unicode, code}
