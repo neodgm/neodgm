@@ -12,4 +12,9 @@ defmodule TTFLib.Util do
 
     {pos, offsets |> Enum.reverse() |> Enum.map(&<<&1::16>>), Enum.reverse(data)}
   end
+
+  @spec get_glyph_id(integer() | binary()) :: {atom(), integer() | binary()}
+  def get_glyph_id(expr)
+  def get_glyph_id(code) when is_integer(code), do: {:unicode, code}
+  def get_glyph_id(name) when is_binary(name), do: {:name, name}
 end

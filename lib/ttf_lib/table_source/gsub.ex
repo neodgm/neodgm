@@ -77,8 +77,8 @@ defmodule TTFLib.TableSource.GSUB do
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->
-        from_id = get_glyph_id(from)
-        to_id = get_glyph_id(to)
+        from_id = Util.get_glyph_id(from)
+        to_id = Util.get_glyph_id(to)
 
         {GlyphStorage.get(from_id).index, GlyphStorage.get(to_id).index}
       end)
@@ -107,7 +107,7 @@ defmodule TTFLib.TableSource.GSUB do
     {glyphs, subrulesets} =
       subtable.subrulesets
       |> Enum.map(fn {key, value} ->
-        glyph_index = GlyphStorage.get(get_glyph_id(key)).index
+        glyph_index = GlyphStorage.get(Util.get_glyph_id(key)).index
 
         {glyph_index, value}
       end)
@@ -132,11 +132,11 @@ defmodule TTFLib.TableSource.GSUB do
 
             [
               <<length(subrule.backtrack)::16>>,
-              Enum.map(subrule.backtrack, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              Enum.map(subrule.backtrack, &<<GlyphStorage.get(Util.get_glyph_id(&1)).index::16>>),
               <<length(subrule.input) + 1::16>>,
-              Enum.map(subrule.input, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              Enum.map(subrule.input, &<<GlyphStorage.get(Util.get_glyph_id(&1)).index::16>>),
               <<length(subrule.lookahead)::16>>,
-              Enum.map(subrule.lookahead, &<<GlyphStorage.get(get_glyph_id(&1)).index::16>>),
+              Enum.map(subrule.lookahead, &<<GlyphStorage.get(Util.get_glyph_id(&1)).index::16>>),
               <<length(sub_records)::16>>,
               sub_records
             ]
@@ -194,8 +194,8 @@ defmodule TTFLib.TableSource.GSUB do
     {from_glyphs, to_glyphs} =
       subtable.substitutions
       |> Enum.map(fn {from, to} ->
-        from_id = get_glyph_id(from)
-        to_id = get_glyph_id(to)
+        from_id = Util.get_glyph_id(from)
+        to_id = Util.get_glyph_id(to)
 
         {GlyphStorage.get(from_id).index, GlyphStorage.get(to_id).index}
       end)
@@ -247,8 +247,4 @@ defmodule TTFLib.TableSource.GSUB do
 
   @spec compile_covseq([list() | GlyphCoverage.t()]) :: [binary()]
   defp compile_covseq(seq), do: Enum.map(seq, &GlyphCoverage.compile/1)
-
-  defp get_glyph_id(expr)
-  defp get_glyph_id(code) when is_integer(code), do: {:unicode, code}
-  defp get_glyph_id(name) when is_binary(name), do: {:name, name}
 end

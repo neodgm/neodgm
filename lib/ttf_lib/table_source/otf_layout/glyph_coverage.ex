@@ -1,5 +1,6 @@
 defmodule TTFLib.TableSource.OTFLayout.GlyphCoverage do
   alias TTFLib.GlyphStorage
+  alias TTFLib.Util
 
   defstruct [:glyphs]
 
@@ -29,10 +30,7 @@ defmodule TTFLib.TableSource.OTFLayout.GlyphCoverage do
 
   defp get_glyph_ids(glyphs, false) do
     glyphs
-    |> Enum.map(fn
-      code when is_integer(code) -> {:unicode, code}
-      name when is_binary(name) -> {:name, name}
-    end)
+    |> Enum.map(&Util.get_glyph_id/1)
     |> Enum.map(&GlyphStorage.get(&1).index)
   end
 
