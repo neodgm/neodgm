@@ -1,6 +1,7 @@
 defmodule TTFLib.TableSource.GSUB do
   alias TTFLib.CompiledTable
   alias TTFLib.GlyphStorage
+  alias TTFLib.TableSource.GSUB.Subtable
   alias TTFLib.TableSource.OTFLayout.FeatureList
   alias TTFLib.TableSource.OTFLayout.GlyphCoverage
   alias TTFLib.TableSource.OTFLayout.LookupList
@@ -226,6 +227,10 @@ defmodule TTFLib.TableSource.GSUB do
     ]
 
     IO.iodata_to_binary(data)
+  end
+
+  def compile_subtable(subtable, _lookup_type, opts) do
+    Subtable.compile(subtable, opts)
   end
 
   defp make_coverage_records(sequences, offset_base) do
