@@ -1,5 +1,8 @@
 defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
   alias TTFLib.TableSource.GSUB
+  alias TTFLib.TableSource.GSUB.ChainingContext1
+  alias TTFLib.TableSource.GSUB.ChainingContext3
+  alias TTFLib.TableSource.GSUB.ReverseChainingContext1
   alias TTFLib.TableSource.OTFLayout.GlyphCoverage
   alias TTFLib.TableSource.OTFLayout.Lookup
 
@@ -10,8 +13,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Short bidirectional arrow chain",
         subtables: [
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [%GlyphCoverage{glyphs: '<'}],
             input: [%GlyphCoverage{glyphs: '-='}],
             lookahead: [%GlyphCoverage{glyphs: '>'}],
@@ -26,8 +28,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Left arrow head chain",
         subtables: [
-          %{
-            format: 1,
+          %ChainingContext1{
             subrulesets: %{
               ?< => [
                 %{
@@ -56,8 +57,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Right arrow head chain",
         subtables: [
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [
               %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
               %GlyphCoverage{glyphs: '<'}
@@ -68,8 +68,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
               {0, "Right arrow head alt"}
             ]
           },
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [],
             input: [%GlyphCoverage{glyphs: '-='}],
             lookahead: [%GlyphCoverage{glyphs: '>'}],
@@ -84,8 +83,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Left arrow body chain",
         subtables: [
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [
               %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
               %GlyphCoverage{glyphs: '<'}
@@ -96,8 +94,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
               {0, "Left arrow body"}
             ]
           },
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [
               %GlyphCoverage{glyphs: ["hyphen.larr.body", "equal.larr.body"]}
             ],
@@ -114,8 +111,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Bidirectional arrow joiner chain",
         subtables: [
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [
               %GlyphCoverage{glyphs: [
                 "hyphen.larr.head",
@@ -140,8 +136,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Left arrow tail chain",
         subtables: [
-          %{
-            format: 3,
+          %ChainingContext3{
             backtrack: [
               %GlyphCoverage{glyphs: [
                 "hyphen.larr.head",
@@ -163,8 +158,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 8,
         name: "Right arrow body chain",
         subtables: [
-          %{
-            format: 1,
+          %ReverseChainingContext1{
             backtrack: [],
             lookahead: [
               %GlyphCoverage{glyphs: [
@@ -186,8 +180,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Markup comment chain",
         subtables: [
-          %{
-            format: 1,
+          %ChainingContext1{
             subrulesets: %{
               ?! => [
                 %{
@@ -210,8 +203,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 6,
         name: "Pipe operator chain",
         subtables: [
-          %{
-            format: 1,
+          %ChainingContext1{
             subrulesets: %{
               ?< => [
                 %{
@@ -262,8 +254,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         type: 8,
         name: "Right pipe operator chain",
         subtables: [
-          %{
-            format: 1,
+          %ReverseChainingContext1{
             backtrack: [],
             lookahead: [%GlyphCoverage{glyphs: ["bar.pipeoperator"]}],
             substitutions: [

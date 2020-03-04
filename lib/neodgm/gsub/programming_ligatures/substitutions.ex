@@ -9,8 +9,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Short bidirectional arrow body",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.bidiarr.short"},
               {?=, "equal.bidiarr.short"}
@@ -23,8 +22,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Bidirectional arrow joiner",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.bidiarr.joiner"},
               {?=, "equal.bidiarr.joiner"}
@@ -37,8 +35,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Left arrow head",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.larr.head"},
               {?=, "equal.larr.head"}
@@ -51,8 +48,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Left arrow body",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.larr.body"},
               {?=, "equal.larr.body"}
@@ -65,8 +61,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Right arrow head",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.rarr.head"},
               {?=, "equal.rarr.head"}
@@ -79,8 +74,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Right arrow head alt",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.rarr.head2"},
               {?=, "equal.rarr.head2"}
@@ -93,8 +87,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Right arrow body",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?-, "hyphen.rarr.body"},
               {?=, "equal.rarr.body"}
@@ -107,8 +100,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Markup comment exclam",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?!, "exclam.markupcomment"}
             ]
@@ -120,8 +112,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Substitutions do
         type: 1,
         name: "Pipe operator",
         subtables: [
-          %{
-            format: 2,
+          %TTFLib.TableSource.GSUB.Single2{
             substitutions: [
               {?<, "less.pipeoperator"},
               {?>, "greater.pipeoperator"},
