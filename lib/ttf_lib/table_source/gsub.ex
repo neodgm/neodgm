@@ -24,6 +24,9 @@ defmodule TTFLib.TableSource.GSUB do
           lookup_indices: %{optional(binary()) => integer()}
         }
 
+  @type feature_indices :: %{optional({<<_::4>>, term()}) => integer()}
+  @type lookup_indices :: %{optional(binary()) => integer()}
+
   @spec populate_indices(t()) :: t()
   def populate_indices(gsub) do
     %__MODULE__{
