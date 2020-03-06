@@ -36,8 +36,8 @@ AUR (Arch User Repository)에서 `ttf-neodgm` 패키지를 설치하세요.
 
 ```bash
 # Git
-$ git clone https://aur.archlinux.org/neodgm.git
-$ cd neodgm
+$ git clone https://aur.archlinux.org/ttf-neodgm.git
+$ cd ttf-neodgm
 $ makepkg -si
 ```
 
