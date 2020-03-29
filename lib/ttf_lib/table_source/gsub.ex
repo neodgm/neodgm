@@ -175,7 +175,7 @@ defmodule TTFLib.TableSource.GSUB do
     {offsets, coverages} =
       seq_keys
       |> Enum.map(&subtable[&1])
-      |> make_coverage_records(offset_base)
+      |> GlyphCoverage.compile_coverage_records(offset_base)
 
     sub_records =
       Enum.map(subtable.substitutions, fn {glyph_pos, lookup_name} ->
@@ -184,10 +184,10 @@ defmodule TTFLib.TableSource.GSUB do
 
     data = [
       <<3::16>>,
-      Enum.reverse(offsets),
+      offsets,
       <<sub_count::16>>,
       sub_records,
-      Enum.reverse(coverages)
+      coverages
     ]
 
     IO.iodata_to_binary(data)
@@ -217,16 +217,16 @@ defmodule TTFLib.TableSource.GSUB do
     {offsets, coverages} =
       seq_keys
       |> Enum.map(&subtable[&1])
-      |> make_coverage_records(offset_base + byte_size(compiled_coverage))
+      |> GlyphCoverage.compile_coverage_records(offset_base + byte_size(compiled_coverage))
 
     data = [
       <<1::16>>,
       <<offset_base::16>>,
-      Enum.reverse(offsets),
+      offsets,
       <<input_count::16>>,
       Enum.map(to_glyphs, &<<&1::16>>),
       compiled_coverage,
-      Enum.reverse(coverages)
+      coverages
     ]
 
     IO.iodata_to_binary(data)
@@ -235,24 +235,4 @@ defmodule TTFLib.TableSource.GSUB do
   def compile_subtable(subtable, _lookup_type, opts) do
     Subtable.compile(subtable, opts)
   end
-
-  defp make_coverage_records(sequences, offset_base) do
-    {_, offsets, coverages} =
-      sequences
-      |> Enum.reduce({offset_base, [], []}, fn seq, {pos, data1, data2} ->
-        {next_pos, offsets, data} =
-          seq
-          |> compile_covseq()
-          |> Util.offsetted_binaries(pos, & &1)
-
-        offsets_bin = [<<length(offsets)::16>>, offsets]
-
-        {next_pos, [offsets_bin | data1], [data | data2]}
-      end)
-
-    {offsets, coverages}
-  end
-
-  @spec compile_covseq([list() | GlyphCoverage.t()]) :: [binary()]
-  defp compile_covseq(seq), do: Enum.map(seq, &GlyphCoverage.compile/1)
 end

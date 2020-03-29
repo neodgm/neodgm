@@ -24,6 +24,24 @@ defmodule TTFLib.TableSource.OTFLayout.GlyphCoverage do
     end
   end
 
+  @spec compile_coverage_records([[t()]], integer()) :: {[iodata()], [iodata()]}
+  def compile_coverage_records(sequences, offset_base) do
+    {_, offsets, coverages} =
+      sequences
+      |> Enum.reduce({offset_base, [], []}, fn seq, {pos, data1, data2} ->
+        {next_pos, offsets, data} =
+          seq
+          |> Enum.map(&compile/1)
+          |> Util.offsetted_binaries(pos, & &1)
+
+        offsets_bin = [<<length(offsets)::16>>, offsets]
+
+        {next_pos, [offsets_bin | data1], [data | data2]}
+      end)
+
+    {Enum.reverse(offsets), Enum.reverse(coverages)}
+  end
+
   @spec get_glyph_ids([value], boolean()) :: [integer()] when value: integer() | binary()
   defp get_glyph_ids(glyphs, internal?)
   defp get_glyph_ids(glyphs, true), do: glyphs
