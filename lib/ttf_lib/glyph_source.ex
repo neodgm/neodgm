@@ -52,11 +52,20 @@ defmodule TTFLib.GlyphSource do
   end
 
   defmacro component(glyph_id, x_off, y_off) do
+    handle_component(glyph_id, x_off, y_off, [])
+  end
+
+  defmacro component(glyph_id, x_off, y_off, opts) do
+    handle_component(glyph_id, x_off, y_off, opts)
+  end
+
+  defp handle_component(glyph_id, x_off, y_off, opts) do
     quote do
       %{
         glyph: unquote(glyph_id),
         x_offset: unquote(x_off),
-        y_offset: unquote(y_off)
+        y_offset: unquote(y_off),
+        flags: unquote(opts)[:flags] || []
       }
     end
   end
