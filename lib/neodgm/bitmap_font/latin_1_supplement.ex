@@ -160,16 +160,8 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?¨ do
-      advance 8
-      xmin 1
-      xmax 6
-      ymin 10
-      ymax 11
-
-      data """
-      11011
-      """
+    composite_glyph unicode: ?¨ do
+      component {:name, "dieresis.component"}, 0, 0
     end
 
     bmp_glyph unicode: ?© do
@@ -590,7 +582,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ä do
-      component {:unicode, 0x00A8}, 0, 0
+      component {:name, "dieresis.component"}, 0, 0
       component {:name, "A.short"}, 0, 0
     end
 
@@ -641,7 +633,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ë do
-      component {:unicode, 0x00A8}, 0, 0
+      component {:name, "dieresis.component"}, 0, 0
       component {:name, "E.short"}, 0, 0
     end
 
@@ -660,26 +652,9 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       component {:name, "I.short"}, 0, 0
     end
 
-    bmp_glyph unicode: ?Ï do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 11
-
-      data """
-      110011
-      000000
-      111111
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      111111
-      """
+    composite_glyph unicode: ?Ï do
+      component {:name, "dieresis.component.i"}, 0, 0
+      component {:name, "I.short"}, 0, 0
     end
 
     bmp_glyph unicode: ?Ð do
@@ -729,7 +704,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ö do
-      component {:unicode, 0x00A8}, 0, 0
+      component {:name, "dieresis.component"}, 0, 0
       component {:name, "O.short"}, 0, 0
     end
 
@@ -790,7 +765,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?Ü do
-      component {:unicode, 0x00A8}, 0, 0
+      component {:name, "dieresis.component"}, 0, 0
       component {:name, "U.short"}, 0, 0
     end
 
@@ -862,7 +837,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ä do
-      component {:unicode, 0x00A8}, 0, -2
+      component {:name, "dieresis.component"}, 0, -2
       component {:unicode, ?a}, 0, 0
     end
 
@@ -910,7 +885,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ë do
-      component {:unicode, 0x00A8}, 0, -2
+      component {:name, "dieresis.component"}, 0, -2
       component {:unicode, ?e}, 0, 0
     end
 
@@ -929,24 +904,9 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       component {:unicode, 0x0131}, 0, 0
     end
 
-    bmp_glyph unicode: ?ï do
-      advance 8
-      xmin 1
-      xmax 7
-      ymin 0
-      ymax 9
-
-      data """
-      110011
-      000000
-      001100
-      001100
-      001100
-      001100
-      001100
-      001100
-      000110
-      """
+    composite_glyph unicode: ?ï do
+      component {:name, "dieresis.component.i"}, 0, -2
+      component {:unicode, 0x0131}, 1, 0
     end
 
     bmp_glyph unicode: ?ð do
@@ -997,7 +957,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ö do
-      component {:unicode, 0x00A8}, 0, -2
+      component {:name, "dieresis.component"}, 0, -2
       component {:unicode, ?o}, 0, 0
     end
 
@@ -1055,7 +1015,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ü do
-      component {:unicode, 0x00A8}, 0, -2
+      component {:name, "dieresis.component"}, 0, -2
       component {:unicode, ?u}, 0, 0
     end
 
@@ -1089,7 +1049,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ÿ do
-      component {:unicode, 0x00A8}, 0, -2
+      component {:name, "dieresis.component"}, 0, -2
       component {:unicode, ?y}, 0, 0
     end
 

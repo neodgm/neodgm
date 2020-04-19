@@ -42,6 +42,30 @@ defmodule NeoDGM.BitmapFont.Components.Diacritics do
       """
     end
 
+    bmp_glyph name: "dieresis.component" do
+      advance 8
+      xmin 1
+      xmax 6
+      ymin 10
+      ymax 11
+
+      data """
+      11011
+      """
+    end
+
+    bmp_glyph name: "dieresis.component.i" do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin 10
+      ymax 11
+
+      data """
+      110011
+      """
+    end
+
     bmp_glyph name: "ring.component" do
       advance 8
       xmin 1
