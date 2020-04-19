@@ -19,11 +19,40 @@ defmodule TTFLib.TableSource.Glyf.Composite do
   end
 
   defp do_make_data(component, more) do
-    %{glyph: %{index: index}, x_offset: xoff, y_offset: yoff} = component
+    %{glyph: %{index: index}, x_offset: xoff, y_offset: yoff, flags: flags} = component
 
     [
       # flags
-      <<0::3, 1::1, 0::1, 1::1, 0::4, more::1, 0::1, 0::1, 1::1, 1::1, 0::1>>,
+      <<
+        # 0xE000 - (reserved)
+        0::3,
+        # 0x1000 - UNSCALED_COMPONENT_OFFSET
+        1::1,
+        # 0x0800 - SCALED_COMPONENT_OFFSET
+        0::1,
+        # 0x0400 - OVERLAP_COMPOUND
+        1::1,
+        # 0x0200 - USE_MY_METRICS
+        (if :use_my_metrics in flags, do: 1, else: 0)::1,
+        # 0x0100 - WE_HAVE_INSTRUCTIONS
+        0::1,
+        # 0x0080 - WE_HAVE_A_TWO_BY_TWO
+        0::1,
+        # 0x0040 - WE_HAVE_AN_X_AND_Y_SCALE
+        0::1,
+        # 0x0020 - MORE_COMPONENTS
+        more::1,
+        # 0x0010 - (reserved)
+        0::1,
+        # 0x0008 - WE_HAVE_A_SCALE
+        0::1,
+        # 0x0004 - ROUND_XY_TO_GRID
+        1::1,
+        # 0x0002 - ARGS_ARE_XY_VALUES
+        1::1,
+        # 0x0001 - ARG_1_AND_2_ARE_WORDS
+        0::1
+      >>,
       # glyph index
       <<index::big-16>>,
       # args
