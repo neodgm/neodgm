@@ -639,22 +639,22 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
 
     composite_glyph unicode: ?Ì do
       component {:name, "grave.component"}, 0, 0
-      component {:name, "I.short"}, 0, 0
+      component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?Í do
       component {:unicode, 0x00B4}, 0, 0
-      component {:name, "I.short"}, 0, 0
+      component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?Î do
       component {:name, "circumflex.component"}, 0, 0
-      component {:name, "I.short"}, 0, 0
+      component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?Ï do
       component {:name, "dieresis.component.i"}, 0, 0
-      component {:name, "I.short"}, 0, 0
+      component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
     end
 
     bmp_glyph unicode: ?Ð do
@@ -891,22 +891,22 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
 
     composite_glyph unicode: ?ì do
       component {:name, "grave.component"}, -1, -2
-      component {:unicode, 0x0131}, 0, 0
+      component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?í do
       component {:unicode, 0x00B4}, 0, -2
-      component {:unicode, 0x0131}, 0, 0
+      component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?î do
       component {:name, "circumflex.component"}, 0, -2
-      component {:unicode, 0x0131}, 0, 0
+      component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?ï do
       component {:name, "dieresis.component.i"}, 0, -2
-      component {:unicode, 0x0131}, 1, 0
+      component {:unicode, 0x0131}, 1, 0, flags: [:use_my_metrics]
     end
 
     bmp_glyph unicode: ?ð do
