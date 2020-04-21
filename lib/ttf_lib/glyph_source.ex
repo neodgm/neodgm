@@ -2,14 +2,34 @@ defmodule TTFLib.GlyphSource do
   alias TTFLib.RectilinearShape
   alias TTFLib.RectilinearShape.Path
 
-  defmacro export_glyphs(do: do_block) do
+  defmacro export_glyphs(options \\ [], do: do_block) do
     exprs = get_exprs(do_block)
+    map_expr = quote(do: unquote(exprs) |> List.flatten() |> Map.new())
+    map_expr = handle_based_on(options[:based_on], map_expr)
 
     quote do
-      @glyphs List.flatten(unquote(exprs))
+      @glyph_map unquote(map_expr)
+      @glyph_list @glyph_map |> Map.values() |> Enum.sort(&(&1.id <= &2.id))
 
-      def glyphs, do: @glyphs
+      def __glyph_map__, do: @glyph_map
+      def glyphs, do: @glyph_list
     end
+  end
+
+  defp handle_based_on(expr, map_expr)
+  defp handle_based_on(nil, map_expr), do: map_expr
+
+  defp handle_based_on(module, map_expr) when is_atom(module) do
+    quote(do: Map.merge(unquote(module).__glyph__map__(), unquote(map_expr)))
+  end
+
+  defp handle_based_on({:__aliases__, _, _} = alias_expr, map_expr) do
+    quote(do: Map.merge(unquote(alias_expr).__glyph_map__(), unquote(map_expr)))
+  end
+
+  defp handle_based_on(x, _map_expr) do
+    raise "expected the value of :based_on keyword to be known " <>
+            "as an atom or an alias in compilation time, got: #{inspect(x)}"
   end
 
   defmacro bmp_glyph([{type, id}], do: block) when type in ~w(unicode name)a do
@@ -30,12 +50,15 @@ defmodule TTFLib.GlyphSource do
       |> Path.transform({{1, 0}, {0, -1}}, {attrs.xmin, attrs.ymax})
 
     quote do
-      %{
-        type: unquote(type),
-        id: unquote(id),
-        contours: unquote(contours)
-      }
-      |> Map.merge(unquote(Macro.escape(attrs)))
+      {{unquote(type), unquote(id)},
+       Map.merge(
+         %{
+           type: unquote(type),
+           id: unquote(id),
+           contours: unquote(contours)
+         },
+         unquote(Macro.escape(attrs))
+       )}
     end
   end
 
@@ -43,11 +66,12 @@ defmodule TTFLib.GlyphSource do
     exprs = get_exprs(do_block)
 
     quote do
-      %{
-        type: unquote(type),
-        id: unquote(id),
-        components: Enum.reject(unquote(exprs), &is_nil/1)
-      }
+      {{unquote(type), unquote(id)},
+       %{
+         type: unquote(type),
+         id: unquote(id),
+         components: Enum.reject(unquote(exprs), &is_nil/1)
+       }}
     end
   end
 
