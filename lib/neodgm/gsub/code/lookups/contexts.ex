@@ -1,4 +1,4 @@
-defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
+defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
   alias TTFLib.TableSource.GSUB
   alias TTFLib.TableSource.GSUB.ChainingContext1
   alias TTFLib.TableSource.GSUB.ChainingContext3
@@ -6,6 +6,7 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
   alias TTFLib.TableSource.OTFLayout.GlyphCoverage
   alias TTFLib.TableSource.OTFLayout.Lookup
 
+  @spec data() :: [Lookup.t()]
   def data do
     [
       %Lookup{
@@ -113,12 +114,14 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{glyphs: [
-                "hyphen.larr.head",
-                "hyphen.larr.body",
-                "equal.larr.head",
-                "equal.larr.body"
-              ]}
+              %GlyphCoverage{
+                glyphs: [
+                  "hyphen.larr.head",
+                  "hyphen.larr.body",
+                  "equal.larr.head",
+                  "equal.larr.body"
+                ]
+              }
             ],
             input: [%GlyphCoverage{glyphs: '-='}],
             lookahead: [
@@ -138,12 +141,14 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{glyphs: [
-                "hyphen.larr.head",
-                "hyphen.larr.body",
-                "equal.larr.head",
-                "equal.larr.body"
-              ]}
+              %GlyphCoverage{
+                glyphs: [
+                  "hyphen.larr.head",
+                  "hyphen.larr.body",
+                  "equal.larr.head",
+                  "equal.larr.body"
+                ]
+              }
             ],
             input: [%GlyphCoverage{glyphs: '-='}],
             lookahead: [],
@@ -161,12 +166,14 @@ defmodule NeoDGM.GSUB.ProgrammingLigatures.Contexts do
           %ReverseChainingContext1{
             backtrack: [],
             lookahead: [
-              %GlyphCoverage{glyphs: [
-                "hyphen.rarr.head",
-                "hyphen.rarr.body",
-                "equal.rarr.head",
-                "equal.rarr.body"
-              ]}
+              %GlyphCoverage{
+                glyphs: [
+                  "hyphen.rarr.head",
+                  "hyphen.rarr.body",
+                  "equal.rarr.head",
+                  "equal.rarr.body"
+                ]
+              }
             ],
             substitutions: [
               {?-, "hyphen.rarr.body"},

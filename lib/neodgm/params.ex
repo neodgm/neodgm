@@ -1,5 +1,6 @@
 defmodule NeoDGM.Params do
   alias NeoDGM.BitmapFont
+  alias NeoDGM.GSUB
   alias NeoDGM.NameTable
 
   @version Version.parse!(Mix.Project.config()[:version])
@@ -14,7 +15,7 @@ defmodule NeoDGM.Params do
       metrics: metrics(),
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(variant),
-      gsub: if(variant === "code", do: NeoDGM.GSUB.gsub())
+      gsub: GSUB.get_gsub(variant)
     }
   end
 
