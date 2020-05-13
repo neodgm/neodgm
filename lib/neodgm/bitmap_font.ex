@@ -36,6 +36,7 @@ defmodule NeoDGM.BitmapFont do
     [
       Pro.BasicLatin,
       Pro.Latin1Supplement,
+      Pro.AlphabeticPresentationForms,
       Pro.Components.ShortCapitals
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
