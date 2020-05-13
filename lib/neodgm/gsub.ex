@@ -14,7 +14,7 @@ defmodule NeoDGM.GSUB do
   @spec do_get_gsub(term()) :: GSUB.t() | nil
   defp do_get_gsub(variant)
 
-  defp do_get_gsub(variant) when variant in ~w(code) do
+  defp do_get_gsub(variant) when variant in ~w(code pro) do
     var = String.capitalize(variant)
 
     %GSUB{
