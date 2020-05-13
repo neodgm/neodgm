@@ -26,7 +26,7 @@ defmodule TTFLib.TableSource.Hmtx.Record do
     metrics =
       Enum.map(components, fn %{glyph: glyph, x_offset: xoff} ->
         %{
-          advance: glyph.advance,
+          advance: glyph.advance + xoff,
           xmin: glyph.xmin + xoff,
           xmax: glyph.xmax + xoff
         }
