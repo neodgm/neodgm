@@ -5,6 +5,7 @@
     bmp_glyph: :"*",
     composite_glyph: :"*",
     component: 3,
+    component: 4,
     advance: 1,
     xmin: 1,
     xmax: 1,
