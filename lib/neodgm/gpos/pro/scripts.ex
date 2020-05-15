@@ -5,7 +5,18 @@ defmodule NeoDGM.GPOS.Pro.Scripts do
   @spec data() :: ScriptList.t()
   def data do
     %ScriptList{
-      scripts: []
+      scripts: [
+        %Script{
+          tag: "latn",
+          default_language: %LanguageSystem{
+            tag: "dflt",
+            features: [
+              {"kern", "Kerning for Latin letters"}
+            ]
+          },
+          languages: []
+        }
+      ]
     }
   end
 end
