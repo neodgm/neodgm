@@ -14,6 +14,7 @@ defmodule NeoDGM.BitmapFont do
       HangulJamoSource,
       HangulSyllables,
       Latin1Supplement,
+      NumberForms,
       PowerlineSymbols,
       Trigrams,
       Components.ShortCapitals,

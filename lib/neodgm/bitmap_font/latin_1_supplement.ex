@@ -471,73 +471,22 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
       """
     end
 
-    bmp_glyph unicode: ?¼ do
-      advance 8
-      xmin 0
-      xmax 8
-      ymin -2
-      ymax 10
-
-      data """
-      01100000
-      11100000
-      01100010
-      01100100
-      01101000
-      00010000
-      00100000
-      01001110
-      10011010
-      00011010
-      00011111
-      00000010
-      """
+    composite_glyph unicode: 0x00BC do
+      component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
+      component {:name, "one.fraction"}, 1, 6
+      component {:name, "four.fraction"}, 1, -2
     end
 
-    bmp_glyph unicode: ?½ do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin -2
-      ymax 10
-
-      data """
-      0110000
-      1110000
-      0110001
-      0110010
-      0110100
-      0001000
-      0010000
-      0101110
-      1000011
-      0000110
-      0001100
-      0001111
-      """
+    composite_glyph unicode: 0x00BD do
+      component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
+      component {:name, "one.fraction"}, 1, 6
+      component {:name, "two.fraction"}, 1, -2
     end
 
-    bmp_glyph unicode: ?¾ do
-      advance 8
-      xmin 0
-      xmax 8
-      ymin -2
-      ymax 10
-
-      data """
-      11100000
-      00110000
-      01100010
-      00110100
-      11101000
-      00010000
-      00100000
-      01001110
-      10011010
-      00011010
-      00011111
-      00000010
-      """
+    composite_glyph unicode: 0x00BE do
+      component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
+      component {:name, "three.fraction"}, 1, 6
+      component {:name, "four.fraction"}, 1, -2
     end
 
     bmp_glyph unicode: ?¿ do
