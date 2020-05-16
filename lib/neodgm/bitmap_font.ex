@@ -17,7 +17,8 @@ defmodule NeoDGM.BitmapFont do
       PowerlineSymbols,
       Trigrams,
       Components.ShortCapitals,
-      Components.Diacritics
+      Components.Diacritics,
+      Components.Fractions
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
 
