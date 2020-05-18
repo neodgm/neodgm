@@ -24,6 +24,7 @@ defmodule NeoDGM.BitmapFont do
       GeneralPunctuation,
       Latin1Supplement,
       PowerlineSymbols,
+      SuperscriptsAndSubscripts,
       Components.ShortCapitals
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
