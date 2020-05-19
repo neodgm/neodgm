@@ -2,6 +2,8 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
   require TTFLib.GlyphSource
   import TTFLib.GlyphSource
 
+  glyph_names = ~w(two three four five six seven eight nine)
+
   export_glyphs do
     bmp_glyph name: "circle.enclosure" do
       advance 16
@@ -320,347 +322,140 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
     # Circled Numbers
 
-    composite_glyph unicode: 9312 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2460 do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:unicode, ?1}, 4, 0
     end
 
-    composite_glyph unicode: 9313 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "two.enclosed"}, 0, 0
-    end
+    0x2461..0x2468
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, name <> ".enclosed"}, 0, 0
+      end
+    end)
 
-    composite_glyph unicode: 9314 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "three.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9315 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "four.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9316 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "five.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9317 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "six.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9318 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "seven.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9319 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "eight.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9320 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "nine.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9321 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2469 do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, 0, 0
       component {:name, "zero.enclosed"}, 2, 0
     end
 
-    composite_glyph unicode: 9322 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x246A do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, 1, 0
       component {:name, "one.enclosed"}, 5, 0
     end
 
-    composite_glyph unicode: 9323 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "two.enclosed"}, 2, 0
-    end
+    0x246B..0x2472
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, "one.enclosed"}, 0, 0
+        component {:name, name <> ".enclosed"}, 2, 0
+      end
+    end)
 
-    composite_glyph unicode: 9324 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "three.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9325 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "four.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9326 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "five.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9327 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "six.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9328 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "seven.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9329 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "eight.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9330 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "nine.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9331 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2473 do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "two.enclosed2"}, 0, 0
       component {:name, "zero.enclosed2"}, 0, 0
     end
 
     # Parenthesized Numbers
 
-    composite_glyph unicode: 9332 do
-      component {:name, "parens.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2474 do
+      component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:unicode, ?1}, 4, 0
     end
 
-    composite_glyph unicode: 9333 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "two.enclosed"}, 0, 0
-    end
+    0x2475..0x247C
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, name <> ".enclosed"}, 0, 0
+      end
+    end)
 
-    composite_glyph unicode: 9334 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "three.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9335 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "four.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9336 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "five.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9337 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "six.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9338 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "seven.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9339 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "eight.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9340 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "nine.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9341 do
-      component {:name, "parens.enclosure"}, 0, 0
+    composite_glyph unicode: 0x247D do
+      component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, 0, 0
       component {:name, "zero.enclosed"}, 2, 0
     end
 
-    composite_glyph unicode: 9342 do
-      component {:name, "parens.enclosure"}, 0, 0
+    composite_glyph unicode: 0x247E do
+      component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, 1, 0
       component {:name, "one.enclosed"}, 5, 0
     end
 
-    composite_glyph unicode: 9343 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "two.enclosed"}, 2, 0
-    end
+    0x247F..0x2486
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, "one.enclosed"}, 0, 0
+        component {:name, name <> ".enclosed"}, 2, 0
+      end
+    end)
 
-    composite_glyph unicode: 9344 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "three.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9345 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "four.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9346 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "five.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9347 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "six.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9348 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "seven.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9349 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "eight.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9350 do
-      component {:name, "parens.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, 0, 0
-      component {:name, "nine.enclosed"}, 2, 0
-    end
-
-    composite_glyph unicode: 9351 do
-      component {:name, "parens.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2487 do
+      component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "two.enclosed2"}, 0, 0
       component {:name, "zero.enclosed2"}, 0, 0
     end
 
     # Numbers with a Period
 
-    composite_glyph unicode: 9352 do
-      component {:name, "period.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2488 do
+      component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:unicode, ?1}, 4, 0
     end
 
-    composite_glyph unicode: 9353 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "two.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9354 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "three.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9355 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "four.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9356 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "five.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9357 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "six.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9358 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "seven.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9359 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "eight.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9360 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "nine.enclosed"}, 0, 0
-    end
+    0x2489..0x2490
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, name <> ".enclosed"}, 0, 0
+      end
+    end)
 
     composite_glyph unicode: 9361 do
-      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, -2, 0
       component {:name, "zero.enclosed"}, 0, 0
     end
 
     composite_glyph unicode: 9362 do
-      component {:name, "period.enclosure"}, 0, 0
+      component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, -2, 0
       component {:name, "one.enclosed"}, 3, 0
     end
 
-    composite_glyph unicode: 9363 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "two.enclosed"}, 0, 0
-    end
+    0x2493..0x249A
+    |> Enum.zip(glyph_names)
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, "one.enclosed"}, -2, 0
+        component {:name, name <> ".enclosed"}, 0, 0
+      end
+    end)
 
-    composite_glyph unicode: 9364 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "three.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9365 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "four.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9366 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "five.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9367 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "six.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9368 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "seven.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9369 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "eight.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9370 do
-      component {:name, "period.enclosure"}, 0, 0
-      component {:name, "one.enclosed"}, -2, 0
-      component {:name, "nine.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 9371 do
-      component {:name, "period.enclosure"}, 0, 0
+    composite_glyph unicode: 0x249B do
+      component {:name, "period.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "two.enclosed2"}, -2, 0
       component {:name, "zero.enclosed2"}, -2, 0
     end
 
     # Circled Digit Zero
 
-    composite_glyph unicode: 9450 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x24EA do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "zero.enclosed"}, 0, 0
     end
 
