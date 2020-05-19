@@ -253,66 +253,28 @@ defmodule NeoDGM.BitmapFont.Dingbats do
       """
     end
 
-    composite_glyph unicode: 10112 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2780 do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:unicode, ?1}, 4, 0
     end
 
-    composite_glyph unicode: 10113 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "two.enclosed"}, 0, 0
-    end
+    0x2781..0x2788
+    |> Enum.zip(~w(two three four five six seven eight nine))
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, name <> ".enclosed"}, 0, 0
+      end
+    end)
 
-    composite_glyph unicode: 10114 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "three.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10115 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "four.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10116 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "five.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10117 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "six.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10118 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "seven.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10119 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "eight.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10120 do
-      component {:name, "circle.enclosure"}, 0, 0
-      component {:name, "nine.enclosed"}, 0, 0
-    end
-
-    composite_glyph unicode: 10121 do
-      component {:name, "circle.enclosure"}, 0, 0
+    composite_glyph unicode: 0x2789 do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
       component {:name, "one.enclosed"}, 0, 0
       component {:name, "zero.enclosed"}, 2, 0
     end
 
-    composite_glyph [unicode: 10122], do: component({:unicode, 10102}, 0, 0)
-    composite_glyph [unicode: 10123], do: component({:unicode, 10103}, 0, 0)
-    composite_glyph [unicode: 10124], do: component({:unicode, 10104}, 0, 0)
-    composite_glyph [unicode: 10125], do: component({:unicode, 10105}, 0, 0)
-    composite_glyph [unicode: 10126], do: component({:unicode, 10106}, 0, 0)
-    composite_glyph [unicode: 10127], do: component({:unicode, 10107}, 0, 0)
-    composite_glyph [unicode: 10128], do: component({:unicode, 10108}, 0, 0)
-    composite_glyph [unicode: 10129], do: component({:unicode, 10109}, 0, 0)
-    composite_glyph [unicode: 10130], do: component({:unicode, 10110}, 0, 0)
-    composite_glyph [unicode: 10131], do: component({:unicode, 10111}, 0, 0)
+    Enum.map(0x278A..0x2793, fn code ->
+      composite_glyph [unicode: code], do: component({:unicode, code - 20}, 0, 0)
+    end)
   end
 end
