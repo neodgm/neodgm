@@ -759,5 +759,983 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
       010010
       """
     end
+
+    bmp_glyph name: "A.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011110
+      110011
+      110011
+      111111
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "B.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      111110
+      110011
+      110011
+      110011
+      111110
+      """
+    end
+
+    bmp_glyph name: "C.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011110
+      110011
+      110000
+      110000
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "D.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      111110
+      """
+    end
+
+    bmp_glyph name: "E.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011111
+      110000
+      110000
+      111110
+      110000
+      110000
+      110000
+      011111
+      """
+    end
+
+    bmp_glyph name: "F.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011111
+      110000
+      110000
+      111110
+      110000
+      110000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph name: "G.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011110
+      110011
+      110000
+      110111
+      110011
+      110011
+      110011
+      011111
+      """
+    end
+
+    bmp_glyph name: "H.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110011
+      110011
+      110011
+      111111
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "I.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111111
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      111111
+      """
+    end
+
+    bmp_glyph name: "J.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      001111
+      000110
+      000110
+      000110
+      000110
+      000110
+      110110
+      011100
+      """
+    end
+
+    bmp_glyph name: "K.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110011
+      110011
+      110110
+      111100
+      110110
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "L.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110000
+      110000
+      110000
+      110000
+      110000
+      110000
+      110000
+      111111
+      """
+    end
+
+    bmp_glyph name: "M.enclosed" do
+      advance 7
+      xmin -1
+      xmax 7
+      ymin 0
+      ymax 8
+
+      data """
+      11111110
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      """
+    end
+
+    bmp_glyph name: "N.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "O.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011110
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "P.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      111110
+      110000
+      110000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph name: "Q.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin -1
+      ymax 8
+
+      data """
+      011110
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      000011
+      """
+    end
+
+    bmp_glyph name: "R.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      111110
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "S.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      011110
+      110011
+      110000
+      011110
+      000011
+      000011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "T.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111111
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      """
+    end
+
+    bmp_glyph name: "U.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "V.enclosed" do
+      advance 6
+      xmin -1
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      1100011
+      1100011
+      1100011
+      1100011
+      1100011
+      1100011
+      0110110
+      0011100
+      """
+    end
+
+    bmp_glyph name: "W.enclosed" do
+      advance 7
+      xmin -1
+      xmax 7
+      ymin 0
+      ymax 8
+
+      data """
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "X.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110011
+      110011
+      011110
+      001100
+      011110
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "Y.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      110011
+      110011
+      110011
+      011110
+      001100
+      001100
+      001100
+      001100
+      """
+    end
+
+    bmp_glyph name: "Z.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 8
+
+      data """
+      111111
+      000011
+      000110
+      001100
+      011000
+      110000
+      110000
+      111111
+      """
+    end
+
+    bmp_glyph name: "a.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      111110
+      000011
+      011111
+      110011
+      110011
+      011111
+      """
+    end
+
+    bmp_glyph name: "b.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      110000
+      110000
+      110000
+      111110
+      110011
+      110011
+      110011
+      110011
+      111110
+      """
+    end
+
+    bmp_glyph name: "c.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      011110
+      110011
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "d.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      000011
+      000011
+      000011
+      011111
+      110011
+      110011
+      110011
+      110011
+      011111
+      """
+    end
+
+    bmp_glyph name: "e.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      011110
+      110011
+      111111
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "f.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      00111
+      01100
+      01100
+      11111
+      01100
+      01100
+      01100
+      01100
+      01100
+      """
+    end
+
+    bmp_glyph name: "g.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin -1
+      ymax 8
+
+      data """
+      011111
+      110011
+      110011
+      110011
+      110011
+      011111
+      000011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "h.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      110000
+      110000
+      110000
+      111110
+      110011
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "i.enclosed" do
+      advance 4
+      xmin 1
+      xmax 4
+      ymin 0
+      ymax 9
+
+      data """
+      110
+      110
+      000
+      110
+      110
+      110
+      110
+      110
+      011
+      """
+    end
+
+    bmp_glyph name: "j.enclosed" do
+      advance 4
+      xmin 1
+      xmax 4
+      ymin -1
+      ymax 9
+
+      data """
+      011
+      011
+      000
+      011
+      011
+      011
+      011
+      011
+      011
+      110
+      """
+    end
+
+    bmp_glyph name: "k.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      110000
+      110000
+      110000
+      110011
+      110110
+      111100
+      110110
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "l.enclosed" do
+      advance 4
+      xmin 1
+      xmax 4
+      ymin 0
+      ymax 9
+
+      data """
+      110
+      110
+      110
+      110
+      110
+      110
+      110
+      110
+      011
+      """
+    end
+
+    bmp_glyph name: "m.enclosed" do
+      advance 7
+      xmin -1
+      xmax 7
+      ymin 0
+      ymax 6
+
+      data """
+      11111110
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      """
+    end
+
+    bmp_glyph name: "n.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      111110
+      110011
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "o.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      011110
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "p.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin -1
+      ymax 8
+
+      data """
+      111110
+      110011
+      110011
+      110011
+      110011
+      111110
+      110000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph name: "q.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin -1
+      ymax 8
+
+      data """
+      011111
+      110011
+      110011
+      110011
+      110011
+      011111
+      000011
+      000011
+      000011
+      """
+    end
+
+    bmp_glyph name: "r.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      111110
+      110011
+      110000
+      110000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph name: "s.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      011111
+      110000
+      011110
+      000011
+      000011
+      111110
+      """
+    end
+
+    bmp_glyph name: "t.enclosed" do
+      advance 5
+      xmin 0
+      xmax 5
+      ymin 0
+      ymax 9
+
+      data """
+      01100
+      01100
+      01100
+      11111
+      01100
+      01100
+      01100
+      01100
+      00111
+      """
+    end
+
+    bmp_glyph name: "u.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "v.enclosed" do
+      advance 6
+      xmin -1
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      1100011
+      1100011
+      1100011
+      1100011
+      0110110
+      0011100
+      """
+    end
+
+    bmp_glyph name: "w.enclosed" do
+      advance 7
+      xmin -1
+      xmax 7
+      ymin 0
+      ymax 6
+
+      data """
+      11011011
+      11011011
+      11011011
+      11011011
+      11011011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "x.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 7
+
+      data """
+      110011
+      110011
+      011110
+      001100
+      011110
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "y.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin -1
+      ymax 8
+
+      data """
+      110011
+      110011
+      110011
+      110011
+      110011
+      011111
+      000011
+      000011
+      011110
+      """
+    end
+
+    bmp_glyph name: "z.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      111111
+      000011
+      001110
+      011000
+      110000
+      111111
+      """
+    end
   end
 end

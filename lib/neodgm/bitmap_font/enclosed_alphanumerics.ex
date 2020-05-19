@@ -137,6 +137,18 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       component {:name, "zero.period2"}, -2, 0
     end
 
+    # Enclosed Latin Letters
+    [{"parens", 32}, {"circle", 0}, {"circle", 32}]
+    |> Enum.map(fn {shape, off} -> Enum.map(?A..?Z, &{shape, &1 + off}) end)
+    |> List.flatten()
+    |> Enum.zip(0x249C..0x24E9)
+    |> Enum.map(fn {{shape, char}, code} ->
+      composite_glyph unicode: code do
+        component {:name, shape <> ".enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, <<char::utf8, ".enclosed">>}, 5, 1
+      end
+    end)
+
     # Circled Digit Zero
 
     composite_glyph unicode: 0x24EA do
