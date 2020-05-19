@@ -396,6 +396,15 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       """
     end
 
+    0x24F5..0x24FE
+    |> Enum.zip(~w(one two three four five six seven eight nine ten))
+    |> Enum.map(fn {code, name} ->
+      composite_glyph unicode: code do
+        component {:name, "dblcircle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+        component {:name, name <> ".dblcircle"}, 5, 2
+      end
+    end)
+
     bmp_glyph unicode: 0x24FF do
       advance 16
       xmin 1
