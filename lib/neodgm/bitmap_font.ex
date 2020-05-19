@@ -14,6 +14,7 @@ defmodule NeoDGM.BitmapFont do
       NumberForms,
       Trigrams,
       Components.Diacritics,
+      Components.Enclosed,
       Components.Fractions
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
