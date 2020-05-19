@@ -23,6 +23,14 @@ defmodule TTFLib.TableSource.Hmtx.Record do
   end
 
   def new(%{components: components}) do
+    case Enum.find(components, &(:use_my_metrics in &1.flags)) do
+      nil -> calculate_metrics_from_components(components)
+      %{glyph: glyph} -> new(glyph)
+    end
+  end
+
+  @spec calculate_metrics_from_components([map()]) :: t()
+  defp calculate_metrics_from_components(components) do
     metrics =
       Enum.map(components, fn %{glyph: glyph, x_offset: xoff} ->
         %{
