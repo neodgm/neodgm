@@ -1737,5 +1737,562 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
       111111
       """
     end
+
+    bmp_glyph name: "giyeok.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      00000011
+      00000011
+      00000011
+      00000011
+      00000011
+      00000110
+      00001100
+      """
+    end
+
+    bmp_glyph name: "nieun.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11000000
+      11000000
+      11000000
+      11000000
+      11000000
+      11000000
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "digeut.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      11000000
+      11000000
+      11000000
+      11000000
+      11000000
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "rieul.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      00000011
+      00000011
+      11111111
+      11000000
+      11000000
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "mieum.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      11000011
+      11000011
+      11000011
+      11000011
+      11000011
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "bieup.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11000011
+      11000011
+      11000011
+      11111111
+      11000011
+      11000011
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "siot.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      00011000
+      00011000
+      00011000
+      00011000
+      00011000
+      00111100
+      01100110
+      11000011
+      """
+    end
+
+    bmp_glyph name: "ieung.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      00111100
+      01100110
+      11000011
+      11000011
+      11000011
+      11000011
+      01100110
+      00111100
+      """
+    end
+
+    bmp_glyph name: "jieut.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      00011000
+      00011000
+      00011000
+      00011000
+      00111100
+      01100110
+      11000011
+      """
+    end
+
+    bmp_glyph name: "chieut.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 10
+
+      data """
+      00011000
+      11111111
+      00011000
+      00011000
+      00011000
+      00011000
+      00111100
+      01100110
+      11000011
+      """
+    end
+
+    bmp_glyph name: "kieuk.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      00000011
+      00000011
+      11111111
+      00000011
+      00000011
+      00000110
+      00001100
+      """
+    end
+
+    bmp_glyph name: "tieut.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      11000000
+      11000000
+      11111111
+      11000000
+      11000000
+      11000011
+      01111110
+      """
+    end
+
+    bmp_glyph name: "pieup.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 9
+
+      data """
+      11111111
+      01100110
+      01100110
+      01100110
+      01100110
+      01100110
+      01100110
+      11111111
+      """
+    end
+
+    bmp_glyph name: "hieut.enclosed" do
+      advance 16
+      xmin 4
+      xmax 12
+      ymin 1
+      ymax 10
+
+      data """
+      00011000
+      11111111
+      00111100
+      01100110
+      11000011
+      11000011
+      11000011
+      01100110
+      00111100
+      """
+    end
+
+    bmp_glyph name: "jung_a.enclosed" do
+      advance 16
+      xmin 10
+      xmax 13
+      ymin 0
+      ymax 10
+
+      data """
+      110
+      110
+      110
+      110
+      111
+      110
+      110
+      110
+      110
+      110
+      """
+    end
+
+    bmp_glyph name: "giyeok.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 8
+      ymin 1
+      ymax 9
+
+      data """
+      11111
+      00011
+      00011
+      00011
+      00011
+      00011
+      00110
+      01100
+      """
+    end
+
+    bmp_glyph name: "nieun.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      110000
+      110000
+      110000
+      110000
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "digeut.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      111111
+      110000
+      110000
+      110000
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "rieul.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      111111
+      000011
+      000011
+      111111
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "mieum.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      111111
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "bieup.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      110011
+      110011
+      110011
+      111111
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "siot.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      011110
+      110011
+      """
+    end
+
+    bmp_glyph name: "ieung.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      011110
+      110011
+      110011
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "jieut.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      111111
+      001100
+      001100
+      001100
+      001100
+      001100
+      011110
+      110011
+      """
+    end
+
+    bmp_glyph name: "chieut.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 10
+
+      data """
+      001100
+      111111
+      001100
+      001100
+      001100
+      001100
+      001100
+      011110
+      110011
+      """
+    end
+
+    bmp_glyph name: "kieuk.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 8
+      ymin 1
+      ymax 9
+
+      data """
+      11111
+      00011
+      00011
+      11111
+      00011
+      00011
+      00110
+      01100
+      """
+    end
+
+    bmp_glyph name: "tieut.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      111111
+      110000
+      110000
+      111111
+      110000
+      110000
+      110011
+      011110
+      """
+    end
+
+    bmp_glyph name: "pieup.enclosed2" do
+      advance 16
+      xmin 2
+      xmax 9
+      ymin 1
+      ymax 9
+
+      data """
+      1111111
+      0110110
+      0110110
+      0110110
+      0110110
+      0110110
+      0110110
+      1111111
+      """
+    end
+
+    bmp_glyph name: "hieut.enclosed2" do
+      advance 16
+      xmin 3
+      xmax 9
+      ymin 1
+      ymax 10
+
+      data """
+      001100
+      111111
+      000000
+      011110
+      110011
+      110011
+      110011
+      110011
+      011110
+      """
+    end
   end
 end
