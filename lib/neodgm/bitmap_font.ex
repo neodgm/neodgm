@@ -6,6 +6,7 @@ defmodule NeoDGM.BitmapFont do
       BraillePatterns,
       Dingbats,
       EnclosedAlphanumerics,
+      EnclosedCJKLetters,
       GeometricShapes,
       HangulCompatibilityJamo,
       HangulJamo,
