@@ -2294,5 +2294,47 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
       011110
       """
     end
+
+    # Hangul Syllable Jieut-U
+    bmp_glyph name: "uniC8FC.enclosed" do
+      advance 16
+      xmin 3
+      xmax 13
+      ymin 0
+      ymax 9
+
+      data """
+      0111111110
+      0000110000
+      0001111000
+      0111001110
+      0000000000
+      1111111111
+      0000110000
+      0000110000
+      0000110000
+      """
+    end
+
+    # Hangul Syllable Ieung-U
+    bmp_glyph name: "uniC6B0.enclosed" do
+      advance 16
+      xmin 3
+      xmax 13
+      ymin 0
+      ymax 9
+
+      data """
+      0011111100
+      0110000110
+      0110000110
+      0011111100
+      0000000000
+      1111111111
+      0000110000
+      0000110000
+      0000110000
+      """
+    end
   end
 end

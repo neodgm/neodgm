@@ -15,5 +15,15 @@ defmodule NeoDGM.BitmapFont.EnclosedCJKLetters do
         jung && component {:name, jung}, 0, 0
       end
     end
+
+    composite_glyph unicode: 0x321C do
+      component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
+      component {:name, "uniC8FC.enclosed"}, 0, 0
+    end
+
+    composite_glyph unicode: 0x327E do
+      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+      component {:name, "uniC6B0.enclosed"}, 0, 0
+    end
   end
 end
