@@ -2016,5 +2016,11 @@ defmodule NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
       000110011000
       """
     end
+
+    # TODO: Move this glyph to a module which defines
+    # "Currency Symbols" Unicode block later.
+    composite_glyph unicode: 0x20A9 do
+      component {:unicode, 0xFFE6}, 0, 0
+    end
   end
 end
