@@ -681,7 +681,7 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
 
     composite_glyph unicode: ?Ý do
       component {:unicode, 0x00B4}, 1, 0
-      component {:name, "Y.short"}, 0, 0
+      component {:name, "Y.short"}, 0, 0, flags: [:use_my_metrics]
     end
 
     bmp_glyph unicode: ?Þ do
