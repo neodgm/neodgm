@@ -8,6 +8,7 @@ defmodule NeoDGM.BitmapFont do
       EnclosedAlphanumerics,
       EnclosedCJKLetters,
       GeometricShapes,
+      HalfwidthAndFullwidthForms,
       HangulCompatibilityJamo,
       HangulJamo,
       HangulJamoSource,
