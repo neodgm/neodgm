@@ -1,7 +1,7 @@
 defmodule NeoDGM.Mixfile do
   use Mix.Project
 
-  @neodgm_version "1.4.1"
+  @neodgm_version "1.5.0"
 
   def project do
     [
