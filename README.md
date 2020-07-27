@@ -14,7 +14,7 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 추가하여 만든 글꼴입니다.
 
 자세한 내용과 Neo둥근모에서 제공하는 모든 문자에 대한 목록은
-[이 웹사이트](http://dalgona.hontou.moe/neodgm)에서 확인해 주세요.
+[이 웹사이트](http://dalgona.github.io/neodgm)에서 확인해 주세요.
 
 ## 내려받기
 
@@ -52,7 +52,7 @@ $ yay -S ttf-neodgm
 이 AUR 패키지는 [@gaeulbyul](https://github.com/gaeulbyul) 님께서 제작해
 주셨습니다. 💕
 
-### macOS
+### Homebrew (macOS 등)
 
 Homebrew Cask를 통해 패키지를 설치할 수 있습니다.
 
