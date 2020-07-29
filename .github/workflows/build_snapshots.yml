@@ -1,0 +1,35 @@
+name: Build NeoDGM snapshots
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    name: Build and upload NeoDGM snapshots
+    runs-on: ubuntu-latest
+
+    env:
+      MIX_ENV: prod
+      NEODGM_GS_BUCKET: neodgm-snapshot-builds
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Elixir
+      uses: actions/setup-elixir@v1
+      with:
+        elixir-version: '1.9.4'
+        otp-version: '22.3'
+    - name: Set up Google Cloud SDK
+      uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        export_default_credentials: true
+    - name: Build font files
+      run: mix build_font && mix build_font --variant code && mix build_font --variant pro
+    - name: Rename font files
+      run: for ttf in *.ttf; do mv -v "${ttf}" "$(basename "${ttf}" .ttf)-${GITHUB_SHA}.ttf"; done
+    - name: Upload font files to GCS
+      run: gsutil cp *.ttf "gs://${NEODGM_GS_BUCKET}/"
