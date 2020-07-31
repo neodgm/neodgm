@@ -1,11 +1,18 @@
 defmodule TTFLib.GlyphSource do
-  alias TTFLib.RectilinearShape
-  alias TTFLib.RectilinearShape.Path
+  require TTFLib.RectilinearShape, as: RectilinearShape
+  require TTFLib.RectilinearShape.Path, as: Path
 
   defmacro export_glyphs(options \\ [], do: do_block) do
     exprs = get_exprs(do_block)
-    map_expr = quote(do: unquote(exprs) |> List.flatten() |> Map.new())
-    map_expr = handle_based_on(options[:based_on], map_expr)
+
+    map_expr =
+      quote do
+        unquote(exprs)
+        |> List.flatten()
+        |> unquote(__MODULE__).__make_contours__()
+        |> Map.new()
+      end
+      |> handle_based_on(options[:based_on])
 
     quote do
       @glyph_map unquote(map_expr)
@@ -16,50 +23,51 @@ defmodule TTFLib.GlyphSource do
     end
   end
 
-  defp handle_based_on(expr, map_expr)
-  defp handle_based_on(nil, map_expr), do: map_expr
+  defp handle_based_on(map_expr, expr)
+  defp handle_based_on(map_expr, nil), do: map_expr
 
-  defp handle_based_on(module, map_expr) when is_atom(module) do
+  defp handle_based_on(map_expr, module) when is_atom(module) do
     quote(do: Map.merge(unquote(module).__glyph__map__(), unquote(map_expr)))
   end
 
-  defp handle_based_on({:__aliases__, _, _} = alias_expr, map_expr) do
+  defp handle_based_on(map_expr, {:__aliases__, _, _} = alias_expr) do
     quote(do: Map.merge(unquote(alias_expr).__glyph_map__(), unquote(map_expr)))
   end
 
-  defp handle_based_on(x, _map_expr) do
+  defp handle_based_on(_map_expr, x) do
     raise "expected the value of :based_on keyword to be known " <>
             "as an atom or an alias in compilation time, got: #{inspect(x)}"
   end
 
   defmacro bmp_glyph([{type, id}], do: block) when type in ~w(unicode name)a do
-    attrs =
-      block
-      |> elem(2)
-      |> Enum.filter(&match?({a, _, [_]} when is_atom(a), &1))
-      |> Enum.map(fn {name, _, [expr]} ->
-        {name, expr |> Code.eval_quoted() |> elem(0)}
-      end)
-      |> Map.new()
+    exprs = get_exprs(block)
+    map_expr = {:%{}, [], [{:type, type}, {:id, id}, {:contours, nil} | exprs]}
 
-    contours =
-      attrs.data
-      |> String.split(~r/\r?\n/, trim: true)
-      |> Enum.map(&to_charlist/1)
-      |> RectilinearShape.from_bmp()
-      |> Path.transform({{1, 0}, {0, -1}}, {attrs.xmin, attrs.ymax})
+    {{type, id}, map_expr}
+  end
 
-    quote do
-      {{unquote(type), unquote(id)},
-       Map.merge(
-         %{
-           type: unquote(type),
-           id: unquote(id),
-           contours: unquote(contours)
-         },
-         unquote(Macro.escape(attrs))
-       )}
-    end
+  Enum.each(~w(advance xmin xmax ymin ymax data)a, fn key ->
+    @spec unquote(key)(Macro.t()) :: Macro.t()
+    defmacro unquote(key)(expr), do: {unquote(key), expr}
+  end)
+
+  def __make_contours__(glyphs) do
+    glyphs
+    |> Task.async_stream(fn
+      {id, %{data: data, xmin: xmin, ymax: ymax} = glyph} ->
+        contours =
+          data
+          |> String.split(~r/\r?\n/, trim: true)
+          |> Enum.map(&to_charlist/1)
+          |> RectilinearShape.from_bmp()
+          |> Path.transform({{1, 0}, {0, -1}}, {xmin, ymax})
+
+        {id, %{glyph | contours: contours}}
+
+      {id, %{} = glyph} ->
+        {id, glyph}
+    end)
+    |> Enum.map(&elem(&1, 1))
   end
 
   defmacro composite_glyph([{type, id}], do: do_block) when type in ~w(unicode name)a do
