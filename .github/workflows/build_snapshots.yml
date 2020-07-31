@@ -33,3 +33,8 @@ jobs:
       run: for ttf in *.ttf; do mv -v "${ttf}" "$(basename "${ttf}" .ttf)-${GITHUB_SHA}.ttf"; done
     - name: Upload font files to GCS
       run: gsutil cp *.ttf "gs://${NEODGM_GS_BUCKET}/"
+    - name: Upload artifact to GitHub
+      uses: actions/upload-artifact@v2
+      with:
+        name: neodgm-snapshot-${{ github.sha }}
+        path: '*.ttf'
