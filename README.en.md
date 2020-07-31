@@ -1,6 +1,6 @@
 # NeoDunggeunmo
 
-![Sample image](https://dalgona.github.io/neodgm/assets/images/neodgm_new_demo.png)
+![Sample image](https://neodgm.dalgona.dev/assets/images/neodgm_new_demo.png)
 
 **NeoDunggeunmo(Neo둥근모)** is a general-purpose TrueType font based on a
 famous Korean bitmap font "Dunggeunmo-kkol(둥근모꼴)", which was designed for
@@ -14,7 +14,7 @@ to its decent design. NeoDunggeunmo is a general-purpose TrueType font with
 outline glyphs converted from the bitmap font and some original glyphs which
 don't exist in the original font.
 
-Check out [the official website (Korean)](http://dalgona.github.io/neodgm) for
+Check out [the official website (Korean)](http://neodgm.dalgona.dev) for
 more information and a list of glyphs available in NeoDunggeunmo.
 
 ## Downloads
@@ -96,7 +96,7 @@ If you are using this font to author contents which are to be displayed in
 standard-DPI PC displays, follow the typography guidelines as much as possible
 to get the best result.
 
-https://dalgona.dev/neodgm/guides.html
+https://neodgm.dalgona.dev/guides.html
 
 (Sorry, this content is only provided in Korean for now.)
 
