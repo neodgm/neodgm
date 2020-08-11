@@ -800,12 +800,12 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     end
 
     composite_glyph unicode: ?ì do
-      component {:name, "grave.component"}, -1, -2
+      component {:name, "grave.component"}, 0, -2
       component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
     end
 
     composite_glyph unicode: ?í do
-      component {:unicode, 0x00B4}, 0, -2
+      component {:unicode, 0x00B4}, 1, -2
       component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
     end
 
@@ -816,7 +816,27 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
 
     composite_glyph unicode: ?ï do
       component {:name, "dieresis.component.i"}, 0, -2
-      component {:unicode, 0x0131}, 1, 0, flags: [:use_my_metrics]
+      component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+    end
+
+    composite_glyph name: "igrave.cv02" do
+      component {:name, "grave.component"}, -1, -2
+      component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+    end
+
+    composite_glyph name: "iacute.cv02" do
+      component {:unicode, 0x00B4}, 0, -2
+      component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+    end
+
+    composite_glyph name: "icircumflex.cv02" do
+      component {:name, "circumflex.component"}, 0, -2
+      component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+    end
+
+    composite_glyph name: "idieresis.cv02" do
+      component {:name, "dieresis.component.i"}, 0, -2
+      component {:name, "dotlessi.cv02"}, 1, 0, flags: [:use_my_metrics]
     end
 
     bmp_glyph unicode: ?ð do
@@ -844,6 +864,11 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     composite_glyph unicode: ?ñ do
       component {:name, "tilde.component"}, 0, -2
       component {:unicode, ?n}, 0, 0
+    end
+
+    composite_glyph name: "ntilde.cv05" do
+      component {:name, "tilde.component"}, 0, -2
+      component {:name, "n.cv05"}, 0, 0
     end
 
     composite_glyph unicode: ?ò do
@@ -966,6 +991,24 @@ defmodule NeoDGM.BitmapFont.Latin1Supplement do
     # dotless i
     # TODO: Move this glyph to Latin Extended-A module later.
     bmp_glyph unicode: 0x0131 do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin 0
+      ymax 7
+
+      data """
+      111100
+      001100
+      001100
+      001100
+      001100
+      001100
+      000111
+      """
+    end
+
+    bmp_glyph name: "dotlessi.cv02" do
       advance 8
       xmin 2
       xmax 5

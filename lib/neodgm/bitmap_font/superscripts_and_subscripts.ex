@@ -13,6 +13,23 @@ defmodule NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
     bmp_glyph unicode: 0x2071 do
       advance 8
+      xmin 1
+      xmax 5
+      ymin 6
+      ymax 12
+
+      data """
+      0110
+      0000
+      1110
+      0110
+      0110
+      0011
+      """
+    end
+
+    bmp_glyph name: "uni2071.cv02" do
+      advance 8
       xmin 2
       xmax 5
       ymin 6
@@ -260,6 +277,24 @@ defmodule NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     end
 
     bmp_glyph unicode: 0x2097 do
+      advance 8
+      xmin 1
+      xmax 5
+      ymin -1
+      ymax 6
+
+      data """
+      1110
+      0110
+      0110
+      0110
+      0110
+      0110
+      0011
+      """
+    end
+
+    bmp_glyph name: "uni2097.cv04" do
       advance 8
       xmin 2
       xmax 5
