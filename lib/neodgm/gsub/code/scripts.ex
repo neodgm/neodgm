@@ -2,8 +2,8 @@ defmodule NeoDGM.GSUB.Code.Scripts do
   alias TTFLib.TableSource.OTFLayout.LanguageSystem
   alias TTFLib.TableSource.OTFLayout.{Script, ScriptList}
 
-  @spec scripts() :: ScriptList.t()
-  def scripts do
+  @spec data() :: ScriptList.t()
+  def data do
     %ScriptList{
       scripts: [
         %Script{

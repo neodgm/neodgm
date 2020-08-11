@@ -1,8 +1,8 @@
 defmodule NeoDGM.GSUB.Code.Features do
   alias TTFLib.TableSource.OTFLayout.{Feature, FeatureList}
 
-  @spec features() :: FeatureList.t()
-  def features do
+  @spec data() :: FeatureList.t()
+  def data do
     %FeatureList{
       features: [
         %Feature{

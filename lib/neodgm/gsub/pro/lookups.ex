@@ -3,8 +3,8 @@ defmodule NeoDGM.GSUB.Pro.Lookups do
   alias TTFLib.TableSource.GSUB.Ligature1
   alias TTFLib.TableSource.OTFLayout.{Lookup, LookupList}
 
-  @spec lookups() :: LookupList.t()
-  def lookups do
+  @spec data() :: LookupList.t()
+  def data do
     %LookupList{
       lookups: [
         %Lookup{
