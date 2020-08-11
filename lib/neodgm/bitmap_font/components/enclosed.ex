@@ -1397,6 +1397,26 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
       110000
       110000
       110000
+      110110
+      111011
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "h.enclosed.cv01" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 9
+
+      data """
+      110000
+      110000
+      110000
       111110
       110011
       110011
@@ -1407,6 +1427,26 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
     end
 
     bmp_glyph name: "i.enclosed" do
+      advance 5
+      xmin 1
+      xmax 5
+      ymin 0
+      ymax 9
+
+      data """
+      0110
+      0110
+      0000
+      1110
+      0110
+      0110
+      0110
+      0110
+      0011
+      """
+    end
+
+    bmp_glyph name: "i.enclosed.cv02" do
       advance 4
       xmin 1
       xmax 4
@@ -1427,6 +1467,27 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
     end
 
     bmp_glyph name: "j.enclosed" do
+      advance 4
+      xmin 1
+      xmax 4
+      ymin -1
+      ymax 9
+
+      data """
+      011
+      011
+      000
+      111
+      011
+      011
+      011
+      011
+      011
+      110
+      """
+    end
+
+    bmp_glyph name: "j.enclosed.cv03" do
       advance 4
       xmin 1
       xmax 4
@@ -1468,6 +1529,26 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
     end
 
     bmp_glyph name: "l.enclosed" do
+      advance 5
+      xmin 1
+      xmax 5
+      ymin 0
+      ymax 9
+
+      data """
+      1110
+      0110
+      0110
+      0110
+      0110
+      0110
+      0110
+      0110
+      0011
+      """
+    end
+
+    bmp_glyph name: "l.enclosed.cv04" do
       advance 4
       xmin 1
       xmax 4
@@ -1505,6 +1586,23 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
     end
 
     bmp_glyph name: "n.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      110110
+      111011
+      110011
+      110011
+      110011
+      110011
+      """
+    end
+
+    bmp_glyph name: "n.enclosed.cv05" do
       advance 6
       xmin 0
       xmax 6
@@ -1579,6 +1677,23 @@ defmodule NeoDGM.BitmapFont.Components.Enclosed do
     end
 
     bmp_glyph name: "r.enclosed" do
+      advance 6
+      xmin 0
+      xmax 6
+      ymin 0
+      ymax 6
+
+      data """
+      110110
+      111011
+      110011
+      110000
+      110000
+      110000
+      """
+    end
+
+    bmp_glyph name: "r.enclosed.cv06" do
       advance 6
       xmin 0
       xmax 6

@@ -149,6 +149,27 @@ defmodule NeoDGM.BitmapFont.EnclosedAlphanumerics do
       end
     end)
 
+    [
+      {"cv01", "h", "uni24A3", "uni24D7"},
+      {"cv02", "i", "uni24A4", "uni24D8"},
+      {"cv03", "j", "uni24A5", "uni24D9"},
+      {"cv04", "l", "uni24A7", "uni24DB"},
+      {"cv05", "n", "uni24A9", "uni24DD"},
+      {"cv06", "r", "uni24AD", "uni24E1"}
+    ]
+    |> Enum.map(fn {cv_tag, letter, gname1, gname2} ->
+      [
+        composite_glyph name: "#{gname1}.#{cv_tag}" do
+          component {:name, "parens.enclosure"}, 0, 0, flags: [:use_my_metrics]
+          component {:name, "#{letter}.enclosed.#{cv_tag}"}, 5, 1
+        end,
+        composite_glyph name: "#{gname2}.#{cv_tag}" do
+          component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
+          component {:name, "#{letter}.enclosed.#{cv_tag}"}, 5, 1
+        end
+      ]
+    end)
+
     # Circled Digit Zero
 
     composite_glyph unicode: 0x24EA do

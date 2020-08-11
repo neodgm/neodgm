@@ -1442,6 +1442,27 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
       1100000
       1100000
       1100000
+      1101110
+      1110011
+      1100011
+      1100011
+      1100011
+      1100011
+      1100011
+      """
+    end
+
+    bmp_glyph name: "h.cv01" do
+      advance 8
+      xmin 0
+      xmax 7
+      ymin 0
+      ymax 10
+
+      data """
+      1100000
+      1100000
+      1100000
       1111110
       1100011
       1100011
@@ -1453,6 +1474,27 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
     end
 
     bmp_glyph unicode: ?i do
+      advance 8
+      xmin 1
+      xmax 7
+      ymin 0
+      ymax 10
+
+      data """
+      001100
+      001100
+      000000
+      111100
+      001100
+      001100
+      001100
+      001100
+      001100
+      000111
+      """
+    end
+
+    bmp_glyph name: "i.cv02" do
       advance 8
       xmin 2
       xmax 5
@@ -1474,6 +1516,30 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
     end
 
     bmp_glyph unicode: ?j do
+      advance 8
+      xmin 1
+      xmax 6
+      ymin -3
+      ymax 10
+
+      data """
+      00011
+      00011
+      00000
+      01111
+      00011
+      00011
+      00011
+      00011
+      00011
+      00011
+      00011
+      00011
+      11110
+      """
+    end
+
+    bmp_glyph name: "j.cv03" do
       advance 8
       xmin 0
       xmax 6
@@ -1520,6 +1586,27 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
 
     bmp_glyph unicode: ?l do
       advance 8
+      xmin 1
+      xmax 7
+      ymin 0
+      ymax 10
+
+      data """
+      111100
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      001100
+      000111
+      """
+    end
+
+    bmp_glyph name: "l.cv04" do
+      advance 8
       xmin 2
       xmax 5
       ymin 0
@@ -1558,6 +1645,24 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
     end
 
     bmp_glyph unicode: ?n do
+      advance 8
+      xmin 0
+      xmax 7
+      ymin 0
+      ymax 7
+
+      data """
+      1101110
+      1110011
+      1100011
+      1100011
+      1100011
+      1100011
+      1100011
+      """
+    end
+
+    bmp_glyph name: "n.cv05" do
       advance 8
       xmin 0
       xmax 7
@@ -1636,6 +1741,24 @@ defmodule NeoDGM.BitmapFont.BasicLatin do
     end
 
     bmp_glyph unicode: ?r do
+      advance 8
+      xmin 0
+      xmax 7
+      ymin 0
+      ymax 7
+
+      data """
+      1101110
+      1110011
+      1100011
+      1100000
+      1100000
+      1100000
+      1100000
+      """
+    end
+
+    bmp_glyph name: "r.cv06" do
       advance 8
       xmin 0
       xmax 7
