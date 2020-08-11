@@ -33,4 +33,20 @@ defmodule TTFLib.TableSource.OTFLayout.LanguageSystem do
 
     IO.iodata_to_binary(data)
   end
+
+  @spec concat(t() | nil, t() | nil) :: t() | nil
+  def concat(lang1, lang2)
+  def concat(nil, nil), do: nil
+  def concat(%__MODULE__{} = lang1, nil), do: lang1
+  def concat(nil, %__MODULE__{} = lang2), do: lang2
+
+  def concat(%__MODULE__{tag: tag} = lang1, %__MODULE__{tag: tag} = lang2) do
+    %__MODULE__{
+      tag: tag,
+      required_feature: lang1.required_feature || lang2.required_feature,
+      features: lang1.features ++ lang2.features
+    }
+  end
+
+  def concat(%__MODULE__{} = lang1, %__MODULE__{}), do: lang1
 end

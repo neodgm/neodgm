@@ -16,4 +16,9 @@ defmodule TTFLib.TableSource.OTFLayout.LookupList do
 
     IO.iodata_to_binary([<<lookup_count::16>>, offsets, tables])
   end
+
+  @spec concat(t(), t()) :: t()
+  def concat(%__MODULE__{lookups: lhs}, %__MODULE__{lookups: rhs}) do
+    %__MODULE__{lookups: lhs ++ rhs}
+  end
 end

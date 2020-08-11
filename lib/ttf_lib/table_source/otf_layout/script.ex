@@ -43,4 +43,27 @@ defmodule TTFLib.TableSource.OTFLayout.Script do
 
     IO.iodata_to_binary(data)
   end
+
+  @spec concat(t(), t()) :: t()
+  def concat(script1, script2)
+
+  def concat(%__MODULE__{tag: tag} = script1, %__MODULE__{tag: tag} = script2) do
+    dflt_lang = LanguageSystem.concat(script1.default_language, script2.default_language)
+
+    langs =
+      [script1.languages, script2.languages]
+      |> List.flatten()
+      |> Enum.group_by(& &1.tag)
+      |> Map.values()
+      |> Enum.map(fn ls -> Enum.reduce(ls, &LanguageSystem.concat(&2, &1)) end)
+      |> Enum.sort_by(& &1.tag)
+
+    %__MODULE__{
+      tag: tag,
+      default_language: dflt_lang,
+      languages: langs
+    }
+  end
+
+  def concat(%__MODULE__{} = script1, %__MODULE__{}), do: script1
 end
