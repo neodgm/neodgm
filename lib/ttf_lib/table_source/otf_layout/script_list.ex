@@ -26,4 +26,17 @@ defmodule TTFLib.TableSource.OTFLayout.ScriptList do
 
     IO.iodata_to_binary(data)
   end
+
+  @spec concat(t(), t()) :: t()
+  def concat(%__MODULE__{scripts: lhs}, %__MODULE__{scripts: rhs}) do
+    scripts =
+      [lhs, rhs]
+      |> List.flatten()
+      |> Enum.group_by(& &1.tag)
+      |> Map.values()
+      |> Enum.map(fn ss -> Enum.reduce(ss, &Script.concat(&2, &1)) end)
+      |> Enum.sort_by(& &1.tag)
+
+    %__MODULE__{scripts: scripts}
+  end
 end

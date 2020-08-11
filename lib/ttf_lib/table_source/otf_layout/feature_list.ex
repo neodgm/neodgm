@@ -26,4 +26,9 @@ defmodule TTFLib.TableSource.OTFLayout.FeatureList do
 
     IO.iodata_to_binary(data)
   end
+
+  @spec concat(t(), t()) :: t()
+  def concat(%__MODULE__{features: lhs}, %__MODULE__{features: rhs}) do
+    %__MODULE__{features: lhs ++ rhs}
+  end
 end
