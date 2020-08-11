@@ -1,8 +1,6 @@
-name: Build NeoDGM snapshots
+name: CI
 
-on:
-  push:
-    branches: [ master ]
+on: push
 
 jobs:
   build:
