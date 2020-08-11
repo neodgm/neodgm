@@ -18,9 +18,9 @@ defmodule NeoDGM.GSUB do
     var = String.capitalize(variant)
 
     %GSUB{
-      script_list: Module.concat([__MODULE__, var, Scripts]).scripts(),
-      feature_list: Module.concat([__MODULE__, var, Features]).features(),
-      lookup_list: Module.concat([__MODULE__, var, Lookups]).lookups(),
+      script_list: Module.concat([__MODULE__, var, Scripts]).data,
+      feature_list: Module.concat([__MODULE__, var, Features]).data,
+      lookup_list: Module.concat([__MODULE__, var, Lookups]).data,
       feature_indices: %{},
       lookup_indices: %{}
     }

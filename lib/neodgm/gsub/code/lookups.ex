@@ -1,8 +1,8 @@
 defmodule NeoDGM.GSUB.Code.Lookups do
   alias TTFLib.TableSource.OTFLayout.LookupList
 
-  @spec lookups() :: LookupList.t()
-  def lookups do
+  @spec data() :: LookupList.t()
+  def data do
     %LookupList{
       lookups:
         [
