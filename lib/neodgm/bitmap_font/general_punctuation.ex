@@ -113,77 +113,24 @@ defmodule NeoDGM.BitmapFont.GeneralPunctuation do
       end
     end)
 
-    bmp_glyph unicode: 0x2010 do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 4
-      ymax 5
-
-      data """
-      1111111
-      """
-    end
-
-    bmp_glyph unicode: 0x2011 do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 4
-      ymax 5
-
-      data """
-      1111111
-      """
-    end
-
-    bmp_glyph unicode: 0x2012 do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 4
-      ymax 5
-
-      data """
-      1111111
-      """
-    end
-
-    bmp_glyph unicode: 0x2013 do
-      advance 8
-      xmin 0
-      xmax 7
-      ymin 4
-      ymax 5
-
-      data """
-      1111111
-      """
-    end
-
-    bmp_glyph unicode: 0x2014 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin 4
-      ymax 5
-
-      data """
-      11111111111111
-      """
-    end
-
-    bmp_glyph unicode: 0x2015 do
-      advance 16
-      xmin 1
-      xmax 15
-      ymin 4
-      ymax 5
-
-      data """
-      11111111111111
-      """
-    end
+    # U+2010 HYPHEN
+    # U+2011 NON-BREAKING HYPHEN
+    # U+2012 FIGURE DASH
+    # U+2013 EN DASH
+    # U+2014 EM DASH
+    # U+2015 HORIZONTAL BAR
+    0x2010..0x2015
+    |> Enum.zip([8, 8, 8, 8, 16, 16])
+    |> Enum.map(fn {code, aw} ->
+      bmp_glyph unicode: code do
+        advance aw
+        xmin 0
+        xmax aw - 1
+        ymin 4
+        ymax 5
+        data String.duplicate("1", aw - 1)
+      end
+    end)
 
     bmp_glyph unicode: 0x2016 do
       advance 8
