@@ -2,7 +2,7 @@ defmodule TTFLib.TableSource.OTFLayout.LookupList do
   alias TTFLib.TableSource.OTFLayout.Lookup
   alias TTFLib.Util
 
-  defstruct ~w(lookups)a
+  defstruct lookups: []
 
   @type t :: %__MODULE__{lookups: [Lookup.t()]}
 

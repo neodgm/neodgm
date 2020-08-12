@@ -1,7 +1,7 @@
 defmodule TTFLib.TableSource.OTFLayout.ScriptList do
   alias TTFLib.TableSource.OTFLayout.Script
 
-  defstruct ~w(scripts)a
+  defstruct scripts: []
 
   @type t :: %__MODULE__{scripts: [Script.t()]}
 
