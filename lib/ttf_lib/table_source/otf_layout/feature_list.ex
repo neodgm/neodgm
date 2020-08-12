@@ -1,7 +1,7 @@
 defmodule TTFLib.TableSource.OTFLayout.FeatureList do
   alias TTFLib.TableSource.OTFLayout.Feature
 
-  defstruct ~w(features)a
+  defstruct features: []
 
   @type t :: %__MODULE__{features: [Feature.t()]}
 
