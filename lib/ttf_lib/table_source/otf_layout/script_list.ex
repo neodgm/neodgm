@@ -35,8 +35,17 @@ defmodule TTFLib.TableSource.OTFLayout.ScriptList do
       |> Enum.group_by(& &1.tag)
       |> Map.values()
       |> Enum.map(fn ss -> Enum.reduce(ss, &Script.concat(&2, &1)) end)
-      |> Enum.sort_by(& &1.tag)
 
     %__MODULE__{scripts: scripts}
+  end
+
+  @spec sort(t()) :: t()
+  def sort(%__MODULE__{scripts: scripts}) do
+    %__MODULE__{
+      scripts:
+        scripts
+        |> Enum.sort_by(& &1.tag)
+        |> Enum.map(&Script.sort_langs/1)
+    }
   end
 end

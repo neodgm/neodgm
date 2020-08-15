@@ -31,4 +31,9 @@ defmodule TTFLib.TableSource.OTFLayout.FeatureList do
   def concat(%__MODULE__{features: lhs}, %__MODULE__{features: rhs}) do
     %__MODULE__{features: lhs ++ rhs}
   end
+
+  @spec sort(t()) :: t()
+  def sort(%__MODULE__{features: features}) do
+    %__MODULE__{features: Enum.sort_by(features, & &1.tag)}
+  end
 end
