@@ -3,17 +3,10 @@ defmodule NeoDGM.GSUB do
   alias TTFLib.TableSource.OTFLayout
 
   @spec get_gsub(term()) :: GSUB.t()
-  def get_gsub(variant) do
-    variant
-    |> do_get_gsub()
-    |> GSUB.populate_indices()
-  end
-
-  @spec do_get_gsub(term()) :: GSUB.t()
-  defp do_get_gsub(variant)
-  defp do_get_gsub("code"), do: make_gsub(~w(StylisticVariants Code))
-  defp do_get_gsub("pro"), do: make_gsub(~w(Pro))
-  defp do_get_gsub(_), do: make_gsub(~w(StylisticVariants))
+  def get_gsub(variant)
+  def get_gsub("code"), do: make_gsub(~w(StylisticVariants Code))
+  def get_gsub("pro"), do: make_gsub(~w(Pro))
+  def get_gsub(_), do: make_gsub(~w(StylisticVariants))
 
   @spec make_gsub([binary()]) :: GSUB.t()
   defp make_gsub(modules) do

@@ -56,7 +56,6 @@ defmodule TTFLib.TableSource.OTFLayout.Script do
       |> Enum.group_by(& &1.tag)
       |> Map.values()
       |> Enum.map(fn ls -> Enum.reduce(ls, &LanguageSystem.concat(&2, &1)) end)
-      |> Enum.sort_by(& &1.tag)
 
     %__MODULE__{
       tag: tag,
@@ -66,4 +65,9 @@ defmodule TTFLib.TableSource.OTFLayout.Script do
   end
 
   def concat(%__MODULE__{} = script1, %__MODULE__{}), do: script1
+
+  @spec sort_langs(t()) :: t()
+  def sort_langs(%__MODULE__{languages: langs} = script) do
+    %__MODULE__{script | languages: Enum.sort_by(langs, & &1.tag)}
+  end
 end
