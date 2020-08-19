@@ -85,14 +85,13 @@ defmodule TTFLib.TableSource.GPOS.PairAdjustment2 do
 
     @spec make_coverage(ClassDefinition.t()) :: binary()
     defp make_coverage(class_def) do
-      glyphs =
-        class_def.assignments
-        |> Map.values()
-        |> List.flatten()
-        |> Enum.uniq()
-        |> Enum.sort()
-
-      GlyphCoverage.compile(%GlyphCoverage{glyphs: glyphs})
+      class_def.assignments
+      |> Map.values()
+      |> List.flatten()
+      |> Enum.uniq()
+      |> Enum.sort()
+      |> GlyphCoverage.of()
+      |> GlyphCoverage.compile()
     end
   end
 end

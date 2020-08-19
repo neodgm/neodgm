@@ -34,8 +34,10 @@ defmodule TTFLib.TableSource.GSUB.ReverseChainingContext1 do
       counts = seqs |> Enum.map(&length/1) |> Enum.sum()
       offset_base = 10 + counts * 2 + input_count * 2
 
-      coverage = %GlyphCoverage{glyphs: from_glyphs}
-      compiled_coverage = GlyphCoverage.compile(coverage, internal: true)
+      compiled_coverage =
+        from_glyphs
+        |> GlyphCoverage.of()
+        |> GlyphCoverage.compile(internal: true)
 
       {offsets, coverages} =
         GlyphCoverage.compile_coverage_records(seqs, offset_base + byte_size(compiled_coverage))

@@ -23,7 +23,7 @@ defmodule TTFLib.TableSource.GSUB.Single2 do
         |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
         |> Enum.unzip()
 
-      coverage = %GlyphCoverage{glyphs: from_glyphs}
+      coverage = GlyphCoverage.of(from_glyphs)
       coverage_offset = 6 + length(from_glyphs) * 2
 
       IO.iodata_to_binary([
