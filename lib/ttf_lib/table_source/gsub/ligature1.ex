@@ -21,7 +21,7 @@ defmodule TTFLib.TableSource.GSUB.Ligature1 do
         |> Enum.sort_by(&elem(&1, 0))
         |> Enum.unzip()
 
-      coverage = GlyphCoverage.compile(%GlyphCoverage{glyphs: first_glyphs}, internal: true)
+      coverage = GlyphCoverage.compile(GlyphCoverage.of(first_glyphs), internal: true)
       ligature_set_count = length(ligature_sets)
       coverage_offset = 6 + 2 * ligature_set_count
       offset_base = coverage_offset + byte_size(coverage)

@@ -15,9 +15,9 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         name: "Short bidirectional arrow chain",
         subtables: [
           %ChainingContext3{
-            backtrack: [%GlyphCoverage{glyphs: '<'}],
-            input: [%GlyphCoverage{glyphs: '-='}],
-            lookahead: [%GlyphCoverage{glyphs: '>'}],
+            backtrack: [GlyphCoverage.of('<')],
+            input: [GlyphCoverage.of('-=')],
+            lookahead: [GlyphCoverage.of('>')],
             substitutions: [
               {0, "Short bidirectional arrow body"}
             ]
@@ -60,19 +60,19 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
-              %GlyphCoverage{glyphs: '<'}
+              GlyphCoverage.of(["hyphen.larr.head", "equal.larr.head"]),
+              GlyphCoverage.of('<')
             ],
-            input: [%GlyphCoverage{glyphs: '-='}],
-            lookahead: [%GlyphCoverage{glyphs: '>'}],
+            input: [GlyphCoverage.of('-=')],
+            lookahead: [GlyphCoverage.of('>')],
             substitutions: [
               {0, "Right arrow head alt"}
             ]
           },
           %ChainingContext3{
             backtrack: [],
-            input: [%GlyphCoverage{glyphs: '-='}],
-            lookahead: [%GlyphCoverage{glyphs: '>'}],
+            input: [GlyphCoverage.of('-=')],
+            lookahead: [GlyphCoverage.of('>')],
             substitutions: [
               {0, "Right arrow head"}
             ]
@@ -86,21 +86,21 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{glyphs: ["hyphen.larr.head", "equal.larr.head"]},
-              %GlyphCoverage{glyphs: '<'}
+              GlyphCoverage.of(["hyphen.larr.head", "equal.larr.head"]),
+              GlyphCoverage.of('<')
             ],
-            input: [%GlyphCoverage{glyphs: '-='}],
-            lookahead: [%GlyphCoverage{glyphs: '-='}],
+            input: [GlyphCoverage.of('-=')],
+            lookahead: [GlyphCoverage.of('-=')],
             substitutions: [
               {0, "Left arrow body"}
             ]
           },
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{glyphs: ["hyphen.larr.body", "equal.larr.body"]}
+              GlyphCoverage.of(["hyphen.larr.body", "equal.larr.body"])
             ],
-            input: [%GlyphCoverage{glyphs: '-='}],
-            lookahead: [%GlyphCoverage{glyphs: '-='}],
+            input: [GlyphCoverage.of('-=')],
+            lookahead: [GlyphCoverage.of('-=')],
             substitutions: [
               {0, "Left arrow body"}
             ]
@@ -114,19 +114,17 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{
-                glyphs: [
-                  "hyphen.larr.head",
-                  "hyphen.larr.body",
-                  "equal.larr.head",
-                  "equal.larr.body"
-                ]
-              }
+              GlyphCoverage.of([
+                "hyphen.larr.head",
+                "hyphen.larr.body",
+                "equal.larr.head",
+                "equal.larr.body"
+              ])
             ],
-            input: [%GlyphCoverage{glyphs: '-='}],
+            input: [GlyphCoverage.of('-=')],
             lookahead: [
-              %GlyphCoverage{glyphs: ["hyphen.rarr.head", "equal.rarr.head"]},
-              %GlyphCoverage{glyphs: '>'}
+              GlyphCoverage.of(["hyphen.rarr.head", "equal.rarr.head"]),
+              GlyphCoverage.of('>')
             ],
             substitutions: [
               {0, "Bidirectional arrow joiner"}
@@ -141,16 +139,14 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         subtables: [
           %ChainingContext3{
             backtrack: [
-              %GlyphCoverage{
-                glyphs: [
-                  "hyphen.larr.head",
-                  "hyphen.larr.body",
-                  "equal.larr.head",
-                  "equal.larr.body"
-                ]
-              }
+              GlyphCoverage.of([
+                "hyphen.larr.head",
+                "hyphen.larr.body",
+                "equal.larr.head",
+                "equal.larr.body"
+              ])
             ],
-            input: [%GlyphCoverage{glyphs: '-='}],
+            input: [GlyphCoverage.of('-=')],
             lookahead: [],
             substitutions: [
               {0, "Left arrow body"}
@@ -166,14 +162,12 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
           %ReverseChainingContext1{
             backtrack: [],
             lookahead: [
-              %GlyphCoverage{
-                glyphs: [
-                  "hyphen.rarr.head",
-                  "hyphen.rarr.body",
-                  "equal.rarr.head",
-                  "equal.rarr.body"
-                ]
-              }
+              GlyphCoverage.of([
+                "hyphen.rarr.head",
+                "hyphen.rarr.body",
+                "equal.rarr.head",
+                "equal.rarr.body"
+              ])
             ],
             substitutions: [
               {?-, "hyphen.rarr.body"},
@@ -263,7 +257,7 @@ defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
         subtables: [
           %ReverseChainingContext1{
             backtrack: [],
-            lookahead: [%GlyphCoverage{glyphs: ["bar.pipeoperator"]}],
+            lookahead: [GlyphCoverage.of(["bar.pipeoperator"])],
             substitutions: [
               {?|, "bar.pipeoperator"}
             ]

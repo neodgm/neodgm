@@ -24,8 +24,11 @@ defmodule TTFLib.TableSource.GSUB.ChainingContext1 do
         |> Enum.sort(&(elem(&1, 0) <= elem(&2, 0)))
         |> Enum.unzip()
 
-      coverage = %GlyphCoverage{glyphs: glyphs}
-      compiled_coverage = GlyphCoverage.compile(coverage, internal: true)
+      compiled_coverage =
+        glyphs
+        |> GlyphCoverage.of()
+        |> GlyphCoverage.compile(internal: true)
+
       coverage_offset = 6 + ruleset_count * 2
       offset_base = coverage_offset + byte_size(compiled_coverage)
 
