@@ -5,6 +5,21 @@ defmodule TTFLib.TableSource.OTFLayout.GlyphCoverage do
   defstruct [:glyphs]
 
   @type t :: %__MODULE__{glyphs: [integer() | binary()]}
+  @type source :: [integer() | binary() | Range.t() | source()]
+
+  @spec of(source()) :: t()
+  def of(glyphs) do
+    %__MODULE__{
+      glyphs:
+        glyphs
+        |> List.flatten()
+        |> Enum.map(fn
+          %Range{} = range -> Enum.to_list(range)
+          x -> x
+        end)
+        |> List.flatten()
+    }
+  end
 
   @spec compile(t(), keyword()) :: binary()
   def compile(%__MODULE__{glyphs: glyphs}, opts \\ []) do
