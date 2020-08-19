@@ -32,13 +32,16 @@ defmodule NeoDGM.BitmapFont.HangulSyllables do
       cho_set = cho_table[jong === 0][jung]
       jung_set = jung_table[cho] + if jong === 0, do: 0, else: 2
       jong_set = jong_table[jung]
+      cho_str = cho |> to_string() |> String.pad_leading(2, "0")
+      jung_str = jung |> to_string() |> String.pad_leading(2, "0")
+      jong_str = jong |> to_string() |> String.pad_leading(2, "0")
 
       composite_glyph unicode: code do
-        component {:name, "cho_#{cho}_#{cho_set}"}, 0, 0
-        component {:name, "jung_#{jung}_#{jung_set}"}, 0, 0
+        component {:name, "cho_#{cho_set}_#{cho_str}"}, 0, 0
+        component {:name, "jung_#{jung_set}_#{jung_str}"}, 0, 0
 
         if jong !== 0 do
-          component {:name, "jong_#{jong}_#{jong_set}"}, 0, 0
+          component {:name, "jong_#{jong_set}_#{jong_str}"}, 0, 0
         end
       end
     end)
