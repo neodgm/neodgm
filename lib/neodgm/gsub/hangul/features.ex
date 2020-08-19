@@ -3,6 +3,14 @@ defmodule NeoDGM.GSUB.Hangul.Features do
 
   @spec data() :: FeatureList.t()
   def data do
-    %FeatureList{features: []}
+    %FeatureList{
+      features: [
+        %Feature{
+          tag: "ccmp",
+          name: "Hangul composition",
+          lookups: ["Hangul composition"]
+        }
+      ]
+    }
   end
 end
