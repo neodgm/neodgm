@@ -66,6 +66,26 @@ $ brew cask install font-neodunggeunmo-code
 
 이 Cask는 [@nyeong](https://github.com/nyeong) 님께서 제작해 주셨습니다. 💕
 
+## 웹 폰트로 사용하기
+
+### 공식 웹 폰트 키트 (neodgm-webfont)
+
+[Dalgona/neodgm-webfont](https://github.com/Dalgona/neodgm-webfont)는
+Neo둥근모의 공식 웹 폰트 키트 저장소로, Neo둥근모 글꼴의 최신 버전이 공개될 때
+가장 먼저 업데이트됩니다. 자세한 사용법은 해당 저장소의 `README.md` 파일을 확인해
+주세요.
+
+### 셀프 호스트 패키지 (@kfonts)
+
+Webpack을 사용하는 웹 프로젝트에서 아래의 패키지를 설치하면 손쉽게 Neo둥근모
+글꼴 파일을 셀프 호스트할 수 있습니다. 자세한 사용법은 아래의 링크를 확인해
+주세요.
+
+- Neo둥근모: https://www.npmjs.com/package/@kfonts/neodgm
+- Neo둥근모 Code: https://www.npmjs.com/package/@kfonts/neodgm-code
+
+이 NPM 패키지는 [item4](https://github.com/item4) 님께서 제작해 주셨습니다. 💕
+
 ## 직접 빌드하기
 
 대부분의 경우에는 이미 빌드된 글꼴 파일을 다운로드 받아서 사용하는 것으로도
