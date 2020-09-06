@@ -64,6 +64,26 @@ $ brew cask install font-neodunggeunmo-code
 
 This Cask is maintained by [@nyeong](https://github.com/nyeong). 💕
 
+## Using Web Fonts
+
+### Official Web Font Kit (neodgm-webfont)
+
+[Dalgona/neodgm-webfont](https://github.com/Dalgona/neodgm-webfont) is a
+repository for the official NeoDunggeunmo web font kits, and therefore it gets
+updated as fast as possible when a new version of the font is released. Check
+the `README.md` file of the repository for detailed instructions.
+
+### Self-host Package (@kfonts)
+
+You can easily self-host NeoDunggeunmo web font files in your web projects
+using Webpack, by installing (one of) these packages below. Visit each link for
+detailed instructions.
+
+- NeoDunggeunmo: https://www.npmjs.com/package/@kfonts/neodgm
+- NeoDunggeunmo Code: https://www.npmjs.com/package/@kfonts/neodgm-code
+
+These NPM packages are maintained by [@item4](https://github.com/item4). 💕
+
 ## Manually Building Fonts from the Source Code
 
 It is enough in most cases to download and use pre-built font files. For some
