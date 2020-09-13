@@ -2,6 +2,43 @@ defmodule TTFLib.GlyphSource do
   require TTFLib.RectilinearShape, as: RectilinearShape
   require TTFLib.RectilinearShape.Path, as: Path
 
+  @type source_options :: [based_on: module()]
+
+  @spec __using__(keyword()) :: Macro.t()
+  defmacro __using__(_options) do
+    quote do
+      import unquote(__MODULE__), only: [glyph_source: 2, glyph_source: 3]
+    end
+  end
+
+  @spec glyph_source(module(), do: Macro.t()) :: Macro.t()
+  @spec glyph_source(module(), source_options(), do: Macro.t()) :: Macro.t()
+  defmacro glyph_source(name, options \\ [], do: do_block) do
+    exprs = get_exprs(do_block)
+
+    map_expr =
+      quote do
+        unquote(exprs)
+        |> List.flatten()
+        |> unquote(__MODULE__).__make_contours__()
+        |> Map.new()
+      end
+      |> handle_based_on(options[:based_on])
+
+    quote do
+      defmodule unquote(name) do
+        # TODO: limit macros to be imported
+        import unquote(__MODULE__)
+
+        @glyph_map unquote(map_expr)
+        @glyph_list @glyph_map |> Map.values() |> Enum.sort(&(&1.id <= &2.id))
+
+        def __glyph_map__, do: @glyph_map
+        def glyphs, do: @glyph_list
+      end
+    end
+  end
+
   defmacro export_glyphs(options \\ [], do: do_block) do
     exprs = get_exprs(do_block)
 
