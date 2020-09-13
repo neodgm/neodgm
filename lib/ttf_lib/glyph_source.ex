@@ -39,27 +39,6 @@ defmodule TTFLib.GlyphSource do
     end
   end
 
-  defmacro export_glyphs(options \\ [], do: do_block) do
-    exprs = get_exprs(do_block)
-
-    map_expr =
-      quote do
-        unquote(exprs)
-        |> List.flatten()
-        |> unquote(__MODULE__).__make_contours__()
-        |> Map.new()
-      end
-      |> handle_based_on(options[:based_on])
-
-    quote do
-      @glyph_map unquote(map_expr)
-      @glyph_list @glyph_map |> Map.values() |> Enum.sort(&(&1.id <= &2.id))
-
-      def __glyph_map__, do: @glyph_map
-      def glyphs, do: @glyph_list
-    end
-  end
-
   defp handle_based_on(map_expr, expr)
   defp handle_based_on(map_expr, nil), do: map_expr
 
