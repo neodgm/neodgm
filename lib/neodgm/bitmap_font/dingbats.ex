@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.Dingbats do
   bmp_glyph unicode: 10102 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -28,10 +25,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10103 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -53,10 +47,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10104 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -78,10 +69,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10105 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -103,10 +91,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10106 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -128,10 +113,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10107 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -153,10 +135,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10108 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -178,10 +157,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10109 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -203,10 +179,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10110 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -228,10 +201,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
 
   bmp_glyph unicode: 10111 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000

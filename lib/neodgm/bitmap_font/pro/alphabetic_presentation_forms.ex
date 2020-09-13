@@ -30,10 +30,7 @@ glyph_source NeoDGM.BitmapFont.Pro.AlphabeticPresentationForms do
 
   bmp_glyph name: "f.liga" do
     advance 7
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0011110

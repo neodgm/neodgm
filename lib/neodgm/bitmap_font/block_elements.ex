@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.BlockElements do
   bmp_glyph unicode: ?▀ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 0..8, 4..12
 
     data """
     11111111
@@ -22,10 +19,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▁ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax -2
+    bounds 0..8, -4..-2
 
     data """
     11111111
@@ -35,10 +29,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▂ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 0
+    bounds 0..8, -4..0
 
     data """
     11111111
@@ -50,10 +41,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▃ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 2
+    bounds 0..8, -4..2
 
     data """
     11111111
@@ -67,10 +55,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▄ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 4
+    bounds 0..8, -4..4
 
     data """
     11111111
@@ -86,10 +71,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▅ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 6
+    bounds 0..8, -4..6
 
     data """
     11111111
@@ -107,10 +89,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▆ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 8
+    bounds 0..8, -4..8
 
     data """
     11111111
@@ -130,10 +109,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▇ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 10
+    bounds 0..8, -4..10
 
     data """
     11111111
@@ -155,10 +131,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?█ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11111111
@@ -182,10 +155,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▉ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -4
-    ymax 12
+    bounds 0..7, -4..12
 
     data """
     1111111
@@ -209,10 +179,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▊ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin -4
-    ymax 12
+    bounds 0..6, -4..12
 
     data """
     111111
@@ -236,10 +203,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▋ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     11111
@@ -263,10 +227,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▌ do
     advance 8
-    xmin 0
-    xmax 4
-    ymin -4
-    ymax 12
+    bounds 0..4, -4..12
 
     data """
     1111
@@ -290,10 +251,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▍ do
     advance 8
-    xmin 0
-    xmax 3
-    ymin -4
-    ymax 12
+    bounds 0..3, -4..12
 
     data """
     111
@@ -317,10 +275,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▎ do
     advance 8
-    xmin 0
-    xmax 2
-    ymin -4
-    ymax 12
+    bounds 0..2, -4..12
 
     data """
     11
@@ -344,10 +299,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▏ do
     advance 8
-    xmin 0
-    xmax 1
-    ymin -4
-    ymax 12
+    bounds 0..1, -4..12
 
     data """
     1
@@ -371,10 +323,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▐ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 4..8, -4..12
 
     data """
     1111
@@ -398,10 +347,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?░ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -3
-    ymax 12
+    bounds 0..7, -3..12
 
     data """
     1010101
@@ -424,10 +370,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▒ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     10101010
@@ -451,10 +394,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▓ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11111111
@@ -478,10 +418,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▔ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 10
-    ymax 12
+    bounds 0..8, 10..12
 
     data """
     11111111
@@ -491,10 +428,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▕ do
     advance 8
-    xmin 7
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 7..8, -4..12
 
     data """
     1
@@ -518,10 +452,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▖ do
     advance 8
-    xmin 0
-    xmax 4
-    ymin -4
-    ymax 4
+    bounds 0..4, -4..4
 
     data """
     1111
@@ -537,10 +468,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▗ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 4
+    bounds 4..8, -4..4
 
     data """
     1111
@@ -556,10 +484,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▘ do
     advance 8
-    xmin 0
-    xmax 4
-    ymin 4
-    ymax 12
+    bounds 0..4, 4..12
 
     data """
     1111
@@ -575,10 +500,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▙ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11110000
@@ -602,10 +524,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▚ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11110000
@@ -629,10 +548,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▛ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11111111
@@ -656,10 +572,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▜ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     11111111
@@ -683,10 +596,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▝ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 4..8, 4..12
 
     data """
     1111
@@ -702,10 +612,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▞ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001111
@@ -729,10 +636,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
 
   bmp_glyph unicode: ?▟ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001111

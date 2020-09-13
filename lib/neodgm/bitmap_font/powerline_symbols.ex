@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
   bmp_glyph unicode: 0xE0A0 do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -4
-    ymax 12
+    bounds 0..7, -4..12
 
     data """
     1100000
@@ -30,10 +27,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0A1 do
     advance 8
-    xmin 1
-    xmax 7
-    ymin -2
-    ymax 10
+    bounds 1..7, -2..10
 
     data """
     110000
@@ -53,10 +47,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0A2 do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 8
+    bounds 1..7, 0..8
 
     data """
     001100
@@ -72,10 +63,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0B0 do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     10000000
@@ -99,10 +87,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0B1 do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     10000000
@@ -126,10 +111,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0B2 do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00000001
@@ -153,10 +135,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
 
   bmp_glyph unicode: 0xE0B3 do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00000001

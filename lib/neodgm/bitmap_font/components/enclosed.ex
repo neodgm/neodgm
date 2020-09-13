@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   bmp_glyph name: "circle.enclosure" do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00011111111000
@@ -28,10 +25,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "parens.enclosure" do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00100000000100
@@ -53,10 +47,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "period.enclosure" do
     advance 16
-    xmin 12
-    xmax 14
-    ymin 0
-    ymax 2
+    bounds 12..14, 0..2
 
     data """
     11
@@ -66,10 +57,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "dblcircle.enclosure" do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00011111111000
@@ -91,10 +79,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "zero.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     011110
@@ -112,10 +97,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "zero.period2" do
     advance 16
-    xmin 8
-    xmax 13
-    ymin 0
-    ymax 10
+    bounds 8..13, 0..10
 
     data """
     01110
@@ -133,10 +115,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "one.period" do
     advance 16
-    xmin 3
-    xmax 6
-    ymin 0
-    ymax 10
+    bounds 3..6, 0..10
 
     data """
     011
@@ -154,10 +133,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "two.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111110
@@ -175,10 +151,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "two.period2" do
     advance 16
-    xmin 3
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 3..7, 0..10
 
     data """
     1110
@@ -196,10 +169,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "three.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111110
@@ -217,10 +187,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "four.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     001110
@@ -238,10 +205,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "five.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111111
@@ -259,10 +223,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "six.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     011110
@@ -280,10 +241,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "seven.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111111
@@ -301,10 +259,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "eight.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     011110
@@ -322,10 +277,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "nine.period" do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     011110
@@ -343,10 +295,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "zero.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -362,10 +311,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "zero.enclosed2" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 8
+    bounds 0..5, 0..8
 
     data """
     01110
@@ -381,10 +327,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "one.enclosed" do
     advance 4
-    xmin 0
-    xmax 4
-    ymin 0
-    ymax 8
+    bounds 0..4, 0..8
 
     data """
     0011
@@ -400,10 +343,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "one.enclosed2" do
     advance 3
-    xmin 0
-    xmax 3
-    ymin 0
-    ymax 8
+    bounds 0..3, 0..8
 
     data """
     011
@@ -419,10 +359,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "two.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -438,10 +375,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "two.enclosed2" do
     advance 4
-    xmin 0
-    xmax 4
-    ymin 0
-    ymax 8
+    bounds 0..4, 0..8
 
     data """
     1110
@@ -457,10 +391,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "three.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -476,10 +407,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "four.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     001110
@@ -495,10 +423,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "five.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111111
@@ -514,10 +439,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "six.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -533,10 +455,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "seven.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111111
@@ -552,10 +471,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "eight.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -571,10 +487,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "nine.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -590,10 +503,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "one.dblcircle" do
     advance 6
-    xmin 1
-    xmax 4
-    ymin 0
-    ymax 6
+    bounds 1..4, 0..6
 
     data """
     011
@@ -607,10 +517,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "two.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111110
@@ -624,10 +531,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "three.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111110
@@ -641,10 +545,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "four.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -658,10 +559,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "five.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111111
@@ -675,10 +573,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "six.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -692,10 +587,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "seven.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111111
@@ -709,10 +601,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "eight.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -726,10 +615,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "nine.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -743,10 +629,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "ten.dblcircle" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     010010
@@ -760,10 +643,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "A.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -779,10 +659,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "B.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -798,10 +675,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "C.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -817,10 +691,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "D.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -836,10 +707,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "E.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011111
@@ -855,10 +723,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "F.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011111
@@ -874,10 +739,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "G.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -893,10 +755,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "H.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110011
@@ -912,10 +771,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "I.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111111
@@ -931,10 +787,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "J.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     001111
@@ -950,10 +803,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "K.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110011
@@ -969,10 +819,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "L.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110000
@@ -988,10 +835,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "M.enclosed" do
     advance 7
-    xmin -1
-    xmax 7
-    ymin 0
-    ymax 8
+    bounds -1..7, 0..8
 
     data """
     11111110
@@ -1007,10 +851,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "N.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -1026,10 +867,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "O.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -1045,10 +883,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "P.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -1064,10 +899,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "Q.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin -1
-    ymax 8
+    bounds 0..6, -1..8
 
     data """
     011110
@@ -1084,10 +916,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "R.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111110
@@ -1103,10 +932,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "S.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     011110
@@ -1122,10 +948,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "T.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111111
@@ -1141,10 +964,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "U.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110011
@@ -1160,10 +980,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "V.enclosed" do
     advance 6
-    xmin -1
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds -1..6, 0..8
 
     data """
     1100011
@@ -1179,10 +996,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "W.enclosed" do
     advance 7
-    xmin -1
-    xmax 7
-    ymin 0
-    ymax 8
+    bounds -1..7, 0..8
 
     data """
     11011011
@@ -1198,10 +1012,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "X.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110011
@@ -1217,10 +1028,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "Y.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     110011
@@ -1236,10 +1044,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "Z.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 8
+    bounds 0..6, 0..8
 
     data """
     111111
@@ -1255,10 +1060,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "a.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111110
@@ -1272,10 +1074,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "b.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     110000
@@ -1292,10 +1091,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "c.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -1309,10 +1105,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "d.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     000011
@@ -1329,10 +1122,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "e.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -1346,10 +1136,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "f.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     00111
@@ -1366,10 +1153,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "g.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin -1
-    ymax 8
+    bounds 0..6, -1..8
 
     data """
     011111
@@ -1386,10 +1170,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "h.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     110000
@@ -1406,10 +1187,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "h.enclosed.cv01" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     110000
@@ -1426,10 +1204,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "i.enclosed" do
     advance 5
-    xmin 1
-    xmax 5
-    ymin 0
-    ymax 9
+    bounds 1..5, 0..9
 
     data """
     0110
@@ -1446,10 +1221,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "i.enclosed.cv02" do
     advance 4
-    xmin 1
-    xmax 4
-    ymin 0
-    ymax 9
+    bounds 1..4, 0..9
 
     data """
     110
@@ -1466,10 +1238,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "j.enclosed" do
     advance 4
-    xmin 1
-    xmax 4
-    ymin -1
-    ymax 9
+    bounds 1..4, -1..9
 
     data """
     011
@@ -1487,10 +1256,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "j.enclosed.cv03" do
     advance 4
-    xmin 1
-    xmax 4
-    ymin -1
-    ymax 9
+    bounds 1..4, -1..9
 
     data """
     011
@@ -1508,10 +1274,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "k.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 9
+    bounds 0..6, 0..9
 
     data """
     110000
@@ -1528,10 +1291,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "l.enclosed" do
     advance 5
-    xmin 1
-    xmax 5
-    ymin 0
-    ymax 9
+    bounds 1..5, 0..9
 
     data """
     1110
@@ -1548,10 +1308,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "l.enclosed.cv04" do
     advance 4
-    xmin 1
-    xmax 4
-    ymin 0
-    ymax 9
+    bounds 1..4, 0..9
 
     data """
     110
@@ -1568,10 +1325,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "m.enclosed" do
     advance 7
-    xmin -1
-    xmax 7
-    ymin 0
-    ymax 6
+    bounds -1..7, 0..6
 
     data """
     11111110
@@ -1585,10 +1339,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "n.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     110110
@@ -1602,10 +1353,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "n.enclosed.cv05" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111110
@@ -1619,10 +1367,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "o.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011110
@@ -1636,10 +1381,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "p.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin -1
-    ymax 8
+    bounds 0..6, -1..8
 
     data """
     111110
@@ -1656,10 +1398,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "q.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin -1
-    ymax 8
+    bounds 0..6, -1..8
 
     data """
     011111
@@ -1676,10 +1415,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "r.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     110110
@@ -1693,10 +1429,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "r.enclosed.cv06" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111110
@@ -1710,10 +1443,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "s.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     011111
@@ -1727,10 +1457,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "t.enclosed" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 9
+    bounds 0..5, 0..9
 
     data """
     01100
@@ -1747,10 +1474,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "u.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     110011
@@ -1764,10 +1488,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "v.enclosed" do
     advance 6
-    xmin -1
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds -1..6, 0..6
 
     data """
     1100011
@@ -1781,10 +1502,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "w.enclosed" do
     advance 7
-    xmin -1
-    xmax 7
-    ymin 0
-    ymax 6
+    bounds -1..7, 0..6
 
     data """
     11011011
@@ -1798,10 +1516,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "x.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 7
+    bounds 0..6, 0..7
 
     data """
     110011
@@ -1816,10 +1531,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "y.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin -1
-    ymax 8
+    bounds 0..6, -1..8
 
     data """
     110011
@@ -1836,10 +1548,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "z.enclosed" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 6
+    bounds 0..6, 0..6
 
     data """
     111111
@@ -1853,10 +1562,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "giyeok.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -1872,10 +1578,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "nieun.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11000000
@@ -1891,10 +1594,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "digeut.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -1910,10 +1610,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "rieul.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -1929,10 +1626,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "mieum.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -1948,10 +1642,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "bieup.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11000011
@@ -1967,10 +1658,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "siot.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     00011000
@@ -1986,10 +1674,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "ieung.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     00111100
@@ -2005,10 +1690,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "jieut.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -2024,10 +1706,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "chieut.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 10
+    bounds 4..12, 1..10
 
     data """
     00011000
@@ -2044,10 +1723,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "kieuk.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -2063,10 +1739,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "tieut.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -2082,10 +1755,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "pieup.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 9
+    bounds 4..12, 1..9
 
     data """
     11111111
@@ -2101,10 +1771,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "hieut.enclosed" do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 10
+    bounds 4..12, 1..10
 
     data """
     00011000
@@ -2121,10 +1788,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "jung_a.enclosed" do
     advance 16
-    xmin 10
-    xmax 13
-    ymin 0
-    ymax 10
+    bounds 10..13, 0..10
 
     data """
     110
@@ -2142,10 +1806,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "giyeok.enclosed2" do
     advance 16
-    xmin 3
-    xmax 8
-    ymin 1
-    ymax 9
+    bounds 3..8, 1..9
 
     data """
     11111
@@ -2161,10 +1822,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "nieun.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     110000
@@ -2180,10 +1838,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "digeut.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     111111
@@ -2199,10 +1854,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "rieul.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     111111
@@ -2218,10 +1870,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "mieum.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     111111
@@ -2237,10 +1886,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "bieup.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     110011
@@ -2256,10 +1902,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "siot.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     001100
@@ -2275,10 +1918,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "ieung.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     011110
@@ -2294,10 +1934,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "jieut.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     111111
@@ -2313,10 +1950,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "chieut.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 10
+    bounds 3..9, 1..10
 
     data """
     001100
@@ -2333,10 +1967,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "kieuk.enclosed2" do
     advance 16
-    xmin 3
-    xmax 8
-    ymin 1
-    ymax 9
+    bounds 3..8, 1..9
 
     data """
     11111
@@ -2352,10 +1983,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "tieut.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 3..9, 1..9
 
     data """
     111111
@@ -2371,10 +1999,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "pieup.enclosed2" do
     advance 16
-    xmin 2
-    xmax 9
-    ymin 1
-    ymax 9
+    bounds 2..9, 1..9
 
     data """
     1111111
@@ -2390,10 +2015,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
 
   bmp_glyph name: "hieut.enclosed2" do
     advance 16
-    xmin 3
-    xmax 9
-    ymin 1
-    ymax 10
+    bounds 3..9, 1..10
 
     data """
     001100
@@ -2411,10 +2033,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   # Hangul Syllable Jieut-U
   bmp_glyph name: "uniC8FC.enclosed" do
     advance 16
-    xmin 3
-    xmax 13
-    ymin 0
-    ymax 9
+    bounds 3..13, 0..9
 
     data """
     0111111110
@@ -2432,10 +2051,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   # Hangul Syllable Ieung-U
   bmp_glyph name: "uniC6B0.enclosed" do
     advance 16
-    xmin 3
-    xmax 13
-    ymin 0
-    ymax 9
+    bounds 3..13, 0..9
 
     data """
     0011111100

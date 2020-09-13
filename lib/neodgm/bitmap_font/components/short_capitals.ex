@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
   bmp_glyph name: "A.short" do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 0..7, 0..9
 
     data """
     0111110
@@ -23,10 +20,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "E.short" do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 0..7, 0..9
 
     data """
     0111111
@@ -43,10 +37,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "I.short" do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 1..7, 0..9
 
     data """
     111111
@@ -63,10 +54,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "N.short" do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 0..7, 0..9
 
     data """
     1111110
@@ -83,10 +71,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "O.short" do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 0..7, 0..9
 
     data """
     0111110
@@ -103,10 +88,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "U.short" do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 0..7, 0..9
 
     data """
     1100011
@@ -123,10 +105,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
 
   bmp_glyph name: "Y.short" do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 9
+    bounds 1..7, 0..9
 
     data """
     110011

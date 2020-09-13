@@ -11,10 +11,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2071 do
     advance 8
-    xmin 1
-    xmax 5
-    ymin 6
-    ymax 12
+    bounds 1..5, 6..12
 
     data """
     0110
@@ -28,10 +25,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph name: "uni2071.cv02" do
     advance 8
-    xmin 2
-    xmax 5
-    ymin 6
-    ymax 12
+    bounds 2..5, 6..12
 
     data """
     110
@@ -45,10 +39,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207A do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 6
-    ymax 11
+    bounds 1..7, 6..11
 
     data """
     001100
@@ -61,10 +52,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207B do
     advance 8
-    xmin 1
-    xmax 6
-    ymin 8
-    ymax 9
+    bounds 1..6, 8..9
 
     data """
     11111
@@ -73,10 +61,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207C do
     advance 8
-    xmin 1
-    xmax 6
-    ymin 7
-    ymax 10
+    bounds 1..6, 7..10
 
     data """
     11111
@@ -87,10 +72,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207D do
     advance 8
-    xmin 2
-    xmax 5
-    ymin 6
-    ymax 11
+    bounds 2..5, 6..11
 
     data """
     011
@@ -103,10 +85,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207E do
     advance 8
-    xmin 2
-    xmax 5
-    ymin 6
-    ymax 11
+    bounds 2..5, 6..11
 
     data """
     110
@@ -119,10 +98,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x207F do
     advance 8
-    xmin 1
-    xmax 6
-    ymin 6
-    ymax 11
+    bounds 1..6, 6..11
 
     data """
     11110
@@ -160,10 +136,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2090 do
     advance 8
-    xmin 1
-    xmax 7
-    ymin -1
-    ymax 4
+    bounds 1..7, -1..4
 
     data """
     011110
@@ -176,10 +149,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2091 do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 4
+    bounds 1..6, -1..4
 
     data """
     01110
@@ -192,10 +162,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2092 do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 4
+    bounds 1..6, -1..4
 
     data """
     01110
@@ -208,10 +175,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2093 do
     advance 8
-    xmin 1
-    xmax 7
-    ymin -1
-    ymax 4
+    bounds 1..7, -1..4
 
     data """
     110011
@@ -224,10 +188,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2094 do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 4
+    bounds 1..6, -1..4
 
     data """
     01110
@@ -240,10 +201,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2095 do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 6
+    bounds 1..6, -1..6
 
     data """
     11000
@@ -258,10 +216,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2096 do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 6
+    bounds 1..6, -1..6
 
     data """
     11000
@@ -276,10 +231,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2097 do
     advance 8
-    xmin 1
-    xmax 5
-    ymin -1
-    ymax 6
+    bounds 1..5, -1..6
 
     data """
     1110
@@ -294,10 +246,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph name: "uni2097.cv04" do
     advance 8
-    xmin 2
-    xmax 5
-    ymin -1
-    ymax 6
+    bounds 2..5, -1..6
 
     data """
     110
@@ -312,10 +261,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x2098 do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -1
-    ymax 4
+    bounds 0..7, -1..4
 
     data """
     1111110
@@ -332,10 +278,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x209A do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -3
-    ymax 4
+    bounds 1..6, -3..4
 
     data """
     11110
@@ -350,10 +293,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x209B do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 4
+    bounds 1..6, -1..4
 
     data """
     01111
@@ -366,10 +306,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
 
   bmp_glyph unicode: 0x209C do
     advance 8
-    xmin 1
-    xmax 6
-    ymin -1
-    ymax 6
+    bounds 1..6, -1..6
 
     data """
     01100
