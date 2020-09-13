@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Markup do
   bmp_glyph name: "exclam.markupcomment" do
     advance 8
-    xmin -5
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds -5..7, 0..10
 
     data """
     000000110000

@@ -6,10 +6,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "zero.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     01110
@@ -22,10 +19,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "one.fraction" do
     advance 3
-    xmin 0
-    xmax 3
-    ymin 0
-    ymax 5
+    bounds 0..3, 0..5
 
     data """
     011
@@ -38,10 +32,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "two.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     11110
@@ -54,10 +45,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "three.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     11110
@@ -70,10 +58,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "four.fraction" do
     advance 6
-    xmin 0
-    xmax 6
-    ymin 0
-    ymax 5
+    bounds 0..6, 0..5
 
     data """
     011110
@@ -86,10 +71,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "five.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     11111
@@ -102,10 +84,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "six.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     01110
@@ -118,10 +97,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "seven.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     11111
@@ -134,10 +110,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "eight.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     01110
@@ -150,10 +123,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "nine.fraction" do
     advance 5
-    xmin 0
-    xmax 5
-    ymin 0
-    ymax 5
+    bounds 0..5, 0..5
 
     data """
     01110
@@ -166,10 +136,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
 
   bmp_glyph name: "ten.fraction" do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 0
-    ymax 5
+    bounds 0..8, 0..5
 
     data """
     01100110

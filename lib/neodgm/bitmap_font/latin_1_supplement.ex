@@ -3,19 +3,13 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   bmp_glyph unicode: 0xA0 do
     advance 8
-    xmin 0
-    xmax 0
-    ymin 0
-    ymax 0
+    bounds 0..0, 0..0
     data ""
   end
 
   bmp_glyph unicode: ?¡ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -3
-    ymax 7
+    bounds 3..5, -3..7
 
     data """
     11
@@ -33,10 +27,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¢ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0001000
@@ -54,10 +45,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?£ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0011100
@@ -75,10 +63,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¤ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 7
+    bounds 0..7, 0..7
 
     data """
     1100011
@@ -93,10 +78,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¥ do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 1..7, 0..10
 
     data """
     110011
@@ -114,10 +96,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¦ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -1
-    ymax 11
+    bounds 3..5, -1..11
 
     data """
     11
@@ -137,10 +116,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?§ do
     advance 8
-    xmin 1
-    xmax 7
-    ymin -1
-    ymax 11
+    bounds 1..7, -1..11
 
     data """
     011110
@@ -164,10 +140,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?© do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -1
-    ymax 10
+    bounds 0..7, -1..10
 
     data """
     0011100
@@ -186,10 +159,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?ª do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 4
-    ymax 10
+    bounds 1..7, 4..10
 
     data """
     011110
@@ -203,10 +173,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?« do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 1
-    ymax 6
+    bounds 0..7, 1..6
 
     data """
     0011011
@@ -219,10 +186,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¬ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 1
-    ymax 6
+    bounds 0..7, 1..6
 
     data """
     1111111
@@ -235,10 +199,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?® do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -1
-    ymax 10
+    bounds 0..7, -1..10
 
     data """
     0011100
@@ -257,10 +218,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¯ do
     advance 8
-    xmin 1
-    xmax 6
-    ymin 10
-    ymax 11
+    bounds 1..6, 10..11
 
     data """
     11111
@@ -269,10 +227,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?° do
     advance 8
-    xmin 2
-    xmax 6
-    ymin 7
-    ymax 11
+    bounds 2..6, 7..11
 
     data """
     0110
@@ -284,10 +239,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?± do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 7
+    bounds 1..7, 0..7
 
     data """
     001100
@@ -312,10 +264,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?´ do
     advance 8
-    xmin 2
-    xmax 5
-    ymin 10
-    ymax 12
+    bounds 2..5, 10..12
 
     data """
     011
@@ -325,10 +274,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?µ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -3
-    ymax 7
+    bounds 0..7, -3..7
 
     data """
     1100011
@@ -346,10 +292,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¶ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -3
-    ymax 7
+    bounds 0..7, -3..7
 
     data """
     0111111
@@ -367,10 +310,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?· do
     advance 8
-    xmin 3
-    xmax 5
-    ymin 3
-    ymax 5
+    bounds 3..5, 3..5
 
     data """
     11
@@ -380,10 +320,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¸ do
     advance 8
-    xmin 2
-    xmax 6
-    ymin -3
-    ymax 0
+    bounds 2..6, -3..0
 
     data """
     0110
@@ -399,10 +336,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?º do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 4
-    ymax 10
+    bounds 1..7, 4..10
 
     data """
     011110
@@ -416,10 +350,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?» do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 1
-    ymax 6
+    bounds 0..7, 1..6
 
     data """
     1101100
@@ -450,10 +381,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?¿ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -2
-    ymax 8
+    bounds 0..7, -2..8
 
     data """
     0011000
@@ -501,10 +429,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?Æ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0111111
@@ -567,10 +492,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?Ð do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0111110
@@ -618,10 +540,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?× do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 1
-    ymax 7
+    bounds 1..7, 1..7
 
     data """
     100001
@@ -635,10 +554,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?Ø do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -2
-    ymax 11
+    bounds 0..7, -2..11
 
     data """
     0000001
@@ -684,10 +600,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?Þ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     1100000
@@ -705,10 +618,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?ß do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 10
+    bounds 0..7, 0..10
 
     data """
     0111110
@@ -756,10 +666,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?æ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 0
-    ymax 7
+    bounds 0..8, 0..7
 
     data """
     11110110
@@ -839,10 +746,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?ð do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 0
-    ymax 11
+    bounds 0..7, 0..11
 
     data """
     0011010
@@ -896,10 +800,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?÷ do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 2
-    ymax 7
+    bounds 1..7, 2..7
 
     data """
     001100
@@ -912,10 +813,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?ø do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -2
-    ymax 9
+    bounds 0..7, -2..9
 
     data """
     0000001
@@ -959,10 +857,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph unicode: ?þ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin -3
-    ymax 10
+    bounds 0..7, -3..10
 
     data """
     1100000
@@ -990,10 +885,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   # TODO: Move this glyph to Latin Extended-A module later.
   bmp_glyph unicode: 0x0131 do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 0
-    ymax 7
+    bounds 1..7, 0..7
 
     data """
     111100
@@ -1008,10 +900,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
 
   bmp_glyph name: "dotlessi.cv02" do
     advance 8
-    xmin 2
-    xmax 5
-    ymin 0
-    ymax 7
+    bounds 2..5, 0..7
 
     data """
     110

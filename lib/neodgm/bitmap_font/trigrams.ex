@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.Trigrams do
   bmp_glyph unicode: 9776 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111111111111
@@ -26,10 +23,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9777 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111110011111
@@ -49,10 +43,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9778 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111111111111
@@ -72,10 +63,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9779 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111110011111
@@ -95,10 +83,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9780 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111111111111
@@ -118,10 +103,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9781 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111110011111
@@ -141,10 +123,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9782 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111111111111
@@ -164,10 +143,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
 
   bmp_glyph unicode: 9783 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin -2
-    ymax 10
+    bounds 2..14, -2..10
 
     data """
     111110011111

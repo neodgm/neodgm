@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
   bmp_glyph unicode: 0xFF01 do
     advance 16
-    xmin 6
-    xmax 10
-    ymin 0
-    ymax 10
+    bounds 6..10, 0..10
 
     data """
     0110
@@ -24,10 +21,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF02 do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 7
-    ymax 11
+    bounds 5..11, 7..11
 
     data """
     110011
@@ -39,10 +33,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF03 do
     advance 16
-    xmin 3
-    xmax 13
-    ymin 0
-    ymax 9
+    bounds 3..13, 0..9
 
     data """
     0011001100
@@ -59,10 +50,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF04 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -1
-    ymax 11
+    bounds 4..12, -1..11
 
     data """
     00011000
@@ -82,10 +70,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF05 do
     advance 16
-    xmin 2
-    xmax 13
-    ymin -1
-    ymax 9
+    bounds 2..13, -1..9
 
     data """
     01110000000
@@ -103,10 +88,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF06 do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 4..11, 0..10
 
     data """
     0011100
@@ -124,10 +106,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF07 do
     advance 16
-    xmin 7
-    xmax 9
-    ymin 7
-    ymax 11
+    bounds 7..9, 7..11
 
     data """
     11
@@ -139,10 +118,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF08 do
     advance 16
-    xmin 5
-    xmax 11
-    ymin -2
-    ymax 11
+    bounds 5..11, -2..11
 
     data """
     000111
@@ -163,10 +139,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF09 do
     advance 16
-    xmin 5
-    xmax 11
-    ymin -2
-    ymax 11
+    bounds 5..11, -2..11
 
     data """
     111000
@@ -187,10 +160,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0A do
     advance 16
-    xmin 3
-    xmax 13
-    ymin 1
-    ymax 8
+    bounds 3..13, 1..8
 
     data """
     0110000110
@@ -205,10 +175,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0B do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 1
-    ymax 8
+    bounds 4..12, 1..8
 
     data """
     00011000
@@ -223,10 +190,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0C do
     advance 16
-    xmin 6
-    xmax 9
-    ymin -1
-    ymax 3
+    bounds 6..9, -1..3
 
     data """
     011
@@ -238,10 +202,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0D do
     advance 16
-    xmin 3
-    xmax 12
-    ymin 4
-    ymax 5
+    bounds 3..12, 4..5
 
     data """
     111111111
@@ -250,10 +211,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0E do
     advance 16
-    xmin 7
-    xmax 9
-    ymin 0
-    ymax 2
+    bounds 7..9, 0..2
 
     data """
     11
@@ -263,10 +221,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF0F do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 8
+    bounds 4..11, 0..8
 
     data """
     0000001
@@ -282,10 +237,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF10 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -303,10 +255,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF11 do
     advance 16
-    xmin 5
-    xmax 9
-    ymin 0
-    ymax 10
+    bounds 5..9, 0..10
 
     data """
     0011
@@ -324,10 +273,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF12 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -345,10 +291,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF13 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -366,10 +309,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF14 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     00111100
@@ -387,10 +327,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF15 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111111
@@ -408,10 +345,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF16 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -429,10 +363,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF17 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111111
@@ -450,10 +381,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF18 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -471,10 +399,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF19 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -492,10 +417,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1A do
     advance 16
-    xmin 7
-    xmax 9
-    ymin 1
-    ymax 8
+    bounds 7..9, 1..8
 
     data """
     11
@@ -510,10 +432,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1B do
     advance 16
-    xmin 6
-    xmax 9
-    ymin 0
-    ymax 8
+    bounds 6..9, 0..8
 
     data """
     011
@@ -529,10 +448,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1C do
     advance 16
-    xmin 4
-    xmax 11
-    ymin -1
-    ymax 10
+    bounds 4..11, -1..10
 
     data """
     0000011
@@ -551,10 +467,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1D do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 3
-    ymax 7
+    bounds 4..12, 3..7
 
     data """
     11111111
@@ -566,10 +479,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1E do
     advance 16
-    xmin 5
-    xmax 12
-    ymin -1
-    ymax 10
+    bounds 5..12, -1..10
 
     data """
     1100000
@@ -588,10 +498,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF1F do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 4..11, 0..10
 
     data """
     0111110
@@ -609,10 +516,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF20 do
     advance 16
-    xmin 2
-    xmax 13
-    ymin 0
-    ymax 10
+    bounds 2..13, 0..10
 
     data """
     00111111100
@@ -630,10 +534,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF21 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -651,10 +552,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF22 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -672,10 +570,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF23 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -693,10 +588,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF24 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -714,10 +606,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF25 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111111
@@ -735,10 +624,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF26 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111111
@@ -756,10 +642,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF27 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -777,10 +660,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF28 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -798,10 +678,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF29 do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111111
@@ -819,10 +696,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2A do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     00001111
@@ -840,10 +714,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2B do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -861,10 +732,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2C do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000000
@@ -882,10 +750,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2D do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -903,10 +768,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2E do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -924,10 +786,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF2F do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -945,10 +804,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF30 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -966,10 +822,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF31 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -2
-    ymax 10
+    bounds 4..12, -2..10
 
     data """
     01111110
@@ -989,10 +842,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF32 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111110
@@ -1010,10 +860,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF33 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     01111110
@@ -1031,10 +878,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF34 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111111
@@ -1052,10 +896,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF35 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -1073,10 +914,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF36 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -1094,10 +932,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF37 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11011011
@@ -1115,10 +950,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF38 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -1136,10 +968,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF39 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -1157,10 +986,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3A do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11111111
@@ -1178,10 +1004,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3B do
     advance 16
-    xmin 5
-    xmax 11
-    ymin -2
-    ymax 11
+    bounds 5..11, -2..11
 
     data """
     111111
@@ -1202,10 +1025,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3C do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 8
+    bounds 4..11, 0..8
 
     data """
     1000000
@@ -1221,10 +1041,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3D do
     advance 16
-    xmin 5
-    xmax 11
-    ymin -2
-    ymax 11
+    bounds 5..11, -2..11
 
     data """
     111111
@@ -1245,10 +1062,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3E do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 8
-    ymax 12
+    bounds 4..11, 8..12
 
     data """
     0001000
@@ -1260,10 +1074,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF3F do
     advance 16
-    xmin 3
-    xmax 12
-    ymin -2
-    ymax -1
+    bounds 3..12, -2..-1
 
     data """
     111111111
@@ -1272,10 +1083,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF40 do
     advance 16
-    xmin 6
-    xmax 10
-    ymin 8
-    ymax 11
+    bounds 6..10, 8..11
 
     data """
     1100
@@ -1286,10 +1094,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF41 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11111110
@@ -1304,10 +1109,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF42 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000000
@@ -1325,10 +1127,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF43 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     01111110
@@ -1343,10 +1142,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF44 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     00000011
@@ -1364,10 +1160,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF45 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     01111110
@@ -1382,10 +1175,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF46 do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 4..11, 0..10
 
     data """
     0011110
@@ -1403,10 +1193,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF47 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -3
-    ymax 7
+    bounds 4..12, -3..7
 
     data """
     01111111
@@ -1424,10 +1211,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF48 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000000
@@ -1445,10 +1229,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF49 do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     001100
@@ -1466,10 +1247,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4A do
     advance 16
-    xmin 5
-    xmax 10
-    ymin -3
-    ymax 10
+    bounds 5..10, -3..10
 
     data """
     00011
@@ -1490,10 +1268,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4B do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000000
@@ -1511,10 +1286,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4C do
     advance 16
-    xmin 5
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 5..11, 0..10
 
     data """
     111100
@@ -1532,10 +1304,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4D do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11111110
@@ -1550,10 +1319,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4E do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11111110
@@ -1568,10 +1334,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF4F do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     01111110
@@ -1586,10 +1349,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF50 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -3
-    ymax 7
+    bounds 4..12, -3..7
 
     data """
     11111110
@@ -1607,10 +1367,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF51 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -3
-    ymax 7
+    bounds 4..12, -3..7
 
     data """
     01111111
@@ -1628,10 +1385,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF52 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11011110
@@ -1646,10 +1400,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF53 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     01111110
@@ -1664,10 +1415,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF54 do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 4..11, 0..10
 
     data """
     0110000
@@ -1685,10 +1433,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF55 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11000011
@@ -1703,10 +1448,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF56 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11000011
@@ -1721,10 +1463,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF57 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11011011
@@ -1739,10 +1478,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF58 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11000011
@@ -1757,10 +1493,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF59 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin -3
-    ymax 7
+    bounds 4..12, -3..7
 
     data """
     11000011
@@ -1778,10 +1511,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF5A do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 7
+    bounds 4..12, 0..7
 
     data """
     11111111
@@ -1796,10 +1526,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF5B do
     advance 16
-    xmin 3
-    xmax 11
-    ymin -2
-    ymax 11
+    bounds 3..11, -2..11
 
     data """
     00000111
@@ -1820,10 +1547,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF5C do
     advance 16
-    xmin 7
-    xmax 9
-    ymin -2
-    ymax 11
+    bounds 7..9, -2..11
 
     data """
     11
@@ -1844,10 +1568,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF5D do
     advance 16
-    xmin 5
-    xmax 13
-    ymin -2
-    ymax 11
+    bounds 5..13, -2..11
 
     data """
     11100000
@@ -1868,10 +1589,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFF5E do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 3
-    ymax 6
+    bounds 4..12, 3..6
 
     data """
     01110001
@@ -1882,10 +1600,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE0 do
     advance 16
-    xmin 4
-    xmax 11
-    ymin 0
-    ymax 10
+    bounds 4..11, 0..10
 
     data """
     0001000
@@ -1903,10 +1618,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE1 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     00111100
@@ -1924,10 +1636,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE2 do
     advance 16
-    xmin 2
-    xmax 13
-    ymin 1
-    ymax 6
+    bounds 2..13, 1..6
 
     data """
     11111111111
@@ -1940,10 +1649,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE3 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 10
-    ymax 11
+    bounds 4..12, 10..11
 
     data """
     11111111
@@ -1952,10 +1658,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE4 do
     advance 16
-    xmin 7
-    xmax 9
-    ymin -1
-    ymax 11
+    bounds 7..9, -1..11
 
     data """
     11
@@ -1975,10 +1678,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE5 do
     advance 16
-    xmin 4
-    xmax 12
-    ymin 0
-    ymax 10
+    bounds 4..12, 0..10
 
     data """
     11000011
@@ -1996,10 +1696,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   bmp_glyph unicode: 0xFFE6 do
     advance 16
-    xmin 2
-    xmax 14
-    ymin 0
-    ymax 10
+    bounds 2..14, 0..10
 
     data """
     001100001100

@@ -179,10 +179,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24EB do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -204,10 +201,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24EC do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -229,10 +223,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24ED do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -254,10 +245,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24EE do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -279,10 +267,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24EF do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -304,10 +289,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24F0 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -329,10 +311,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24F1 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -354,10 +333,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24F2 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -379,10 +355,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24F3 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -404,10 +377,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24F4 do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000
@@ -438,10 +408,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
 
   bmp_glyph unicode: 0x24FF do
     advance 16
-    xmin 1
-    xmax 15
-    ymin -2
-    ymax 12
+    bounds 1..15, -2..12
 
     data """
     00001111110000

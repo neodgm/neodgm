@@ -3,10 +3,7 @@ use TTFLib.GlyphSource
 glyph_source NeoDGM.BitmapFont.BoxDrawing do
   bmp_glyph unicode: ?─ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 4
-    ymax 5
+    bounds 0..8, 4..5
 
     data """
     11111111
@@ -15,10 +12,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?━ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 5
+    bounds 0..8, 3..5
 
     data """
     11111111
@@ -28,10 +22,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?│ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 4..5, -4..12
 
     data """
     1
@@ -55,10 +46,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┃ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 3..5, -4..12
 
     data """
     11
@@ -82,10 +70,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┄ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 4
-    ymax 5
+    bounds 0..7, 4..5
 
     data """
     1101101
@@ -94,10 +79,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┅ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 3
-    ymax 5
+    bounds 0..7, 3..5
 
     data """
     1101101
@@ -107,10 +89,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┆ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin -1
-    ymax 12
+    bounds 4..5, -1..12
 
     data """
     1
@@ -131,10 +110,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┇ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -1
-    ymax 12
+    bounds 3..5, -1..12
 
     data """
     11
@@ -155,10 +131,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┈ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 4
-    ymax 5
+    bounds 0..7, 4..5
 
     data """
     1010101
@@ -167,10 +140,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┉ do
     advance 8
-    xmin 0
-    xmax 7
-    ymin 3
-    ymax 5
+    bounds 0..7, 3..5
 
     data """
     1010101
@@ -180,10 +150,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┊ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin -2
-    ymax 12
+    bounds 4..5, -2..12
 
     data """
     1
@@ -205,10 +172,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┋ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -2
-    ymax 12
+    bounds 3..5, -2..12
 
     data """
     11
@@ -230,10 +194,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┌ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 4..8, -4..5
 
     data """
     1111
@@ -250,10 +211,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┍ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 4..8, -4..5
 
     data """
     1111
@@ -270,10 +228,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┎ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 3..8, -4..5
 
     data """
     11111
@@ -290,10 +245,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┏ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 3..8, -4..5
 
     data """
     11111
@@ -310,10 +262,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┐ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 0..5, -4..5
 
     data """
     11111
@@ -330,10 +279,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┑ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 0..5, -4..5
 
     data """
     11111
@@ -350,10 +296,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┒ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 0..5, -4..5
 
     data """
     11111
@@ -370,10 +313,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┓ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 0..5, -4..5
 
     data """
     11111
@@ -390,10 +330,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?└ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 4..8, 4..12
 
     data """
     1000
@@ -409,10 +346,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┕ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 4..8, 3..12
 
     data """
     1000
@@ -429,10 +363,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┖ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 3..8, 4..12
 
     data """
     11000
@@ -448,10 +379,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┗ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 3..8, 3..12
 
     data """
     11000
@@ -468,10 +396,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┘ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 4
-    ymax 12
+    bounds 0..5, 4..12
 
     data """
     00001
@@ -487,10 +412,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┙ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 3
-    ymax 12
+    bounds 0..5, 3..12
 
     data """
     00001
@@ -507,10 +429,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┚ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 4
-    ymax 12
+    bounds 0..5, 4..12
 
     data """
     00011
@@ -526,10 +445,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┛ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 3
-    ymax 12
+    bounds 0..5, 3..12
 
     data """
     00011
@@ -546,10 +462,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?├ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 4..8, -4..12
 
     data """
     1000
@@ -573,10 +486,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┝ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 4..8, -4..12
 
     data """
     1000
@@ -600,10 +510,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┞ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     11000
@@ -627,10 +534,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┟ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     01000
@@ -654,10 +558,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┠ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     11000
@@ -681,10 +582,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┡ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     11000
@@ -708,10 +606,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┢ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     01000
@@ -735,10 +630,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┣ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     11000
@@ -762,10 +654,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┤ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00001
@@ -789,10 +678,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┥ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00001
@@ -816,10 +702,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┦ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00011
@@ -843,10 +726,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┧ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00001
@@ -870,10 +750,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┨ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00011
@@ -897,10 +774,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┩ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00011
@@ -924,10 +798,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┪ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00001
@@ -951,10 +822,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┫ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00011
@@ -978,10 +846,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┬ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -998,10 +863,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┭ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1018,10 +880,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┮ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1038,10 +897,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┯ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1058,10 +914,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┰ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1078,10 +931,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┱ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1098,10 +948,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┲ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1118,10 +965,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┳ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -1138,10 +982,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┴ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 0..8, 4..12
 
     data """
     00001000
@@ -1157,10 +998,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┵ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00001000
@@ -1177,10 +1015,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┶ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00001000
@@ -1197,10 +1032,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┷ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00001000
@@ -1217,10 +1049,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┸ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 0..8, 4..12
 
     data """
     00011000
@@ -1236,10 +1065,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┹ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00011000
@@ -1256,10 +1082,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┺ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00011000
@@ -1276,10 +1099,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┻ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00011000
@@ -1296,10 +1116,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┼ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1323,10 +1140,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┽ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1350,10 +1164,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┾ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1377,10 +1188,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?┿ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1404,10 +1212,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╀ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1431,10 +1236,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╁ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1458,10 +1260,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╂ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1485,10 +1284,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╃ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1512,10 +1308,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╄ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1539,10 +1332,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╅ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1566,10 +1356,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╆ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1593,10 +1380,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╇ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1620,10 +1404,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╈ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -1647,10 +1428,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╉ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1674,10 +1452,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╊ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1701,10 +1476,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╋ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00011000
@@ -1728,10 +1500,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╌ do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 4
-    ymax 5
+    bounds 1..7, 4..5
 
     data """
     110011
@@ -1740,10 +1509,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╍ do
     advance 8
-    xmin 1
-    xmax 7
-    ymin 3
-    ymax 5
+    bounds 1..7, 3..5
 
     data """
     110011
@@ -1753,10 +1519,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╎ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin -2
-    ymax 10
+    bounds 4..5, -2..10
 
     data """
     1
@@ -1776,10 +1539,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╏ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -2
-    ymax 10
+    bounds 3..5, -2..10
 
     data """
     11
@@ -1799,10 +1559,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?═ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 6
+    bounds 0..8, 3..6
 
     data """
     11111111
@@ -1813,10 +1570,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?║ do
     advance 8
-    xmin 3
-    xmax 6
-    ymin -4
-    ymax 12
+    bounds 3..6, -4..12
 
     data """
     101
@@ -1840,10 +1594,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╒ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 6
+    bounds 4..8, -4..6
 
     data """
     1111
@@ -1861,10 +1612,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╓ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 3..8, -4..5
 
     data """
     11111
@@ -1881,10 +1629,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╔ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 6
+    bounds 3..8, -4..6
 
     data """
     11111
@@ -1902,10 +1647,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╕ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 6
+    bounds 0..5, -4..6
 
     data """
     11111
@@ -1923,10 +1665,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╖ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin -4
-    ymax 5
+    bounds 0..6, -4..5
 
     data """
     111111
@@ -1943,10 +1682,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╗ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin -4
-    ymax 6
+    bounds 0..6, -4..6
 
     data """
     111111
@@ -1964,10 +1700,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╘ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 4..8, 3..12
 
     data """
     1000
@@ -1984,10 +1717,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╙ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 3..8, 4..12
 
     data """
     10100
@@ -2003,10 +1733,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╚ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 3..8, 3..12
 
     data """
     10100
@@ -2023,10 +1750,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╛ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 3
-    ymax 12
+    bounds 0..5, 3..12
 
     data """
     00001
@@ -2043,10 +1767,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╜ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin 4
-    ymax 12
+    bounds 0..6, 4..12
 
     data """
     000101
@@ -2062,10 +1783,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╝ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin 3
-    ymax 12
+    bounds 0..6, 3..12
 
     data """
     000101
@@ -2082,10 +1800,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╞ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 4..8, -4..12
 
     data """
     1000
@@ -2109,10 +1824,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╟ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     10100
@@ -2136,10 +1848,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╠ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 3..8, -4..12
 
     data """
     10100
@@ -2163,10 +1872,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╡ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 0..5, -4..12
 
     data """
     00001
@@ -2190,10 +1896,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╢ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin -4
-    ymax 12
+    bounds 0..6, -4..12
 
     data """
     000101
@@ -2217,10 +1920,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╣ do
     advance 8
-    xmin 0
-    xmax 6
-    ymin -4
-    ymax 12
+    bounds 0..6, -4..12
 
     data """
     000101
@@ -2244,10 +1944,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╤ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 6
+    bounds 0..8, -4..6
 
     data """
     11111111
@@ -2265,10 +1962,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╥ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 0..8, -4..5
 
     data """
     11111111
@@ -2285,10 +1979,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╦ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 6
+    bounds 0..8, -4..6
 
     data """
     11111111
@@ -2306,10 +1997,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╧ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00001000
@@ -2326,10 +2014,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╨ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 0..8, 4..12
 
     data """
     00010100
@@ -2345,10 +2030,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╩ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 12
+    bounds 0..8, 3..12
 
     data """
     00010100
@@ -2365,10 +2047,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╪ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00001000
@@ -2392,10 +2071,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╫ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00010100
@@ -2419,10 +2095,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╬ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00010100
@@ -2446,10 +2119,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╭ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin -4
-    ymax 5
+    bounds 4..8, -4..5
 
     data """
     0011
@@ -2466,10 +2136,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╮ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 0..5, -4..5
 
     data """
     11100
@@ -2486,10 +2153,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╯ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 4
-    ymax 12
+    bounds 0..5, 4..12
 
     data """
     00001
@@ -2505,10 +2169,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╰ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 4
-    ymax 12
+    bounds 4..8, 4..12
 
     data """
     1000
@@ -2524,10 +2185,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╱ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     00000001
@@ -2551,10 +2209,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╲ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     10000000
@@ -2578,10 +2233,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╳ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin -4
-    ymax 12
+    bounds 0..8, -4..12
 
     data """
     10000001
@@ -2605,10 +2257,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╴ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 4
-    ymax 5
+    bounds 0..5, 4..5
 
     data """
     11111
@@ -2617,10 +2266,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╵ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin 4
-    ymax 12
+    bounds 4..5, 4..12
 
     data """
     1
@@ -2636,10 +2282,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╶ do
     advance 8
-    xmin 4
-    xmax 8
-    ymin 4
-    ymax 5
+    bounds 4..8, 4..5
 
     data """
     1111
@@ -2648,10 +2291,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╷ do
     advance 8
-    xmin 4
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 4..5, -4..5
 
     data """
     1
@@ -2668,10 +2308,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╸ do
     advance 8
-    xmin 0
-    xmax 5
-    ymin 3
-    ymax 5
+    bounds 0..5, 3..5
 
     data """
     11111
@@ -2681,10 +2318,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╹ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin 3
-    ymax 12
+    bounds 3..5, 3..12
 
     data """
     11
@@ -2701,10 +2335,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╺ do
     advance 8
-    xmin 3
-    xmax 8
-    ymin 3
-    ymax 5
+    bounds 3..8, 3..5
 
     data """
     11111
@@ -2714,10 +2345,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╻ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -4
-    ymax 5
+    bounds 3..5, -4..5
 
     data """
     11
@@ -2734,10 +2362,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╼ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 5
+    bounds 0..8, 3..5
 
     data """
     11111111
@@ -2747,10 +2372,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╽ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 3..5, -4..12
 
     data """
     01
@@ -2774,10 +2396,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╾ do
     advance 8
-    xmin 0
-    xmax 8
-    ymin 3
-    ymax 5
+    bounds 0..8, 3..5
 
     data """
     11111111
@@ -2787,10 +2406,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
 
   bmp_glyph unicode: ?╿ do
     advance 8
-    xmin 3
-    xmax 5
-    ymin -4
-    ymax 12
+    bounds 3..5, -4..12
 
     data """
     11
