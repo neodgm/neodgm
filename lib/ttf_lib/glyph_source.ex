@@ -57,7 +57,17 @@ defmodule TTFLib.GlyphSource do
 
   defmacro bmp_glyph([{type, id}], do: block) when type in ~w(unicode name)a do
     exprs = get_exprs(block)
-    map_expr = {:%{}, [], [{:type, type}, {:id, id}, {:contours, nil} | exprs]}
+
+    map_expr =
+      quote do
+        [
+          {:type, unquote(type)},
+          {:id, unquote(id)},
+          {:contours, unquote(nil)}
+          | List.flatten(unquote(exprs))
+        ]
+        |> Map.new()
+      end
 
     {{type, id}, map_expr}
   end
@@ -66,6 +76,14 @@ defmodule TTFLib.GlyphSource do
     @spec unquote(key)(Macro.t()) :: Macro.t()
     defmacro unquote(key)(expr), do: {unquote(key), expr}
   end)
+
+  @spec bounds(Macro.t(), Macro.t()) :: Macro.t()
+  defmacro bounds(x_bounds, y_bounds) do
+    {:.., _, [xmin, xmax]} = x_bounds
+    {:.., _, [ymin, ymax]} = y_bounds
+
+    [xmin: xmin, xmax: xmax, ymin: ymin, ymax: ymax]
+  end
 
   def __make_contours__(glyphs) do
     glyphs
