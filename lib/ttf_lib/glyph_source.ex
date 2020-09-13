@@ -72,7 +72,7 @@ defmodule TTFLib.GlyphSource do
     {{type, id}, map_expr}
   end
 
-  Enum.each(~w(advance xmin xmax ymin ymax data)a, fn key ->
+  Enum.each(~w(advance data)a, fn key ->
     @spec unquote(key)(Macro.t()) :: Macro.t()
     defmacro unquote(key)(expr), do: {unquote(key), expr}
   end)
