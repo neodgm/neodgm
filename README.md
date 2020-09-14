@@ -128,9 +128,9 @@ https://neodgm.dalgona.dev/guides.html
 
 ## 라이선스
 
-Neo둥근모 글꼴 파일과 원본 비트맵 데이터 및 글꼴 파일을 생성하는 프로그램과 그
-소스 코드는 SIL Open Font License 1.1 하에 배포됩니다. SIL Open Font License
-1.1의 전체 내용은 `LICENSE.md`에 수록되어 있습니다.
+Neo둥근모 글꼴 파일과 글꼴의 소스 코드는 SIL Open Font License 1.1 하에
+배포됩니다. SIL Open Font License 1.1의 전체 내용은 `LICENSE.md`에 저장되어
+있습니다.
 
 **Neo둥근모 또는 Neo둥근모 Code 글꼴은 위 라이선스에서 명시하는 범위 및 조건
 내에서 상업적 또는 비 상업적 용도로 어디서든 자유롭게 이용하실 수 있으며,
