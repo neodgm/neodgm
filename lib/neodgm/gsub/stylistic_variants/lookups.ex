@@ -1,7 +1,7 @@
 defmodule NeoDGM.GSUB.StylisticVariants.Lookups do
-  alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.GSUB.Single2
-  alias TTFLib.TableSource.OTFLayout.{Lookup, LookupList}
+  alias PixelFont.TableSource.GSUB
+  alias PixelFont.TableSource.GSUB.Single2
+  alias PixelFont.TableSource.OTFLayout.{Lookup, LookupList}
 
   @spec data() :: LookupList.t()
   def data do

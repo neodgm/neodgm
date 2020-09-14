@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
   bmp_glyph unicode: 0x2000 do

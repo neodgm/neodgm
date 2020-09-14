@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   bmp_glyph name: "circle.enclosure" do

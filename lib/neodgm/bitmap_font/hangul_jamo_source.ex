@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HangulJamoSource do
   bmp_glyph name: "cho_0_00" do

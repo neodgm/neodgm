@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_names = ~w(zero one two three four five six seven eight nine)
 x_offsets = [1, 2, 1, 1, 1, 1, 1, 1, 1, 1]

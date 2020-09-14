@@ -1,5 +1,5 @@
 defmodule NeoDGM.GSUB.Code.Features do
-  alias TTFLib.TableSource.OTFLayout.{Feature, FeatureList}
+  alias PixelFont.TableSource.OTFLayout.{Feature, FeatureList}
 
   @spec data() :: FeatureList.t()
   def data do

@@ -1,6 +1,6 @@
 defmodule NeoDGM.GPOS do
-  alias TTFLib.TableSource.GPOS
-  alias TTFLib.TableSource.OTFLayout
+  alias PixelFont.TableSource.GPOS
+  alias PixelFont.TableSource.OTFLayout
 
   @spec get_gpos(term()) :: GPOS.t()
   def get_gpos(variant)

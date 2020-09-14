@@ -1,7 +1,7 @@
 defmodule Mix.Tasks.BuildFont do
   use Mix.Task
   alias NeoDGM.Params
-  alias TTFLib.Builder
+  alias PixelFont.Builder
 
   @defined_variants ~w(code pro)
 

@@ -1,6 +1,6 @@
 defmodule NeoDGM.NameTable do
-  require TTFLib.NameTableBuilder
-  import TTFLib.NameTableBuilder
+  require PixelFont.NameTableBuilder
+  import PixelFont.NameTableBuilder
 
   ver = Version.parse!(Mix.Project.config()[:version])
   version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"

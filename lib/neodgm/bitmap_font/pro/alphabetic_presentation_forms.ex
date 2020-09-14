@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Pro.AlphabeticPresentationForms do
   composite_glyph unicode: 0xFB00 do

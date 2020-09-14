@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Pro.Latin1Supplement,
   based_on: NeoDGM.BitmapFont.Latin1Supplement do

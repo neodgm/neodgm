@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HangulJamo do
   Enum.map(0x1100..0x1112, fn code ->
