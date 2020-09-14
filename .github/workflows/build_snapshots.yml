@@ -25,6 +25,8 @@ jobs:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
         service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         export_default_credentials: true
+    - name: Fetch and compile dependencies
+      run: mix do deps.get, deps.compile
     - name: Build font files
       run: mix build_font && mix build_font --variant code && mix build_font --variant pro
     - name: Rename font files
