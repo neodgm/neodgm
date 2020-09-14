@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   bmp_glyph unicode: 0xA0 do

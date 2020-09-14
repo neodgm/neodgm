@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Markup do
   bmp_glyph name: "exclam.markupcomment" do

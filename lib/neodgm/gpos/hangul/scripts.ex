@@ -1,6 +1,6 @@
 defmodule NeoDGM.GPOS.Hangul.Scripts do
-  alias TTFLib.TableSource.OTFLayout.LanguageSystem
-  alias TTFLib.TableSource.OTFLayout.{Script, ScriptList}
+  alias PixelFont.TableSource.OTFLayout.LanguageSystem
+  alias PixelFont.TableSource.OTFLayout.{Script, ScriptList}
 
   @spec data() :: ScriptList.t()
   def data do

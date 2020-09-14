@@ -1,7 +1,7 @@
 defmodule NeoDGM.GSUB.Code.Lookups.Substitutions do
-  alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.GSUB.Single2
-  alias TTFLib.TableSource.OTFLayout.Lookup
+  alias PixelFont.TableSource.GSUB
+  alias PixelFont.TableSource.GSUB.Single2
+  alias PixelFont.TableSource.OTFLayout.Lookup
 
   @spec data() :: [Lookup.t()]
   def data do

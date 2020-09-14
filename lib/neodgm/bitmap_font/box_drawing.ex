@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.BoxDrawing do
   bmp_glyph unicode: ?─ do

@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 letters =
   ~w(giyeok nieun digeut rieul mieum bieup siot ieung jieut chieut kieuk tieut pieup hieut)

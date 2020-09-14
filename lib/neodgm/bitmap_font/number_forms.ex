@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.NumberForms do
   composite_glyph unicode: 0x2150 do

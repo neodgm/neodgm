@@ -1,6 +1,6 @@
 defmodule NeoDGM.GSUB do
-  alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.OTFLayout
+  alias PixelFont.TableSource.GSUB
+  alias PixelFont.TableSource.OTFLayout
 
   @spec get_gsub(term()) :: GSUB.t()
   def get_gsub(variant)

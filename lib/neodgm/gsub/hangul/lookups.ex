@@ -1,11 +1,11 @@
 defmodule NeoDGM.GSUB.Hangul.Lookups do
-  require TTFLib.Util
-  alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.GSUB.Single1
-  alias TTFLib.TableSource.GSUB.ChainingContext3
-  alias TTFLib.TableSource.OTFLayout.GlyphCoverage
-  alias TTFLib.TableSource.OTFLayout.{Lookup, LookupList}
-  import TTFLib.Util, only: :macros
+  require PixelFont.Util
+  alias PixelFont.TableSource.GSUB
+  alias PixelFont.TableSource.GSUB.Single1
+  alias PixelFont.TableSource.GSUB.ChainingContext3
+  alias PixelFont.TableSource.OTFLayout.GlyphCoverage
+  alias PixelFont.TableSource.OTFLayout.{Lookup, LookupList}
+  import PixelFont.Util, only: :macros
 
   @spec data() :: LookupList.t()
   def data do

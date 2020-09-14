@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
   bmp_glyph unicode: 0x3131 do

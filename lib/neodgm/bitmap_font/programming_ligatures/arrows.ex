@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
   bmp_glyph name: "hyphen.larr.head" do

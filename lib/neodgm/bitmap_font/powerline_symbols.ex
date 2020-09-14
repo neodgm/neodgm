@@ -1,4 +1,4 @@
-use TTFLib.GlyphSource
+use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
   bmp_glyph unicode: 0xE0A0 do

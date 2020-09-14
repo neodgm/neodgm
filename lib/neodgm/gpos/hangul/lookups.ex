@@ -1,10 +1,10 @@
 defmodule NeoDGM.GPOS.Hangul.Lookups do
-  alias TTFLib.TableSource.GPOS
-  alias TTFLib.TableSource.GPOS.ChainingContext3
-  alias TTFLib.TableSource.GPOS.SingleAdjustment1
-  alias TTFLib.TableSource.GPOS.ValueRecord
-  alias TTFLib.TableSource.OTFLayout.GlyphCoverage
-  alias TTFLib.TableSource.OTFLayout.{Lookup, LookupList}
+  alias PixelFont.TableSource.GPOS
+  alias PixelFont.TableSource.GPOS.ChainingContext3
+  alias PixelFont.TableSource.GPOS.SingleAdjustment1
+  alias PixelFont.TableSource.GPOS.ValueRecord
+  alias PixelFont.TableSource.OTFLayout.GlyphCoverage
+  alias PixelFont.TableSource.OTFLayout.{Lookup, LookupList}
 
   make_coverage = fn prefix, set_range, num_range ->
     for set <- set_range, num <- num_range do

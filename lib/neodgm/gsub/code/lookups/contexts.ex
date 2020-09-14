@@ -1,10 +1,10 @@
 defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
-  alias TTFLib.TableSource.GSUB
-  alias TTFLib.TableSource.GSUB.ChainingContext1
-  alias TTFLib.TableSource.GSUB.ChainingContext3
-  alias TTFLib.TableSource.GSUB.ReverseChainingContext1
-  alias TTFLib.TableSource.OTFLayout.GlyphCoverage
-  alias TTFLib.TableSource.OTFLayout.Lookup
+  alias PixelFont.TableSource.GSUB
+  alias PixelFont.TableSource.GSUB.ChainingContext1
+  alias PixelFont.TableSource.GSUB.ChainingContext3
+  alias PixelFont.TableSource.GSUB.ReverseChainingContext1
+  alias PixelFont.TableSource.OTFLayout.GlyphCoverage
+  alias PixelFont.TableSource.OTFLayout.Lookup
 
   @spec data() :: [Lookup.t()]
   def data do
