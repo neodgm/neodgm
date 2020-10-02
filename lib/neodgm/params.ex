@@ -12,7 +12,7 @@ defmodule NeoDGM.Params do
 
     %{
       version: @version,
-      name_table: NameTable.name_table(variant),
+      name_table: name_module(variant).name_table(),
       metrics: metrics(variant),
       os_2: os_2(variant),
       glyph_sources: BitmapFont.get_sources(variant),
@@ -21,6 +21,12 @@ defmodule NeoDGM.Params do
       gsub: GSUB.get_gsub(variant)
     }
   end
+
+  @spec name_module(term()) :: module()
+  defp name_module(variant)
+  defp name_module("code"), do: NameTable.Code
+  defp name_module("pro"), do: NameTable.Pro
+  defp name_module(_), do: NameTable
 
   defp metrics("pro") do
     Map.merge(metrics(nil), %{
