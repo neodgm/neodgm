@@ -1,133 +1,48 @@
 use PixelFont.GlyphSource
+import PixelFont.Util, only: :macros
 
 glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
-  bmp_glyph unicode: 0x2000 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2001 do
-    advance 16
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2002 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2003 do
-    advance 16
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2004 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2005 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2006 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2007 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2008 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x2009 do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  bmp_glyph unicode: 0x200A do
-    advance 8
-    bounds 0..0, 0..0
-    data ""
-  end
-
-  Enum.map(0x200B..0x200F, fn code ->
+  # U+2000 EN QUAD
+  # U+2001 EM QUAD
+  # U+2002 EN SPACE
+  # U+2003 EM SPACE
+  # U+2004 THREE-PER-EM SPACE
+  # U+2005 FOUR-PER-EM SPACE
+  # U+2006 SIX-PER-EM SPACE
+  # U+2007 FIGURE SPACE
+  # U+2008 PUNCTUATION SPACE
+  # U+2009 THIN SPACE
+  # U+200A HAIR SPACE
+  # U+200B ZERO WIDTH SPACE
+  # U+200C ZERO WIDTH NON-JOINER
+  # U+200D ZERO WIDTH JOINER
+  # U+200E LEFT-TO-RIGHT MARK
+  # U+200F RIGHT-TO-LEFT MARK
+  0x2000..0x200F
+  |> Enum.zip(~i(8 16 8 16 8 8 8 8 8 8 8 0 0 0 0 0))
+  |> Enum.map(fn {code, aw} ->
     bmp_glyph unicode: code do
-      advance 0
+      advance aw
       bounds 0..0, 0..0
       data ""
     end
   end)
 
-  bmp_glyph unicode: 0x2010 do
-    advance 8
-    bounds 0..7, 4..5
-
-    data """
-    1111111
-    """
-  end
-
-  bmp_glyph unicode: 0x2011 do
-    advance 8
-    bounds 0..7, 4..5
-
-    data """
-    1111111
-    """
-  end
-
-  bmp_glyph unicode: 0x2012 do
-    advance 8
-    bounds 0..7, 4..5
-
-    data """
-    1111111
-    """
-  end
-
-  bmp_glyph unicode: 0x2013 do
-    advance 8
-    bounds 0..7, 4..5
-
-    data """
-    1111111
-    """
-  end
-
-  bmp_glyph unicode: 0x2014 do
-    advance 16
-    bounds 1..15, 4..5
-
-    data """
-    11111111111111
-    """
-  end
-
-  bmp_glyph unicode: 0x2015 do
-    advance 16
-    bounds 1..15, 4..5
-
-    data """
-    11111111111111
-    """
-  end
+  # U+2010 HYPHEN
+  # U+2011 NON-BREAKING HYPHEN
+  # U+2012 FIGURE DASH
+  # U+2013 EN DASH
+  # U+2014 EM DASH
+  # U+2015 HORIZONTAL BAR
+  0x2010..0x2015
+  |> Enum.zip(~i(8 8 8 8 16 16))
+  |> Enum.map(fn {code, aw} ->
+    bmp_glyph unicode: code do
+      advance aw
+      bounds 0..(aw - 1), 4..5
+      data String.duplicate("1", aw - 1)
+    end
+  end)
 
   bmp_glyph unicode: 0x2016 do
     advance 8
