@@ -265,4 +265,114 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     10101
     """
   end
+
+  composite_glyph unicode: 0x2027 do
+    component {:unicode, 0x00B7}, 0, 0
+  end
+
+  bmp_glyph unicode: 0x2045 do
+    advance 8
+    bounds 2..6, -2..11
+
+    data """
+    1111
+    1100
+    1100
+    1100
+    1100
+    1100
+    1111
+    1100
+    1100
+    1100
+    1100
+    1100
+    1111
+    """
+  end
+
+  bmp_glyph unicode: 0x2046 do
+    advance 8
+    bounds 2..6, -2..11
+
+    data """
+    1111
+    0011
+    0011
+    0011
+    0011
+    0011
+    1111
+    0011
+    0011
+    0011
+    0011
+    0011
+    1111
+    """
+  end
+
+  bmp_glyph unicode: 0x204B do
+    advance 8
+    bounds 0..7, -3..7
+
+    data """
+    1111110
+    0101111
+    0101111
+    0101111
+    0101110
+    0101000
+    0101000
+    0101000
+    0101000
+    0101000
+    """
+  end
+
+  bmp_glyph unicode: 0x204C do
+    advance 8
+    bounds 0..7, 2..7
+
+    data """
+    0111111
+    1111010
+    1111010
+    1111010
+    0111111
+    """
+  end
+
+  bmp_glyph unicode: 0x204D do
+    advance 8
+    bounds 0..7, 2..7
+
+    data """
+    1111110
+    0101111
+    0101111
+    0101111
+    1111110
+    """
+  end
+
+  composite_glyph unicode: 0x204E do
+    component {:unicode, ?*}, 0, -3
+  end
+
+  bmp_glyph unicode: 0x204F do
+    advance 8
+    bounds 3..6, 0..8
+
+    data """
+    110
+    110
+    000
+    000
+    000
+    110
+    110
+    011
+    """
+  end
 end
