@@ -35,6 +35,7 @@ defmodule NeoDGM.BitmapFont do
   pro_glyph_sources =
     [
       Pro.BasicLatin,
+      Pro.GeneralPunctuation,
       Pro.Latin1Supplement,
       Pro.AlphabeticPresentationForms,
       Pro.Components.ShortCapitals
