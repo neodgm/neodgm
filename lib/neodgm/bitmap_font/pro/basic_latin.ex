@@ -352,19 +352,19 @@ glyph_source NeoDGM.BitmapFont.Pro.BasicLatin,
 
   bmp_glyph unicode: ?i do
     advance 5
-    bounds 1..4, 0..10
+    bounds 0..4, 0..10
 
     data """
-    110
-    110
-    000
-    110
-    110
-    110
-    110
-    110
-    110
-    011
+    0110
+    0110
+    0000
+    1110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0011
     """
   end
 
@@ -376,7 +376,7 @@ glyph_source NeoDGM.BitmapFont.Pro.BasicLatin,
     011
     011
     000
-    011
+    111
     011
     011
     011
@@ -391,19 +391,19 @@ glyph_source NeoDGM.BitmapFont.Pro.BasicLatin,
 
   bmp_glyph unicode: ?l do
     advance 5
-    bounds 1..4, 0..10
+    bounds 0..4, 0..10
 
     data """
-    110
-    110
-    110
-    110
-    110
-    110
-    110
-    110
-    110
-    011
+    1110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0011
     """
   end
 
@@ -419,21 +419,6 @@ glyph_source NeoDGM.BitmapFont.Pro.BasicLatin,
     11011011
     11011011
     11011011
-    """
-  end
-
-  bmp_glyph unicode: ?r do
-    advance 7
-    bounds 0..6, 0..7
-
-    data """
-    111110
-    110011
-    110000
-    110000
-    110000
-    110000
-    110000
     """
   end
 

@@ -232,16 +232,16 @@ glyph_source NeoDGM.BitmapFont.Pro.Latin1Supplement,
   # TODO: Move this glyph to Latin Extended-A module later.
   bmp_glyph unicode: 0x0131 do
     advance 5
-    bounds 1..4, 0..7
+    bounds 0..4, 0..7
 
     data """
-    110
-    110
-    110
-    110
-    110
-    110
-    011
+    1110
+    0110
+    0110
+    0110
+    0110
+    0110
+    0011
     """
   end
 end
