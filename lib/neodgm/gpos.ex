@@ -4,7 +4,6 @@ defmodule NeoDGM.GPOS do
 
   @spec get_gpos(term()) :: GPOS.t()
   def get_gpos(variant)
-  def get_gpos("pro"), do: make_gpos(~w(Hangul Pro))
   def get_gpos(_), do: make_gpos(~w(Hangul))
 
   @spec make_gpos([binary()]) :: GPOS.t()

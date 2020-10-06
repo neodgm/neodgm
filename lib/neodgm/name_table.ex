@@ -75,28 +75,3 @@ name_table NeoDGM.NameTable.Code do
     license_url "https://scripts.sil.org/OFL"
   end
 end
-
-name_table NeoDGM.NameTable.Pro do
-  name_records language: "en-US" do
-    copyright copyright_en
-    family "NeoDunggeunmo Pro"
-    subfamily "Regular"
-    unique_id "Dalgona : NeoDunggeunmo Pro : 2019"
-    full_name "NeoDunggeunmo Pro"
-    version version_str
-    postscript_name "NeoDunggeunmoPro-Regular"
-    license license_en
-    license_url "https://scripts.sil.org/OFL"
-  end
-
-  name_records language: "ko-KR" do
-    copyright copyright_ko
-    family "Neo둥근모 Pro"
-    subfamily "보통"
-    full_name "Neo둥근모 Pro"
-    version version_str
-    postscript_name "NeoDunggeunmoPro-Regular"
-    license license_ko
-    license_url "https://scripts.sil.org/OFL"
-  end
-end
