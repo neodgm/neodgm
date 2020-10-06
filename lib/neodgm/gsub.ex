@@ -5,7 +5,6 @@ defmodule NeoDGM.GSUB do
   @spec get_gsub(term()) :: GSUB.t()
   def get_gsub(variant)
   def get_gsub("code"), do: make_gsub(~w(Hangul StylisticVariants Code))
-  def get_gsub("pro"), do: make_gsub(~w(Hangul Pro))
   def get_gsub(_), do: make_gsub(~w(Hangul StylisticVariants))
 
   @spec make_gsub([binary()]) :: GSUB.t()
