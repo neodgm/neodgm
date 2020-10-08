@@ -1,19 +1,20 @@
 use PixelFont.NameTable
 
 ver = Version.parse!(Mix.Project.config()[:version])
-version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"
+patch_str = ver.patch |> to_string() |> String.pad_leading(2, "0")
+version_str = "Version #{ver.major}.#{ver.minor}#{patch_str}"
 
 copyright_en = """
 Original font was released under the public domain by Jungtae Kim \
 in 1990s. \
 Conversion and additional character design by Dalgona. \
-<dalgona@hontou.moe>\
+<me@dalgona.dev>\
 """
 
 copyright_ko = """
 원본 글꼴은 1990년대에 김중태 한글문화원 원장에 의해 퍼블릭 \
 도메인으로 공개되었습니다. \
-변환 및 추가적인 문자 디자인: Dalgona. <dalgona@hontou.moe>\
+변환 및 추가적인 문자 디자인: Dalgona. <me@dalgona.dev>\
 """
 
 license_en = """
