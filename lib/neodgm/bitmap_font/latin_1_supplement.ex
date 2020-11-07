@@ -262,15 +262,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     component "three.fraction", 1, 6
   end
 
-  bmp_glyph ?´ do
-    advance 8
-    bounds 2..5, 10..12
-
-    data """
-    011
-    110
-    """
-  end
+  composite_glyph ?´, do: component("acute.component", 0, 0)
 
   bmp_glyph ?µ do
     advance 8
@@ -403,7 +395,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?Á do
-    component 0x00B4, 0, 0
+    component "acute.component", 0, 0
     component "A.short", 0, 0
   end
 
@@ -456,7 +448,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?É do
-    component 0x00B4, 0, 0
+    component "acute.component", 0, 0
     component "E.short", 0, 0
   end
 
@@ -476,7 +468,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?Í do
-    component 0x00B4, 0, 0
+    component "acute.component", 1, 0
     component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
@@ -519,7 +511,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?Ó do
-    component 0x00B4, 0, 0
+    component "acute.component", 0, 0
     component "O.short", 0, 0
   end
 
@@ -579,7 +571,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?Ú do
-    component 0x00B4, 0, 0
+    component "acute.component", 0, 0
     component "U.short", 0, 0
   end
 
@@ -594,7 +586,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?Ý do
-    component 0x00B4, 1, 0
+    component "acute.component", 1, 0
     component "Y.short", 0, 0, flags: [:use_my_metrics]
   end
 
@@ -640,7 +632,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?á do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component ?a, 0, 0
   end
 
@@ -690,7 +682,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?é do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component ?e, 0, 0
   end
 
@@ -710,7 +702,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?í do
-    component 0x00B4, 1, -2
+    component "acute.component", 1, -2
     component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
@@ -730,7 +722,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph "iacute.cv02" do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component "dotlessi.cv02", 0, 0, flags: [:use_my_metrics]
   end
 
@@ -779,7 +771,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?ó do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component ?o, 0, 0
   end
 
@@ -836,7 +828,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?ú do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component ?u, 0, 0
   end
 
@@ -851,7 +843,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
   end
 
   composite_glyph ?ý do
-    component 0x00B4, 0, -2
+    component "acute.component", 0, -2
     component ?y, 0, 0
   end
 

@@ -11,6 +11,16 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
+  bmp_glyph "acute.component" do
+    advance 8
+    bounds 2..5, 10..12
+
+    data """
+    011
+    110
+    """
+  end
+
   bmp_glyph "circumflex.component" do
     advance 8
     bounds 1..6, 10..12
