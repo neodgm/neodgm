@@ -1,10 +1,10 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Components.Fractions do
-  # bmp_glyph name: "fraction_bar" do
+  # bmp_glyph "fraction_bar" do
   # end
 
-  bmp_glyph name: "zero.fraction" do
+  bmp_glyph "zero.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -17,7 +17,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "one.fraction" do
+  bmp_glyph "one.fraction" do
     advance 3
     bounds 0..3, 0..5
 
@@ -30,7 +30,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "two.fraction" do
+  bmp_glyph "two.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -43,7 +43,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "three.fraction" do
+  bmp_glyph "three.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -56,7 +56,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "four.fraction" do
+  bmp_glyph "four.fraction" do
     advance 6
     bounds 0..6, 0..5
 
@@ -69,7 +69,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "five.fraction" do
+  bmp_glyph "five.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -82,7 +82,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "six.fraction" do
+  bmp_glyph "six.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -95,7 +95,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "seven.fraction" do
+  bmp_glyph "seven.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -108,7 +108,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "eight.fraction" do
+  bmp_glyph "eight.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -121,7 +121,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "nine.fraction" do
+  bmp_glyph "nine.fraction" do
     advance 5
     bounds 0..5, 0..5
 
@@ -134,7 +134,7 @@ glyph_source NeoDGM.BitmapFont.Components.Fractions do
     """
   end
 
-  bmp_glyph name: "ten.fraction" do
+  bmp_glyph "ten.fraction" do
     advance 8
     bounds 0..8, 0..5
 

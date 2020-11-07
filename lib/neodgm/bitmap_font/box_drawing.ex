@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.BoxDrawing do
-  bmp_glyph unicode: ?─ do
+  bmp_glyph ?─ do
     advance 8
     bounds 0..8, 4..5
 
@@ -10,7 +10,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?━ do
+  bmp_glyph ?━ do
     advance 8
     bounds 0..8, 3..5
 
@@ -20,7 +20,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?│ do
+  bmp_glyph ?│ do
     advance 8
     bounds 4..5, -4..12
 
@@ -44,7 +44,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┃ do
+  bmp_glyph ?┃ do
     advance 8
     bounds 3..5, -4..12
 
@@ -68,7 +68,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┄ do
+  bmp_glyph ?┄ do
     advance 8
     bounds 0..7, 4..5
 
@@ -77,7 +77,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┅ do
+  bmp_glyph ?┅ do
     advance 8
     bounds 0..7, 3..5
 
@@ -87,7 +87,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┆ do
+  bmp_glyph ?┆ do
     advance 8
     bounds 4..5, -1..12
 
@@ -108,7 +108,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┇ do
+  bmp_glyph ?┇ do
     advance 8
     bounds 3..5, -1..12
 
@@ -129,7 +129,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┈ do
+  bmp_glyph ?┈ do
     advance 8
     bounds 0..7, 4..5
 
@@ -138,7 +138,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┉ do
+  bmp_glyph ?┉ do
     advance 8
     bounds 0..7, 3..5
 
@@ -148,7 +148,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┊ do
+  bmp_glyph ?┊ do
     advance 8
     bounds 4..5, -2..12
 
@@ -170,7 +170,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┋ do
+  bmp_glyph ?┋ do
     advance 8
     bounds 3..5, -2..12
 
@@ -192,7 +192,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┌ do
+  bmp_glyph ?┌ do
     advance 8
     bounds 4..8, -4..5
 
@@ -209,7 +209,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┍ do
+  bmp_glyph ?┍ do
     advance 8
     bounds 4..8, -4..5
 
@@ -226,7 +226,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┎ do
+  bmp_glyph ?┎ do
     advance 8
     bounds 3..8, -4..5
 
@@ -243,7 +243,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┏ do
+  bmp_glyph ?┏ do
     advance 8
     bounds 3..8, -4..5
 
@@ -260,7 +260,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┐ do
+  bmp_glyph ?┐ do
     advance 8
     bounds 0..5, -4..5
 
@@ -277,7 +277,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┑ do
+  bmp_glyph ?┑ do
     advance 8
     bounds 0..5, -4..5
 
@@ -294,7 +294,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┒ do
+  bmp_glyph ?┒ do
     advance 8
     bounds 0..5, -4..5
 
@@ -311,7 +311,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┓ do
+  bmp_glyph ?┓ do
     advance 8
     bounds 0..5, -4..5
 
@@ -328,7 +328,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?└ do
+  bmp_glyph ?└ do
     advance 8
     bounds 4..8, 4..12
 
@@ -344,7 +344,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┕ do
+  bmp_glyph ?┕ do
     advance 8
     bounds 4..8, 3..12
 
@@ -361,7 +361,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┖ do
+  bmp_glyph ?┖ do
     advance 8
     bounds 3..8, 4..12
 
@@ -377,7 +377,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┗ do
+  bmp_glyph ?┗ do
     advance 8
     bounds 3..8, 3..12
 
@@ -394,7 +394,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┘ do
+  bmp_glyph ?┘ do
     advance 8
     bounds 0..5, 4..12
 
@@ -410,7 +410,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┙ do
+  bmp_glyph ?┙ do
     advance 8
     bounds 0..5, 3..12
 
@@ -427,7 +427,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┚ do
+  bmp_glyph ?┚ do
     advance 8
     bounds 0..5, 4..12
 
@@ -443,7 +443,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┛ do
+  bmp_glyph ?┛ do
     advance 8
     bounds 0..5, 3..12
 
@@ -460,7 +460,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?├ do
+  bmp_glyph ?├ do
     advance 8
     bounds 4..8, -4..12
 
@@ -484,7 +484,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┝ do
+  bmp_glyph ?┝ do
     advance 8
     bounds 4..8, -4..12
 
@@ -508,7 +508,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┞ do
+  bmp_glyph ?┞ do
     advance 8
     bounds 3..8, -4..12
 
@@ -532,7 +532,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┟ do
+  bmp_glyph ?┟ do
     advance 8
     bounds 3..8, -4..12
 
@@ -556,7 +556,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┠ do
+  bmp_glyph ?┠ do
     advance 8
     bounds 3..8, -4..12
 
@@ -580,7 +580,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┡ do
+  bmp_glyph ?┡ do
     advance 8
     bounds 3..8, -4..12
 
@@ -604,7 +604,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┢ do
+  bmp_glyph ?┢ do
     advance 8
     bounds 3..8, -4..12
 
@@ -628,7 +628,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┣ do
+  bmp_glyph ?┣ do
     advance 8
     bounds 3..8, -4..12
 
@@ -652,7 +652,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┤ do
+  bmp_glyph ?┤ do
     advance 8
     bounds 0..5, -4..12
 
@@ -676,7 +676,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┥ do
+  bmp_glyph ?┥ do
     advance 8
     bounds 0..5, -4..12
 
@@ -700,7 +700,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┦ do
+  bmp_glyph ?┦ do
     advance 8
     bounds 0..5, -4..12
 
@@ -724,7 +724,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┧ do
+  bmp_glyph ?┧ do
     advance 8
     bounds 0..5, -4..12
 
@@ -748,7 +748,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┨ do
+  bmp_glyph ?┨ do
     advance 8
     bounds 0..5, -4..12
 
@@ -772,7 +772,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┩ do
+  bmp_glyph ?┩ do
     advance 8
     bounds 0..5, -4..12
 
@@ -796,7 +796,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┪ do
+  bmp_glyph ?┪ do
     advance 8
     bounds 0..5, -4..12
 
@@ -820,7 +820,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┫ do
+  bmp_glyph ?┫ do
     advance 8
     bounds 0..5, -4..12
 
@@ -844,7 +844,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┬ do
+  bmp_glyph ?┬ do
     advance 8
     bounds 0..8, -4..5
 
@@ -861,7 +861,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┭ do
+  bmp_glyph ?┭ do
     advance 8
     bounds 0..8, -4..5
 
@@ -878,7 +878,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┮ do
+  bmp_glyph ?┮ do
     advance 8
     bounds 0..8, -4..5
 
@@ -895,7 +895,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┯ do
+  bmp_glyph ?┯ do
     advance 8
     bounds 0..8, -4..5
 
@@ -912,7 +912,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┰ do
+  bmp_glyph ?┰ do
     advance 8
     bounds 0..8, -4..5
 
@@ -929,7 +929,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┱ do
+  bmp_glyph ?┱ do
     advance 8
     bounds 0..8, -4..5
 
@@ -946,7 +946,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┲ do
+  bmp_glyph ?┲ do
     advance 8
     bounds 0..8, -4..5
 
@@ -963,7 +963,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┳ do
+  bmp_glyph ?┳ do
     advance 8
     bounds 0..8, -4..5
 
@@ -980,7 +980,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┴ do
+  bmp_glyph ?┴ do
     advance 8
     bounds 0..8, 4..12
 
@@ -996,7 +996,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┵ do
+  bmp_glyph ?┵ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1013,7 +1013,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┶ do
+  bmp_glyph ?┶ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1030,7 +1030,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┷ do
+  bmp_glyph ?┷ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1047,7 +1047,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┸ do
+  bmp_glyph ?┸ do
     advance 8
     bounds 0..8, 4..12
 
@@ -1063,7 +1063,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┹ do
+  bmp_glyph ?┹ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1080,7 +1080,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┺ do
+  bmp_glyph ?┺ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1097,7 +1097,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┻ do
+  bmp_glyph ?┻ do
     advance 8
     bounds 0..8, 3..12
 
@@ -1114,7 +1114,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┼ do
+  bmp_glyph ?┼ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1138,7 +1138,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┽ do
+  bmp_glyph ?┽ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1162,7 +1162,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┾ do
+  bmp_glyph ?┾ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1186,7 +1186,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?┿ do
+  bmp_glyph ?┿ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1210,7 +1210,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╀ do
+  bmp_glyph ?╀ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1234,7 +1234,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╁ do
+  bmp_glyph ?╁ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1258,7 +1258,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╂ do
+  bmp_glyph ?╂ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1282,7 +1282,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╃ do
+  bmp_glyph ?╃ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1306,7 +1306,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╄ do
+  bmp_glyph ?╄ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1330,7 +1330,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╅ do
+  bmp_glyph ?╅ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1354,7 +1354,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╆ do
+  bmp_glyph ?╆ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1378,7 +1378,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╇ do
+  bmp_glyph ?╇ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1402,7 +1402,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╈ do
+  bmp_glyph ?╈ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1426,7 +1426,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╉ do
+  bmp_glyph ?╉ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1450,7 +1450,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╊ do
+  bmp_glyph ?╊ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1474,7 +1474,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╋ do
+  bmp_glyph ?╋ do
     advance 8
     bounds 0..8, -4..12
 
@@ -1498,7 +1498,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╌ do
+  bmp_glyph ?╌ do
     advance 8
     bounds 1..7, 4..5
 
@@ -1507,7 +1507,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╍ do
+  bmp_glyph ?╍ do
     advance 8
     bounds 1..7, 3..5
 
@@ -1517,7 +1517,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╎ do
+  bmp_glyph ?╎ do
     advance 8
     bounds 4..5, -2..10
 
@@ -1537,7 +1537,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╏ do
+  bmp_glyph ?╏ do
     advance 8
     bounds 3..5, -2..10
 
@@ -1557,7 +1557,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?═ do
+  bmp_glyph ?═ do
     advance 8
     bounds 0..8, 3..6
 
@@ -1568,7 +1568,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?║ do
+  bmp_glyph ?║ do
     advance 8
     bounds 3..6, -4..12
 
@@ -1592,7 +1592,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╒ do
+  bmp_glyph ?╒ do
     advance 8
     bounds 4..8, -4..6
 
@@ -1610,7 +1610,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╓ do
+  bmp_glyph ?╓ do
     advance 8
     bounds 3..8, -4..5
 
@@ -1627,7 +1627,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╔ do
+  bmp_glyph ?╔ do
     advance 8
     bounds 3..8, -4..6
 
@@ -1645,7 +1645,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╕ do
+  bmp_glyph ?╕ do
     advance 8
     bounds 0..5, -4..6
 
@@ -1663,7 +1663,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╖ do
+  bmp_glyph ?╖ do
     advance 8
     bounds 0..6, -4..5
 
@@ -1680,7 +1680,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╗ do
+  bmp_glyph ?╗ do
     advance 8
     bounds 0..6, -4..6
 
@@ -1698,7 +1698,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╘ do
+  bmp_glyph ?╘ do
     advance 8
     bounds 4..8, 3..12
 
@@ -1715,7 +1715,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╙ do
+  bmp_glyph ?╙ do
     advance 8
     bounds 3..8, 4..12
 
@@ -1731,7 +1731,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╚ do
+  bmp_glyph ?╚ do
     advance 8
     bounds 3..8, 3..12
 
@@ -1748,7 +1748,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╛ do
+  bmp_glyph ?╛ do
     advance 8
     bounds 0..5, 3..12
 
@@ -1765,7 +1765,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╜ do
+  bmp_glyph ?╜ do
     advance 8
     bounds 0..6, 4..12
 
@@ -1781,7 +1781,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╝ do
+  bmp_glyph ?╝ do
     advance 8
     bounds 0..6, 3..12
 
@@ -1798,7 +1798,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╞ do
+  bmp_glyph ?╞ do
     advance 8
     bounds 4..8, -4..12
 
@@ -1822,7 +1822,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╟ do
+  bmp_glyph ?╟ do
     advance 8
     bounds 3..8, -4..12
 
@@ -1846,7 +1846,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╠ do
+  bmp_glyph ?╠ do
     advance 8
     bounds 3..8, -4..12
 
@@ -1870,7 +1870,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╡ do
+  bmp_glyph ?╡ do
     advance 8
     bounds 0..5, -4..12
 
@@ -1894,7 +1894,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╢ do
+  bmp_glyph ?╢ do
     advance 8
     bounds 0..6, -4..12
 
@@ -1918,7 +1918,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╣ do
+  bmp_glyph ?╣ do
     advance 8
     bounds 0..6, -4..12
 
@@ -1942,7 +1942,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╤ do
+  bmp_glyph ?╤ do
     advance 8
     bounds 0..8, -4..6
 
@@ -1960,7 +1960,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╥ do
+  bmp_glyph ?╥ do
     advance 8
     bounds 0..8, -4..5
 
@@ -1977,7 +1977,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╦ do
+  bmp_glyph ?╦ do
     advance 8
     bounds 0..8, -4..6
 
@@ -1995,7 +1995,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╧ do
+  bmp_glyph ?╧ do
     advance 8
     bounds 0..8, 3..12
 
@@ -2012,7 +2012,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╨ do
+  bmp_glyph ?╨ do
     advance 8
     bounds 0..8, 4..12
 
@@ -2028,7 +2028,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╩ do
+  bmp_glyph ?╩ do
     advance 8
     bounds 0..8, 3..12
 
@@ -2045,7 +2045,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╪ do
+  bmp_glyph ?╪ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2069,7 +2069,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╫ do
+  bmp_glyph ?╫ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2093,7 +2093,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╬ do
+  bmp_glyph ?╬ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2117,7 +2117,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╭ do
+  bmp_glyph ?╭ do
     advance 8
     bounds 4..8, -4..5
 
@@ -2134,7 +2134,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╮ do
+  bmp_glyph ?╮ do
     advance 8
     bounds 0..5, -4..5
 
@@ -2151,7 +2151,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╯ do
+  bmp_glyph ?╯ do
     advance 8
     bounds 0..5, 4..12
 
@@ -2167,7 +2167,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╰ do
+  bmp_glyph ?╰ do
     advance 8
     bounds 4..8, 4..12
 
@@ -2183,7 +2183,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╱ do
+  bmp_glyph ?╱ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2207,7 +2207,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╲ do
+  bmp_glyph ?╲ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2231,7 +2231,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╳ do
+  bmp_glyph ?╳ do
     advance 8
     bounds 0..8, -4..12
 
@@ -2255,7 +2255,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╴ do
+  bmp_glyph ?╴ do
     advance 8
     bounds 0..5, 4..5
 
@@ -2264,7 +2264,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╵ do
+  bmp_glyph ?╵ do
     advance 8
     bounds 4..5, 4..12
 
@@ -2280,7 +2280,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╶ do
+  bmp_glyph ?╶ do
     advance 8
     bounds 4..8, 4..5
 
@@ -2289,7 +2289,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╷ do
+  bmp_glyph ?╷ do
     advance 8
     bounds 4..5, -4..5
 
@@ -2306,7 +2306,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╸ do
+  bmp_glyph ?╸ do
     advance 8
     bounds 0..5, 3..5
 
@@ -2316,7 +2316,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╹ do
+  bmp_glyph ?╹ do
     advance 8
     bounds 3..5, 3..12
 
@@ -2333,7 +2333,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╺ do
+  bmp_glyph ?╺ do
     advance 8
     bounds 3..8, 3..5
 
@@ -2343,7 +2343,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╻ do
+  bmp_glyph ?╻ do
     advance 8
     bounds 3..5, -4..5
 
@@ -2360,7 +2360,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╼ do
+  bmp_glyph ?╼ do
     advance 8
     bounds 0..8, 3..5
 
@@ -2370,7 +2370,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╽ do
+  bmp_glyph ?╽ do
     advance 8
     bounds 3..5, -4..12
 
@@ -2394,7 +2394,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╾ do
+  bmp_glyph ?╾ do
     advance 8
     bounds 0..8, 3..5
 
@@ -2404,7 +2404,7 @@ glyph_source NeoDGM.BitmapFont.BoxDrawing do
     """
   end
 
-  bmp_glyph unicode: ?╿ do
+  bmp_glyph ?╿ do
     advance 8
     bounds 3..5, -4..12
 

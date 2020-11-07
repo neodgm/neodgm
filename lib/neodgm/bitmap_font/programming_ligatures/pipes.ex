@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
-  bmp_glyph name: "less.pipeoperator" do
+  bmp_glyph "less.pipeoperator" do
     advance 8
     bounds 1..8, -1..10
 
@@ -20,7 +20,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
     """
   end
 
-  bmp_glyph name: "greater.pipeoperator" do
+  bmp_glyph "greater.pipeoperator" do
     advance 8
     bounds 0..7, -1..10
 
@@ -39,7 +39,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Pipes do
     """
   end
 
-  bmp_glyph name: "bar.pipeoperator" do
+  bmp_glyph "bar.pipeoperator" do
     advance 8
     bounds 3..5, -1..10
 

@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Components.Enclosed do
-  bmp_glyph name: "circle.enclosure" do
+  bmp_glyph "circle.enclosure" do
     advance 16
     bounds 1..15, -2..12
 
@@ -23,7 +23,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "parens.enclosure" do
+  bmp_glyph "parens.enclosure" do
     advance 16
     bounds 1..15, -2..12
 
@@ -45,7 +45,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "period.enclosure" do
+  bmp_glyph "period.enclosure" do
     advance 16
     bounds 12..14, 0..2
 
@@ -55,7 +55,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "dblcircle.enclosure" do
+  bmp_glyph "dblcircle.enclosure" do
     advance 16
     bounds 1..15, -2..12
 
@@ -77,7 +77,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "zero.period" do
+  bmp_glyph "zero.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -95,7 +95,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "zero.period2" do
+  bmp_glyph "zero.period2" do
     advance 16
     bounds 8..13, 0..10
 
@@ -113,7 +113,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "one.period" do
+  bmp_glyph "one.period" do
     advance 16
     bounds 3..6, 0..10
 
@@ -131,7 +131,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "two.period" do
+  bmp_glyph "two.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -149,7 +149,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "two.period2" do
+  bmp_glyph "two.period2" do
     advance 16
     bounds 3..7, 0..10
 
@@ -167,7 +167,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "three.period" do
+  bmp_glyph "three.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -185,7 +185,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "four.period" do
+  bmp_glyph "four.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -203,7 +203,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "five.period" do
+  bmp_glyph "five.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -221,7 +221,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "six.period" do
+  bmp_glyph "six.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -239,7 +239,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "seven.period" do
+  bmp_glyph "seven.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -257,7 +257,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "eight.period" do
+  bmp_glyph "eight.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -275,7 +275,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "nine.period" do
+  bmp_glyph "nine.period" do
     advance 16
     bounds 5..11, 0..10
 
@@ -293,7 +293,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "zero.enclosed" do
+  bmp_glyph "zero.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -309,7 +309,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "zero.enclosed2" do
+  bmp_glyph "zero.enclosed2" do
     advance 5
     bounds 0..5, 0..8
 
@@ -325,7 +325,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "one.enclosed" do
+  bmp_glyph "one.enclosed" do
     advance 4
     bounds 0..4, 0..8
 
@@ -341,7 +341,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "one.enclosed2" do
+  bmp_glyph "one.enclosed2" do
     advance 3
     bounds 0..3, 0..8
 
@@ -357,7 +357,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "two.enclosed" do
+  bmp_glyph "two.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -373,7 +373,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "two.enclosed2" do
+  bmp_glyph "two.enclosed2" do
     advance 4
     bounds 0..4, 0..8
 
@@ -389,7 +389,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "three.enclosed" do
+  bmp_glyph "three.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -405,7 +405,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "four.enclosed" do
+  bmp_glyph "four.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -421,7 +421,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "five.enclosed" do
+  bmp_glyph "five.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -437,7 +437,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "six.enclosed" do
+  bmp_glyph "six.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -453,7 +453,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "seven.enclosed" do
+  bmp_glyph "seven.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -469,7 +469,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "eight.enclosed" do
+  bmp_glyph "eight.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -485,7 +485,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "nine.enclosed" do
+  bmp_glyph "nine.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -501,7 +501,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "one.dblcircle" do
+  bmp_glyph "one.dblcircle" do
     advance 6
     bounds 1..4, 0..6
 
@@ -515,7 +515,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "two.dblcircle" do
+  bmp_glyph "two.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -529,7 +529,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "three.dblcircle" do
+  bmp_glyph "three.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -543,7 +543,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "four.dblcircle" do
+  bmp_glyph "four.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -557,7 +557,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "five.dblcircle" do
+  bmp_glyph "five.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -571,7 +571,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "six.dblcircle" do
+  bmp_glyph "six.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -585,7 +585,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "seven.dblcircle" do
+  bmp_glyph "seven.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -599,7 +599,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "eight.dblcircle" do
+  bmp_glyph "eight.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -613,7 +613,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "nine.dblcircle" do
+  bmp_glyph "nine.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -627,7 +627,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "ten.dblcircle" do
+  bmp_glyph "ten.dblcircle" do
     advance 6
     bounds 0..6, 0..6
 
@@ -641,7 +641,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "A.enclosed" do
+  bmp_glyph "A.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -657,7 +657,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "B.enclosed" do
+  bmp_glyph "B.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -673,7 +673,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "C.enclosed" do
+  bmp_glyph "C.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -689,7 +689,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "D.enclosed" do
+  bmp_glyph "D.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -705,7 +705,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "E.enclosed" do
+  bmp_glyph "E.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -721,7 +721,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "F.enclosed" do
+  bmp_glyph "F.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -737,7 +737,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "G.enclosed" do
+  bmp_glyph "G.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -753,7 +753,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "H.enclosed" do
+  bmp_glyph "H.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -769,7 +769,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "I.enclosed" do
+  bmp_glyph "I.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -785,7 +785,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "J.enclosed" do
+  bmp_glyph "J.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -801,7 +801,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "K.enclosed" do
+  bmp_glyph "K.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -817,7 +817,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "L.enclosed" do
+  bmp_glyph "L.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -833,7 +833,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "M.enclosed" do
+  bmp_glyph "M.enclosed" do
     advance 7
     bounds -1..7, 0..8
 
@@ -849,7 +849,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "N.enclosed" do
+  bmp_glyph "N.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -865,7 +865,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "O.enclosed" do
+  bmp_glyph "O.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -881,7 +881,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "P.enclosed" do
+  bmp_glyph "P.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -897,7 +897,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "Q.enclosed" do
+  bmp_glyph "Q.enclosed" do
     advance 6
     bounds 0..6, -1..8
 
@@ -914,7 +914,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "R.enclosed" do
+  bmp_glyph "R.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -930,7 +930,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "S.enclosed" do
+  bmp_glyph "S.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -946,7 +946,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "T.enclosed" do
+  bmp_glyph "T.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -962,7 +962,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "U.enclosed" do
+  bmp_glyph "U.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -978,7 +978,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "V.enclosed" do
+  bmp_glyph "V.enclosed" do
     advance 6
     bounds -1..6, 0..8
 
@@ -994,7 +994,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "W.enclosed" do
+  bmp_glyph "W.enclosed" do
     advance 7
     bounds -1..7, 0..8
 
@@ -1010,7 +1010,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "X.enclosed" do
+  bmp_glyph "X.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -1026,7 +1026,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "Y.enclosed" do
+  bmp_glyph "Y.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -1042,7 +1042,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "Z.enclosed" do
+  bmp_glyph "Z.enclosed" do
     advance 6
     bounds 0..6, 0..8
 
@@ -1058,7 +1058,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "a.enclosed" do
+  bmp_glyph "a.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1072,7 +1072,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "b.enclosed" do
+  bmp_glyph "b.enclosed" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1089,7 +1089,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "c.enclosed" do
+  bmp_glyph "c.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1103,7 +1103,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "d.enclosed" do
+  bmp_glyph "d.enclosed" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1120,7 +1120,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "e.enclosed" do
+  bmp_glyph "e.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1134,7 +1134,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "f.enclosed" do
+  bmp_glyph "f.enclosed" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1151,7 +1151,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "g.enclosed" do
+  bmp_glyph "g.enclosed" do
     advance 6
     bounds 0..6, -1..8
 
@@ -1168,7 +1168,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "h.enclosed" do
+  bmp_glyph "h.enclosed" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1185,7 +1185,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "h.enclosed.cv01" do
+  bmp_glyph "h.enclosed.cv01" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1202,7 +1202,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "i.enclosed" do
+  bmp_glyph "i.enclosed" do
     advance 5
     bounds 1..5, 0..9
 
@@ -1219,7 +1219,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "i.enclosed.cv02" do
+  bmp_glyph "i.enclosed.cv02" do
     advance 4
     bounds 1..4, 0..9
 
@@ -1236,7 +1236,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "j.enclosed" do
+  bmp_glyph "j.enclosed" do
     advance 4
     bounds 1..4, -1..9
 
@@ -1254,7 +1254,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "j.enclosed.cv03" do
+  bmp_glyph "j.enclosed.cv03" do
     advance 4
     bounds 1..4, -1..9
 
@@ -1272,7 +1272,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "k.enclosed" do
+  bmp_glyph "k.enclosed" do
     advance 6
     bounds 0..6, 0..9
 
@@ -1289,7 +1289,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "l.enclosed" do
+  bmp_glyph "l.enclosed" do
     advance 5
     bounds 1..5, 0..9
 
@@ -1306,7 +1306,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "l.enclosed.cv04" do
+  bmp_glyph "l.enclosed.cv04" do
     advance 4
     bounds 1..4, 0..9
 
@@ -1323,7 +1323,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "m.enclosed" do
+  bmp_glyph "m.enclosed" do
     advance 7
     bounds -1..7, 0..6
 
@@ -1337,7 +1337,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "n.enclosed" do
+  bmp_glyph "n.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1351,7 +1351,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "n.enclosed.cv05" do
+  bmp_glyph "n.enclosed.cv05" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1365,7 +1365,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "o.enclosed" do
+  bmp_glyph "o.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1379,7 +1379,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "p.enclosed" do
+  bmp_glyph "p.enclosed" do
     advance 6
     bounds 0..6, -1..8
 
@@ -1396,7 +1396,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "q.enclosed" do
+  bmp_glyph "q.enclosed" do
     advance 6
     bounds 0..6, -1..8
 
@@ -1413,7 +1413,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "r.enclosed" do
+  bmp_glyph "r.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1427,7 +1427,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "r.enclosed.cv06" do
+  bmp_glyph "r.enclosed.cv06" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1441,7 +1441,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "s.enclosed" do
+  bmp_glyph "s.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1455,7 +1455,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "t.enclosed" do
+  bmp_glyph "t.enclosed" do
     advance 5
     bounds 0..5, 0..9
 
@@ -1472,7 +1472,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "u.enclosed" do
+  bmp_glyph "u.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1486,7 +1486,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "v.enclosed" do
+  bmp_glyph "v.enclosed" do
     advance 6
     bounds -1..6, 0..6
 
@@ -1500,7 +1500,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "w.enclosed" do
+  bmp_glyph "w.enclosed" do
     advance 7
     bounds -1..7, 0..6
 
@@ -1514,7 +1514,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "x.enclosed" do
+  bmp_glyph "x.enclosed" do
     advance 6
     bounds 0..6, 0..7
 
@@ -1529,7 +1529,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "y.enclosed" do
+  bmp_glyph "y.enclosed" do
     advance 6
     bounds 0..6, -1..8
 
@@ -1546,7 +1546,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "z.enclosed" do
+  bmp_glyph "z.enclosed" do
     advance 6
     bounds 0..6, 0..6
 
@@ -1560,7 +1560,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "giyeok.enclosed" do
+  bmp_glyph "giyeok.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1576,7 +1576,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "nieun.enclosed" do
+  bmp_glyph "nieun.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1592,7 +1592,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "digeut.enclosed" do
+  bmp_glyph "digeut.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1608,7 +1608,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "rieul.enclosed" do
+  bmp_glyph "rieul.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1624,7 +1624,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "mieum.enclosed" do
+  bmp_glyph "mieum.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1640,7 +1640,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "bieup.enclosed" do
+  bmp_glyph "bieup.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1656,7 +1656,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "siot.enclosed" do
+  bmp_glyph "siot.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1672,7 +1672,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "ieung.enclosed" do
+  bmp_glyph "ieung.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1688,7 +1688,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "jieut.enclosed" do
+  bmp_glyph "jieut.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1704,7 +1704,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "chieut.enclosed" do
+  bmp_glyph "chieut.enclosed" do
     advance 16
     bounds 4..12, 1..10
 
@@ -1721,7 +1721,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "kieuk.enclosed" do
+  bmp_glyph "kieuk.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1737,7 +1737,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "tieut.enclosed" do
+  bmp_glyph "tieut.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1753,7 +1753,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "pieup.enclosed" do
+  bmp_glyph "pieup.enclosed" do
     advance 16
     bounds 4..12, 1..9
 
@@ -1769,7 +1769,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "hieut.enclosed" do
+  bmp_glyph "hieut.enclosed" do
     advance 16
     bounds 4..12, 1..10
 
@@ -1786,7 +1786,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "jung_a.enclosed" do
+  bmp_glyph "jung_a.enclosed" do
     advance 16
     bounds 10..13, 0..10
 
@@ -1804,7 +1804,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "giyeok.enclosed2" do
+  bmp_glyph "giyeok.enclosed2" do
     advance 16
     bounds 3..8, 1..9
 
@@ -1820,7 +1820,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "nieun.enclosed2" do
+  bmp_glyph "nieun.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1836,7 +1836,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "digeut.enclosed2" do
+  bmp_glyph "digeut.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1852,7 +1852,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "rieul.enclosed2" do
+  bmp_glyph "rieul.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1868,7 +1868,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "mieum.enclosed2" do
+  bmp_glyph "mieum.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1884,7 +1884,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "bieup.enclosed2" do
+  bmp_glyph "bieup.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1900,7 +1900,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "siot.enclosed2" do
+  bmp_glyph "siot.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1916,7 +1916,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "ieung.enclosed2" do
+  bmp_glyph "ieung.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1932,7 +1932,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "jieut.enclosed2" do
+  bmp_glyph "jieut.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1948,7 +1948,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "chieut.enclosed2" do
+  bmp_glyph "chieut.enclosed2" do
     advance 16
     bounds 3..9, 1..10
 
@@ -1965,7 +1965,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "kieuk.enclosed2" do
+  bmp_glyph "kieuk.enclosed2" do
     advance 16
     bounds 3..8, 1..9
 
@@ -1981,7 +1981,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "tieut.enclosed2" do
+  bmp_glyph "tieut.enclosed2" do
     advance 16
     bounds 3..9, 1..9
 
@@ -1997,7 +1997,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "pieup.enclosed2" do
+  bmp_glyph "pieup.enclosed2" do
     advance 16
     bounds 2..9, 1..9
 
@@ -2013,7 +2013,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph name: "hieut.enclosed2" do
+  bmp_glyph "hieut.enclosed2" do
     advance 16
     bounds 3..9, 1..10
 
@@ -2031,7 +2031,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   end
 
   # Hangul Syllable Jieut-U
-  bmp_glyph name: "uniC8FC.enclosed" do
+  bmp_glyph "uniC8FC.enclosed" do
     advance 16
     bounds 3..13, 0..9
 
@@ -2049,7 +2049,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
   end
 
   # Hangul Syllable Ieung-U
-  bmp_glyph name: "uniC6B0.enclosed" do
+  bmp_glyph "uniC6B0.enclosed" do
     advance 16
     bounds 3..13, 0..9
 

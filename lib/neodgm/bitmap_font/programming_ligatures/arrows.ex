@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
-  bmp_glyph name: "hyphen.larr.head" do
+  bmp_glyph "hyphen.larr.head" do
     advance 8
     bounds -5..7, 4..5
 
@@ -10,7 +10,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.larr.body" do
+  bmp_glyph "hyphen.larr.body" do
     advance 8
     bounds -1..7, 4..5
 
@@ -19,7 +19,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.rarr.head" do
+  bmp_glyph "hyphen.rarr.head" do
     advance 8
     bounds 0..13, 4..5
 
@@ -28,7 +28,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.rarr.head2" do
+  bmp_glyph "hyphen.rarr.head2" do
     advance 8
     bounds -1..13, 4..5
 
@@ -37,7 +37,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.rarr.body" do
+  bmp_glyph "hyphen.rarr.body" do
     advance 8
     bounds 0..8, 4..5
 
@@ -46,7 +46,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.bidiarr.short" do
+  bmp_glyph "hyphen.bidiarr.short" do
     advance 8
     bounds -5..13, 4..5
 
@@ -55,7 +55,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "hyphen.bidiarr.joiner" do
+  bmp_glyph "hyphen.bidiarr.joiner" do
     advance 8
     bounds -1..8, 4..5
 
@@ -64,7 +64,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.larr.head" do
+  bmp_glyph "equal.larr.head" do
     advance 8
     bounds -4..7, 3..6
 
@@ -75,7 +75,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.larr.body" do
+  bmp_glyph "equal.larr.body" do
     advance 8
     bounds -1..7, 3..6
 
@@ -86,7 +86,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.rarr.head" do
+  bmp_glyph "equal.rarr.head" do
     advance 8
     bounds 1..12, 3..6
 
@@ -97,7 +97,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.rarr.head2" do
+  bmp_glyph "equal.rarr.head2" do
     advance 8
     bounds -1..12, 3..6
 
@@ -108,7 +108,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.rarr.body" do
+  bmp_glyph "equal.rarr.body" do
     advance 8
     bounds 1..9, 3..6
 
@@ -119,7 +119,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.bidiarr.short" do
+  bmp_glyph "equal.bidiarr.short" do
     advance 8
     bounds -4..12, 3..6
 
@@ -130,7 +130,7 @@ glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Arrows do
     """
   end
 
-  bmp_glyph name: "equal.bidiarr.joiner" do
+  bmp_glyph "equal.bidiarr.joiner" do
     advance 8
     bounds -1..9, 3..6
 

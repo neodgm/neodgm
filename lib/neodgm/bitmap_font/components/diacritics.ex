@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Components.Diacritics do
-  bmp_glyph name: "grave.component" do
+  bmp_glyph "grave.component" do
     advance 8
     bounds 2..5, 10..12
 
@@ -11,7 +11,7 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
-  bmp_glyph name: "circumflex.component" do
+  bmp_glyph "circumflex.component" do
     advance 8
     bounds 1..6, 10..12
 
@@ -21,7 +21,7 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
-  bmp_glyph name: "tilde.component" do
+  bmp_glyph "tilde.component" do
     advance 8
     bounds 0..7, 10..12
 
@@ -31,7 +31,7 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
-  bmp_glyph name: "dieresis.component" do
+  bmp_glyph "dieresis.component" do
     advance 8
     bounds 1..6, 10..11
 
@@ -40,7 +40,7 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
-  bmp_glyph name: "dieresis.component.i" do
+  bmp_glyph "dieresis.component.i" do
     advance 8
     bounds 1..7, 10..11
 
@@ -49,7 +49,7 @@ glyph_source NeoDGM.BitmapFont.Components.Diacritics do
     """
   end
 
-  bmp_glyph name: "ring.component" do
+  bmp_glyph "ring.component" do
     advance 8
     bounds 1..6, 9..12
 

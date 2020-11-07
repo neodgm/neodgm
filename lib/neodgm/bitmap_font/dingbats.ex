@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Dingbats do
-  bmp_glyph unicode: 10102 do
+  bmp_glyph 10102 do
     advance 16
     bounds 1..15, -2..12
 
@@ -23,7 +23,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10103 do
+  bmp_glyph 10103 do
     advance 16
     bounds 1..15, -2..12
 
@@ -45,7 +45,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10104 do
+  bmp_glyph 10104 do
     advance 16
     bounds 1..15, -2..12
 
@@ -67,7 +67,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10105 do
+  bmp_glyph 10105 do
     advance 16
     bounds 1..15, -2..12
 
@@ -89,7 +89,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10106 do
+  bmp_glyph 10106 do
     advance 16
     bounds 1..15, -2..12
 
@@ -111,7 +111,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10107 do
+  bmp_glyph 10107 do
     advance 16
     bounds 1..15, -2..12
 
@@ -133,7 +133,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10108 do
+  bmp_glyph 10108 do
     advance 16
     bounds 1..15, -2..12
 
@@ -155,7 +155,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10109 do
+  bmp_glyph 10109 do
     advance 16
     bounds 1..15, -2..12
 
@@ -177,7 +177,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10110 do
+  bmp_glyph 10110 do
     advance 16
     bounds 1..15, -2..12
 
@@ -199,7 +199,7 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  bmp_glyph unicode: 10111 do
+  bmp_glyph 10111 do
     advance 16
     bounds 1..15, -2..12
 
@@ -221,27 +221,27 @@ glyph_source NeoDGM.BitmapFont.Dingbats do
     """
   end
 
-  composite_glyph unicode: 0x2780 do
-    component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "one.enclosed"}, 5, 1
+  composite_glyph 0x2780 do
+    component "circle.enclosure", 0, 0, flags: [:use_my_metrics]
+    component "one.enclosed", 5, 1
   end
 
   0x2781..0x2788
   |> Enum.zip(~w(two three four five six seven eight nine))
   |> Enum.map(fn {code, name} ->
-    composite_glyph unicode: code do
-      component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
-      component {:name, name <> ".enclosed"}, 5, 1
+    composite_glyph code do
+      component "circle.enclosure", 0, 0, flags: [:use_my_metrics]
+      component name <> ".enclosed", 5, 1
     end
   end)
 
-  composite_glyph unicode: 0x2789 do
-    component {:name, "circle.enclosure"}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "one.enclosed2"}, 3, 1
-    component {:name, "zero.enclosed"}, 7, 1
+  composite_glyph 0x2789 do
+    component "circle.enclosure", 0, 0, flags: [:use_my_metrics]
+    component "one.enclosed2", 3, 1
+    component "zero.enclosed", 7, 1
   end
 
   Enum.map(0x278A..0x2793, fn code ->
-    composite_glyph [unicode: code], do: component({:unicode, code - 20}, 0, 0)
+    composite_glyph code, do: component(code - 20, 0, 0)
   end)
 end

@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
-  bmp_glyph name: "A.short" do
+  bmp_glyph "A.short" do
     advance 8
     bounds 0..7, 0..9
 
@@ -18,7 +18,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "E.short" do
+  bmp_glyph "E.short" do
     advance 8
     bounds 0..7, 0..9
 
@@ -35,7 +35,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "I.short" do
+  bmp_glyph "I.short" do
     advance 8
     bounds 1..7, 0..9
 
@@ -52,7 +52,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "N.short" do
+  bmp_glyph "N.short" do
     advance 8
     bounds 0..7, 0..9
 
@@ -69,7 +69,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "O.short" do
+  bmp_glyph "O.short" do
     advance 8
     bounds 0..7, 0..9
 
@@ -86,7 +86,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "U.short" do
+  bmp_glyph "U.short" do
     advance 8
     bounds 0..7, 0..9
 
@@ -103,7 +103,7 @@ glyph_source NeoDGM.BitmapFont.Components.ShortCapitals do
     """
   end
 
-  bmp_glyph name: "Y.short" do
+  bmp_glyph "Y.short" do
     advance 8
     bounds 1..7, 0..9
 

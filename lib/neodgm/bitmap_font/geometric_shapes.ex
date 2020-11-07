@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.GeometricShapes do
-  bmp_glyph unicode: 9632 do
+  bmp_glyph 9632 do
     advance 16
     bounds 3..14, -2..9
 
@@ -20,7 +20,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9633 do
+  bmp_glyph 9633 do
     advance 16
     bounds 3..14, -2..9
 
@@ -39,7 +39,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9634 do
+  bmp_glyph 9634 do
     advance 16
     bounds 3..14, -2..9
 
@@ -58,7 +58,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9635 do
+  bmp_glyph 9635 do
     advance 16
     bounds 3..14, -2..9
 
@@ -77,7 +77,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9636 do
+  bmp_glyph 9636 do
     advance 16
     bounds 3..14, -2..9
 
@@ -96,7 +96,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9637 do
+  bmp_glyph 9637 do
     advance 16
     bounds 3..14, -2..9
 
@@ -115,7 +115,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9638 do
+  bmp_glyph 9638 do
     advance 16
     bounds 3..14, -2..9
 
@@ -134,7 +134,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9639 do
+  bmp_glyph 9639 do
     advance 16
     bounds 3..14, -2..9
 
@@ -153,7 +153,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9640 do
+  bmp_glyph 9640 do
     advance 16
     bounds 3..14, -2..9
 
@@ -172,7 +172,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9641 do
+  bmp_glyph 9641 do
     advance 16
     bounds 3..14, -2..9
 
@@ -191,7 +191,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9642 do
+  bmp_glyph 9642 do
     advance 16
     bounds 6..11, 1..6
 
@@ -204,7 +204,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9643 do
+  bmp_glyph 9643 do
     advance 16
     bounds 6..11, 1..6
 
@@ -217,7 +217,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9644 do
+  bmp_glyph 9644 do
     advance 16
     bounds 3..14, 0..7
 
@@ -232,7 +232,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9645 do
+  bmp_glyph 9645 do
     advance 16
     bounds 3..14, 0..7
 
@@ -247,7 +247,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9646 do
+  bmp_glyph 9646 do
     advance 16
     bounds 5..12, -2..9
 
@@ -266,7 +266,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9647 do
+  bmp_glyph 9647 do
     advance 16
     bounds 5..12, -2..9
 
@@ -285,7 +285,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9648 do
+  bmp_glyph 9648 do
     advance 16
     bounds 3..14, 0..7
 
@@ -300,7 +300,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9649 do
+  bmp_glyph 9649 do
     advance 16
     bounds 3..14, 0..7
 
@@ -315,7 +315,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9650 do
+  bmp_glyph 9650 do
     advance 16
     bounds 3..14, -2..9
 
@@ -334,7 +334,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9651 do
+  bmp_glyph 9651 do
     advance 16
     bounds 3..14, -2..9
 
@@ -353,7 +353,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9652 do
+  bmp_glyph 9652 do
     advance 16
     bounds 5..12, 1..5
 
@@ -365,7 +365,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9653 do
+  bmp_glyph 9653 do
     advance 16
     bounds 5..12, 1..5
 
@@ -377,7 +377,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9654 do
+  bmp_glyph 9654 do
     advance 16
     bounds 3..14, -2..9
 
@@ -396,7 +396,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9655 do
+  bmp_glyph 9655 do
     advance 16
     bounds 3..14, -2..9
 
@@ -415,7 +415,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9656 do
+  bmp_glyph 9656 do
     advance 16
     bounds 6..10, 0..7
 
@@ -430,7 +430,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9657 do
+  bmp_glyph 9657 do
     advance 16
     bounds 6..10, 0..7
 
@@ -445,7 +445,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9658 do
+  bmp_glyph 9658 do
     advance 16
     bounds 3..14, 0..7
 
@@ -460,7 +460,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9659 do
+  bmp_glyph 9659 do
     advance 16
     bounds 3..14, 0..7
 
@@ -475,7 +475,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9660 do
+  bmp_glyph 9660 do
     advance 16
     bounds 3..14, -2..9
 
@@ -494,7 +494,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9661 do
+  bmp_glyph 9661 do
     advance 16
     bounds 3..14, -2..9
 
@@ -513,7 +513,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9662 do
+  bmp_glyph 9662 do
     advance 16
     bounds 5..12, 2..6
 
@@ -525,7 +525,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9663 do
+  bmp_glyph 9663 do
     advance 16
     bounds 5..12, 2..6
 
@@ -537,7 +537,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9664 do
+  bmp_glyph 9664 do
     advance 16
     bounds 3..14, -2..9
 
@@ -556,7 +556,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9665 do
+  bmp_glyph 9665 do
     advance 16
     bounds 3..14, -2..9
 
@@ -575,7 +575,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9666 do
+  bmp_glyph 9666 do
     advance 16
     bounds 7..11, 0..7
 
@@ -590,7 +590,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9667 do
+  bmp_glyph 9667 do
     advance 16
     bounds 7..11, 0..7
 
@@ -605,7 +605,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9668 do
+  bmp_glyph 9668 do
     advance 16
     bounds 3..14, 0..7
 
@@ -620,7 +620,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9669 do
+  bmp_glyph 9669 do
     advance 16
     bounds 3..14, 0..7
 
@@ -635,7 +635,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9670 do
+  bmp_glyph 9670 do
     advance 16
     bounds 3..14, -2..9
 
@@ -654,7 +654,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9671 do
+  bmp_glyph 9671 do
     advance 16
     bounds 3..14, -2..9
 
@@ -673,7 +673,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9672 do
+  bmp_glyph 9672 do
     advance 16
     bounds 3..14, -2..9
 
@@ -692,7 +692,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9673 do
+  bmp_glyph 9673 do
     advance 16
     bounds 3..14, -2..9
 
@@ -711,7 +711,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9674 do
+  bmp_glyph 9674 do
     advance 16
     bounds 6..11, -2..9
 
@@ -730,7 +730,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9675 do
+  bmp_glyph 9675 do
     advance 16
     bounds 3..14, -2..9
 
@@ -749,7 +749,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9676 do
+  bmp_glyph 9676 do
     advance 16
     bounds 3..14, -2..9
 
@@ -768,7 +768,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9677 do
+  bmp_glyph 9677 do
     advance 16
     bounds 3..14, -2..9
 
@@ -787,7 +787,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9678 do
+  bmp_glyph 9678 do
     advance 16
     bounds 3..14, -2..9
 
@@ -806,7 +806,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9679 do
+  bmp_glyph 9679 do
     advance 16
     bounds 3..14, -2..9
 
@@ -825,7 +825,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9680 do
+  bmp_glyph 9680 do
     advance 16
     bounds 3..14, -2..9
 
@@ -844,7 +844,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9681 do
+  bmp_glyph 9681 do
     advance 16
     bounds 3..14, -2..9
 
@@ -863,7 +863,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9682 do
+  bmp_glyph 9682 do
     advance 16
     bounds 3..14, -2..9
 
@@ -882,7 +882,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9683 do
+  bmp_glyph 9683 do
     advance 16
     bounds 3..14, -2..9
 
@@ -901,7 +901,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9684 do
+  bmp_glyph 9684 do
     advance 16
     bounds 3..14, -2..9
 
@@ -920,7 +920,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9685 do
+  bmp_glyph 9685 do
     advance 16
     bounds 3..14, -2..9
 
@@ -939,7 +939,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9686 do
+  bmp_glyph 9686 do
     advance 16
     bounds 3..9, -2..9
 
@@ -958,7 +958,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9687 do
+  bmp_glyph 9687 do
     advance 16
     bounds 8..14, -2..9
 
@@ -977,7 +977,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9688 do
+  bmp_glyph 9688 do
     advance 8
     bounds 1..15, -1..11
 
@@ -997,7 +997,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9689 do
+  bmp_glyph 9689 do
     advance 16
     bounds 2..15, -3..10
 
@@ -1018,7 +1018,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9690 do
+  bmp_glyph 9690 do
     advance 16
     bounds 2..15, 3..10
 
@@ -1033,7 +1033,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9691 do
+  bmp_glyph 9691 do
     advance 16
     bounds 2..15, -3..4
 
@@ -1048,7 +1048,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9692 do
+  bmp_glyph 9692 do
     advance 16
     bounds 3..9, 3..9
 
@@ -1062,7 +1062,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9693 do
+  bmp_glyph 9693 do
     advance 16
     bounds 8..14, 3..9
 
@@ -1076,7 +1076,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9694 do
+  bmp_glyph 9694 do
     advance 16
     bounds 8..14, -2..4
 
@@ -1090,7 +1090,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9695 do
+  bmp_glyph 9695 do
     advance 16
     bounds 3..9, -2..4
 
@@ -1104,7 +1104,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9696 do
+  bmp_glyph 9696 do
     advance 16
     bounds 3..14, 3..9
 
@@ -1118,7 +1118,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9697 do
+  bmp_glyph 9697 do
     advance 16
     bounds 3..14, -2..4
 
@@ -1132,7 +1132,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9698 do
+  bmp_glyph 9698 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1151,7 +1151,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9699 do
+  bmp_glyph 9699 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1170,7 +1170,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9700 do
+  bmp_glyph 9700 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1189,7 +1189,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9701 do
+  bmp_glyph 9701 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1208,7 +1208,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9702 do
+  bmp_glyph 9702 do
     advance 8
     bounds 1..15, 2..8
 
@@ -1222,7 +1222,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9703 do
+  bmp_glyph 9703 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1241,7 +1241,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9704 do
+  bmp_glyph 9704 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1260,7 +1260,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9705 do
+  bmp_glyph 9705 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1279,7 +1279,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9706 do
+  bmp_glyph 9706 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1298,7 +1298,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9707 do
+  bmp_glyph 9707 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1317,7 +1317,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9708 do
+  bmp_glyph 9708 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1336,7 +1336,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9709 do
+  bmp_glyph 9709 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1355,7 +1355,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9710 do
+  bmp_glyph 9710 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1374,7 +1374,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9711 do
+  bmp_glyph 9711 do
     advance 16
     bounds 2..15, -3..10
 
@@ -1395,7 +1395,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9712 do
+  bmp_glyph 9712 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1414,7 +1414,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9713 do
+  bmp_glyph 9713 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1433,7 +1433,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9714 do
+  bmp_glyph 9714 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1452,7 +1452,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9715 do
+  bmp_glyph 9715 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1471,7 +1471,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9716 do
+  bmp_glyph 9716 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1490,7 +1490,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9717 do
+  bmp_glyph 9717 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1509,7 +1509,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9718 do
+  bmp_glyph 9718 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1528,7 +1528,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9719 do
+  bmp_glyph 9719 do
     advance 16
     bounds 3..14, -2..9
 
@@ -1547,7 +1547,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9720 do
+  bmp_glyph 9720 do
     advance 16
     bounds 4..13, -1..8
 
@@ -1564,7 +1564,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9721 do
+  bmp_glyph 9721 do
     advance 16
     bounds 4..13, -1..8
 
@@ -1581,7 +1581,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9722 do
+  bmp_glyph 9722 do
     advance 16
     bounds 4..13, -1..8
 
@@ -1598,7 +1598,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9723 do
+  bmp_glyph 9723 do
     advance 16
     bounds 4..13, -1..8
 
@@ -1615,7 +1615,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9724 do
+  bmp_glyph 9724 do
     advance 16
     bounds 4..13, -1..8
 
@@ -1632,7 +1632,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9725 do
+  bmp_glyph 9725 do
     advance 16
     bounds 5..12, 0..7
 
@@ -1647,7 +1647,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9726 do
+  bmp_glyph 9726 do
     advance 16
     bounds 5..12, 0..7
 
@@ -1662,7 +1662,7 @@ glyph_source NeoDGM.BitmapFont.GeometricShapes do
     """
   end
 
-  bmp_glyph unicode: 9727 do
+  bmp_glyph 9727 do
     advance 16
     bounds 4..13, -1..8
 

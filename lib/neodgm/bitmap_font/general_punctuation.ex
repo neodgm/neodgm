@@ -21,7 +21,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
   0x2000..0x200F
   |> Enum.zip(~i(8 16 8 16 8 8 8 8 8 8 8 0 0 0 0 0))
   |> Enum.map(fn {code, aw} ->
-    bmp_glyph unicode: code do
+    bmp_glyph code do
       advance aw
       bounds 0..0, 0..0
       data ""
@@ -37,14 +37,14 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
   0x2010..0x2015
   |> Enum.zip(~i(8 8 8 8 16 16))
   |> Enum.map(fn {code, aw} ->
-    bmp_glyph unicode: code do
+    bmp_glyph code do
       advance aw
       bounds 0..(aw - 1), 4..5
       data String.duplicate("1", aw - 1)
     end
   end)
 
-  bmp_glyph unicode: 0x2016 do
+  bmp_glyph 0x2016 do
     advance 8
     bounds 1..7, -2..11
 
@@ -65,7 +65,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2017 do
+  bmp_glyph 0x2017 do
     advance 8
     bounds 0..7, -3..0
 
@@ -76,7 +76,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2018 do
+  bmp_glyph 0x2018 do
     advance 8
     bounds 4..6, 7..11
 
@@ -88,7 +88,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2019 do
+  bmp_glyph 0x2019 do
     advance 8
     bounds 2..4, 7..11
 
@@ -100,7 +100,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201A do
+  bmp_glyph 0x201A do
     advance 8
     bounds 2..4, -1..3
 
@@ -112,7 +112,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201B do
+  bmp_glyph 0x201B do
     advance 8
     bounds 4..6, 7..11
 
@@ -124,7 +124,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201C do
+  bmp_glyph 0x201C do
     advance 8
     bounds 2..7, 7..11
 
@@ -136,7 +136,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201D do
+  bmp_glyph 0x201D do
     advance 8
     bounds 1..6, 7..11
 
@@ -148,7 +148,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201E do
+  bmp_glyph 0x201E do
     advance 8
     bounds 1..6, -1..3
 
@@ -160,7 +160,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x201F do
+  bmp_glyph 0x201F do
     advance 8
     bounds 2..7, 7..11
 
@@ -172,7 +172,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2020 do
+  bmp_glyph 0x2020 do
     advance 8
     bounds 0..7, -1..10
 
@@ -191,7 +191,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2021 do
+  bmp_glyph 0x2021 do
     advance 8
     bounds 0..7, -2..10
 
@@ -211,7 +211,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2022 do
+  bmp_glyph 0x2022 do
     advance 8
     bounds 2..6, 3..7
 
@@ -223,7 +223,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2023 do
+  bmp_glyph 0x2023 do
     advance 8
     bounds 2..5, 2..7
 
@@ -236,7 +236,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2024 do
+  bmp_glyph 0x2024 do
     advance 8
     bounds 3..5, 0..2
 
@@ -246,7 +246,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2025 do
+  bmp_glyph 0x2025 do
     advance 8
     bounds 1..7, 0..2
 
@@ -256,7 +256,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2026 do
+  bmp_glyph 0x2026 do
     advance 8
     bounds 1..6, 0..2
 
@@ -266,11 +266,11 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  composite_glyph unicode: 0x2027 do
-    component {:unicode, 0x00B7}, 0, 0
+  composite_glyph 0x2027 do
+    component 0x00B7, 0, 0
   end
 
-  bmp_glyph unicode: 0x2045 do
+  bmp_glyph 0x2045 do
     advance 8
     bounds 2..6, -2..11
 
@@ -291,7 +291,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x2046 do
+  bmp_glyph 0x2046 do
     advance 8
     bounds 2..6, -2..11
 
@@ -312,7 +312,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x204B do
+  bmp_glyph 0x204B do
     advance 8
     bounds 0..7, -3..7
 
@@ -330,7 +330,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x204C do
+  bmp_glyph 0x204C do
     advance 8
     bounds 0..7, 2..7
 
@@ -343,7 +343,7 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  bmp_glyph unicode: 0x204D do
+  bmp_glyph 0x204D do
     advance 8
     bounds 0..7, 2..7
 
@@ -356,11 +356,11 @@ glyph_source NeoDGM.BitmapFont.GeneralPunctuation do
     """
   end
 
-  composite_glyph unicode: 0x204E do
-    component {:unicode, ?*}, 0, -3
+  composite_glyph 0x204E do
+    component ?*, 0, -3
   end
 
-  bmp_glyph unicode: 0x204F do
+  bmp_glyph 0x204F do
     advance 8
     bounds 3..6, 0..8
 

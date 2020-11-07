@@ -1,13 +1,13 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Latin1Supplement do
-  bmp_glyph unicode: 0xA0 do
+  bmp_glyph 0xA0 do
     advance 8
     bounds 0..0, 0..0
     data ""
   end
 
-  bmp_glyph unicode: ?¡ do
+  bmp_glyph ?¡ do
     advance 8
     bounds 3..5, -3..7
 
@@ -25,7 +25,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¢ do
+  bmp_glyph ?¢ do
     advance 8
     bounds 0..7, 0..10
 
@@ -43,7 +43,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?£ do
+  bmp_glyph ?£ do
     advance 8
     bounds 0..7, 0..10
 
@@ -61,7 +61,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¤ do
+  bmp_glyph ?¤ do
     advance 8
     bounds 0..7, 0..7
 
@@ -76,7 +76,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¥ do
+  bmp_glyph ?¥ do
     advance 8
     bounds 1..7, 0..10
 
@@ -94,7 +94,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¦ do
+  bmp_glyph ?¦ do
     advance 8
     bounds 3..5, -1..11
 
@@ -114,7 +114,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?§ do
+  bmp_glyph ?§ do
     advance 8
     bounds 1..7, -1..11
 
@@ -134,11 +134,11 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?¨ do
-    component {:name, "dieresis.component"}, 0, 0
+  composite_glyph ?¨ do
+    component "dieresis.component", 0, 0
   end
 
-  bmp_glyph unicode: ?© do
+  bmp_glyph ?© do
     advance 8
     bounds 0..7, -1..10
 
@@ -157,7 +157,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?ª do
+  bmp_glyph ?ª do
     advance 8
     bounds 1..7, 4..10
 
@@ -171,7 +171,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?« do
+  bmp_glyph ?« do
     advance 8
     bounds 0..7, 1..6
 
@@ -184,7 +184,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¬ do
+  bmp_glyph ?¬ do
     advance 8
     bounds 0..7, 1..6
 
@@ -197,7 +197,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?® do
+  bmp_glyph ?® do
     advance 8
     bounds 0..7, -1..10
 
@@ -216,7 +216,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¯ do
+  bmp_glyph ?¯ do
     advance 8
     bounds 1..6, 10..11
 
@@ -225,7 +225,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?° do
+  bmp_glyph ?° do
     advance 8
     bounds 2..6, 7..11
 
@@ -237,7 +237,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?± do
+  bmp_glyph ?± do
     advance 8
     bounds 1..7, 0..7
 
@@ -252,17 +252,17 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?² do
-    component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "two.fraction"}, 1, 6
+  composite_glyph ?² do
+    component 32, 0, 0, flags: [:use_my_metrics]
+    component "two.fraction", 1, 6
   end
 
-  composite_glyph unicode: ?³ do
-    component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "three.fraction"}, 1, 6
+  composite_glyph ?³ do
+    component 32, 0, 0, flags: [:use_my_metrics]
+    component "three.fraction", 1, 6
   end
 
-  bmp_glyph unicode: ?´ do
+  bmp_glyph ?´ do
     advance 8
     bounds 2..5, 10..12
 
@@ -272,7 +272,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?µ do
+  bmp_glyph ?µ do
     advance 8
     bounds 0..7, -3..7
 
@@ -290,7 +290,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¶ do
+  bmp_glyph ?¶ do
     advance 8
     bounds 0..7, -3..7
 
@@ -308,7 +308,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?· do
+  bmp_glyph ?· do
     advance 8
     bounds 3..5, 3..5
 
@@ -318,7 +318,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?¸ do
+  bmp_glyph ?¸ do
     advance 8
     bounds 2..6, -3..0
 
@@ -329,12 +329,12 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?¹ do
-    component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "one.fraction"}, 2, 6
+  composite_glyph ?¹ do
+    component 32, 0, 0, flags: [:use_my_metrics]
+    component "one.fraction", 2, 6
   end
 
-  bmp_glyph unicode: ?º do
+  bmp_glyph ?º do
     advance 8
     bounds 1..7, 4..10
 
@@ -348,7 +348,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?» do
+  bmp_glyph ?» do
     advance 8
     bounds 0..7, 1..6
 
@@ -361,25 +361,25 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: 0x00BC do
-    component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "one.fraction"}, 1, 6
-    component {:name, "four.fraction"}, 1, -2
+  composite_glyph 0x00BC do
+    component ?-, 0, 0, flags: [:use_my_metrics]
+    component "one.fraction", 1, 6
+    component "four.fraction", 1, -2
   end
 
-  composite_glyph unicode: 0x00BD do
-    component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "one.fraction"}, 1, 6
-    component {:name, "two.fraction"}, 1, -2
+  composite_glyph 0x00BD do
+    component ?-, 0, 0, flags: [:use_my_metrics]
+    component "one.fraction", 1, 6
+    component "two.fraction", 1, -2
   end
 
-  composite_glyph unicode: 0x00BE do
-    component {:unicode, ?-}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "three.fraction"}, 1, 6
-    component {:name, "four.fraction"}, 1, -2
+  composite_glyph 0x00BE do
+    component ?-, 0, 0, flags: [:use_my_metrics]
+    component "three.fraction", 1, 6
+    component "four.fraction", 1, -2
   end
 
-  bmp_glyph unicode: ?¿ do
+  bmp_glyph ?¿ do
     advance 8
     bounds 0..7, -2..8
 
@@ -397,37 +397,37 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?À do
-    component {:name, "grave.component"}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?À do
+    component "grave.component", 0, 0
+    component "A.short", 0, 0
   end
 
-  composite_glyph unicode: ?Á do
-    component {:unicode, 0x00B4}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?Á do
+    component 0x00B4, 0, 0
+    component "A.short", 0, 0
   end
 
-  composite_glyph unicode: ?Â do
-    component {:name, "circumflex.component"}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?Â do
+    component "circumflex.component", 0, 0
+    component "A.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ã do
-    component {:name, "tilde.component"}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?Ã do
+    component "tilde.component", 0, 0
+    component "A.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ä do
-    component {:name, "dieresis.component"}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?Ä do
+    component "dieresis.component", 0, 0
+    component "A.short", 0, 0
   end
 
-  composite_glyph unicode: ?Å do
-    component {:name, "ring.component"}, 0, 0
-    component {:name, "A.short"}, 0, 0
+  composite_glyph ?Å do
+    component "ring.component", 0, 0
+    component "A.short", 0, 0
   end
 
-  bmp_glyph unicode: ?Æ do
+  bmp_glyph ?Æ do
     advance 8
     bounds 0..7, 0..10
 
@@ -445,52 +445,52 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?Ç do
-    component {:unicode, 0x00B8}, 0, 0
-    component {:unicode, ?C}, 0, 0
+  composite_glyph ?Ç do
+    component 0x00B8, 0, 0
+    component ?C, 0, 0
   end
 
-  composite_glyph unicode: ?È do
-    component {:name, "grave.component"}, 0, 0
-    component {:name, "E.short"}, 0, 0
+  composite_glyph ?È do
+    component "grave.component", 0, 0
+    component "E.short", 0, 0
   end
 
-  composite_glyph unicode: ?É do
-    component {:unicode, 0x00B4}, 0, 0
-    component {:name, "E.short"}, 0, 0
+  composite_glyph ?É do
+    component 0x00B4, 0, 0
+    component "E.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ê do
-    component {:name, "circumflex.component"}, 0, 0
-    component {:name, "E.short"}, 0, 0
+  composite_glyph ?Ê do
+    component "circumflex.component", 0, 0
+    component "E.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ë do
-    component {:name, "dieresis.component"}, 0, 0
-    component {:name, "E.short"}, 0, 0
+  composite_glyph ?Ë do
+    component "dieresis.component", 0, 0
+    component "E.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ì do
-    component {:name, "grave.component"}, 0, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Ì do
+    component "grave.component", 0, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Í do
-    component {:unicode, 0x00B4}, 0, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Í do
+    component 0x00B4, 0, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Î do
-    component {:name, "circumflex.component"}, 0, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Î do
+    component "circumflex.component", 0, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Ï do
-    component {:name, "dieresis.component.i"}, 0, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Ï do
+    component "dieresis.component.i", 0, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  bmp_glyph unicode: ?Ð do
+  bmp_glyph ?Ð do
     advance 8
     bounds 0..7, 0..10
 
@@ -508,37 +508,37 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?Ñ do
-    component {:name, "tilde.component"}, 0, 0
-    component {:name, "N.short"}, 0, 0
+  composite_glyph ?Ñ do
+    component "tilde.component", 0, 0
+    component "N.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ò do
-    component {:name, "grave.component"}, 0, 0
-    component {:name, "O.short"}, 0, 0
+  composite_glyph ?Ò do
+    component "grave.component", 0, 0
+    component "O.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ó do
-    component {:unicode, 0x00B4}, 0, 0
-    component {:name, "O.short"}, 0, 0
+  composite_glyph ?Ó do
+    component 0x00B4, 0, 0
+    component "O.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ô do
-    component {:name, "circumflex.component"}, 0, 0
-    component {:name, "O.short"}, 0, 0
+  composite_glyph ?Ô do
+    component "circumflex.component", 0, 0
+    component "O.short", 0, 0
   end
 
-  composite_glyph unicode: ?Õ do
-    component {:name, "tilde.component"}, 0, 0
-    component {:name, "O.short"}, 0, 0
+  composite_glyph ?Õ do
+    component "tilde.component", 0, 0
+    component "O.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ö do
-    component {:name, "dieresis.component"}, 0, 0
-    component {:name, "O.short"}, 0, 0
+  composite_glyph ?Ö do
+    component "dieresis.component", 0, 0
+    component "O.short", 0, 0
   end
 
-  bmp_glyph unicode: ?× do
+  bmp_glyph ?× do
     advance 8
     bounds 1..7, 1..7
 
@@ -552,7 +552,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?Ø do
+  bmp_glyph ?Ø do
     advance 8
     bounds 0..7, -2..11
 
@@ -573,32 +573,32 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?Ù do
-    component {:name, "grave.component"}, 0, 0
-    component {:name, "U.short"}, 0, 0
+  composite_glyph ?Ù do
+    component "grave.component", 0, 0
+    component "U.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ú do
-    component {:unicode, 0x00B4}, 0, 0
-    component {:name, "U.short"}, 0, 0
+  composite_glyph ?Ú do
+    component 0x00B4, 0, 0
+    component "U.short", 0, 0
   end
 
-  composite_glyph unicode: ?Û do
-    component {:name, "circumflex.component"}, 0, 0
-    component {:name, "U.short"}, 0, 0
+  composite_glyph ?Û do
+    component "circumflex.component", 0, 0
+    component "U.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ü do
-    component {:name, "dieresis.component"}, 0, 0
-    component {:name, "U.short"}, 0, 0
+  composite_glyph ?Ü do
+    component "dieresis.component", 0, 0
+    component "U.short", 0, 0
   end
 
-  composite_glyph unicode: ?Ý do
-    component {:unicode, 0x00B4}, 1, 0
-    component {:name, "Y.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Ý do
+    component 0x00B4, 1, 0
+    component "Y.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  bmp_glyph unicode: ?Þ do
+  bmp_glyph ?Þ do
     advance 8
     bounds 0..7, 0..10
 
@@ -616,7 +616,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?ß do
+  bmp_glyph ?ß do
     advance 8
     bounds 0..7, 0..10
 
@@ -634,37 +634,37 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?à do
-    component {:name, "grave.component"}, 0, -2
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?à do
+    component "grave.component", 0, -2
+    component ?a, 0, 0
   end
 
-  composite_glyph unicode: ?á do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?á do
+    component 0x00B4, 0, -2
+    component ?a, 0, 0
   end
 
-  composite_glyph unicode: ?â do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?â do
+    component "circumflex.component", 0, -2
+    component ?a, 0, 0
   end
 
-  composite_glyph unicode: ?ã do
-    component {:name, "tilde.component"}, 0, -2
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?ã do
+    component "tilde.component", 0, -2
+    component ?a, 0, 0
   end
 
-  composite_glyph unicode: ?ä do
-    component {:name, "dieresis.component"}, 0, -2
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?ä do
+    component "dieresis.component", 0, -2
+    component ?a, 0, 0
   end
 
-  composite_glyph unicode: ?å do
-    component {:name, "ring.component"}, 0, -1
-    component {:unicode, ?a}, 0, 0
+  composite_glyph ?å do
+    component "ring.component", 0, -1
+    component ?a, 0, 0
   end
 
-  bmp_glyph unicode: ?æ do
+  bmp_glyph ?æ do
     advance 8
     bounds 0..8, 0..7
 
@@ -679,72 +679,72 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?ç do
-    component {:unicode, 0x00B8}, 0, 0
-    component {:unicode, ?c}, 0, 0
+  composite_glyph ?ç do
+    component 0x00B8, 0, 0
+    component ?c, 0, 0
   end
 
-  composite_glyph unicode: ?è do
-    component {:name, "grave.component"}, 0, -2
-    component {:unicode, ?e}, 0, 0
+  composite_glyph ?è do
+    component "grave.component", 0, -2
+    component ?e, 0, 0
   end
 
-  composite_glyph unicode: ?é do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:unicode, ?e}, 0, 0
+  composite_glyph ?é do
+    component 0x00B4, 0, -2
+    component ?e, 0, 0
   end
 
-  composite_glyph unicode: ?ê do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:unicode, ?e}, 0, 0
+  composite_glyph ?ê do
+    component "circumflex.component", 0, -2
+    component ?e, 0, 0
   end
 
-  composite_glyph unicode: ?ë do
-    component {:name, "dieresis.component"}, 0, -2
-    component {:unicode, ?e}, 0, 0
+  composite_glyph ?ë do
+    component "dieresis.component", 0, -2
+    component ?e, 0, 0
   end
 
-  composite_glyph unicode: ?ì do
-    component {:name, "grave.component"}, 0, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?ì do
+    component "grave.component", 0, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?í do
-    component {:unicode, 0x00B4}, 1, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?í do
+    component 0x00B4, 1, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?î do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?î do
+    component "circumflex.component", 0, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?ï do
-    component {:name, "dieresis.component.i"}, 0, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?ï do
+    component "dieresis.component.i", 0, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph name: "igrave.cv02" do
-    component {:name, "grave.component"}, -1, -2
-    component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph "igrave.cv02" do
+    component "grave.component", -1, -2
+    component "dotlessi.cv02", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph name: "iacute.cv02" do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph "iacute.cv02" do
+    component 0x00B4, 0, -2
+    component "dotlessi.cv02", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph name: "icircumflex.cv02" do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:name, "dotlessi.cv02"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph "icircumflex.cv02" do
+    component "circumflex.component", 0, -2
+    component "dotlessi.cv02", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph name: "idieresis.cv02" do
-    component {:name, "dieresis.component.i"}, 0, -2
-    component {:name, "dotlessi.cv02"}, 1, 0, flags: [:use_my_metrics]
+  composite_glyph "idieresis.cv02" do
+    component "dieresis.component.i", 0, -2
+    component "dotlessi.cv02", 1, 0, flags: [:use_my_metrics]
   end
 
-  bmp_glyph unicode: ?ð do
+  bmp_glyph ?ð do
     advance 8
     bounds 0..7, 0..11
 
@@ -763,42 +763,42 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?ñ do
-    component {:name, "tilde.component"}, 0, -2
-    component {:unicode, ?n}, 0, 0
+  composite_glyph ?ñ do
+    component "tilde.component", 0, -2
+    component ?n, 0, 0
   end
 
-  composite_glyph name: "ntilde.cv05" do
-    component {:name, "tilde.component"}, 0, -2
-    component {:name, "n.cv05"}, 0, 0
+  composite_glyph "ntilde.cv05" do
+    component "tilde.component", 0, -2
+    component "n.cv05", 0, 0
   end
 
-  composite_glyph unicode: ?ò do
-    component {:name, "grave.component"}, 0, -2
-    component {:unicode, ?o}, 0, 0
+  composite_glyph ?ò do
+    component "grave.component", 0, -2
+    component ?o, 0, 0
   end
 
-  composite_glyph unicode: ?ó do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:unicode, ?o}, 0, 0
+  composite_glyph ?ó do
+    component 0x00B4, 0, -2
+    component ?o, 0, 0
   end
 
-  composite_glyph unicode: ?ô do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:unicode, ?o}, 0, 0
+  composite_glyph ?ô do
+    component "circumflex.component", 0, -2
+    component ?o, 0, 0
   end
 
-  composite_glyph unicode: ?õ do
-    component {:name, "tilde.component"}, 0, -2
-    component {:unicode, ?o}, 0, 0
+  composite_glyph ?õ do
+    component "tilde.component", 0, -2
+    component ?o, 0, 0
   end
 
-  composite_glyph unicode: ?ö do
-    component {:name, "dieresis.component"}, 0, -2
-    component {:unicode, ?o}, 0, 0
+  composite_glyph ?ö do
+    component "dieresis.component", 0, -2
+    component ?o, 0, 0
   end
 
-  bmp_glyph unicode: ?÷ do
+  bmp_glyph ?÷ do
     advance 8
     bounds 1..7, 2..7
 
@@ -811,7 +811,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph unicode: ?ø do
+  bmp_glyph ?ø do
     advance 8
     bounds 0..7, -2..9
 
@@ -830,32 +830,32 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?ù do
-    component {:name, "grave.component"}, 0, -2
-    component {:unicode, ?u}, 0, 0
+  composite_glyph ?ù do
+    component "grave.component", 0, -2
+    component ?u, 0, 0
   end
 
-  composite_glyph unicode: ?ú do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:unicode, ?u}, 0, 0
+  composite_glyph ?ú do
+    component 0x00B4, 0, -2
+    component ?u, 0, 0
   end
 
-  composite_glyph unicode: ?û do
-    component {:name, "circumflex.component"}, 0, -2
-    component {:unicode, ?u}, 0, 0
+  composite_glyph ?û do
+    component "circumflex.component", 0, -2
+    component ?u, 0, 0
   end
 
-  composite_glyph unicode: ?ü do
-    component {:name, "dieresis.component"}, 0, -2
-    component {:unicode, ?u}, 0, 0
+  composite_glyph ?ü do
+    component "dieresis.component", 0, -2
+    component ?u, 0, 0
   end
 
-  composite_glyph unicode: ?ý do
-    component {:unicode, 0x00B4}, 0, -2
-    component {:unicode, ?y}, 0, 0
+  composite_glyph ?ý do
+    component 0x00B4, 0, -2
+    component ?y, 0, 0
   end
 
-  bmp_glyph unicode: ?þ do
+  bmp_glyph ?þ do
     advance 8
     bounds 0..7, -3..10
 
@@ -876,14 +876,14 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  composite_glyph unicode: ?ÿ do
-    component {:name, "dieresis.component"}, 0, -2
-    component {:unicode, ?y}, 0, 0
+  composite_glyph ?ÿ do
+    component "dieresis.component", 0, -2
+    component ?y, 0, 0
   end
 
   # dotless i
   # TODO: Move this glyph to Latin Extended-A module later.
-  bmp_glyph unicode: 0x0131 do
+  bmp_glyph 0x0131 do
     advance 8
     bounds 1..7, 0..7
 
@@ -898,7 +898,7 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     """
   end
 
-  bmp_glyph name: "dotlessi.cv02" do
+  bmp_glyph "dotlessi.cv02" do
     advance 8
     bounds 2..5, 0..7
 

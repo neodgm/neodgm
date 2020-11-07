@@ -34,12 +34,12 @@ glyph_source NeoDGM.BitmapFont.HangulSyllables do
     jung_str = jung |> to_string() |> String.pad_leading(2, "0")
     jong_str = jong |> to_string() |> String.pad_leading(2, "0")
 
-    composite_glyph unicode: code do
-      component {:name, "cho_#{cho_set}_#{cho_str}"}, 0, 0
-      component {:name, "jung_#{jung_set}_#{jung_str}"}, 0, 0
+    composite_glyph code do
+      component "cho_#{cho_set}_#{cho_str}", 0, 0
+      component "jung_#{jung_set}_#{jung_str}", 0, 0
 
       if jong !== 0 do
-        component {:name, "jong_#{jong_set}_#{jong_str}"}, 0, 0
+        component "jong_#{jong_set}_#{jong_str}", 0, 0
       end
     end
   end)

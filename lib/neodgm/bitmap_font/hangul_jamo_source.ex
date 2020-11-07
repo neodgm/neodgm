@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HangulJamoSource do
-  bmp_glyph name: "cho_0_00" do
+  bmp_glyph "cho_0_00" do
     advance 16
     bounds 1..7, -1..10
 
@@ -20,7 +20,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_01" do
+  bmp_glyph "cho_0_01" do
     advance 16
     bounds 1..8, -1..10
 
@@ -39,7 +39,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_02" do
+  bmp_glyph "cho_0_02" do
     advance 16
     bounds 1..9, -1..10
 
@@ -58,7 +58,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_03" do
+  bmp_glyph "cho_0_03" do
     advance 16
     bounds 1..8, -1..10
 
@@ -77,7 +77,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_04" do
+  bmp_glyph "cho_0_04" do
     advance 16
     bounds 1..9, -1..10
 
@@ -96,7 +96,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_05" do
+  bmp_glyph "cho_0_05" do
     advance 16
     bounds 1..8, -1..10
 
@@ -115,7 +115,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_06" do
+  bmp_glyph "cho_0_06" do
     advance 16
     bounds 1..8, -1..10
 
@@ -134,7 +134,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_07" do
+  bmp_glyph "cho_0_07" do
     advance 16
     bounds 1..8, -1..10
 
@@ -153,7 +153,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_08" do
+  bmp_glyph "cho_0_08" do
     advance 16
     bounds 1..9, -1..10
 
@@ -172,7 +172,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_09" do
+  bmp_glyph "cho_0_09" do
     advance 16
     bounds 1..9, -1..10
 
@@ -191,7 +191,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_10" do
+  bmp_glyph "cho_0_10" do
     advance 16
     bounds 0..9, -1..10
 
@@ -210,7 +210,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_11" do
+  bmp_glyph "cho_0_11" do
     advance 16
     bounds 1..9, -1..10
 
@@ -229,7 +229,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_12" do
+  bmp_glyph "cho_0_12" do
     advance 16
     bounds 1..9, -1..10
 
@@ -248,7 +248,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_13" do
+  bmp_glyph "cho_0_13" do
     advance 16
     bounds 0..9, -1..10
 
@@ -267,7 +267,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_14" do
+  bmp_glyph "cho_0_14" do
     advance 16
     bounds 1..9, -1..11
 
@@ -287,7 +287,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_15" do
+  bmp_glyph "cho_0_15" do
     advance 16
     bounds 1..7, -1..10
 
@@ -306,7 +306,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_16" do
+  bmp_glyph "cho_0_16" do
     advance 16
     bounds 1..8, -1..10
 
@@ -325,7 +325,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_17" do
+  bmp_glyph "cho_0_17" do
     advance 16
     bounds 1..8, -1..10
 
@@ -344,7 +344,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_0_18" do
+  bmp_glyph "cho_0_18" do
     advance 16
     bounds 1..9, -1..11
 
@@ -364,7 +364,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_00" do
+  bmp_glyph "cho_1_00" do
     advance 16
     bounds 2..14, 3..10
 
@@ -379,7 +379,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_01" do
+  bmp_glyph "cho_1_01" do
     advance 16
     bounds 2..14, 3..10
 
@@ -394,7 +394,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_02" do
+  bmp_glyph "cho_1_02" do
     advance 16
     bounds 2..14, 3..10
 
@@ -409,7 +409,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_03" do
+  bmp_glyph "cho_1_03" do
     advance 16
     bounds 2..14, 3..10
 
@@ -424,7 +424,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_04" do
+  bmp_glyph "cho_1_04" do
     advance 16
     bounds 2..14, 3..10
 
@@ -439,7 +439,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_05" do
+  bmp_glyph "cho_1_05" do
     advance 16
     bounds 2..14, 3..10
 
@@ -454,7 +454,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_06" do
+  bmp_glyph "cho_1_06" do
     advance 16
     bounds 2..14, 3..10
 
@@ -469,7 +469,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_07" do
+  bmp_glyph "cho_1_07" do
     advance 16
     bounds 2..14, 3..10
 
@@ -484,7 +484,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_08" do
+  bmp_glyph "cho_1_08" do
     advance 16
     bounds 2..14, 3..10
 
@@ -499,7 +499,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_09" do
+  bmp_glyph "cho_1_09" do
     advance 16
     bounds 2..14, 4..10
 
@@ -513,7 +513,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_10" do
+  bmp_glyph "cho_1_10" do
     advance 16
     bounds 2..14, 3..10
 
@@ -528,7 +528,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_11" do
+  bmp_glyph "cho_1_11" do
     advance 16
     bounds 2..14, 3..10
 
@@ -543,7 +543,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_12" do
+  bmp_glyph "cho_1_12" do
     advance 16
     bounds 2..14, 3..10
 
@@ -558,7 +558,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_13" do
+  bmp_glyph "cho_1_13" do
     advance 16
     bounds 2..14, 3..10
 
@@ -573,7 +573,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_14" do
+  bmp_glyph "cho_1_14" do
     advance 16
     bounds 2..14, 3..10
 
@@ -588,7 +588,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_15" do
+  bmp_glyph "cho_1_15" do
     advance 16
     bounds 2..14, 3..10
 
@@ -603,7 +603,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_16" do
+  bmp_glyph "cho_1_16" do
     advance 16
     bounds 2..14, 3..10
 
@@ -618,7 +618,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_17" do
+  bmp_glyph "cho_1_17" do
     advance 16
     bounds 2..14, 3..10
 
@@ -633,7 +633,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_1_18" do
+  bmp_glyph "cho_1_18" do
     advance 16
     bounds 2..14, 3..11
 
@@ -649,7 +649,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_00" do
+  bmp_glyph "cho_2_00" do
     advance 16
     bounds 2..14, 3..10
 
@@ -664,7 +664,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_01" do
+  bmp_glyph "cho_2_01" do
     advance 16
     bounds 2..14, 3..10
 
@@ -679,7 +679,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_02" do
+  bmp_glyph "cho_2_02" do
     advance 16
     bounds 2..14, 5..10
 
@@ -692,7 +692,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_03" do
+  bmp_glyph "cho_2_03" do
     advance 16
     bounds 2..14, 5..10
 
@@ -705,7 +705,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_04" do
+  bmp_glyph "cho_2_04" do
     advance 16
     bounds 2..14, 5..10
 
@@ -718,7 +718,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_05" do
+  bmp_glyph "cho_2_05" do
     advance 16
     bounds 2..14, 5..10
 
@@ -731,7 +731,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_06" do
+  bmp_glyph "cho_2_06" do
     advance 16
     bounds 2..14, 5..10
 
@@ -744,7 +744,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_07" do
+  bmp_glyph "cho_2_07" do
     advance 16
     bounds 2..14, 5..10
 
@@ -757,7 +757,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_08" do
+  bmp_glyph "cho_2_08" do
     advance 16
     bounds 2..14, 5..10
 
@@ -770,7 +770,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_09" do
+  bmp_glyph "cho_2_09" do
     advance 16
     bounds 2..14, 4..10
 
@@ -784,7 +784,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_10" do
+  bmp_glyph "cho_2_10" do
     advance 16
     bounds 2..14, 4..10
 
@@ -798,7 +798,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_11" do
+  bmp_glyph "cho_2_11" do
     advance 16
     bounds 2..14, 4..10
 
@@ -812,7 +812,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_12" do
+  bmp_glyph "cho_2_12" do
     advance 16
     bounds 2..14, 4..10
 
@@ -826,7 +826,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_13" do
+  bmp_glyph "cho_2_13" do
     advance 16
     bounds 2..14, 4..10
 
@@ -840,7 +840,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_14" do
+  bmp_glyph "cho_2_14" do
     advance 16
     bounds 2..14, 4..11
 
@@ -855,7 +855,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_15" do
+  bmp_glyph "cho_2_15" do
     advance 16
     bounds 2..14, 3..10
 
@@ -870,7 +870,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_16" do
+  bmp_glyph "cho_2_16" do
     advance 16
     bounds 2..14, 5..10
 
@@ -883,7 +883,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_17" do
+  bmp_glyph "cho_2_17" do
     advance 16
     bounds 2..14, 5..10
 
@@ -896,7 +896,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_2_18" do
+  bmp_glyph "cho_2_18" do
     advance 16
     bounds 2..14, 4..11
 
@@ -911,7 +911,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_00" do
+  bmp_glyph "cho_3_00" do
     advance 16
     bounds 1..9, 3..10
 
@@ -926,7 +926,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_01" do
+  bmp_glyph "cho_3_01" do
     advance 16
     bounds 1..9, 3..10
 
@@ -941,7 +941,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_02" do
+  bmp_glyph "cho_3_02" do
     advance 16
     bounds 1..9, 3..10
 
@@ -956,7 +956,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_03" do
+  bmp_glyph "cho_3_03" do
     advance 16
     bounds 1..9, 3..10
 
@@ -971,7 +971,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_04" do
+  bmp_glyph "cho_3_04" do
     advance 16
     bounds 1..9, 3..10
 
@@ -986,7 +986,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_05" do
+  bmp_glyph "cho_3_05" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1001,7 +1001,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_06" do
+  bmp_glyph "cho_3_06" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1016,7 +1016,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_07" do
+  bmp_glyph "cho_3_07" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1031,7 +1031,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_08" do
+  bmp_glyph "cho_3_08" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1046,7 +1046,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_09" do
+  bmp_glyph "cho_3_09" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1061,7 +1061,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_10" do
+  bmp_glyph "cho_3_10" do
     advance 16
     bounds 0..9, 3..10
 
@@ -1076,7 +1076,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_11" do
+  bmp_glyph "cho_3_11" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1091,7 +1091,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_12" do
+  bmp_glyph "cho_3_12" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1106,7 +1106,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_13" do
+  bmp_glyph "cho_3_13" do
     advance 16
     bounds 1..10, 3..10
 
@@ -1121,7 +1121,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_14" do
+  bmp_glyph "cho_3_14" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1136,7 +1136,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_15" do
+  bmp_glyph "cho_3_15" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1151,7 +1151,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_16" do
+  bmp_glyph "cho_3_16" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1166,7 +1166,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_17" do
+  bmp_glyph "cho_3_17" do
     advance 16
     bounds 1..9, 3..10
 
@@ -1181,7 +1181,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_3_18" do
+  bmp_glyph "cho_3_18" do
     advance 16
     bounds 1..9, 3..11
 
@@ -1197,7 +1197,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_00" do
+  bmp_glyph "cho_4_00" do
     advance 16
     bounds 1..9, 4..10
 
@@ -1211,7 +1211,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_01" do
+  bmp_glyph "cho_4_01" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1224,7 +1224,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_02" do
+  bmp_glyph "cho_4_02" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1237,7 +1237,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_03" do
+  bmp_glyph "cho_4_03" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1250,7 +1250,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_04" do
+  bmp_glyph "cho_4_04" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1263,7 +1263,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_05" do
+  bmp_glyph "cho_4_05" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1276,7 +1276,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_06" do
+  bmp_glyph "cho_4_06" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1289,7 +1289,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_07" do
+  bmp_glyph "cho_4_07" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1302,7 +1302,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_08" do
+  bmp_glyph "cho_4_08" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1315,7 +1315,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_09" do
+  bmp_glyph "cho_4_09" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1328,7 +1328,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_10" do
+  bmp_glyph "cho_4_10" do
     advance 16
     bounds 0..9, 5..10
 
@@ -1341,7 +1341,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_11" do
+  bmp_glyph "cho_4_11" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1354,7 +1354,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_12" do
+  bmp_glyph "cho_4_12" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1367,7 +1367,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_13" do
+  bmp_glyph "cho_4_13" do
     advance 16
     bounds 1..10, 5..10
 
@@ -1380,7 +1380,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_14" do
+  bmp_glyph "cho_4_14" do
     advance 16
     bounds 1..9, 5..11
 
@@ -1394,7 +1394,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_15" do
+  bmp_glyph "cho_4_15" do
     advance 16
     bounds 1..9, 4..10
 
@@ -1408,7 +1408,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_16" do
+  bmp_glyph "cho_4_16" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1421,7 +1421,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_17" do
+  bmp_glyph "cho_4_17" do
     advance 16
     bounds 1..9, 5..10
 
@@ -1434,7 +1434,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_4_18" do
+  bmp_glyph "cho_4_18" do
     advance 16
     bounds 1..9, 5..11
 
@@ -1448,7 +1448,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_00" do
+  bmp_glyph "cho_5_00" do
     advance 16
     bounds 1..7, 4..11
 
@@ -1463,7 +1463,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_01" do
+  bmp_glyph "cho_5_01" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1478,7 +1478,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_02" do
+  bmp_glyph "cho_5_02" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1493,7 +1493,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_03" do
+  bmp_glyph "cho_5_03" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1508,7 +1508,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_04" do
+  bmp_glyph "cho_5_04" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1523,7 +1523,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_05" do
+  bmp_glyph "cho_5_05" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1538,7 +1538,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_06" do
+  bmp_glyph "cho_5_06" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1553,7 +1553,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_07" do
+  bmp_glyph "cho_5_07" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1568,7 +1568,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_08" do
+  bmp_glyph "cho_5_08" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1583,7 +1583,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_09" do
+  bmp_glyph "cho_5_09" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1598,7 +1598,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_10" do
+  bmp_glyph "cho_5_10" do
     advance 16
     bounds 0..9, 4..11
 
@@ -1613,7 +1613,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_11" do
+  bmp_glyph "cho_5_11" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1628,7 +1628,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_12" do
+  bmp_glyph "cho_5_12" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1643,7 +1643,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_13" do
+  bmp_glyph "cho_5_13" do
     advance 16
     bounds 1..10, 4..11
 
@@ -1658,7 +1658,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_14" do
+  bmp_glyph "cho_5_14" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1673,7 +1673,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_15" do
+  bmp_glyph "cho_5_15" do
     advance 16
     bounds 1..8, 4..11
 
@@ -1688,7 +1688,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_16" do
+  bmp_glyph "cho_5_16" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1703,7 +1703,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_17" do
+  bmp_glyph "cho_5_17" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1718,7 +1718,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_5_18" do
+  bmp_glyph "cho_5_18" do
     advance 16
     bounds 1..9, 4..11
 
@@ -1733,7 +1733,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_00" do
+  bmp_glyph "cho_6_00" do
     advance 16
     bounds 2..14, 5..11
 
@@ -1747,7 +1747,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_01" do
+  bmp_glyph "cho_6_01" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1760,7 +1760,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_02" do
+  bmp_glyph "cho_6_02" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1773,7 +1773,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_03" do
+  bmp_glyph "cho_6_03" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1786,7 +1786,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_04" do
+  bmp_glyph "cho_6_04" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1799,7 +1799,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_05" do
+  bmp_glyph "cho_6_05" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1812,7 +1812,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_06" do
+  bmp_glyph "cho_6_06" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1825,7 +1825,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_07" do
+  bmp_glyph "cho_6_07" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1838,7 +1838,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_08" do
+  bmp_glyph "cho_6_08" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1851,7 +1851,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_09" do
+  bmp_glyph "cho_6_09" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1864,7 +1864,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_10" do
+  bmp_glyph "cho_6_10" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1877,7 +1877,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_11" do
+  bmp_glyph "cho_6_11" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1890,7 +1890,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_12" do
+  bmp_glyph "cho_6_12" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1903,7 +1903,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_13" do
+  bmp_glyph "cho_6_13" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1916,7 +1916,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_14" do
+  bmp_glyph "cho_6_14" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1929,7 +1929,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_15" do
+  bmp_glyph "cho_6_15" do
     advance 16
     bounds 2..14, 5..11
 
@@ -1943,7 +1943,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_16" do
+  bmp_glyph "cho_6_16" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1956,7 +1956,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_17" do
+  bmp_glyph "cho_6_17" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1969,7 +1969,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_6_18" do
+  bmp_glyph "cho_6_18" do
     advance 16
     bounds 2..14, 6..11
 
@@ -1982,7 +1982,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_00" do
+  bmp_glyph "cho_7_00" do
     advance 16
     bounds 1..9, 6..11
 
@@ -1995,7 +1995,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_01" do
+  bmp_glyph "cho_7_01" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2008,7 +2008,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_02" do
+  bmp_glyph "cho_7_02" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2020,7 +2020,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_03" do
+  bmp_glyph "cho_7_03" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2032,7 +2032,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_04" do
+  bmp_glyph "cho_7_04" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2044,7 +2044,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_05" do
+  bmp_glyph "cho_7_05" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2057,7 +2057,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_06" do
+  bmp_glyph "cho_7_06" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2069,7 +2069,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_07" do
+  bmp_glyph "cho_7_07" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2081,7 +2081,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_08" do
+  bmp_glyph "cho_7_08" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2093,7 +2093,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_09" do
+  bmp_glyph "cho_7_09" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2105,7 +2105,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_10" do
+  bmp_glyph "cho_7_10" do
     advance 16
     bounds 0..9, 7..11
 
@@ -2117,7 +2117,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_11" do
+  bmp_glyph "cho_7_11" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2130,7 +2130,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_12" do
+  bmp_glyph "cho_7_12" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2142,7 +2142,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_13" do
+  bmp_glyph "cho_7_13" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2154,7 +2154,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_14" do
+  bmp_glyph "cho_7_14" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2167,7 +2167,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_15" do
+  bmp_glyph "cho_7_15" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2180,7 +2180,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_16" do
+  bmp_glyph "cho_7_16" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2193,7 +2193,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_17" do
+  bmp_glyph "cho_7_17" do
     advance 16
     bounds 1..9, 7..11
 
@@ -2205,7 +2205,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "cho_7_18" do
+  bmp_glyph "cho_7_18" do
     advance 16
     bounds 1..9, 6..11
 
@@ -2218,7 +2218,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_00" do
+  bmp_glyph "jung_0_00" do
     advance 16
     bounds 11..16, -2..11
 
@@ -2239,7 +2239,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_01" do
+  bmp_glyph "jung_0_01" do
     advance 16
     bounds 10..15, -2..11
 
@@ -2260,7 +2260,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_02" do
+  bmp_glyph "jung_0_02" do
     advance 16
     bounds 11..16, -2..11
 
@@ -2281,7 +2281,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_03" do
+  bmp_glyph "jung_0_03" do
     advance 16
     bounds 10..15, -2..11
 
@@ -2302,7 +2302,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_04" do
+  bmp_glyph "jung_0_04" do
     advance 16
     bounds 9..14, -2..11
 
@@ -2323,7 +2323,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_05" do
+  bmp_glyph "jung_0_05" do
     advance 16
     bounds 8..15, -2..11
 
@@ -2344,7 +2344,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_06" do
+  bmp_glyph "jung_0_06" do
     advance 16
     bounds 9..14, -2..11
 
@@ -2365,7 +2365,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_07" do
+  bmp_glyph "jung_0_07" do
     advance 16
     bounds 8..15, -2..11
 
@@ -2386,7 +2386,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_08" do
+  bmp_glyph "jung_0_08" do
     advance 16
     bounds 1..15, -1..5
 
@@ -2400,7 +2400,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_09" do
+  bmp_glyph "jung_0_09" do
     advance 16
     bounds 1..16, -2..11
 
@@ -2421,7 +2421,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_10" do
+  bmp_glyph "jung_0_10" do
     advance 16
     bounds 1..15, -2..11
 
@@ -2442,7 +2442,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_11" do
+  bmp_glyph "jung_0_11" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2463,7 +2463,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_12" do
+  bmp_glyph "jung_0_12" do
     advance 16
     bounds 1..15, -1..5
 
@@ -2477,7 +2477,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_13" do
+  bmp_glyph "jung_0_13" do
     advance 16
     bounds 1..15, -2..3
 
@@ -2490,7 +2490,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_14" do
+  bmp_glyph "jung_0_14" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2511,7 +2511,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_15" do
+  bmp_glyph "jung_0_15" do
     advance 16
     bounds 1..15, -2..11
 
@@ -2532,7 +2532,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_16" do
+  bmp_glyph "jung_0_16" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2553,7 +2553,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_17" do
+  bmp_glyph "jung_0_17" do
     advance 16
     bounds 1..15, -2..3
 
@@ -2566,7 +2566,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_18" do
+  bmp_glyph "jung_0_18" do
     advance 16
     bounds 1..15, -1..0
 
@@ -2575,7 +2575,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_19" do
+  bmp_glyph "jung_0_19" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2596,7 +2596,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_0_20" do
+  bmp_glyph "jung_0_20" do
     advance 16
     bounds 12..14, -2..11
 
@@ -2617,7 +2617,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_00" do
+  bmp_glyph "jung_1_00" do
     advance 16
     bounds 11..16, -2..11
 
@@ -2638,7 +2638,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_01" do
+  bmp_glyph "jung_1_01" do
     advance 16
     bounds 10..15, -2..11
 
@@ -2659,7 +2659,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_02" do
+  bmp_glyph "jung_1_02" do
     advance 16
     bounds 11..16, -2..11
 
@@ -2680,7 +2680,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_03" do
+  bmp_glyph "jung_1_03" do
     advance 16
     bounds 10..15, -2..11
 
@@ -2701,7 +2701,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_04" do
+  bmp_glyph "jung_1_04" do
     advance 16
     bounds 9..14, -2..11
 
@@ -2722,7 +2722,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_05" do
+  bmp_glyph "jung_1_05" do
     advance 16
     bounds 8..15, -2..11
 
@@ -2743,7 +2743,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_06" do
+  bmp_glyph "jung_1_06" do
     advance 16
     bounds 9..14, -2..11
 
@@ -2764,7 +2764,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_07" do
+  bmp_glyph "jung_1_07" do
     advance 16
     bounds 8..15, -2..11
 
@@ -2785,7 +2785,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_08" do
+  bmp_glyph "jung_1_08" do
     advance 16
     bounds 1..15, -1..3
 
@@ -2797,7 +2797,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_09" do
+  bmp_glyph "jung_1_09" do
     advance 16
     bounds 1..16, -2..11
 
@@ -2818,7 +2818,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_10" do
+  bmp_glyph "jung_1_10" do
     advance 16
     bounds 1..15, -2..11
 
@@ -2839,7 +2839,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_11" do
+  bmp_glyph "jung_1_11" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2860,7 +2860,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_12" do
+  bmp_glyph "jung_1_12" do
     advance 16
     bounds 1..15, -1..3
 
@@ -2872,7 +2872,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_13" do
+  bmp_glyph "jung_1_13" do
     advance 16
     bounds 1..15, -2..3
 
@@ -2885,7 +2885,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_14" do
+  bmp_glyph "jung_1_14" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2906,7 +2906,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_15" do
+  bmp_glyph "jung_1_15" do
     advance 16
     bounds 1..15, -2..11
 
@@ -2927,7 +2927,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_16" do
+  bmp_glyph "jung_1_16" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2948,7 +2948,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_17" do
+  bmp_glyph "jung_1_17" do
     advance 16
     bounds 1..15, -2..3
 
@@ -2961,7 +2961,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_18" do
+  bmp_glyph "jung_1_18" do
     advance 16
     bounds 1..15, -1..0
 
@@ -2970,7 +2970,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_19" do
+  bmp_glyph "jung_1_19" do
     advance 16
     bounds 1..14, -2..11
 
@@ -2991,7 +2991,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_1_20" do
+  bmp_glyph "jung_1_20" do
     advance 16
     bounds 12..14, -2..11
 
@@ -3012,7 +3012,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_00" do
+  bmp_glyph "jung_2_00" do
     advance 16
     bounds 11..16, 4..11
 
@@ -3027,7 +3027,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_01" do
+  bmp_glyph "jung_2_01" do
     advance 16
     bounds 10..15, 4..11
 
@@ -3042,7 +3042,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_02" do
+  bmp_glyph "jung_2_02" do
     advance 16
     bounds 11..16, 4..11
 
@@ -3057,7 +3057,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_03" do
+  bmp_glyph "jung_2_03" do
     advance 16
     bounds 10..15, 4..11
 
@@ -3072,7 +3072,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_04" do
+  bmp_glyph "jung_2_04" do
     advance 16
     bounds 9..14, 4..11
 
@@ -3087,7 +3087,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_05" do
+  bmp_glyph "jung_2_05" do
     advance 16
     bounds 8..15, 4..11
 
@@ -3102,7 +3102,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_06" do
+  bmp_glyph "jung_2_06" do
     advance 16
     bounds 9..14, 4..11
 
@@ -3117,7 +3117,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_07" do
+  bmp_glyph "jung_2_07" do
     advance 16
     bounds 8..15, 4..11
 
@@ -3132,7 +3132,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_08" do
+  bmp_glyph "jung_2_08" do
     advance 16
     bounds 1..15, 4..8
 
@@ -3144,7 +3144,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_09" do
+  bmp_glyph "jung_2_09" do
     advance 16
     bounds 1..16, 3..11
 
@@ -3160,7 +3160,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_10" do
+  bmp_glyph "jung_2_10" do
     advance 16
     bounds 1..15, 3..11
 
@@ -3176,7 +3176,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_11" do
+  bmp_glyph "jung_2_11" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3192,7 +3192,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_12" do
+  bmp_glyph "jung_2_12" do
     advance 16
     bounds 1..15, 4..8
 
@@ -3204,7 +3204,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_13" do
+  bmp_glyph "jung_2_13" do
     advance 16
     bounds 1..15, 2..5
 
@@ -3215,7 +3215,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_14" do
+  bmp_glyph "jung_2_14" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3231,7 +3231,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_15" do
+  bmp_glyph "jung_2_15" do
     advance 16
     bounds 1..15, 3..11
 
@@ -3247,7 +3247,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_16" do
+  bmp_glyph "jung_2_16" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3263,7 +3263,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_17" do
+  bmp_glyph "jung_2_17" do
     advance 16
     bounds 1..15, 2..5
 
@@ -3274,7 +3274,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_18" do
+  bmp_glyph "jung_2_18" do
     advance 16
     bounds 1..15, 4..5
 
@@ -3283,7 +3283,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_19" do
+  bmp_glyph "jung_2_19" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3299,7 +3299,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_2_20" do
+  bmp_glyph "jung_2_20" do
     advance 16
     bounds 12..14, 4..11
 
@@ -3314,7 +3314,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_00" do
+  bmp_glyph "jung_3_00" do
     advance 16
     bounds 11..16, 4..11
 
@@ -3329,7 +3329,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_01" do
+  bmp_glyph "jung_3_01" do
     advance 16
     bounds 10..15, 4..11
 
@@ -3344,7 +3344,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_02" do
+  bmp_glyph "jung_3_02" do
     advance 16
     bounds 11..16, 4..11
 
@@ -3359,7 +3359,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_03" do
+  bmp_glyph "jung_3_03" do
     advance 16
     bounds 10..15, 4..11
 
@@ -3374,7 +3374,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_04" do
+  bmp_glyph "jung_3_04" do
     advance 16
     bounds 9..14, 4..11
 
@@ -3389,7 +3389,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_05" do
+  bmp_glyph "jung_3_05" do
     advance 16
     bounds 8..15, 4..11
 
@@ -3404,7 +3404,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_06" do
+  bmp_glyph "jung_3_06" do
     advance 16
     bounds 9..14, 4..11
 
@@ -3419,7 +3419,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_07" do
+  bmp_glyph "jung_3_07" do
     advance 16
     bounds 8..15, 4..11
 
@@ -3434,7 +3434,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_08" do
+  bmp_glyph "jung_3_08" do
     advance 16
     bounds 1..15, 4..7
 
@@ -3445,7 +3445,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_09" do
+  bmp_glyph "jung_3_09" do
     advance 16
     bounds 1..16, 3..11
 
@@ -3461,7 +3461,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_10" do
+  bmp_glyph "jung_3_10" do
     advance 16
     bounds 1..15, 3..11
 
@@ -3477,7 +3477,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_11" do
+  bmp_glyph "jung_3_11" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3493,7 +3493,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_12" do
+  bmp_glyph "jung_3_12" do
     advance 16
     bounds 1..15, 4..7
 
@@ -3504,7 +3504,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_13" do
+  bmp_glyph "jung_3_13" do
     advance 16
     bounds 1..15, 2..5
 
@@ -3515,7 +3515,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_14" do
+  bmp_glyph "jung_3_14" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3531,7 +3531,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_15" do
+  bmp_glyph "jung_3_15" do
     advance 16
     bounds 1..15, 3..11
 
@@ -3547,7 +3547,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_16" do
+  bmp_glyph "jung_3_16" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3563,7 +3563,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_17" do
+  bmp_glyph "jung_3_17" do
     advance 16
     bounds 1..15, 2..5
 
@@ -3574,7 +3574,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_18" do
+  bmp_glyph "jung_3_18" do
     advance 16
     bounds 1..15, 4..5
 
@@ -3583,7 +3583,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_19" do
+  bmp_glyph "jung_3_19" do
     advance 16
     bounds 1..14, 3..11
 
@@ -3599,7 +3599,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jung_3_20" do
+  bmp_glyph "jung_3_20" do
     advance 16
     bounds 12..14, 4..11
 
@@ -3614,7 +3614,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_01" do
+  bmp_glyph "jong_0_01" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3627,7 +3627,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_02" do
+  bmp_glyph "jong_0_02" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3640,7 +3640,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_03" do
+  bmp_glyph "jong_0_03" do
     advance 16
     bounds 2..15, -2..3
 
@@ -3653,7 +3653,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_04" do
+  bmp_glyph "jong_0_04" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3666,7 +3666,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_05" do
+  bmp_glyph "jong_0_05" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3679,7 +3679,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_06" do
+  bmp_glyph "jong_0_06" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3692,7 +3692,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_07" do
+  bmp_glyph "jong_0_07" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3705,7 +3705,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_08" do
+  bmp_glyph "jong_0_08" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3718,7 +3718,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_09" do
+  bmp_glyph "jong_0_09" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3731,7 +3731,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_10" do
+  bmp_glyph "jong_0_10" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3744,7 +3744,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_11" do
+  bmp_glyph "jong_0_11" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3757,7 +3757,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_12" do
+  bmp_glyph "jong_0_12" do
     advance 16
     bounds 2..14, -2..3
 
@@ -3770,7 +3770,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_13" do
+  bmp_glyph "jong_0_13" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3783,7 +3783,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_14" do
+  bmp_glyph "jong_0_14" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3796,7 +3796,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_15" do
+  bmp_glyph "jong_0_15" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3809,7 +3809,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_16" do
+  bmp_glyph "jong_0_16" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3822,7 +3822,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_17" do
+  bmp_glyph "jong_0_17" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3835,7 +3835,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_18" do
+  bmp_glyph "jong_0_18" do
     advance 16
     bounds 2..14, -2..3
 
@@ -3848,7 +3848,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_19" do
+  bmp_glyph "jong_0_19" do
     advance 16
     bounds 1..13, -2..3
 
@@ -3861,7 +3861,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_20" do
+  bmp_glyph "jong_0_20" do
     advance 16
     bounds 2..14, -2..3
 
@@ -3874,7 +3874,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_21" do
+  bmp_glyph "jong_0_21" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3887,7 +3887,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_22" do
+  bmp_glyph "jong_0_22" do
     advance 16
     bounds 1..13, -2..3
 
@@ -3900,7 +3900,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_23" do
+  bmp_glyph "jong_0_23" do
     advance 16
     bounds 1..13, -2..4
 
@@ -3914,7 +3914,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_24" do
+  bmp_glyph "jong_0_24" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3927,7 +3927,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_25" do
+  bmp_glyph "jong_0_25" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3940,7 +3940,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_26" do
+  bmp_glyph "jong_0_26" do
     advance 16
     bounds 2..13, -2..3
 
@@ -3953,7 +3953,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_0_27" do
+  bmp_glyph "jong_0_27" do
     advance 16
     bounds 2..13, -2..4
 
@@ -3967,7 +3967,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_01" do
+  bmp_glyph "jong_1_01" do
     advance 16
     bounds 2..14, -2..3
 
@@ -3980,7 +3980,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_02" do
+  bmp_glyph "jong_1_02" do
     advance 16
     bounds 2..14, -2..3
 
@@ -3993,7 +3993,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_03" do
+  bmp_glyph "jong_1_03" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4006,7 +4006,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_04" do
+  bmp_glyph "jong_1_04" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4019,7 +4019,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_05" do
+  bmp_glyph "jong_1_05" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4032,7 +4032,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_06" do
+  bmp_glyph "jong_1_06" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4045,7 +4045,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_07" do
+  bmp_glyph "jong_1_07" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4058,7 +4058,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_08" do
+  bmp_glyph "jong_1_08" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4071,7 +4071,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_09" do
+  bmp_glyph "jong_1_09" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4084,7 +4084,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_10" do
+  bmp_glyph "jong_1_10" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4097,7 +4097,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_11" do
+  bmp_glyph "jong_1_11" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4110,7 +4110,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_12" do
+  bmp_glyph "jong_1_12" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4123,7 +4123,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_13" do
+  bmp_glyph "jong_1_13" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4136,7 +4136,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_14" do
+  bmp_glyph "jong_1_14" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4149,7 +4149,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_15" do
+  bmp_glyph "jong_1_15" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4162,7 +4162,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_16" do
+  bmp_glyph "jong_1_16" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4175,7 +4175,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_17" do
+  bmp_glyph "jong_1_17" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4188,7 +4188,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_18" do
+  bmp_glyph "jong_1_18" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4201,7 +4201,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_19" do
+  bmp_glyph "jong_1_19" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4214,7 +4214,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_20" do
+  bmp_glyph "jong_1_20" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4227,7 +4227,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_21" do
+  bmp_glyph "jong_1_21" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4240,7 +4240,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_22" do
+  bmp_glyph "jong_1_22" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4253,7 +4253,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_23" do
+  bmp_glyph "jong_1_23" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4266,7 +4266,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_24" do
+  bmp_glyph "jong_1_24" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4279,7 +4279,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_25" do
+  bmp_glyph "jong_1_25" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4292,7 +4292,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_26" do
+  bmp_glyph "jong_1_26" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4305,7 +4305,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_1_27" do
+  bmp_glyph "jong_1_27" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4318,7 +4318,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_01" do
+  bmp_glyph "jong_2_01" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4331,7 +4331,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_02" do
+  bmp_glyph "jong_2_02" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4344,7 +4344,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_03" do
+  bmp_glyph "jong_2_03" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4357,7 +4357,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_04" do
+  bmp_glyph "jong_2_04" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4370,7 +4370,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_05" do
+  bmp_glyph "jong_2_05" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4383,7 +4383,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_06" do
+  bmp_glyph "jong_2_06" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4396,7 +4396,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_07" do
+  bmp_glyph "jong_2_07" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4409,7 +4409,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_08" do
+  bmp_glyph "jong_2_08" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4422,7 +4422,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_09" do
+  bmp_glyph "jong_2_09" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4435,7 +4435,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_10" do
+  bmp_glyph "jong_2_10" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4448,7 +4448,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_11" do
+  bmp_glyph "jong_2_11" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4461,7 +4461,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_12" do
+  bmp_glyph "jong_2_12" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4474,7 +4474,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_13" do
+  bmp_glyph "jong_2_13" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4487,7 +4487,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_14" do
+  bmp_glyph "jong_2_14" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4500,7 +4500,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_15" do
+  bmp_glyph "jong_2_15" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4513,7 +4513,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_16" do
+  bmp_glyph "jong_2_16" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4526,7 +4526,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_17" do
+  bmp_glyph "jong_2_17" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4539,7 +4539,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_18" do
+  bmp_glyph "jong_2_18" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4552,7 +4552,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_19" do
+  bmp_glyph "jong_2_19" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4565,7 +4565,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_20" do
+  bmp_glyph "jong_2_20" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4578,7 +4578,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_21" do
+  bmp_glyph "jong_2_21" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4591,7 +4591,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_22" do
+  bmp_glyph "jong_2_22" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4604,7 +4604,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_23" do
+  bmp_glyph "jong_2_23" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4617,7 +4617,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_24" do
+  bmp_glyph "jong_2_24" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4630,7 +4630,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_25" do
+  bmp_glyph "jong_2_25" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4643,7 +4643,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_26" do
+  bmp_glyph "jong_2_26" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4656,7 +4656,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_2_27" do
+  bmp_glyph "jong_2_27" do
     advance 16
     bounds 2..15, -2..3
 
@@ -4669,7 +4669,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_01" do
+  bmp_glyph "jong_3_01" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4682,7 +4682,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_02" do
+  bmp_glyph "jong_3_02" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4695,7 +4695,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_03" do
+  bmp_glyph "jong_3_03" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4708,7 +4708,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_04" do
+  bmp_glyph "jong_3_04" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4721,7 +4721,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_05" do
+  bmp_glyph "jong_3_05" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4734,7 +4734,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_06" do
+  bmp_glyph "jong_3_06" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4747,7 +4747,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_07" do
+  bmp_glyph "jong_3_07" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4760,7 +4760,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_08" do
+  bmp_glyph "jong_3_08" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4773,7 +4773,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_09" do
+  bmp_glyph "jong_3_09" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4786,7 +4786,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_10" do
+  bmp_glyph "jong_3_10" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4799,7 +4799,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_11" do
+  bmp_glyph "jong_3_11" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4812,7 +4812,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_12" do
+  bmp_glyph "jong_3_12" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4825,7 +4825,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_13" do
+  bmp_glyph "jong_3_13" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4838,7 +4838,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_14" do
+  bmp_glyph "jong_3_14" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4851,7 +4851,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_15" do
+  bmp_glyph "jong_3_15" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4864,7 +4864,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_16" do
+  bmp_glyph "jong_3_16" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4877,7 +4877,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_17" do
+  bmp_glyph "jong_3_17" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4890,7 +4890,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_18" do
+  bmp_glyph "jong_3_18" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4903,7 +4903,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_19" do
+  bmp_glyph "jong_3_19" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4916,7 +4916,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_20" do
+  bmp_glyph "jong_3_20" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4929,7 +4929,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_21" do
+  bmp_glyph "jong_3_21" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4942,7 +4942,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_22" do
+  bmp_glyph "jong_3_22" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4955,7 +4955,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_23" do
+  bmp_glyph "jong_3_23" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4968,7 +4968,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_24" do
+  bmp_glyph "jong_3_24" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4981,7 +4981,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_25" do
+  bmp_glyph "jong_3_25" do
     advance 16
     bounds 2..14, -2..3
 
@@ -4994,7 +4994,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_26" do
+  bmp_glyph "jong_3_26" do
     advance 16
     bounds 2..14, -2..3
 
@@ -5007,7 +5007,7 @@ glyph_source NeoDGM.BitmapFont.HangulJamoSource do
     """
   end
 
-  bmp_glyph name: "jong_3_27" do
+  bmp_glyph "jong_3_27" do
     advance 16
     bounds 2..14, -2..3
 
