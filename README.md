@@ -1,6 +1,6 @@
 # Neo둥근모
 
-![데모 이미지](https://neodgm.dalgona.dev/assets/images/neodgm_new_demo.png)
+<img alt="데모 이미지" width="752" src="https://neodgm.dalgona.dev/assets/images/neodgm_demo.png?202011071338">
 
 **Neo둥근모**는 DOS용 비트맵 한글 글꼴인 "둥근모꼴"을 모든 환경에서 사용할 수
 있도록 트루타입 글꼴로 변환하여 만든 글꼴입니다.
