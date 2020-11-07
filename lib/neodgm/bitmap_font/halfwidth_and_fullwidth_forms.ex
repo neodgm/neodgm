@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
-  bmp_glyph unicode: 0xFF01 do
+  bmp_glyph 0xFF01 do
     advance 16
     bounds 6..10, 0..10
 
@@ -19,7 +19,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF02 do
+  bmp_glyph 0xFF02 do
     advance 16
     bounds 5..11, 7..11
 
@@ -31,7 +31,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF03 do
+  bmp_glyph 0xFF03 do
     advance 16
     bounds 3..13, 0..9
 
@@ -48,7 +48,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF04 do
+  bmp_glyph 0xFF04 do
     advance 16
     bounds 4..12, -1..11
 
@@ -68,7 +68,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF05 do
+  bmp_glyph 0xFF05 do
     advance 16
     bounds 2..13, -1..9
 
@@ -86,7 +86,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF06 do
+  bmp_glyph 0xFF06 do
     advance 16
     bounds 4..11, 0..10
 
@@ -104,7 +104,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF07 do
+  bmp_glyph 0xFF07 do
     advance 16
     bounds 7..9, 7..11
 
@@ -116,7 +116,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF08 do
+  bmp_glyph 0xFF08 do
     advance 16
     bounds 5..11, -2..11
 
@@ -137,7 +137,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF09 do
+  bmp_glyph 0xFF09 do
     advance 16
     bounds 5..11, -2..11
 
@@ -158,7 +158,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0A do
+  bmp_glyph 0xFF0A do
     advance 16
     bounds 3..13, 1..8
 
@@ -173,7 +173,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0B do
+  bmp_glyph 0xFF0B do
     advance 16
     bounds 4..12, 1..8
 
@@ -188,7 +188,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0C do
+  bmp_glyph 0xFF0C do
     advance 16
     bounds 6..9, -1..3
 
@@ -200,7 +200,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0D do
+  bmp_glyph 0xFF0D do
     advance 16
     bounds 3..12, 4..5
 
@@ -209,7 +209,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0E do
+  bmp_glyph 0xFF0E do
     advance 16
     bounds 7..9, 0..2
 
@@ -219,7 +219,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF0F do
+  bmp_glyph 0xFF0F do
     advance 16
     bounds 4..11, 0..8
 
@@ -235,7 +235,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF10 do
+  bmp_glyph 0xFF10 do
     advance 16
     bounds 4..12, 0..10
 
@@ -253,7 +253,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF11 do
+  bmp_glyph 0xFF11 do
     advance 16
     bounds 5..9, 0..10
 
@@ -271,7 +271,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF12 do
+  bmp_glyph 0xFF12 do
     advance 16
     bounds 4..12, 0..10
 
@@ -289,7 +289,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF13 do
+  bmp_glyph 0xFF13 do
     advance 16
     bounds 4..12, 0..10
 
@@ -307,7 +307,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF14 do
+  bmp_glyph 0xFF14 do
     advance 16
     bounds 4..12, 0..10
 
@@ -325,7 +325,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF15 do
+  bmp_glyph 0xFF15 do
     advance 16
     bounds 4..12, 0..10
 
@@ -343,7 +343,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF16 do
+  bmp_glyph 0xFF16 do
     advance 16
     bounds 4..12, 0..10
 
@@ -361,7 +361,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF17 do
+  bmp_glyph 0xFF17 do
     advance 16
     bounds 4..12, 0..10
 
@@ -379,7 +379,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF18 do
+  bmp_glyph 0xFF18 do
     advance 16
     bounds 4..12, 0..10
 
@@ -397,7 +397,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF19 do
+  bmp_glyph 0xFF19 do
     advance 16
     bounds 4..12, 0..10
 
@@ -415,7 +415,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1A do
+  bmp_glyph 0xFF1A do
     advance 16
     bounds 7..9, 1..8
 
@@ -430,7 +430,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1B do
+  bmp_glyph 0xFF1B do
     advance 16
     bounds 6..9, 0..8
 
@@ -446,7 +446,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1C do
+  bmp_glyph 0xFF1C do
     advance 16
     bounds 4..11, -1..10
 
@@ -465,7 +465,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1D do
+  bmp_glyph 0xFF1D do
     advance 16
     bounds 4..12, 3..7
 
@@ -477,7 +477,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1E do
+  bmp_glyph 0xFF1E do
     advance 16
     bounds 5..12, -1..10
 
@@ -496,7 +496,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF1F do
+  bmp_glyph 0xFF1F do
     advance 16
     bounds 4..11, 0..10
 
@@ -514,7 +514,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF20 do
+  bmp_glyph 0xFF20 do
     advance 16
     bounds 2..13, 0..10
 
@@ -532,7 +532,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF21 do
+  bmp_glyph 0xFF21 do
     advance 16
     bounds 4..12, 0..10
 
@@ -550,7 +550,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF22 do
+  bmp_glyph 0xFF22 do
     advance 16
     bounds 4..12, 0..10
 
@@ -568,7 +568,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF23 do
+  bmp_glyph 0xFF23 do
     advance 16
     bounds 4..12, 0..10
 
@@ -586,7 +586,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF24 do
+  bmp_glyph 0xFF24 do
     advance 16
     bounds 4..12, 0..10
 
@@ -604,7 +604,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF25 do
+  bmp_glyph 0xFF25 do
     advance 16
     bounds 4..12, 0..10
 
@@ -622,7 +622,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF26 do
+  bmp_glyph 0xFF26 do
     advance 16
     bounds 4..12, 0..10
 
@@ -640,7 +640,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF27 do
+  bmp_glyph 0xFF27 do
     advance 16
     bounds 4..12, 0..10
 
@@ -658,7 +658,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF28 do
+  bmp_glyph 0xFF28 do
     advance 16
     bounds 4..12, 0..10
 
@@ -676,7 +676,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF29 do
+  bmp_glyph 0xFF29 do
     advance 16
     bounds 5..11, 0..10
 
@@ -694,7 +694,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2A do
+  bmp_glyph 0xFF2A do
     advance 16
     bounds 4..12, 0..10
 
@@ -712,7 +712,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2B do
+  bmp_glyph 0xFF2B do
     advance 16
     bounds 4..12, 0..10
 
@@ -730,7 +730,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2C do
+  bmp_glyph 0xFF2C do
     advance 16
     bounds 4..12, 0..10
 
@@ -748,7 +748,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2D do
+  bmp_glyph 0xFF2D do
     advance 16
     bounds 4..12, 0..10
 
@@ -766,7 +766,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2E do
+  bmp_glyph 0xFF2E do
     advance 16
     bounds 4..12, 0..10
 
@@ -784,7 +784,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF2F do
+  bmp_glyph 0xFF2F do
     advance 16
     bounds 4..12, 0..10
 
@@ -802,7 +802,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF30 do
+  bmp_glyph 0xFF30 do
     advance 16
     bounds 4..12, 0..10
 
@@ -820,7 +820,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF31 do
+  bmp_glyph 0xFF31 do
     advance 16
     bounds 4..12, -2..10
 
@@ -840,7 +840,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF32 do
+  bmp_glyph 0xFF32 do
     advance 16
     bounds 4..12, 0..10
 
@@ -858,7 +858,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF33 do
+  bmp_glyph 0xFF33 do
     advance 16
     bounds 4..12, 0..10
 
@@ -876,7 +876,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF34 do
+  bmp_glyph 0xFF34 do
     advance 16
     bounds 4..12, 0..10
 
@@ -894,7 +894,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF35 do
+  bmp_glyph 0xFF35 do
     advance 16
     bounds 4..12, 0..10
 
@@ -912,7 +912,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF36 do
+  bmp_glyph 0xFF36 do
     advance 16
     bounds 4..12, 0..10
 
@@ -930,7 +930,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF37 do
+  bmp_glyph 0xFF37 do
     advance 16
     bounds 4..12, 0..10
 
@@ -948,7 +948,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF38 do
+  bmp_glyph 0xFF38 do
     advance 16
     bounds 4..12, 0..10
 
@@ -966,7 +966,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF39 do
+  bmp_glyph 0xFF39 do
     advance 16
     bounds 4..12, 0..10
 
@@ -984,7 +984,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3A do
+  bmp_glyph 0xFF3A do
     advance 16
     bounds 4..12, 0..10
 
@@ -1002,7 +1002,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3B do
+  bmp_glyph 0xFF3B do
     advance 16
     bounds 5..11, -2..11
 
@@ -1023,7 +1023,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3C do
+  bmp_glyph 0xFF3C do
     advance 16
     bounds 4..11, 0..8
 
@@ -1039,7 +1039,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3D do
+  bmp_glyph 0xFF3D do
     advance 16
     bounds 5..11, -2..11
 
@@ -1060,7 +1060,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3E do
+  bmp_glyph 0xFF3E do
     advance 16
     bounds 4..11, 8..12
 
@@ -1072,7 +1072,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF3F do
+  bmp_glyph 0xFF3F do
     advance 16
     bounds 3..12, -2..-1
 
@@ -1081,7 +1081,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF40 do
+  bmp_glyph 0xFF40 do
     advance 16
     bounds 6..10, 8..11
 
@@ -1092,7 +1092,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF41 do
+  bmp_glyph 0xFF41 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1107,7 +1107,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF42 do
+  bmp_glyph 0xFF42 do
     advance 16
     bounds 4..12, 0..10
 
@@ -1125,7 +1125,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF43 do
+  bmp_glyph 0xFF43 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1140,7 +1140,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF44 do
+  bmp_glyph 0xFF44 do
     advance 16
     bounds 4..12, 0..10
 
@@ -1158,7 +1158,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF45 do
+  bmp_glyph 0xFF45 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1173,7 +1173,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF46 do
+  bmp_glyph 0xFF46 do
     advance 16
     bounds 4..11, 0..10
 
@@ -1191,7 +1191,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF47 do
+  bmp_glyph 0xFF47 do
     advance 16
     bounds 4..12, -3..7
 
@@ -1209,7 +1209,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF48 do
+  bmp_glyph 0xFF48 do
     advance 16
     bounds 4..12, 0..10
 
@@ -1227,7 +1227,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF49 do
+  bmp_glyph 0xFF49 do
     advance 16
     bounds 5..11, 0..10
 
@@ -1245,7 +1245,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4A do
+  bmp_glyph 0xFF4A do
     advance 16
     bounds 5..10, -3..10
 
@@ -1266,7 +1266,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4B do
+  bmp_glyph 0xFF4B do
     advance 16
     bounds 4..12, 0..10
 
@@ -1284,7 +1284,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4C do
+  bmp_glyph 0xFF4C do
     advance 16
     bounds 5..11, 0..10
 
@@ -1302,7 +1302,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4D do
+  bmp_glyph 0xFF4D do
     advance 16
     bounds 4..12, 0..7
 
@@ -1317,7 +1317,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4E do
+  bmp_glyph 0xFF4E do
     advance 16
     bounds 4..12, 0..7
 
@@ -1332,7 +1332,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF4F do
+  bmp_glyph 0xFF4F do
     advance 16
     bounds 4..12, 0..7
 
@@ -1347,7 +1347,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF50 do
+  bmp_glyph 0xFF50 do
     advance 16
     bounds 4..12, -3..7
 
@@ -1365,7 +1365,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF51 do
+  bmp_glyph 0xFF51 do
     advance 16
     bounds 4..12, -3..7
 
@@ -1383,7 +1383,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF52 do
+  bmp_glyph 0xFF52 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1398,7 +1398,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF53 do
+  bmp_glyph 0xFF53 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1413,7 +1413,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF54 do
+  bmp_glyph 0xFF54 do
     advance 16
     bounds 4..11, 0..10
 
@@ -1431,7 +1431,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF55 do
+  bmp_glyph 0xFF55 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1446,7 +1446,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF56 do
+  bmp_glyph 0xFF56 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1461,7 +1461,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF57 do
+  bmp_glyph 0xFF57 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1476,7 +1476,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF58 do
+  bmp_glyph 0xFF58 do
     advance 16
     bounds 4..12, 0..7
 
@@ -1491,7 +1491,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF59 do
+  bmp_glyph 0xFF59 do
     advance 16
     bounds 4..12, -3..7
 
@@ -1509,7 +1509,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF5A do
+  bmp_glyph 0xFF5A do
     advance 16
     bounds 4..12, 0..7
 
@@ -1524,7 +1524,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF5B do
+  bmp_glyph 0xFF5B do
     advance 16
     bounds 3..11, -2..11
 
@@ -1545,7 +1545,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF5C do
+  bmp_glyph 0xFF5C do
     advance 16
     bounds 7..9, -2..11
 
@@ -1566,7 +1566,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF5D do
+  bmp_glyph 0xFF5D do
     advance 16
     bounds 5..13, -2..11
 
@@ -1587,7 +1587,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFF5E do
+  bmp_glyph 0xFF5E do
     advance 16
     bounds 4..12, 3..6
 
@@ -1598,7 +1598,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE0 do
+  bmp_glyph 0xFFE0 do
     advance 16
     bounds 4..11, 0..10
 
@@ -1616,7 +1616,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE1 do
+  bmp_glyph 0xFFE1 do
     advance 16
     bounds 4..12, 0..10
 
@@ -1634,7 +1634,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE2 do
+  bmp_glyph 0xFFE2 do
     advance 16
     bounds 2..13, 1..6
 
@@ -1647,7 +1647,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE3 do
+  bmp_glyph 0xFFE3 do
     advance 16
     bounds 4..12, 10..11
 
@@ -1656,7 +1656,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE4 do
+  bmp_glyph 0xFFE4 do
     advance 16
     bounds 7..9, -1..11
 
@@ -1676,7 +1676,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE5 do
+  bmp_glyph 0xFFE5 do
     advance 16
     bounds 4..12, 0..10
 
@@ -1694,7 +1694,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
-  bmp_glyph unicode: 0xFFE6 do
+  bmp_glyph 0xFFE6 do
     advance 16
     bounds 2..14, 0..10
 
@@ -1714,7 +1714,7 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
 
   # TODO: Move this glyph to a module which defines
   # "Currency Symbols" Unicode block later.
-  composite_glyph unicode: 0x20A9 do
-    component {:unicode, 0xFFE6}, 0, 0
+  composite_glyph 0x20A9 do
+    component 0xFFE6, 0, 0
   end
 end

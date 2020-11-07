@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.ProgrammingLigatures.Markup do
-  bmp_glyph name: "exclam.markupcomment" do
+  bmp_glyph "exclam.markupcomment" do
     advance 8
     bounds -5..7, 0..10
 

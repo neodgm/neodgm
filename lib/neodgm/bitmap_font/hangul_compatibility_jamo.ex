@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
-  bmp_glyph unicode: 0x3131 do
+  bmp_glyph 0x3131 do
     advance 16
     bounds 2..14, 3..10
 
@@ -16,7 +16,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3132 do
+  bmp_glyph 0x3132 do
     advance 16
     bounds 2..14, 3..10
 
@@ -31,7 +31,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3133 do
+  bmp_glyph 0x3133 do
     advance 16
     bounds 2..14, 3..10
 
@@ -46,7 +46,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3134 do
+  bmp_glyph 0x3134 do
     advance 16
     bounds 2..14, 3..10
 
@@ -61,7 +61,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3135 do
+  bmp_glyph 0x3135 do
     advance 16
     bounds 2..14, 3..10
 
@@ -76,7 +76,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3136 do
+  bmp_glyph 0x3136 do
     advance 16
     bounds 2..14, 3..10
 
@@ -91,7 +91,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3137 do
+  bmp_glyph 0x3137 do
     advance 16
     bounds 2..14, 3..10
 
@@ -106,7 +106,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3138 do
+  bmp_glyph 0x3138 do
     advance 16
     bounds 2..14, 3..10
 
@@ -121,7 +121,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3139 do
+  bmp_glyph 0x3139 do
     advance 16
     bounds 2..14, 3..10
 
@@ -136,7 +136,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313A do
+  bmp_glyph 0x313A do
     advance 16
     bounds 2..14, 3..10
 
@@ -151,7 +151,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313B do
+  bmp_glyph 0x313B do
     advance 16
     bounds 2..14, 3..10
 
@@ -166,7 +166,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313C do
+  bmp_glyph 0x313C do
     advance 16
     bounds 2..14, 3..10
 
@@ -181,7 +181,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313D do
+  bmp_glyph 0x313D do
     advance 16
     bounds 2..14, 3..10
 
@@ -196,7 +196,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313E do
+  bmp_glyph 0x313E do
     advance 16
     bounds 2..14, 3..10
 
@@ -211,7 +211,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x313F do
+  bmp_glyph 0x313F do
     advance 16
     bounds 2..15, 3..10
 
@@ -226,7 +226,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3140 do
+  bmp_glyph 0x3140 do
     advance 16
     bounds 2..14, 3..10
 
@@ -241,7 +241,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3141 do
+  bmp_glyph 0x3141 do
     advance 16
     bounds 2..14, 3..10
 
@@ -256,7 +256,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3142 do
+  bmp_glyph 0x3142 do
     advance 16
     bounds 2..14, 3..10
 
@@ -271,7 +271,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3143 do
+  bmp_glyph 0x3143 do
     advance 16
     bounds 2..14, 3..10
 
@@ -286,7 +286,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3144 do
+  bmp_glyph 0x3144 do
     advance 16
     bounds 2..14, 3..10
 
@@ -301,7 +301,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3145 do
+  bmp_glyph 0x3145 do
     advance 16
     bounds 2..14, 4..10
 
@@ -315,7 +315,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3146 do
+  bmp_glyph 0x3146 do
     advance 16
     bounds 2..14, 3..10
 
@@ -330,7 +330,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3147 do
+  bmp_glyph 0x3147 do
     advance 16
     bounds 2..14, 3..10
 
@@ -345,7 +345,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3148 do
+  bmp_glyph 0x3148 do
     advance 16
     bounds 2..14, 3..10
 
@@ -360,7 +360,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3149 do
+  bmp_glyph 0x3149 do
     advance 16
     bounds 2..14, 3..10
 
@@ -375,7 +375,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314A do
+  bmp_glyph 0x314A do
     advance 16
     bounds 2..14, 3..10
 
@@ -390,7 +390,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314B do
+  bmp_glyph 0x314B do
     advance 16
     bounds 2..14, 3..10
 
@@ -405,7 +405,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314C do
+  bmp_glyph 0x314C do
     advance 16
     bounds 2..14, 3..10
 
@@ -420,7 +420,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314D do
+  bmp_glyph 0x314D do
     advance 16
     bounds 2..14, 3..10
 
@@ -435,7 +435,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314E do
+  bmp_glyph 0x314E do
     advance 16
     bounds 2..14, 3..11
 
@@ -451,7 +451,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x314F do
+  bmp_glyph 0x314F do
     advance 16
     bounds 11..16, -2..11
 
@@ -472,7 +472,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3150 do
+  bmp_glyph 0x3150 do
     advance 16
     bounds 10..15, -2..11
 
@@ -493,7 +493,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3151 do
+  bmp_glyph 0x3151 do
     advance 16
     bounds 11..16, -2..11
 
@@ -514,7 +514,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3152 do
+  bmp_glyph 0x3152 do
     advance 16
     bounds 10..15, -2..11
 
@@ -535,7 +535,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3153 do
+  bmp_glyph 0x3153 do
     advance 16
     bounds 9..14, -2..11
 
@@ -556,7 +556,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3154 do
+  bmp_glyph 0x3154 do
     advance 16
     bounds 8..15, -2..11
 
@@ -577,7 +577,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3155 do
+  bmp_glyph 0x3155 do
     advance 16
     bounds 9..14, -2..11
 
@@ -598,7 +598,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3156 do
+  bmp_glyph 0x3156 do
     advance 16
     bounds 8..15, -2..11
 
@@ -619,7 +619,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3157 do
+  bmp_glyph 0x3157 do
     advance 16
     bounds 1..15, -1..5
 
@@ -633,7 +633,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3158 do
+  bmp_glyph 0x3158 do
     advance 16
     bounds 1..16, -2..11
 
@@ -654,7 +654,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3159 do
+  bmp_glyph 0x3159 do
     advance 16
     bounds 1..15, -2..11
 
@@ -675,7 +675,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315A do
+  bmp_glyph 0x315A do
     advance 16
     bounds 1..14, -2..11
 
@@ -696,7 +696,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315B do
+  bmp_glyph 0x315B do
     advance 16
     bounds 1..15, -1..5
 
@@ -710,7 +710,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315C do
+  bmp_glyph 0x315C do
     advance 16
     bounds 1..15, -2..3
 
@@ -723,7 +723,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315D do
+  bmp_glyph 0x315D do
     advance 16
     bounds 1..14, -2..11
 
@@ -744,7 +744,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315E do
+  bmp_glyph 0x315E do
     advance 16
     bounds 1..15, -2..11
 
@@ -765,7 +765,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x315F do
+  bmp_glyph 0x315F do
     advance 16
     bounds 1..14, -2..11
 
@@ -786,7 +786,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3160 do
+  bmp_glyph 0x3160 do
     advance 16
     bounds 1..15, -2..3
 
@@ -799,7 +799,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3161 do
+  bmp_glyph 0x3161 do
     advance 16
     bounds 1..15, -1..0
 
@@ -808,7 +808,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3162 do
+  bmp_glyph 0x3162 do
     advance 16
     bounds 1..14, -2..11
 
@@ -829,7 +829,7 @@ glyph_source NeoDGM.BitmapFont.HangulCompatibilityJamo do
     """
   end
 
-  bmp_glyph unicode: 0x3163 do
+  bmp_glyph 0x3163 do
     advance 16
     bounds 12..14, -2..11
 

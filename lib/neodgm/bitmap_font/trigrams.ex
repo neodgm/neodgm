@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.Trigrams do
-  bmp_glyph unicode: 9776 do
+  bmp_glyph 9776 do
     advance 16
     bounds 2..14, -2..10
 
@@ -21,7 +21,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9777 do
+  bmp_glyph 9777 do
     advance 16
     bounds 2..14, -2..10
 
@@ -41,7 +41,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9778 do
+  bmp_glyph 9778 do
     advance 16
     bounds 2..14, -2..10
 
@@ -61,7 +61,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9779 do
+  bmp_glyph 9779 do
     advance 16
     bounds 2..14, -2..10
 
@@ -81,7 +81,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9780 do
+  bmp_glyph 9780 do
     advance 16
     bounds 2..14, -2..10
 
@@ -101,7 +101,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9781 do
+  bmp_glyph 9781 do
     advance 16
     bounds 2..14, -2..10
 
@@ -121,7 +121,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9782 do
+  bmp_glyph 9782 do
     advance 16
     bounds 2..14, -2..10
 
@@ -141,7 +141,7 @@ glyph_source NeoDGM.BitmapFont.Trigrams do
     """
   end
 
-  bmp_glyph unicode: 9783 do
+  bmp_glyph 9783 do
     advance 16
     bounds 2..14, -2..10
 

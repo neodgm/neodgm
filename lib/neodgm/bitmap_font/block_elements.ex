@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.BlockElements do
-  bmp_glyph unicode: ?▀ do
+  bmp_glyph ?▀ do
     advance 8
     bounds 0..8, 4..12
 
@@ -17,7 +17,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▁ do
+  bmp_glyph ?▁ do
     advance 8
     bounds 0..8, -4..-2
 
@@ -27,7 +27,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▂ do
+  bmp_glyph ?▂ do
     advance 8
     bounds 0..8, -4..0
 
@@ -39,7 +39,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▃ do
+  bmp_glyph ?▃ do
     advance 8
     bounds 0..8, -4..2
 
@@ -53,7 +53,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▄ do
+  bmp_glyph ?▄ do
     advance 8
     bounds 0..8, -4..4
 
@@ -69,7 +69,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▅ do
+  bmp_glyph ?▅ do
     advance 8
     bounds 0..8, -4..6
 
@@ -87,7 +87,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▆ do
+  bmp_glyph ?▆ do
     advance 8
     bounds 0..8, -4..8
 
@@ -107,7 +107,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▇ do
+  bmp_glyph ?▇ do
     advance 8
     bounds 0..8, -4..10
 
@@ -129,7 +129,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?█ do
+  bmp_glyph ?█ do
     advance 8
     bounds 0..8, -4..12
 
@@ -153,7 +153,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▉ do
+  bmp_glyph ?▉ do
     advance 8
     bounds 0..7, -4..12
 
@@ -177,7 +177,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▊ do
+  bmp_glyph ?▊ do
     advance 8
     bounds 0..6, -4..12
 
@@ -201,7 +201,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▋ do
+  bmp_glyph ?▋ do
     advance 8
     bounds 0..5, -4..12
 
@@ -225,7 +225,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▌ do
+  bmp_glyph ?▌ do
     advance 8
     bounds 0..4, -4..12
 
@@ -249,7 +249,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▍ do
+  bmp_glyph ?▍ do
     advance 8
     bounds 0..3, -4..12
 
@@ -273,7 +273,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▎ do
+  bmp_glyph ?▎ do
     advance 8
     bounds 0..2, -4..12
 
@@ -297,7 +297,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▏ do
+  bmp_glyph ?▏ do
     advance 8
     bounds 0..1, -4..12
 
@@ -321,7 +321,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▐ do
+  bmp_glyph ?▐ do
     advance 8
     bounds 4..8, -4..12
 
@@ -345,7 +345,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?░ do
+  bmp_glyph ?░ do
     advance 8
     bounds 0..7, -3..12
 
@@ -368,7 +368,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▒ do
+  bmp_glyph ?▒ do
     advance 8
     bounds 0..8, -4..12
 
@@ -392,7 +392,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▓ do
+  bmp_glyph ?▓ do
     advance 8
     bounds 0..8, -4..12
 
@@ -416,7 +416,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▔ do
+  bmp_glyph ?▔ do
     advance 8
     bounds 0..8, 10..12
 
@@ -426,7 +426,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▕ do
+  bmp_glyph ?▕ do
     advance 8
     bounds 7..8, -4..12
 
@@ -450,7 +450,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▖ do
+  bmp_glyph ?▖ do
     advance 8
     bounds 0..4, -4..4
 
@@ -466,7 +466,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▗ do
+  bmp_glyph ?▗ do
     advance 8
     bounds 4..8, -4..4
 
@@ -482,7 +482,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▘ do
+  bmp_glyph ?▘ do
     advance 8
     bounds 0..4, 4..12
 
@@ -498,7 +498,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▙ do
+  bmp_glyph ?▙ do
     advance 8
     bounds 0..8, -4..12
 
@@ -522,7 +522,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▚ do
+  bmp_glyph ?▚ do
     advance 8
     bounds 0..8, -4..12
 
@@ -546,7 +546,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▛ do
+  bmp_glyph ?▛ do
     advance 8
     bounds 0..8, -4..12
 
@@ -570,7 +570,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▜ do
+  bmp_glyph ?▜ do
     advance 8
     bounds 0..8, -4..12
 
@@ -594,7 +594,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▝ do
+  bmp_glyph ?▝ do
     advance 8
     bounds 4..8, 4..12
 
@@ -610,7 +610,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▞ do
+  bmp_glyph ?▞ do
     advance 8
     bounds 0..8, -4..12
 
@@ -634,7 +634,7 @@ glyph_source NeoDGM.BitmapFont.BlockElements do
     """
   end
 
-  bmp_glyph unicode: ?▟ do
+  bmp_glyph ?▟ do
     advance 8
     bounds 0..8, -4..12
 

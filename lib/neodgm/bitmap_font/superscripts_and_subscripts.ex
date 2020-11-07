@@ -4,12 +4,12 @@ glyph_names = ~w(zero one two three four five six seven eight nine)
 x_offsets = [1, 2, 1, 1, 1, 1, 1, 1, 1, 1]
 
 glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
-  composite_glyph unicode: 0x2070 do
-    component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-    component {:name, "zero.fraction"}, 1, 6
+  composite_glyph 0x2070 do
+    component 32, 0, 0, flags: [:use_my_metrics]
+    component "zero.fraction", 1, 6
   end
 
-  bmp_glyph unicode: 0x2071 do
+  bmp_glyph 0x2071 do
     advance 8
     bounds 1..5, 6..12
 
@@ -23,7 +23,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph name: "uni2071.cv02" do
+  bmp_glyph "uni2071.cv02" do
     advance 8
     bounds 2..5, 6..12
 
@@ -37,7 +37,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207A do
+  bmp_glyph 0x207A do
     advance 8
     bounds 1..7, 6..11
 
@@ -50,7 +50,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207B do
+  bmp_glyph 0x207B do
     advance 8
     bounds 1..6, 8..9
 
@@ -59,7 +59,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207C do
+  bmp_glyph 0x207C do
     advance 8
     bounds 1..6, 7..10
 
@@ -70,7 +70,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207D do
+  bmp_glyph 0x207D do
     advance 8
     bounds 2..5, 6..11
 
@@ -83,7 +83,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207E do
+  bmp_glyph 0x207E do
     advance 8
     bounds 2..5, 6..11
 
@@ -96,7 +96,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x207F do
+  bmp_glyph 0x207F do
     advance 8
     bounds 1..6, 6..11
 
@@ -113,28 +113,28 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
   |> Enum.drop(4)
   |> Enum.zip(0x2074..0x2079)
   |> Enum.map(fn {name, code} ->
-    composite_glyph unicode: code do
-      component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-      component {:name, name <> ".fraction"}, 1, 6
+    composite_glyph code do
+      component 32, 0, 0, flags: [:use_my_metrics]
+      component name <> ".fraction", 1, 6
     end
   end)
 
   [glyph_names, x_offsets, 0x2080..0x2089]
   |> Enum.zip()
   |> Enum.map(fn {name, x_offset, code} ->
-    composite_glyph unicode: code do
-      component {:unicode, 32}, 0, 0, flags: [:use_my_metrics]
-      component {:name, name <> ".fraction"}, x_offset, -1
+    composite_glyph code do
+      component 32, 0, 0, flags: [:use_my_metrics]
+      component name <> ".fraction", x_offset, -1
     end
   end)
 
   Enum.map(0x208A..0x208E, fn code ->
-    composite_glyph unicode: code do
-      component {:unicode, code - 0x10}, 0, -7
+    composite_glyph code do
+      component code - 0x10, 0, -7
     end
   end)
 
-  bmp_glyph unicode: 0x2090 do
+  bmp_glyph 0x2090 do
     advance 8
     bounds 1..7, -1..4
 
@@ -147,7 +147,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2091 do
+  bmp_glyph 0x2091 do
     advance 8
     bounds 1..6, -1..4
 
@@ -160,7 +160,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2092 do
+  bmp_glyph 0x2092 do
     advance 8
     bounds 1..6, -1..4
 
@@ -173,7 +173,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2093 do
+  bmp_glyph 0x2093 do
     advance 8
     bounds 1..7, -1..4
 
@@ -186,7 +186,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2094 do
+  bmp_glyph 0x2094 do
     advance 8
     bounds 1..6, -1..4
 
@@ -199,7 +199,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2095 do
+  bmp_glyph 0x2095 do
     advance 8
     bounds 1..6, -1..6
 
@@ -214,7 +214,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2096 do
+  bmp_glyph 0x2096 do
     advance 8
     bounds 1..6, -1..6
 
@@ -229,7 +229,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2097 do
+  bmp_glyph 0x2097 do
     advance 8
     bounds 1..5, -1..6
 
@@ -244,7 +244,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph name: "uni2097.cv04" do
+  bmp_glyph "uni2097.cv04" do
     advance 8
     bounds 2..5, -1..6
 
@@ -259,7 +259,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x2098 do
+  bmp_glyph 0x2098 do
     advance 8
     bounds 0..7, -1..4
 
@@ -272,11 +272,11 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  composite_glyph unicode: 0x2099 do
-    component {:unicode, 0x207F}, 0, -7
+  composite_glyph 0x2099 do
+    component 0x207F, 0, -7
   end
 
-  bmp_glyph unicode: 0x209A do
+  bmp_glyph 0x209A do
     advance 8
     bounds 1..6, -3..4
 
@@ -291,7 +291,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x209B do
+  bmp_glyph 0x209B do
     advance 8
     bounds 1..6, -1..4
 
@@ -304,7 +304,7 @@ glyph_source NeoDGM.BitmapFont.SuperscriptsAndSubscripts do
     """
   end
 
-  bmp_glyph unicode: 0x209C do
+  bmp_glyph 0x209C do
     advance 8
     bounds 1..6, -1..6
 

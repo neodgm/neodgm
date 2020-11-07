@@ -1,13 +1,13 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.BraillePatterns do
-  bmp_glyph unicode: ?⠀ do
+  bmp_glyph ?⠀ do
     advance 8
     bounds 0..0, 0..0
     data ""
   end
 
-  bmp_glyph unicode: ?⠁ do
+  bmp_glyph ?⠁ do
     advance 8
     bounds 1..3, 9..11
 
@@ -17,7 +17,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠂ do
+  bmp_glyph ?⠂ do
     advance 8
     bounds 1..3, 5..7
 
@@ -27,7 +27,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠃ do
+  bmp_glyph ?⠃ do
     advance 8
     bounds 1..3, 5..11
 
@@ -41,7 +41,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠄ do
+  bmp_glyph ?⠄ do
     advance 8
     bounds 1..3, 1..3
 
@@ -51,7 +51,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠅ do
+  bmp_glyph ?⠅ do
     advance 8
     bounds 1..3, 1..11
 
@@ -69,7 +69,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠆ do
+  bmp_glyph ?⠆ do
     advance 8
     bounds 1..3, 1..7
 
@@ -83,7 +83,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠇ do
+  bmp_glyph ?⠇ do
     advance 8
     bounds 1..3, 1..11
 
@@ -101,7 +101,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠈ do
+  bmp_glyph ?⠈ do
     advance 8
     bounds 5..7, 9..11
 
@@ -111,7 +111,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠉ do
+  bmp_glyph ?⠉ do
     advance 8
     bounds 1..7, 9..11
 
@@ -121,7 +121,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠊ do
+  bmp_glyph ?⠊ do
     advance 8
     bounds 1..7, 5..11
 
@@ -135,7 +135,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠋ do
+  bmp_glyph ?⠋ do
     advance 8
     bounds 1..7, 5..11
 
@@ -149,7 +149,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠌ do
+  bmp_glyph ?⠌ do
     advance 8
     bounds 1..7, 1..11
 
@@ -167,7 +167,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠍ do
+  bmp_glyph ?⠍ do
     advance 8
     bounds 1..7, 1..11
 
@@ -185,7 +185,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠎ do
+  bmp_glyph ?⠎ do
     advance 8
     bounds 1..7, 1..11
 
@@ -203,7 +203,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠏ do
+  bmp_glyph ?⠏ do
     advance 8
     bounds 1..7, 1..11
 
@@ -221,7 +221,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠐ do
+  bmp_glyph ?⠐ do
     advance 8
     bounds 5..7, 5..7
 
@@ -231,7 +231,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠑ do
+  bmp_glyph ?⠑ do
     advance 8
     bounds 1..7, 5..11
 
@@ -245,7 +245,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠒ do
+  bmp_glyph ?⠒ do
     advance 8
     bounds 1..7, 5..7
 
@@ -255,7 +255,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠓ do
+  bmp_glyph ?⠓ do
     advance 8
     bounds 1..7, 5..11
 
@@ -269,7 +269,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠔ do
+  bmp_glyph ?⠔ do
     advance 8
     bounds 1..7, 1..7
 
@@ -283,7 +283,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠕ do
+  bmp_glyph ?⠕ do
     advance 8
     bounds 1..7, 1..11
 
@@ -301,7 +301,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠖ do
+  bmp_glyph ?⠖ do
     advance 8
     bounds 1..7, 1..7
 
@@ -315,7 +315,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠗ do
+  bmp_glyph ?⠗ do
     advance 8
     bounds 1..7, 1..11
 
@@ -333,7 +333,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠘ do
+  bmp_glyph ?⠘ do
     advance 8
     bounds 5..7, 5..11
 
@@ -347,7 +347,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠙ do
+  bmp_glyph ?⠙ do
     advance 8
     bounds 1..7, 5..11
 
@@ -361,7 +361,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠚ do
+  bmp_glyph ?⠚ do
     advance 8
     bounds 1..7, 5..11
 
@@ -375,7 +375,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠛ do
+  bmp_glyph ?⠛ do
     advance 8
     bounds 1..7, 5..11
 
@@ -389,7 +389,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠜ do
+  bmp_glyph ?⠜ do
     advance 8
     bounds 1..7, 1..11
 
@@ -407,7 +407,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠝ do
+  bmp_glyph ?⠝ do
     advance 8
     bounds 1..7, 1..11
 
@@ -425,7 +425,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠞ do
+  bmp_glyph ?⠞ do
     advance 8
     bounds 1..7, 1..11
 
@@ -443,7 +443,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠟ do
+  bmp_glyph ?⠟ do
     advance 8
     bounds 1..7, 1..11
 
@@ -461,7 +461,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠠ do
+  bmp_glyph ?⠠ do
     advance 8
     bounds 5..7, 1..3
 
@@ -471,7 +471,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠡ do
+  bmp_glyph ?⠡ do
     advance 8
     bounds 1..7, 1..11
 
@@ -489,7 +489,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠢ do
+  bmp_glyph ?⠢ do
     advance 8
     bounds 1..7, 1..7
 
@@ -503,7 +503,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠣ do
+  bmp_glyph ?⠣ do
     advance 8
     bounds 1..7, 1..11
 
@@ -521,7 +521,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠤ do
+  bmp_glyph ?⠤ do
     advance 8
     bounds 1..7, 1..3
 
@@ -531,7 +531,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠥ do
+  bmp_glyph ?⠥ do
     advance 8
     bounds 1..7, 1..11
 
@@ -549,7 +549,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠦ do
+  bmp_glyph ?⠦ do
     advance 8
     bounds 1..7, 1..7
 
@@ -563,7 +563,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠧ do
+  bmp_glyph ?⠧ do
     advance 8
     bounds 1..7, 1..11
 
@@ -581,7 +581,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠨ do
+  bmp_glyph ?⠨ do
     advance 8
     bounds 5..7, 1..11
 
@@ -599,7 +599,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠩ do
+  bmp_glyph ?⠩ do
     advance 8
     bounds 1..7, 1..11
 
@@ -617,7 +617,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠪ do
+  bmp_glyph ?⠪ do
     advance 8
     bounds 1..7, 1..11
 
@@ -635,7 +635,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠫ do
+  bmp_glyph ?⠫ do
     advance 8
     bounds 1..7, 1..11
 
@@ -653,7 +653,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠬ do
+  bmp_glyph ?⠬ do
     advance 8
     bounds 1..7, 1..11
 
@@ -671,7 +671,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠭ do
+  bmp_glyph ?⠭ do
     advance 8
     bounds 1..7, 1..11
 
@@ -689,7 +689,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠮ do
+  bmp_glyph ?⠮ do
     advance 8
     bounds 1..7, 1..11
 
@@ -707,7 +707,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠯ do
+  bmp_glyph ?⠯ do
     advance 8
     bounds 1..7, 1..11
 
@@ -725,7 +725,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠰ do
+  bmp_glyph ?⠰ do
     advance 8
     bounds 5..7, 1..7
 
@@ -739,7 +739,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠱ do
+  bmp_glyph ?⠱ do
     advance 8
     bounds 1..7, 1..11
 
@@ -757,7 +757,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠲ do
+  bmp_glyph ?⠲ do
     advance 8
     bounds 1..7, 1..7
 
@@ -771,7 +771,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠳ do
+  bmp_glyph ?⠳ do
     advance 8
     bounds 1..7, 1..11
 
@@ -789,7 +789,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠴ do
+  bmp_glyph ?⠴ do
     advance 8
     bounds 1..7, 1..7
 
@@ -803,7 +803,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠵ do
+  bmp_glyph ?⠵ do
     advance 8
     bounds 1..7, 1..11
 
@@ -821,7 +821,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠶ do
+  bmp_glyph ?⠶ do
     advance 8
     bounds 1..7, 1..7
 
@@ -835,7 +835,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠷ do
+  bmp_glyph ?⠷ do
     advance 8
     bounds 1..7, 1..11
 
@@ -853,7 +853,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠸ do
+  bmp_glyph ?⠸ do
     advance 8
     bounds 5..7, 1..11
 
@@ -871,7 +871,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠹ do
+  bmp_glyph ?⠹ do
     advance 8
     bounds 1..7, 1..11
 
@@ -889,7 +889,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠺ do
+  bmp_glyph ?⠺ do
     advance 8
     bounds 1..7, 1..11
 
@@ -907,7 +907,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠻ do
+  bmp_glyph ?⠻ do
     advance 8
     bounds 1..7, 1..11
 
@@ -925,7 +925,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠼ do
+  bmp_glyph ?⠼ do
     advance 8
     bounds 1..7, 1..11
 
@@ -943,7 +943,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠽ do
+  bmp_glyph ?⠽ do
     advance 8
     bounds 1..7, 1..11
 
@@ -961,7 +961,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠾ do
+  bmp_glyph ?⠾ do
     advance 8
     bounds 1..7, 1..11
 
@@ -979,7 +979,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⠿ do
+  bmp_glyph ?⠿ do
     advance 8
     bounds 1..7, 1..11
 
@@ -997,7 +997,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡀ do
+  bmp_glyph ?⡀ do
     advance 8
     bounds 1..3, -3..-1
 
@@ -1007,7 +1007,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡁ do
+  bmp_glyph ?⡁ do
     advance 8
     bounds 1..3, -3..11
 
@@ -1029,7 +1029,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡂ do
+  bmp_glyph ?⡂ do
     advance 8
     bounds 1..3, -3..7
 
@@ -1047,7 +1047,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡃ do
+  bmp_glyph ?⡃ do
     advance 8
     bounds 1..3, -3..11
 
@@ -1069,7 +1069,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡄ do
+  bmp_glyph ?⡄ do
     advance 8
     bounds 1..3, -3..3
 
@@ -1083,7 +1083,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡅ do
+  bmp_glyph ?⡅ do
     advance 8
     bounds 1..3, -3..11
 
@@ -1105,7 +1105,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡆ do
+  bmp_glyph ?⡆ do
     advance 8
     bounds 1..3, -3..7
 
@@ -1123,7 +1123,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡇ do
+  bmp_glyph ?⡇ do
     advance 8
     bounds 1..3, -3..11
 
@@ -1145,7 +1145,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡈ do
+  bmp_glyph ?⡈ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1167,7 +1167,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡉ do
+  bmp_glyph ?⡉ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1189,95 +1189,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡊ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    000011
-    000011
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110000
-    110000
-    """
-  end
-
-  bmp_glyph unicode: ?⡋ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    110011
-    110011
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110000
-    110000
-    """
-  end
-
-  bmp_glyph unicode: ?⡌ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    000011
-    000011
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    110000
-    110000
-    """
-  end
-
-  bmp_glyph unicode: ?⡍ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    110011
-    110011
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    110000
-    110000
-    """
-  end
-
-  bmp_glyph unicode: ?⡎ do
+  bmp_glyph ?⡊ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1290,6 +1202,50 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     110000
     000000
     000000
+    000000
+    000000
+    000000
+    000000
+    110000
+    110000
+    """
+  end
+
+  bmp_glyph ?⡋ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    110011
+    110011
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    110000
+    110000
+    """
+  end
+
+  bmp_glyph ?⡌ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    000011
+    000011
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
     110000
     110000
     000000
@@ -1299,7 +1255,51 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡏ do
+  bmp_glyph ?⡍ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    110011
+    110011
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    110000
+    110000
+    """
+  end
+
+  bmp_glyph ?⡎ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    000011
+    000011
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    110000
+    110000
+    """
+  end
+
+  bmp_glyph ?⡏ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1321,7 +1321,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡐ do
+  bmp_glyph ?⡐ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1339,7 +1339,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡑ do
+  bmp_glyph ?⡑ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1361,7 +1361,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡒ do
+  bmp_glyph ?⡒ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1379,7 +1379,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡓ do
+  bmp_glyph ?⡓ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1401,7 +1401,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡔ do
+  bmp_glyph ?⡔ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1419,7 +1419,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡕ do
+  bmp_glyph ?⡕ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1441,7 +1441,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡖ do
+  bmp_glyph ?⡖ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1459,7 +1459,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡗ do
+  bmp_glyph ?⡗ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1481,7 +1481,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡘ do
+  bmp_glyph ?⡘ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1503,7 +1503,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡙ do
+  bmp_glyph ?⡙ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1525,7 +1525,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡚ do
+  bmp_glyph ?⡚ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1547,7 +1547,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡛ do
+  bmp_glyph ?⡛ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1569,7 +1569,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡜ do
+  bmp_glyph ?⡜ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1591,7 +1591,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡝ do
+  bmp_glyph ?⡝ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1613,7 +1613,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡞ do
+  bmp_glyph ?⡞ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1635,7 +1635,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡟ do
+  bmp_glyph ?⡟ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1657,7 +1657,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡠ do
+  bmp_glyph ?⡠ do
     advance 8
     bounds 1..7, -3..3
 
@@ -1671,7 +1671,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡡ do
+  bmp_glyph ?⡡ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1693,7 +1693,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡢ do
+  bmp_glyph ?⡢ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1711,7 +1711,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡣ do
+  bmp_glyph ?⡣ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1733,7 +1733,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡤ do
+  bmp_glyph ?⡤ do
     advance 8
     bounds 1..7, -3..3
 
@@ -1747,7 +1747,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡥ do
+  bmp_glyph ?⡥ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1769,7 +1769,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡦ do
+  bmp_glyph ?⡦ do
     advance 8
     bounds 1..7, -3..7
 
@@ -1787,7 +1787,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡧ do
+  bmp_glyph ?⡧ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1809,7 +1809,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡨ do
+  bmp_glyph ?⡨ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1831,7 +1831,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡩ do
+  bmp_glyph ?⡩ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1853,7 +1853,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡪ do
+  bmp_glyph ?⡪ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1875,7 +1875,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡫ do
+  bmp_glyph ?⡫ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1897,7 +1897,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡬ do
+  bmp_glyph ?⡬ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1919,7 +1919,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡭ do
+  bmp_glyph ?⡭ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1941,7 +1941,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡮ do
+  bmp_glyph ?⡮ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1963,7 +1963,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡯ do
+  bmp_glyph ?⡯ do
     advance 8
     bounds 1..7, -3..11
 
@@ -1985,7 +1985,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡰ do
+  bmp_glyph ?⡰ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2003,7 +2003,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡱ do
+  bmp_glyph ?⡱ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2025,7 +2025,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡲ do
+  bmp_glyph ?⡲ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2043,7 +2043,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡳ do
+  bmp_glyph ?⡳ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2065,7 +2065,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡴ do
+  bmp_glyph ?⡴ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2083,7 +2083,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡵ do
+  bmp_glyph ?⡵ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2105,7 +2105,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡶ do
+  bmp_glyph ?⡶ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2123,7 +2123,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡷ do
+  bmp_glyph ?⡷ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2145,7 +2145,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡸ do
+  bmp_glyph ?⡸ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2167,7 +2167,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡹ do
+  bmp_glyph ?⡹ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2189,7 +2189,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡺ do
+  bmp_glyph ?⡺ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2211,7 +2211,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡻ do
+  bmp_glyph ?⡻ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2233,7 +2233,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡼ do
+  bmp_glyph ?⡼ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2255,7 +2255,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡽ do
+  bmp_glyph ?⡽ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2277,7 +2277,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡾ do
+  bmp_glyph ?⡾ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2299,7 +2299,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⡿ do
+  bmp_glyph ?⡿ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2321,7 +2321,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢀ do
+  bmp_glyph ?⢀ do
     advance 8
     bounds 5..7, -3..-1
 
@@ -2331,7 +2331,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢁ do
+  bmp_glyph ?⢁ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2353,7 +2353,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢂ do
+  bmp_glyph ?⢂ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2371,7 +2371,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢃ do
+  bmp_glyph ?⢃ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2393,7 +2393,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢄ do
+  bmp_glyph ?⢄ do
     advance 8
     bounds 1..7, -3..3
 
@@ -2407,7 +2407,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢅ do
+  bmp_glyph ?⢅ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2429,7 +2429,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢆ do
+  bmp_glyph ?⢆ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2447,7 +2447,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢇ do
+  bmp_glyph ?⢇ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2469,7 +2469,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢈ do
+  bmp_glyph ?⢈ do
     advance 8
     bounds 5..7, -3..11
 
@@ -2491,7 +2491,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢉ do
+  bmp_glyph ?⢉ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2513,7 +2513,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢊ do
+  bmp_glyph ?⢊ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2535,7 +2535,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢋ do
+  bmp_glyph ?⢋ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2557,7 +2557,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢌ do
+  bmp_glyph ?⢌ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2579,7 +2579,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢍ do
+  bmp_glyph ?⢍ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2601,7 +2601,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢎ do
+  bmp_glyph ?⢎ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2623,7 +2623,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢏ do
+  bmp_glyph ?⢏ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2645,7 +2645,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢐ do
+  bmp_glyph ?⢐ do
     advance 8
     bounds 5..7, -3..7
 
@@ -2663,7 +2663,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢑ do
+  bmp_glyph ?⢑ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2685,7 +2685,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢒ do
+  bmp_glyph ?⢒ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2703,7 +2703,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢓ do
+  bmp_glyph ?⢓ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2725,7 +2725,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢔ do
+  bmp_glyph ?⢔ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2743,7 +2743,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢕ do
+  bmp_glyph ?⢕ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2765,7 +2765,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢖ do
+  bmp_glyph ?⢖ do
     advance 8
     bounds 1..7, -3..7
 
@@ -2783,7 +2783,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢗ do
+  bmp_glyph ?⢗ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2805,7 +2805,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢘ do
+  bmp_glyph ?⢘ do
     advance 8
     bounds 5..7, -3..11
 
@@ -2827,7 +2827,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢙ do
+  bmp_glyph ?⢙ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2849,7 +2849,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢚ do
+  bmp_glyph ?⢚ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2871,7 +2871,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢛ do
+  bmp_glyph ?⢛ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2893,7 +2893,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢜ do
+  bmp_glyph ?⢜ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2915,7 +2915,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢝ do
+  bmp_glyph ?⢝ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2937,7 +2937,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢞ do
+  bmp_glyph ?⢞ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2959,7 +2959,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢟ do
+  bmp_glyph ?⢟ do
     advance 8
     bounds 1..7, -3..11
 
@@ -2981,7 +2981,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢠ do
+  bmp_glyph ?⢠ do
     advance 8
     bounds 5..7, -3..3
 
@@ -2995,7 +2995,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢡ do
+  bmp_glyph ?⢡ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3017,7 +3017,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢢ do
+  bmp_glyph ?⢢ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3035,7 +3035,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢣ do
+  bmp_glyph ?⢣ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3057,7 +3057,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢤ do
+  bmp_glyph ?⢤ do
     advance 8
     bounds 1..7, -3..3
 
@@ -3071,7 +3071,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢥ do
+  bmp_glyph ?⢥ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3093,7 +3093,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢦ do
+  bmp_glyph ?⢦ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3111,7 +3111,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢧ do
+  bmp_glyph ?⢧ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3133,7 +3133,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢨ do
+  bmp_glyph ?⢨ do
     advance 8
     bounds 5..7, -3..11
 
@@ -3155,7 +3155,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢩ do
+  bmp_glyph ?⢩ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3177,7 +3177,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢪ do
+  bmp_glyph ?⢪ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3199,7 +3199,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢫ do
+  bmp_glyph ?⢫ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3221,7 +3221,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢬ do
+  bmp_glyph ?⢬ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3243,7 +3243,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢭ do
+  bmp_glyph ?⢭ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3265,7 +3265,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢮ do
+  bmp_glyph ?⢮ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3287,7 +3287,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢯ do
+  bmp_glyph ?⢯ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3309,7 +3309,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢰ do
+  bmp_glyph ?⢰ do
     advance 8
     bounds 5..7, -3..7
 
@@ -3327,7 +3327,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢱ do
+  bmp_glyph ?⢱ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3349,7 +3349,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢲ do
+  bmp_glyph ?⢲ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3367,7 +3367,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢳ do
+  bmp_glyph ?⢳ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3389,7 +3389,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢴ do
+  bmp_glyph ?⢴ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3407,7 +3407,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢵ do
+  bmp_glyph ?⢵ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3429,7 +3429,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢶ do
+  bmp_glyph ?⢶ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3447,7 +3447,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢷ do
+  bmp_glyph ?⢷ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3469,7 +3469,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢸ do
+  bmp_glyph ?⢸ do
     advance 8
     bounds 5..7, -3..11
 
@@ -3491,7 +3491,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢹ do
+  bmp_glyph ?⢹ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3513,7 +3513,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢺ do
+  bmp_glyph ?⢺ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3535,7 +3535,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢻ do
+  bmp_glyph ?⢻ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3557,7 +3557,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢼ do
+  bmp_glyph ?⢼ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3579,7 +3579,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢽ do
+  bmp_glyph ?⢽ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3601,7 +3601,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢾ do
+  bmp_glyph ?⢾ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3623,7 +3623,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⢿ do
+  bmp_glyph ?⢿ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3645,7 +3645,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣀ do
+  bmp_glyph ?⣀ do
     advance 8
     bounds 1..7, -3..-1
 
@@ -3655,7 +3655,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣁ do
+  bmp_glyph ?⣁ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3677,7 +3677,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣂ do
+  bmp_glyph ?⣂ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3695,7 +3695,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣃ do
+  bmp_glyph ?⣃ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3717,7 +3717,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣄ do
+  bmp_glyph ?⣄ do
     advance 8
     bounds 1..7, -3..3
 
@@ -3731,7 +3731,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣅ do
+  bmp_glyph ?⣅ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3753,7 +3753,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣆ do
+  bmp_glyph ?⣆ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3771,7 +3771,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣇ do
+  bmp_glyph ?⣇ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3793,95 +3793,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣈ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    000011
-    000011
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110011
-    110011
-    """
-  end
-
-  bmp_glyph unicode: ?⣉ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    110011
-    110011
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110011
-    110011
-    """
-  end
-
-  bmp_glyph unicode: ?⣊ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    000011
-    000011
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110011
-    110011
-    """
-  end
-
-  bmp_glyph unicode: ?⣋ do
-    advance 8
-    bounds 1..7, -3..11
-
-    data """
-    110011
-    110011
-    000000
-    000000
-    110000
-    110000
-    000000
-    000000
-    000000
-    000000
-    000000
-    000000
-    110011
-    110011
-    """
-  end
-
-  bmp_glyph unicode: ?⣌ do
+  bmp_glyph ?⣈ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3894,6 +3806,94 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     000000
     000000
     000000
+    000000
+    000000
+    000000
+    000000
+    110011
+    110011
+    """
+  end
+
+  bmp_glyph ?⣉ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    110011
+    110011
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    110011
+    110011
+    """
+  end
+
+  bmp_glyph ?⣊ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    000011
+    000011
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    110011
+    110011
+    """
+  end
+
+  bmp_glyph ?⣋ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    110011
+    110011
+    000000
+    000000
+    110000
+    110000
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
+    110011
+    110011
+    """
+  end
+
+  bmp_glyph ?⣌ do
+    advance 8
+    bounds 1..7, -3..11
+
+    data """
+    000011
+    000011
+    000000
+    000000
+    000000
+    000000
+    000000
+    000000
     110000
     110000
     000000
@@ -3903,7 +3903,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣍ do
+  bmp_glyph ?⣍ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3925,7 +3925,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣎ do
+  bmp_glyph ?⣎ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3947,7 +3947,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣏ do
+  bmp_glyph ?⣏ do
     advance 8
     bounds 1..7, -3..11
 
@@ -3969,7 +3969,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣐ do
+  bmp_glyph ?⣐ do
     advance 8
     bounds 1..7, -3..7
 
@@ -3987,7 +3987,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣑ do
+  bmp_glyph ?⣑ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4009,7 +4009,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣒ do
+  bmp_glyph ?⣒ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4027,7 +4027,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣓ do
+  bmp_glyph ?⣓ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4049,7 +4049,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣔ do
+  bmp_glyph ?⣔ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4067,7 +4067,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣕ do
+  bmp_glyph ?⣕ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4089,7 +4089,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣖ do
+  bmp_glyph ?⣖ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4107,7 +4107,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣗ do
+  bmp_glyph ?⣗ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4129,7 +4129,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣘ do
+  bmp_glyph ?⣘ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4151,7 +4151,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣙ do
+  bmp_glyph ?⣙ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4173,7 +4173,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣚ do
+  bmp_glyph ?⣚ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4195,7 +4195,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣛ do
+  bmp_glyph ?⣛ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4217,7 +4217,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣜ do
+  bmp_glyph ?⣜ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4239,7 +4239,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣝ do
+  bmp_glyph ?⣝ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4261,7 +4261,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣞ do
+  bmp_glyph ?⣞ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4283,7 +4283,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣟ do
+  bmp_glyph ?⣟ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4305,7 +4305,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣠ do
+  bmp_glyph ?⣠ do
     advance 8
     bounds 1..7, -3..3
 
@@ -4319,7 +4319,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣡ do
+  bmp_glyph ?⣡ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4341,7 +4341,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣢ do
+  bmp_glyph ?⣢ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4359,7 +4359,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣣ do
+  bmp_glyph ?⣣ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4381,7 +4381,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣤ do
+  bmp_glyph ?⣤ do
     advance 8
     bounds 1..7, -3..3
 
@@ -4395,7 +4395,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣥ do
+  bmp_glyph ?⣥ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4417,7 +4417,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣦ do
+  bmp_glyph ?⣦ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4435,7 +4435,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣧ do
+  bmp_glyph ?⣧ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4457,7 +4457,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣨ do
+  bmp_glyph ?⣨ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4479,7 +4479,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣩ do
+  bmp_glyph ?⣩ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4501,7 +4501,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣪ do
+  bmp_glyph ?⣪ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4523,7 +4523,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣫ do
+  bmp_glyph ?⣫ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4545,7 +4545,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣬ do
+  bmp_glyph ?⣬ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4567,7 +4567,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣭ do
+  bmp_glyph ?⣭ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4589,7 +4589,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣮ do
+  bmp_glyph ?⣮ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4611,7 +4611,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣯ do
+  bmp_glyph ?⣯ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4633,7 +4633,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣰ do
+  bmp_glyph ?⣰ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4651,7 +4651,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣱ do
+  bmp_glyph ?⣱ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4673,7 +4673,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣲ do
+  bmp_glyph ?⣲ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4691,7 +4691,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣳ do
+  bmp_glyph ?⣳ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4713,7 +4713,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣴ do
+  bmp_glyph ?⣴ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4731,7 +4731,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣵ do
+  bmp_glyph ?⣵ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4753,7 +4753,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣶ do
+  bmp_glyph ?⣶ do
     advance 8
     bounds 1..7, -3..7
 
@@ -4771,7 +4771,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣷ do
+  bmp_glyph ?⣷ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4793,7 +4793,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣸ do
+  bmp_glyph ?⣸ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4815,7 +4815,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣹ do
+  bmp_glyph ?⣹ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4837,7 +4837,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣺ do
+  bmp_glyph ?⣺ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4859,7 +4859,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣻ do
+  bmp_glyph ?⣻ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4881,7 +4881,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣼ do
+  bmp_glyph ?⣼ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4903,7 +4903,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣽ do
+  bmp_glyph ?⣽ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4925,7 +4925,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣾ do
+  bmp_glyph ?⣾ do
     advance 8
     bounds 1..7, -3..11
 
@@ -4947,7 +4947,7 @@ glyph_source NeoDGM.BitmapFont.BraillePatterns do
     """
   end
 
-  bmp_glyph unicode: ?⣿ do
+  bmp_glyph ?⣿ do
     advance 8
     bounds 1..7, -3..11
 

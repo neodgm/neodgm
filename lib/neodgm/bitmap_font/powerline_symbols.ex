@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
-  bmp_glyph unicode: 0xE0A0 do
+  bmp_glyph 0xE0A0 do
     advance 8
     bounds 0..7, -4..12
 
@@ -25,7 +25,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0A1 do
+  bmp_glyph 0xE0A1 do
     advance 8
     bounds 1..7, -2..10
 
@@ -45,7 +45,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0A2 do
+  bmp_glyph 0xE0A2 do
     advance 8
     bounds 1..7, 0..8
 
@@ -61,7 +61,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0B0 do
+  bmp_glyph 0xE0B0 do
     advance 8
     bounds 0..8, -4..12
 
@@ -85,7 +85,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0B1 do
+  bmp_glyph 0xE0B1 do
     advance 8
     bounds 0..8, -4..12
 
@@ -109,7 +109,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0B2 do
+  bmp_glyph 0xE0B2 do
     advance 8
     bounds 0..8, -4..12
 
@@ -133,7 +133,7 @@ glyph_source NeoDGM.BitmapFont.PowerlineSymbols do
     """
   end
 
-  bmp_glyph unicode: 0xE0B3 do
+  bmp_glyph 0xE0B3 do
     advance 8
     bounds 0..8, -4..12
 

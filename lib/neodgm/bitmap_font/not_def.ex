@@ -1,7 +1,7 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.NotDef do
-  bmp_glyph name: ".notdef" do
+  bmp_glyph ".notdef" do
     advance 8
     bounds 0..7, -3..11
 
