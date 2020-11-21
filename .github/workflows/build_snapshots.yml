@@ -17,8 +17,8 @@ jobs:
     - name: Set up Elixir
       uses: actions/setup-elixir@v1
       with:
-        elixir-version: '1.9.4'
-        otp-version: '22.3'
+        elixir-version: '1.11.2'
+        otp-version: '23.1.2'
     - name: Set up Google Cloud SDK
       uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
