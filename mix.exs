@@ -10,6 +10,12 @@ defmodule NeoDGM.Mixfile do
     ]
   end
 
+  def application do
+    [
+      extra_applications: [:crypto]
+    ]
+  end
+
   defp deps do
     [
       {:pixel_font, github: "Dalgona/pixel_font", ref: "7bec009833d1cccea35dccf8dad5f45b3077aecc"}
