@@ -3,14 +3,11 @@ defmodule NeoDGM.GSUB.Code.Lookups do
 
   @spec data() :: LookupList.t()
   def data do
-    %LookupList{
-      lookups:
-        [
-          __MODULE__.Substitutions,
-          __MODULE__.Contexts
-        ]
-        |> Enum.map(& &1.data())
-        |> List.flatten()
-    }
+    [
+      __MODULE__.Substitutions,
+      __MODULE__.Contexts
+    ]
+    |> Enum.map(& &1.lookups())
+    |> Enum.reduce(&LookupList.concat(&2, &1))
   end
 end
