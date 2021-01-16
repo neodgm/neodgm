@@ -1,6 +1,6 @@
 use PixelFont.OTFLayout
 
-lookups NeoDGM.GSUB.Hangul.Lookups, for: "GSUB" do
+lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
   module do
     require PixelFont.Util
     import PixelFont.Util, only: :macros
@@ -25,8 +25,6 @@ lookups NeoDGM.GSUB.Hangul.Lookups, for: "GSUB" do
     defp flat_map_fun(value)
     defp flat_map_fun(value) when is_integer(value), do: [value]
     defp flat_map_fun(value), do: value
-
-    def data, do: lookups()
   end
 
   #
