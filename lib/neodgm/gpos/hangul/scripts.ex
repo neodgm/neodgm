@@ -30,7 +30,7 @@ defmodule NeoDGM.GPOS.Hangul.Scripts do
     %LanguageSystem{
       tag: "dflt",
       required_feature: nil,
-      features: [{"ccmp", "Hangul composition"}]
+      features: ["Hangul composition"]
     }
   end
 end
