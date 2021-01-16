@@ -1,7 +1,14 @@
 use PixelFont.OTFLayout
 
 lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
+  module do
+    defp scripts, do: %{"DFLT" => [:default], "latn" => [:default]}
+  end
+
   lookup :single_substitution, "Lowercase h, old version" do
+    feature "cv01", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?h, "h.cv01"
       # U+24A3 PARENTHESIZED LATIN SMALL LETTER H
@@ -12,6 +19,9 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase i, old version" do
+    feature "cv02", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?i, "i.cv02"
       substitute 0x00EC, "igrave.cv02"
@@ -29,6 +39,9 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase j, old version" do
+    feature "cv03", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?j, "j.cv03"
       # U+24A5 PARENTHESIZED LATIN SMALL LETTER J
@@ -39,6 +52,9 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase l, old version" do
+    feature "cv04", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?l, "l.cv04"
       # U+2097 LATIN SUBSCRIPT SMALL LETTER L
@@ -51,6 +67,9 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase n, old version" do
+    feature "cv05", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?n, "n.cv05"
       substitute 0x00F1, "ntilde.cv05"
@@ -62,6 +81,9 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase r, old version" do
+    feature "cv06", scripts()
+    feature "ss01", scripts()
+
     substitutions do
       substitute ?r, "r.cv06"
       # U+24AD PARENTHESIZED LATIN SMALL LETTER R

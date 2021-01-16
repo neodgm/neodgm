@@ -5,6 +5,10 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
     require PixelFont.Util
     import PixelFont.Util, only: :macros
 
+    defp scripts do
+      %{"DFLT" => [:default], "hang" => [:default], "jamo" => [:default]}
+    end
+
     defp zpad(num), do: num |> to_string() |> String.pad_leading(2, "0")
 
     defp jamo_src(codepoints, kind) do
@@ -60,6 +64,8 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
   #
 
   lookup :chained_context, "Hangul composition" do
+    feature "ccmp", scripts()
+
     #
     # Selection of choseong set when jongseong is present
     #
