@@ -1,6 +1,6 @@
 use PixelFont.OTFLayout
 
-lookups NeoDGM.GSUB.Code.Lookups.Contexts, for: "GSUB" do
+lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
   lookup :chained_context, "Short bidirectional arrow chain" do
     context do
       backtrack '<'

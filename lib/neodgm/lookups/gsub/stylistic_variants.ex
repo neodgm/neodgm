@@ -1,10 +1,6 @@
 use PixelFont.OTFLayout
 
-lookups NeoDGM.GSUB.StylisticVariants.Lookups, for: "GSUB" do
-  module do
-    def data, do: lookups()
-  end
-
+lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   lookup :single_substitution, "Lowercase h, old version" do
     substitutions do
       substitute ?h, "h.cv01"

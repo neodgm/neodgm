@@ -1,6 +1,6 @@
 use PixelFont.OTFLayout
 
-lookups NeoDGM.GSUB.Code.Lookups.Substitutions, for: "GSUB" do
+lookups NeoDGM.Lookups.GSUB.Code.Substitutions, for: "GSUB" do
   lookup :single_substitution, "Short bidirectional arrow body" do
     substitutions do
       substitute ?-, "hyphen.bidiarr.short"
