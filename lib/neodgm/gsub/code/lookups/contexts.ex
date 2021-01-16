@@ -1,269 +1,115 @@
-defmodule NeoDGM.GSUB.Code.Lookups.Contexts do
-  alias PixelFont.TableSource.GSUB
-  alias PixelFont.TableSource.GSUB.ChainingContext1
-  alias PixelFont.TableSource.GSUB.ChainingContext3
-  alias PixelFont.TableSource.GSUB.ReverseChainingContext1
-  alias PixelFont.TableSource.OTFLayout.GlyphCoverage
-  alias PixelFont.TableSource.OTFLayout.Lookup
+use PixelFont.OTFLayout
 
-  @spec data() :: [Lookup.t()]
-  def data do
-    [
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Short bidirectional arrow chain",
-        subtables: [
-          %ChainingContext3{
-            backtrack: [GlyphCoverage.of('<')],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [GlyphCoverage.of('>')],
-            substitutions: [
-              {0, "Short bidirectional arrow body"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Left arrow head chain",
-        subtables: [
-          %ChainingContext1{
-            subrulesets: %{
-              ?< => [
-                %{
-                  backtrack: '',
-                  input: '-',
-                  lookahead: '',
-                  substitutions: [
-                    {1, "Left arrow head"}
-                  ]
-                },
-                %{
-                  backtrack: '',
-                  input: '=',
-                  lookahead: '=',
-                  substitutions: [
-                    {1, "Left arrow head"}
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Right arrow head chain",
-        subtables: [
-          %ChainingContext3{
-            backtrack: [
-              GlyphCoverage.of(["hyphen.larr.head", "equal.larr.head"]),
-              GlyphCoverage.of('<')
-            ],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [GlyphCoverage.of('>')],
-            substitutions: [
-              {0, "Right arrow head alt"}
-            ]
-          },
-          %ChainingContext3{
-            backtrack: [],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [GlyphCoverage.of('>')],
-            substitutions: [
-              {0, "Right arrow head"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Left arrow body chain",
-        subtables: [
-          %ChainingContext3{
-            backtrack: [
-              GlyphCoverage.of(["hyphen.larr.head", "equal.larr.head"]),
-              GlyphCoverage.of('<')
-            ],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [GlyphCoverage.of('-=')],
-            substitutions: [
-              {0, "Left arrow body"}
-            ]
-          },
-          %ChainingContext3{
-            backtrack: [
-              GlyphCoverage.of(["hyphen.larr.body", "equal.larr.body"])
-            ],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [GlyphCoverage.of('-=')],
-            substitutions: [
-              {0, "Left arrow body"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Bidirectional arrow joiner chain",
-        subtables: [
-          %ChainingContext3{
-            backtrack: [
-              GlyphCoverage.of([
-                "hyphen.larr.head",
-                "hyphen.larr.body",
-                "equal.larr.head",
-                "equal.larr.body"
-              ])
-            ],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [
-              GlyphCoverage.of(["hyphen.rarr.head", "equal.rarr.head"]),
-              GlyphCoverage.of('>')
-            ],
-            substitutions: [
-              {0, "Bidirectional arrow joiner"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Left arrow tail chain",
-        subtables: [
-          %ChainingContext3{
-            backtrack: [
-              GlyphCoverage.of([
-                "hyphen.larr.head",
-                "hyphen.larr.body",
-                "equal.larr.head",
-                "equal.larr.body"
-              ])
-            ],
-            input: [GlyphCoverage.of('-=')],
-            lookahead: [],
-            substitutions: [
-              {0, "Left arrow body"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 8,
-        name: "Right arrow body chain",
-        subtables: [
-          %ReverseChainingContext1{
-            backtrack: [],
-            lookahead: [
-              GlyphCoverage.of([
-                "hyphen.rarr.head",
-                "hyphen.rarr.body",
-                "equal.rarr.head",
-                "equal.rarr.body"
-              ])
-            ],
-            substitutions: [
-              {?-, "hyphen.rarr.body"},
-              {?=, "equal.rarr.body"}
-            ]
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Markup comment chain",
-        subtables: [
-          %ChainingContext1{
-            subrulesets: %{
-              ?! => [
-                %{
-                  backtrack: '<',
-                  input: '--',
-                  lookahead: [],
-                  substitutions: [
-                    {0, "Markup comment exclam"},
-                    {1, "Left arrow body"},
-                    {2, "Left arrow body"}
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 6,
-        name: "Pipe operator chain",
-        subtables: [
-          %ChainingContext1{
-            subrulesets: %{
-              ?< => [
-                %{
-                  backtrack: '',
-                  input: '|',
-                  lookahead: '',
-                  substitutions: [
-                    {0, "Pipe operator"},
-                    {1, "Pipe operator"}
-                  ]
-                }
-              ],
-              ?| => [
-                %{
-                  backtrack: ["bar.pipeoperator"],
-                  input: '',
-                  lookahead: '',
-                  substitutions: [
-                    {0, "Pipe operator"}
-                  ]
-                },
-                %{
-                  backtrack: '',
-                  input: '>',
-                  lookahead: '',
-                  substitutions: [
-                    {0, "Pipe operator"},
-                    {1, "Pipe operator"}
-                  ]
-                }
-              ],
-              ?> => [
-                %{
-                  backtrack: ["bar.pipeoperator"],
-                  input: '',
-                  lookahead: '',
-                  substitutions: [
-                    {0, "Pipe operator"}
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      %Lookup{
-        owner: GSUB,
-        type: 8,
-        name: "Right pipe operator chain",
-        subtables: [
-          %ReverseChainingContext1{
-            backtrack: [],
-            lookahead: [GlyphCoverage.of(["bar.pipeoperator"])],
-            substitutions: [
-              {?|, "bar.pipeoperator"}
-            ]
-          }
-        ]
-      }
-    ]
+lookups NeoDGM.GSUB.Code.Lookups.Contexts, for: "GSUB" do
+  lookup :chained_context, "Short bidirectional arrow chain" do
+    context do
+      backtrack '<'
+      input '-=', apply: "Short bidirectional arrow body"
+      lookahead '>'
+    end
+  end
+
+  lookup :chained_context, "Left arrow head chain" do
+    context do
+      backtrack '<'
+      input '-', apply: "Left arrow head"
+    end
+
+    context do
+      backtrack '<'
+      input '=', apply: "Left arrow head"
+      lookahead '-='
+    end
+  end
+
+  lookup :chained_context, "Right arrow head chain" do
+    context do
+      backtrack ~w(hyphen.larr.head equal.larr.head)
+      backtrack '<'
+      input '-=', apply: "Right arrow head alt"
+      lookahead '>'
+    end
+
+    context do
+      input '-=', apply: "Right arrow head"
+      lookahead '>'
+    end
+  end
+
+  lookup :chained_context, "Left arrow body chain" do
+    context do
+      backtrack ~w(hyphen.larr.head equal.larr.head)
+      backtrack '<'
+      input '-=', apply: "Left arrow body"
+      lookahead '-='
+    end
+
+    context do
+      backtrack ~w(hyphen.larr.body equal.larr.body)
+      input '-=', apply: "Left arrow body"
+      lookahead '-='
+    end
+  end
+
+  lookup :chained_context, "Bidirectional arrow joiner chain" do
+    context do
+      backtrack ~w(hyphen.larr.head hyphen.larr.body equal.larr.head equal.larr.body)
+      input '-=', apply: "Bidirectional arrow joiner"
+      lookahead ~w(hyphen.rarr.head equal.rarr.head)
+      lookahead '>'
+    end
+  end
+
+  lookup :chained_context, "Left arrow tail chain" do
+    context do
+      backtrack ~w(hyphen.larr.head hyphen.larr.body equal.larr.head equal.larr.body)
+      input '-=', apply: "Left arrow body"
+    end
+  end
+
+  lookup :reverse_chaining_context, "Right arrow body chain" do
+    context do
+      lookahead ~w(hyphen.rarr.head hyphen.rarr.body equal.rarr.head equal.rarr.body)
+      substitute ?-, "hyphen.rarr.body"
+      substitute ?=, "equal.rarr.body"
+    end
+  end
+
+  lookup :chained_context, "Markup comment chain" do
+    context do
+      backtrack '<'
+      input '!', apply: "Markup comment exclam"
+      input '-', apply: "Left arrow body"
+      input '-', apply: "Left arrow body"
+    end
+  end
+
+  lookup :chained_context, "Pipe operator chain" do
+    context do
+      input '<', apply: "Pipe operator"
+      input '|', apply: "Pipe operator"
+    end
+
+    context do
+      backtrack ~w(bar.pipeoperator)
+      input '|', apply: "Pipe operator"
+    end
+
+    context do
+      input '|', apply: "Pipe operator"
+      input '>', apply: "Pipe operator"
+    end
+
+    context do
+      backtrack ~w(bar.pipeoperator)
+      input '>', apply: "Pipe operator"
+    end
+  end
+
+  lookup :reverse_chaining_context, "Right pipe operator chain" do
+    context do
+      lookahead ~w(bar.pipeoperator)
+      substitute ?|, "bar.pipeoperator"
+    end
   end
 end

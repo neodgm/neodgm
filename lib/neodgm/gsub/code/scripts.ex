@@ -24,10 +24,7 @@ defmodule NeoDGM.GSUB.Code.Scripts do
   defp dflt_lang do
     %LanguageSystem{
       tag: "dflt",
-      features: [
-        {"aalt", "Ligation for program codes"},
-        {"calt", "Ligation for program codes"}
-      ]
+      features: [{"calt", "Ligation for program codes"}]
     }
   end
 end

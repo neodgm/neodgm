@@ -1,264 +1,170 @@
-defmodule NeoDGM.GSUB.Hangul.Lookups do
-  require PixelFont.Util
-  alias PixelFont.TableSource.GSUB
-  alias PixelFont.TableSource.GSUB.Single1
-  alias PixelFont.TableSource.GSUB.ChainingContext3
-  alias PixelFont.TableSource.OTFLayout.GlyphCoverage
-  alias PixelFont.TableSource.OTFLayout.{Lookup, LookupList}
-  import PixelFont.Util, only: :macros
+use PixelFont.OTFLayout
 
-  @spec data() :: LookupList.t()
-  def data do
-    %LookupList{
-      lookups:
-        [
-          cho_substitutions(),
-          jung_substitutions(),
-          jong_substitutions(),
-          contexts()
-        ]
-        |> List.flatten()
-    }
+lookups NeoDGM.GSUB.Hangul.Lookups, for: "GSUB" do
+  module do
+    require PixelFont.Util
+    import PixelFont.Util, only: :macros
+
+    defp zpad(num), do: num |> to_string() |> String.pad_leading(2, "0")
+
+    defp jamo_src(codepoints, kind) do
+      {set_range, offset} = jamo_params(kind)
+
+      codepoints
+      |> List.wrap()
+      |> Enum.flat_map(&flat_map_fun/1)
+      |> Enum.map(fn code ->
+        Enum.map(set_range, &"#{kind}_#{&1}_#{zpad(code - offset)}")
+      end)
+    end
+
+    defp jamo_params(kind)
+    defp jamo_params(:cho), do: {0..7, 0x1100}
+    defp jamo_params(:jung), do: {0..3, 0x1161}
+
+    defp flat_map_fun(value)
+    defp flat_map_fun(value) when is_integer(value), do: [value]
+    defp flat_map_fun(value), do: value
+
+    def data, do: lookups()
   end
 
-  @spec cho_substitutions() :: [Lookup.t()]
-  defp cho_substitutions do
-    Enum.map(0..7, fn set ->
-      %Lookup{
-        owner: GSUB,
-        type: 1,
-        name: "Hangul choseong, set #{set}",
-        subtables: [
-          %Single1{
-            glyphs: GlyphCoverage.of([0x1100..0x1112]),
-            to: "cho_#{set}_00"
-          }
-        ]
-      }
-    end)
-  end
+  #
+  # Substitutions
+  #
 
-  @spec jung_substitutions() :: [Lookup.t()]
-  defp jung_substitutions do
-    Enum.map(0..3, fn set ->
-      %Lookup{
-        owner: GSUB,
-        type: 1,
-        name: "Hangul jungseong, set #{set}",
-        subtables: [
-          %Single1{
-            glyphs: GlyphCoverage.of([0x1161..0x1175]),
-            to: "jung_#{set}_00"
-          }
-        ]
-      }
-    end)
-  end
+  Enum.map(0..7, fn set ->
+    lookup :single_substitution, "Hangul choseong, set #{set}" do
+      substitutions do
+        Enum.map(0..18, fn i -> substitute 0x1100 + i, "cho_#{set}_#{zpad(i)}" end)
+      end
+    end
+  end)
 
-  @spec jong_substitutions() :: [Lookup.t()]
-  defp jong_substitutions do
-    Enum.map(0..3, fn set ->
-      %Lookup{
-        owner: GSUB,
-        type: 1,
-        name: "Hangul jongseong, set #{set}",
-        subtables: [
-          %Single1{
-            glyphs: GlyphCoverage.of([0x11A8..0x11C2]),
-            to: "jong_#{set}_01"
-          }
-        ]
-      }
-    end)
-  end
+  Enum.map(0..3, fn set ->
+    lookup :single_substitution, "Hangul jungseong, set #{set}" do
+      substitutions do
+        Enum.map(0..20, fn i -> substitute 0x1161 + i, "jung_#{set}_#{zpad(i)}" end)
+      end
+    end
+  end)
 
-  @spec contexts() :: Lookup.t()
-  defp contexts do
-    %Lookup{
-      owner: GSUB,
-      type: 6,
-      name: "Hangul composition",
-      subtables: [
-        #
-        # Selection of choseong set when jongseong is present
-        #
+  Enum.map(0..3, fn set ->
+    lookup :single_substitution, "Hangul jongseong, set #{set}" do
+      substitutions do
+        Enum.map(0..26, fn i -> substitute 0x11A8 + i, "jong_#{set}_#{zpad(i + 1)}" end)
+      end
+    end
+  end)
 
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [
-            GlyphCoverage.of([0x1161..0x1168, 0x1175]),
-            GlyphCoverage.of([0x11A8..0x11C2])
-          ],
-          substitutions: [{0, "Hangul choseong, set 5"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [
-            GlyphCoverage.of(~i(1169 116D 116E 1172 1173)x),
-            GlyphCoverage.of([0x11A8..0x11C2])
-          ],
-          substitutions: [{0, "Hangul choseong, set 6"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [
-            GlyphCoverage.of(~i(116A 116B 116C 116F 1170 1171 1174)x),
-            GlyphCoverage.of([0x11A8..0x11C2])
-          ],
-          substitutions: [{0, "Hangul choseong, set 7"}]
-        },
+  #
+  # Contexts
+  #
 
-        #
-        # Selection of jungseong set when jongseong is present
-        #
+  lookup :chained_context, "Hangul composition" do
+    #
+    # Selection of choseong set when jongseong is present
+    #
 
-        %ChainingContext3{
-          backtrack: [GlyphCoverage.of(Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"]))],
-          input: [GlyphCoverage.of([0x1161..0x1175])],
-          lookahead: [GlyphCoverage.of([0x11A8..0x11C2])],
-          substitutions: [{0, "Hangul jungseong, set 2"}]
-        },
-        %ChainingContext3{
-          backtrack: [
-            [0x1101..0x110E, 0x1110..0x1112]
-            |> Enum.flat_map(& &1)
-            |> Enum.map(fn code ->
-              num = (code - 0x1100) |> to_string() |> String.pad_leading(2, "0")
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 5"
+      lookahead [0x1161..0x1168, 0x1175]
+      lookahead [0x11A8..0x11C2]
+    end
 
-              Enum.map(0..7, &"cho_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x1161..0x1175])],
-          lookahead: [GlyphCoverage.of([0x11A8..0x11C2])],
-          substitutions: [{0, "Hangul jungseong, set 3"}]
-        },
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 6"
+      lookahead ~i(1169 116D 116E 1172 1173)x
+      lookahead [0x11A8..0x11C2]
+    end
 
-        #
-        # Selection of jongseong set
-        #
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 7"
+      lookahead ~i(116A 116B 116C 116F 1170 1171 1174)x
+      lookahead [0x11A8..0x11C2]
+    end
 
-        %ChainingContext3{
-          backtrack: [
-            ~i(1161 1163 116A)x
-            |> Enum.map(fn code ->
-              num = (code - 0x1161) |> to_string() |> String.pad_leading(2, "0")
+    #
+    # Selection of jungseong set when jongseong is present
+    #
 
-              Enum.map(0..3, &"jung_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x11A8..0x11C2])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jongseong, set 0"}]
-        },
-        %ChainingContext3{
-          backtrack: [
-            ~i(1165 1167 116C 116F 1171 1174 1175)x
-            |> Enum.map(fn code ->
-              num = (code - 0x1161) |> to_string() |> String.pad_leading(2, "0")
+    context do
+      backtrack Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"])
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 2"
+      lookahead [0x11A8..0x11C2]
+    end
 
-              Enum.map(0..3, &"jung_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x11A8..0x11C2])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jongseong, set 1"}]
-        },
-        %ChainingContext3{
-          backtrack: [
-            ~i(1162 1164 1166 1168 116B 1170)x
-            |> Enum.map(fn code ->
-              num = (code - 0x1161) |> to_string() |> String.pad_leading(2, "0")
+    context do
+      backtrack jamo_src([0x1101..0x110E, 0x1110..0x1112], :cho)
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 3"
+      lookahead [0x11A8..0x11C2]
+    end
 
-              Enum.map(0..3, &"jung_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x11A8..0x11C2])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jongseong, set 2"}]
-        },
-        %ChainingContext3{
-          backtrack: [
-            ~i(1169 116D 116E 1172 1173)x
-            |> Enum.map(fn code ->
-              num = (code - 0x1161) |> to_string() |> String.pad_leading(2, "0")
+    #
+    # Selection of jongseong set
+    #
 
-              Enum.map(0..3, &"jung_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x11A8..0x11C2])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jongseong, set 3"}]
-        },
+    context do
+      backtrack jamo_src(~i(1161 1163 116A)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 0"
+    end
 
-        #
-        # Selection of choseong set when jongseong is absent
-        #
+    context do
+      backtrack jamo_src(~i(1165 1167 116C 116F 1171 1174 1175)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 1"
+    end
 
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [GlyphCoverage.of([0x1161..0x1168, 0x1175])],
-          substitutions: [{0, "Hangul choseong, set 0"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [GlyphCoverage.of(~i(1169 116D 1173)x)],
-          substitutions: [{0, "Hangul choseong, set 1"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [GlyphCoverage.of(~i(116E 1172)x)],
-          substitutions: [{0, "Hangul choseong, set 2"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [GlyphCoverage.of(~i(116A 116B 116C 1174)x)],
-          substitutions: [{0, "Hangul choseong, set 3"}]
-        },
-        %ChainingContext3{
-          backtrack: [],
-          input: [GlyphCoverage.of([0x1100..0x1112])],
-          lookahead: [GlyphCoverage.of([0x116F..0x1171])],
-          substitutions: [{0, "Hangul choseong, set 4"}]
-        },
+    context do
+      backtrack jamo_src(~i(1162 1164 1166 1168 116B 1170)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 2"
+    end
 
-        #
-        # Selection of jungseong set when jongseong is absent
-        #
+    context do
+      backtrack jamo_src(~i(1169 116D 116E 1172 1173)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 3"
+    end
 
-        %ChainingContext3{
-          backtrack: [GlyphCoverage.of(Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"]))],
-          input: [GlyphCoverage.of([0x1161..0x1175])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jungseong, set 0"}]
-        },
-        %ChainingContext3{
-          backtrack: [
-            [0x1101..0x110E, 0x1110..0x1112]
-            |> Enum.flat_map(& &1)
-            |> Enum.map(fn code ->
-              num = (code - 0x1100) |> to_string() |> String.pad_leading(2, "0")
+    #
+    # Selection of choseong set when jongseong is not present
+    #
 
-              Enum.map(0..7, &"cho_#{&1}_#{num}")
-            end)
-            |> GlyphCoverage.of()
-          ],
-          input: [GlyphCoverage.of([0x1161..0x1175])],
-          lookahead: [],
-          substitutions: [{0, "Hangul jungseong, set 1"}]
-        }
-      ]
-    }
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 0"
+      lookahead [0x1161..0x1168, 0x1175]
+    end
+
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 1"
+      lookahead ~i(1169 116D 1173)x
+    end
+
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 2"
+      lookahead ~i(116E 1172)x
+    end
+
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 3"
+      lookahead ~i(116A 116B 116C 1174)x
+    end
+
+    context do
+      input [0x1100..0x1112], apply: "Hangul choseong, set 4"
+      lookahead [0x116F..0x1171]
+    end
+
+    #
+    # Selection of jungseong set when jongseong is not present
+    #
+
+    context do
+      backtrack Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"])
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 0"
+    end
+
+    context do
+      backtrack jamo_src([0x1101..0x110E, 0x1110..0x1112], :cho)
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 1"
+    end
   end
 end
