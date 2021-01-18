@@ -1,6 +1,5 @@
 defmodule NeoDGM.Params do
   alias NeoDGM.BitmapFont
-  alias NeoDGM.GPOS
   alias NeoDGM.NameTable
   alias PixelFont.Font
   alias PixelFont.Font.Metrics
@@ -19,7 +18,7 @@ defmodule NeoDGM.Params do
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(variant),
       notdef_glyph: BitmapFont.NotDef,
-      gpos: GPOS.get_gpos(variant),
+      gpos_lookups: gpos_lookups(variant),
       gsub_lookups: gsub_lookups(variant)
     }
   end
@@ -60,6 +59,15 @@ defmodule NeoDGM.Params do
       x_height: 7,
       cap_height: 10
     }
+  end
+
+  @spec gpos_lookups(term()) :: [module()]
+  defp gpos_lookups(variant)
+
+  defp gpos_lookups(_) do
+    [
+      NeoDGM.Lookups.GPOS.Hangul
+    ]
   end
 
   @spec gsub_lookups(term()) :: [module()]
