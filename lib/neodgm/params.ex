@@ -64,23 +64,23 @@ defmodule NeoDGM.Params do
   @spec gpos_lookups(term()) :: [module()]
   defp gpos_lookups(variant)
 
+  defp gpos_lookups("code") do
+    gpos_lookups(nil) ++ [NeoDGM.Lookups.GPOS.Code]
+  end
+
   defp gpos_lookups(_) do
-    [
-      NeoDGM.Lookups.GPOS.Hangul,
-      NeoDGM.Lookups.GPOS.Code
-    ]
+    [NeoDGM.Lookups.GPOS.Hangul]
   end
 
   @spec gsub_lookups(term()) :: [module()]
   defp gsub_lookups(variant)
 
   defp gsub_lookups("code") do
-    [
-      NeoDGM.Lookups.GSUB.Hangul,
-      NeoDGM.Lookups.GSUB.StylisticVariants,
-      NeoDGM.Lookups.GSUB.Code.Substitutions,
-      NeoDGM.Lookups.GSUB.Code.Contexts
-    ]
+    gsub_lookups(nil) ++
+      [
+        NeoDGM.Lookups.GSUB.Code.Substitutions,
+        NeoDGM.Lookups.GSUB.Code.Contexts
+      ]
   end
 
   defp gsub_lookups(_) do
