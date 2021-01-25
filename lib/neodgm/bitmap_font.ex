@@ -35,6 +35,7 @@ defmodule NeoDGM.BitmapFont do
   ligature_glyph_sources =
     [
       ProgrammingLigatures.Arrows,
+      ProgrammingLigatures.Equality,
       ProgrammingLigatures.Markup,
       ProgrammingLigatures.Pipes
     ]
