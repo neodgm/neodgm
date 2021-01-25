@@ -136,4 +136,56 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
       substitute ?|, "bar.pipeoperator"
     end
   end
+
+  lookup :chained_context, "Equality operators chain" do
+    feature "calt", scripts()
+
+    # 3-glyph sequences
+
+    context do
+      backtrack '!'
+      input '=', apply: "Equals, 2px longer"
+      input '=', apply: "Equals, 2px longer"
+    end
+
+    context do
+      input '=', apply: "Equals, 1px longer"
+      input '=', apply: "Equals, 1px longer"
+      input '=', apply: "Equals, 1px longer"
+    end
+
+    context do
+      input '=', apply: "Slashed equals, left"
+      input '/', apply: "Slashed equals, left"
+      input '=', apply: "Slashed equals, right"
+    end
+
+    context do
+      input '=', apply: "Equals, 2px longer"
+      input ':', apply: "Colon between equals"
+      input '=', apply: "Equals, 2px longer"
+    end
+
+    # 2-glyph sequences
+
+    context do
+      input '=', apply: "Equals, 1px longer"
+      input '=', apply: "Equals, 1px longer"
+    end
+
+    context do
+      backtrack '!'
+      input '=', apply: "Equals, 3px longer"
+    end
+
+    context do
+      input ':', apply: "Colon between equals"
+      input '=', apply: "Equals, 3px longer"
+    end
+
+    context do
+      input '/', apply: "Slashed equals, left"
+      input '=', apply: "Slashed equals, right"
+    end
+  end
 end
