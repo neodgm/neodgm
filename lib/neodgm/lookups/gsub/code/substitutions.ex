@@ -63,4 +63,31 @@ lookups NeoDGM.Lookups.GSUB.Code.Substitutions, for: "GSUB" do
       substitute ?|, "bar.pipeoperator"
     end
   end
+
+  lookup :single_substitution, "Colon between equals" do
+    substitutions do
+      substitute ?:, "colon.eq"
+    end
+  end
+
+  for len <- 1..3 do
+    lookup :single_substitution, "Equals, #{len}px longer" do
+      substitutions do
+        substitute ?=, "equal.#{len}px"
+      end
+    end
+  end
+
+  lookup :single_substitution, "Slashed equals, left" do
+    substitutions do
+      substitute ?=, "equal.slashed.left"
+      substitute ?/, "slash.noteq"
+    end
+  end
+
+  lookup :single_substitution, "Slashed equals, right" do
+    substitutions do
+      substitute ?=, "equal.slashed.right"
+    end
+  end
 end

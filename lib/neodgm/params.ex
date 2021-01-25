@@ -66,7 +66,8 @@ defmodule NeoDGM.Params do
 
   defp gpos_lookups(_) do
     [
-      NeoDGM.Lookups.GPOS.Hangul
+      NeoDGM.Lookups.GPOS.Hangul,
+      NeoDGM.Lookups.GPOS.Code
     ]
   end
 
