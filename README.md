@@ -59,9 +59,9 @@ Homebrew Cask를 통해 패키지를 설치할 수 있습니다.
 ```bash
 $ brew tap homebrew/cask-fonts
 
-$ brew cask install font-neodunggeunmo
+$ brew install --cask font-neodunggeunmo
 # 또는,
-$ brew cask install font-neodunggeunmo-code
+$ brew install --cask font-neodunggeunmo-code
 ```
 
 이 Cask는 [@nyeong](https://github.com/nyeong) 님께서 제작해 주셨습니다. 💕

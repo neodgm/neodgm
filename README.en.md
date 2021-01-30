@@ -57,9 +57,9 @@ You can install the font package via Homebrew Cask.
 ```bash
 $ brew tap homebrew/cask-fonts
 
-$ brew cask install font-neodunggeunmo
+$ brew install --cask font-neodunggeunmo
 # Or,
-$ brew cask install font-neodunggeunmo-code
+$ brew install --cask font-neodunggeunmo-code
 ```
 
 This Cask is maintained by [@nyeong](https://github.com/nyeong). 💕
