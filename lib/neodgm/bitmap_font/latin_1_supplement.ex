@@ -870,6 +870,26 @@ glyph_source NeoDGM.BitmapFont.Latin1Supplement do
     component ?u, 0, 0
   end
 
+  composite_glyph "ugrave.cv08" do
+    component "grave.component", 0, -2
+    component "u.cv08", 0, 0
+  end
+
+  composite_glyph "uacute.cv08" do
+    component 0x00B4, 0, -2
+    component "u.cv08", 0, 0
+  end
+
+  composite_glyph "ucircumflex.cv08" do
+    component "circumflex.component", 0, -2
+    component "u.cv08", 0, 0
+  end
+
+  composite_glyph "udieresis.cv08" do
+    component "dieresis.component", 0, -2
+    component "u.cv08", 0, 0
+  end
+
   composite_glyph ?ý do
     component 0x00B4, 0, -2
     component ?y, 0, 0
