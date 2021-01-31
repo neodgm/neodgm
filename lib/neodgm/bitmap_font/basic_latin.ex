@@ -909,6 +909,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     1100011
     1100011
     1100011
+    0111111
+    """
+  end
+
+  bmp_glyph "U.cv07" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
     0111110
     """
   end
