@@ -63,12 +63,10 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
   # Contexts
   #
 
-  lookup :chained_context, "Hangul composition" do
-    feature "ccmp", scripts()
+  lookup :chained_context, "Hangul LVT form, choseong" do
+    feature "ljmo", scripts()
 
-    #
-    # Selection of choseong set when jongseong is present
-    #
+    # With Jongseong
 
     context do
       input [0x1100..0x1112], apply: "Hangul choseong, set 5"
@@ -88,49 +86,7 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
       lookahead [0x11A8..0x11C2]
     end
 
-    #
-    # Selection of jungseong set when jongseong is present
-    #
-
-    context do
-      backtrack Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"])
-      input [0x1161..0x1175], apply: "Hangul jungseong, set 2"
-      lookahead [0x11A8..0x11C2]
-    end
-
-    context do
-      backtrack jamo_src([0x1101..0x110E, 0x1110..0x1112], :cho)
-      input [0x1161..0x1175], apply: "Hangul jungseong, set 3"
-      lookahead [0x11A8..0x11C2]
-    end
-
-    #
-    # Selection of jongseong set
-    #
-
-    context do
-      backtrack jamo_src(~i(1161 1163 116A)x, :jung)
-      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 0"
-    end
-
-    context do
-      backtrack jamo_src(~i(1165 1167 116C 116F 1171 1174 1175)x, :jung)
-      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 1"
-    end
-
-    context do
-      backtrack jamo_src(~i(1162 1164 1166 1168 116B 1170)x, :jung)
-      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 2"
-    end
-
-    context do
-      backtrack jamo_src(~i(1169 116D 116E 1172 1173)x, :jung)
-      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 3"
-    end
-
-    #
-    # Selection of choseong set when jongseong is not present
-    #
+    # Without Jongseong
 
     context do
       input [0x1100..0x1112], apply: "Hangul choseong, set 0"
@@ -156,10 +112,26 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
       input [0x1100..0x1112], apply: "Hangul choseong, set 4"
       lookahead [0x116F..0x1171]
     end
+  end
 
-    #
-    # Selection of jungseong set when jongseong is not present
-    #
+  lookup :chained_context, "Hangul LVT form, jungseong" do
+    feature "vjmo", scripts()
+
+    # With Jongseong
+
+    context do
+      backtrack Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"])
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 2"
+      lookahead [0x11A8..0x11C2]
+    end
+
+    context do
+      backtrack jamo_src([0x1101..0x110E, 0x1110..0x1112], :cho)
+      input [0x1161..0x1175], apply: "Hangul jungseong, set 3"
+      lookahead [0x11A8..0x11C2]
+    end
+
+    # Without Jongseong
 
     context do
       backtrack Enum.map(0..7, &["cho_#{&1}_00", "cho_#{&1}_15"])
@@ -169,6 +141,30 @@ lookups NeoDGM.Lookups.GSUB.Hangul, for: "GSUB" do
     context do
       backtrack jamo_src([0x1101..0x110E, 0x1110..0x1112], :cho)
       input [0x1161..0x1175], apply: "Hangul jungseong, set 1"
+    end
+  end
+
+  lookup :chained_context, "Hangul LVT form, jongseong" do
+    feature "tjmo", scripts()
+
+    context do
+      backtrack jamo_src(~i(1161 1163 116A)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 0"
+    end
+
+    context do
+      backtrack jamo_src(~i(1165 1167 116C 116F 1171 1174 1175)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 1"
+    end
+
+    context do
+      backtrack jamo_src(~i(1162 1164 1166 1168 116B 1170)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 2"
+    end
+
+    context do
+      backtrack jamo_src(~i(1169 116D 116E 1172 1173)x, :jung)
+      input [0x11A8..0x11C2], apply: "Hangul jongseong, set 3"
     end
   end
 end
