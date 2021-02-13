@@ -71,7 +71,8 @@ defmodule NeoDGM.Params do
   defp gpos_lookups(_) do
     [
       NeoDGM.Lookups.GPOS.Common,
-      NeoDGM.Lookups.GPOS.Hangul
+      NeoDGM.Lookups.GPOS.Hangul,
+      NeoDGM.Lookups.GPOS.HangulPunctuation
     ]
   end
 
@@ -89,6 +90,7 @@ defmodule NeoDGM.Params do
   defp gsub_lookups(_) do
     [
       NeoDGM.Lookups.GSUB.Hangul,
+      NeoDGM.Lookups.GSUB.HangulPunctuation,
       NeoDGM.Lookups.GSUB.StylisticVariants
     ]
   end

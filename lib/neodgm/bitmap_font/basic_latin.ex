@@ -215,6 +215,15 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
+  bmp_glyph "hyphen.left1px" do
+    advance 8
+    bounds 1..7, 4..5
+
+    data """
+    111111
+    """
+  end
+
   bmp_glyph ?. do
     advance 8
     bounds 3..5, 0..2
@@ -1733,6 +1742,16 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     data """
     0111011
     1101110
+    """
+  end
+
+  bmp_glyph "asciitilde.left1px" do
+    advance 8
+    bounds 1..7, 4..6
+
+    data """
+    011101
+    110110
     """
   end
 end
