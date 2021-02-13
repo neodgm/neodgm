@@ -1561,7 +1561,7 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
-  bmp_glyph "u.cv08" do
+  bmp_glyph "u.cv07" do
     advance 8
     bounds 0..7, 0..7
 
