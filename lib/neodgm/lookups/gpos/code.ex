@@ -7,10 +7,6 @@ lookups NeoDGM.Lookups.GPOS.Code, for: "GPOS" do
     defp scripts, do: %{"DFLT" => [:default], "latn" => [:default]}
   end
 
-  lookup :single_adjustment, "Move 1px forward" do
-    adjust_uniform @chars, x_placement: 1
-  end
-
   lookup :single_adjustment, "Move 2px forward" do
     adjust_uniform ~w(equal.2px), x_placement: 2
   end

@@ -69,7 +69,10 @@ defmodule NeoDGM.Params do
   end
 
   defp gpos_lookups(_) do
-    [NeoDGM.Lookups.GPOS.Hangul]
+    [
+      NeoDGM.Lookups.GPOS.Common,
+      NeoDGM.Lookups.GPOS.Hangul
+    ]
   end
 
   @spec gsub_lookups(term()) :: [module()]
