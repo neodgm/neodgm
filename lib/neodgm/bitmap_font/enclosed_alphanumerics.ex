@@ -154,26 +154,17 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
     {"cv04", "l", "uni24A7", "uni24DB"},
     {"cv05", "n", "uni24A9", "uni24DD"},
     {"cv06", "r", "uni24AD", "uni24E1"},
-    {"cv07", "U", nil, "uni24CA"},
     {"cv08", "u", "uni24B0", "uni24E4"}
   ]
   |> Enum.map(fn {cv_tag, letter, gname1, gname2} ->
     [
-      if is_nil(gname1) do
-        []
-      else
-        composite_glyph "#{gname1}.#{cv_tag}" do
-          component "parens.enclosure", 0, 0, flags: [:use_my_metrics]
-          component "#{letter}.enclosed.#{cv_tag}", 5, 1
-        end
+      composite_glyph "#{gname1}.#{cv_tag}" do
+        component "parens.enclosure", 0, 0, flags: [:use_my_metrics]
+        component "#{letter}.enclosed.#{cv_tag}", 5, 1
       end,
-      if is_nil(gname2) do
-        []
-      else
-        composite_glyph "#{gname2}.#{cv_tag}" do
-          component "circle.enclosure", 0, 0, flags: [:use_my_metrics]
-          component "#{letter}.enclosed.#{cv_tag}", 5, 1
-        end
+      composite_glyph "#{gname2}.#{cv_tag}" do
+        component "circle.enclosure", 0, 0, flags: [:use_my_metrics]
+        component "#{letter}.enclosed.#{cv_tag}", 5, 1
       end
     ]
   end)

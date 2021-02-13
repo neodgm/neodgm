@@ -974,22 +974,6 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     110011
     110011
     110011
-    011111
-    """
-  end
-
-  bmp_glyph "U.enclosed.cv07" do
-    advance 6
-    bounds 0..6, 0..8
-
-    data """
-    110011
-    110011
-    110011
-    110011
-    110011
-    110011
-    110011
     011110
     """
   end

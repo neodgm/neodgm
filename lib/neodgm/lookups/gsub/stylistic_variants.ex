@@ -93,21 +93,6 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
     end
   end
 
-  lookup :single_substitution, "Uppercase U, old version" do
-    feature "cv07", scripts()
-    feature "ss01", scripts()
-
-    substitutions do
-      substitute ?U, "U.cv07"
-      substitute 0x00D9, "Ugrave.cv07"
-      substitute 0x00DA, "Uacute.cv07"
-      substitute 0x00DB, "Ucircumflex.cv07"
-      substitute 0x00DC, "Udieresis.cv07"
-      # U+24CA CIRCLED LATIN CAPITAL LETTER U
-      substitute 0x24CA, "uni24CA.cv07"
-    end
-  end
-
   lookup :single_substitution, "Lowercase u, old version" do
     feature "cv08", scripts()
     feature "ss01", scripts()
