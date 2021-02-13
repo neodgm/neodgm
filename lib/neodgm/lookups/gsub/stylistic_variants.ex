@@ -15,6 +15,8 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
       substitute 0x24A3, "uni24A3.cv01"
       # U+24D7 CIRCLED LATIN SMALL LETTER H
       substitute 0x24D7, "uni24D7.cv01"
+      # U+FF48 FULLWIDTH LATIN SMALL LETTER H
+      substitute 0xFF48, "uniFF48.cv01"
     end
   end
 
@@ -77,6 +79,8 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
       substitute 0x24A9, "uni24A9.cv05"
       # U+24DD CIRCLED LATIN SMALL LETTER N
       substitute 0x24DD, "uni24DD.cv05"
+      # U+FF4E FULLWIDTH LATIN SMALL LETTER N
+      substitute 0xFF4E, "uniFF4E.cv05"
     end
   end
 
@@ -103,8 +107,12 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
       substitute 0x00FA, "uacute.cv07"
       substitute 0x00FB, "ucircumflex.cv07"
       substitute 0x00FC, "udieresis.cv07"
+      # U+24B0 PARENTHESIZED LATIN SMALL LETTER U
       substitute 0x24B0, "uni24B0.cv07"
+      # U+24E4 CIRCLED LATIN SMALL LETTER U
       substitute 0x24E4, "uni24E4.cv07"
+      # U+FF55 FULLWIDTH LATIN SMALL LETTER U
+      substitute 0xFF55, "uniFF55.cv07"
     end
   end
 end
