@@ -1486,7 +1486,7 @@ glyph_source NeoDGM.BitmapFont.Components.Enclosed do
     """
   end
 
-  bmp_glyph "u.enclosed.cv08" do
+  bmp_glyph "u.enclosed.cv07" do
     advance 6
     bounds 0..6, 0..6
 

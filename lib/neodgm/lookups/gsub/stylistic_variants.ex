@@ -94,17 +94,17 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   end
 
   lookup :single_substitution, "Lowercase u, old version" do
-    feature "cv08", scripts()
+    feature "cv07", scripts()
     feature "ss01", scripts()
 
     substitutions do
-      substitute ?u, "u.cv08"
-      substitute 0x00F9, "ugrave.cv08"
-      substitute 0x00FA, "uacute.cv08"
-      substitute 0x00FB, "ucircumflex.cv08"
-      substitute 0x00FC, "udieresis.cv08"
-      substitute 0x24B0, "uni24B0.cv08"
-      substitute 0x24E4, "uni24E4.cv08"
+      substitute ?u, "u.cv07"
+      substitute 0x00F9, "ugrave.cv07"
+      substitute 0x00FA, "uacute.cv07"
+      substitute 0x00FB, "ucircumflex.cv07"
+      substitute 0x00FC, "udieresis.cv07"
+      substitute 0x24B0, "uni24B0.cv07"
+      substitute 0x24E4, "uni24E4.cv07"
     end
   end
 end

@@ -154,7 +154,7 @@ glyph_source NeoDGM.BitmapFont.EnclosedAlphanumerics do
     {"cv04", "l", "uni24A7", "uni24DB"},
     {"cv05", "n", "uni24A9", "uni24DD"},
     {"cv06", "r", "uni24AD", "uni24E1"},
-    {"cv08", "u", "uni24B0", "uni24E4"}
+    {"cv07", "u", "uni24B0", "uni24E4"}
   ]
   |> Enum.map(fn {cv_tag, letter, gname1, gname2} ->
     [
