@@ -1217,6 +1217,24 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     11000000
     11000000
     11000000
+    11011110
+    11110011
+    11100011
+    11000011
+    11000011
+    11000011
+    11000011
+    """
+  end
+
+  bmp_glyph "uniFF48.cv01" do
+    advance 16
+    bounds 4..12, 0..10
+
+    data """
+    11000000
+    11000000
+    11000000
     11111110
     11000011
     11000011
@@ -1318,6 +1336,21 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
   end
 
   bmp_glyph 0xFF4E do
+    advance 16
+    bounds 4..12, 0..7
+
+    data """
+    11011110
+    11110011
+    11100011
+    11000011
+    11000011
+    11000011
+    11000011
+    """
+  end
+
+  bmp_glyph "uniFF4E.cv05" do
     advance 16
     bounds 4..12, 0..7
 
@@ -1432,6 +1465,21 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
   end
 
   bmp_glyph 0xFF55 do
+    advance 16
+    bounds 4..12, 0..7
+
+    data """
+    11000011
+    11000011
+    11000011
+    11000011
+    11000111
+    11001111
+    01111011
+    """
+  end
+
+  bmp_glyph "uniFF55.cv07" do
     advance 16
     bounds 4..12, 0..7
 
