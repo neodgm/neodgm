@@ -2,7 +2,7 @@ use PixelFont.OTFLayout
 
 lookups NeoDGM.Lookups.GSUB.HangulPunctuation, for: "GSUB" do
   module do
-    import NeoDGM.BitmapFont, only: [all_cho_glyphs: 0]
+    import NeoDGM.BitmapFont
 
     defp scripts do
       %{"DFLT" => [:default], "hang" => [:default], "jamo" => [:default]}
@@ -29,7 +29,7 @@ lookups NeoDGM.Lookups.GSUB.HangulPunctuation, for: "GSUB" do
 
     # Ignore: This context is covered by a GPOS lookup.
     context do
-      backtrack Enum.map(0..3, &"jung_#{&1}_00")
+      backtrack a_and_wa_components()
       backtrack all_cho_glyphs()
       input '-~'
       lookahead [all_cho_glyphs(), ?가..?힣]
@@ -37,21 +37,21 @@ lookups NeoDGM.Lookups.GSUB.HangulPunctuation, for: "GSUB" do
 
     # Ignore: This context is covered by a GPOS lookup.
     context do
-      backtrack '가까나다따라마바빠사싸아자짜차카타파하'
+      backtrack a_and_wa_syllables()
       input '-~'
       lookahead [all_cho_glyphs(), ?가..?힣]
     end
 
     # LVT form
     context do
-      backtrack Enum.map(0..3, &"jung_#{&1}_00")
+      backtrack a_and_wa_components()
       backtrack all_cho_glyphs()
       input '-~', apply: "Shorter punctuation for Hangul"
     end
 
     # Hangul syllable form
     context do
-      backtrack '가까나다따라마바빠사싸아자짜차카타파하'
+      backtrack a_and_wa_syllables()
       input '-~', apply: "Shorter punctuation for Hangul"
     end
   end
