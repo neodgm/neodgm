@@ -4,7 +4,7 @@ defmodule NeoDGM.Mixfile do
   def project do
     [
       app: :neodgm,
-      version: "1.5.20",
+      version: "1.5.21",
       elixir: "~> 1.11",
       deps: deps()
     ]
