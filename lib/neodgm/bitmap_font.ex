@@ -72,4 +72,17 @@ defmodule NeoDGM.BitmapFont do
   def all_cho_glyphs, do: @all_cho_glyphs
   def all_jung_glyphs, do: @all_jung_glyphs
   def all_jong_glyphs, do: @all_jong_glyphs
+
+  a_and_wa_components =
+    0..3
+    |> Enum.map(&["jung_#{&1}_00", "jung_#{&1}_09"])
+    |> List.flatten()
+
+  a_and_wa_syllables =
+    [0, 252]
+    |> Enum.map(fn x -> Enum.map(0..18, & &1 * 588 + 0xAC00 + x) end)
+    |> List.flatten()
+
+  def a_and_wa_components, do: unquote(a_and_wa_components)
+  def a_and_wa_syllables, do: unquote(a_and_wa_syllables)
 end
