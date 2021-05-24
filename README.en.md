@@ -1,5 +1,7 @@
 # NeoDunggeunmo
 
+- [한국어 (Korean)](https://github.com/Dalgona/neodgm/blob/main/README.md)
+
 <img alt="Sample image" width="752" src="https://neodgm.dalgona.dev/assets/images/neodgm_demo.png?202011071338">
 
 **NeoDunggeunmo(Neo둥근모)** is a general-purpose TrueType font based on a
@@ -19,8 +21,8 @@ more information and a list of glyphs available in NeoDunggeunmo.
 
 ## Downloads
 
-This repository only contains source codes for the font itself and the TrueType
-font generator program. Use [the Releases page](https://github.com/Dalgona/neodgm/releases)
+This repository only contains source codes for the font.
+Use [the Releases page](https://github.com/Dalgona/neodgm/releases)
 to download the pre-built font files.
 
 ## Installing Fonts via Package Managers
@@ -114,7 +116,7 @@ files, the build instruction is provided below:
 
 If you are using this font to author contents which are to be displayed in
 standard-DPI PC displays, follow the typography guidelines as much as possible
-to get the best result.
+to deliver the best result.
 
 https://neodgm.dalgona.dev/guides.html
 
@@ -124,13 +126,12 @@ https://neodgm.dalgona.dev/guides.html
 
 Please feel free to submit issues if...
 
-- There are problems in pre-built font files,
-- You have any ideas for improving the TTF generator program, 
+- There are problems in pre-built font files you have downloaded,
 - You want some glyphs to be added in NeoDunggeunmo,
 - Or you have other comments regarding this project.
 
 ## License
 
-NeoDunggeunmo font files, the TTF generator program, and their source codes are
-distributed under SIL Open Font License 1.1. Read the `LICENSE.md` file for the
-full text of SIL Open Font License 1.1.
+NeoDunggeunmo font files and its source codes are distributed under SIL Open
+Font License 1.1. Read the `LICENSE.txt` file for the full text of SIL Open Font
+License 1.1.
