@@ -1,5 +1,7 @@
 # Neo둥근모
 
+- [영문 (English)](https://github.com/Dalgona/neodgm/blob/main/README.en.md)
+
 <img alt="데모 이미지" width="752" src="https://neodgm.dalgona.dev/assets/images/neodgm_demo.png?202011071338">
 
 **Neo둥근모**는 DOS용 비트맵 한글 글꼴인 "둥근모꼴"을 모든 환경에서 사용할 수
@@ -18,9 +20,8 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 
 ## 내려받기
 
-이 저장소에는 원본 비트맵 글꼴과 TTF 생성 도구의 소스만 포함되어 있습니다.
-글꼴을 받으시려면 [Releases](https://github.com/Dalgona/neodgm/releases)를
-이용해 주세요.
+이 저장소에는 글꼴의 소스 코드만 포함되어 있습니다. 글꼴을 받으시려면
+[Releases 페이지](https://github.com/Dalgona/neodgm/releases)를 이용해 주세요.
 
 ## 패키지 관리자를 통해 설치하기
 
@@ -122,14 +123,13 @@ https://neodgm.dalgona.dev/guides.html
 
 ## 문의
 
-내려받은 글꼴 파일에 문제가 있는 경우, 글꼴 빌드 프로그램에 문제나 개선 사항이
-있는 경우, 또는 우선적으로 추가되었으면 하는 문자나 기타 의견이 있는 경우에는
-망설이지 말고 Issue를 제출해 주세요!
+내려받은 글꼴 파일에 문제가 있는 경우, 또는 우선적으로 추가되었으면 하는 문자나
+기타 의견이 있는 경우에는 망설이지 말고 Issue를 제출해 주세요!
 
 ## 라이선스
 
 Neo둥근모 글꼴 파일과 글꼴의 소스 코드는 SIL Open Font License 1.1 하에
-배포됩니다. SIL Open Font License 1.1의 전체 내용은 `LICENSE.md`에 저장되어
+배포됩니다. SIL Open Font License 1.1의 전체 내용은 `LICENSE.txt`에 저장되어
 있습니다.
 
 **Neo둥근모 또는 Neo둥근모 Code 글꼴은 위 라이선스에서 명시하는 범위 및 조건
