@@ -1,5 +1,8 @@
-Copyright (c) 2017-2020, Eunbin Jeong (Dalgona.) <me@dalgona.dev>
-with Reserved Font Name NeoDunggeunmo.
+Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <me@dalgona.dev>
+with Reserved Font Name "Neo둥근모",
+                        "Neo둥근모 Code",
+                        "NeoDunggeunmo",
+                        and "NeoDunggeunmo Code".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
