@@ -130,7 +130,21 @@ Please feel free to submit issues if...
 - You want some glyphs to be added in NeoDunggeunmo,
 - Or you have other comments regarding this project.
 
+## Related Projects
+
+- **NeoDunggeunmo Pro** [(Dalgona/neodgm-pro)](https://github.com/Dalgona/neodgm-pro)
+
+    A proportional font based on NeoDunggeunmo.
+
+- **PixelFont** [(Dalgona/pixel_font)](https://github.com/Dalgona/pixel_font)
+
+    An all-in-one tool for creating TrueType outline fonts from bitmap images.
+    TTF files of NeoDunggeunmo, NeoDunggenumo Code, and NeoDunggeunmo Pro are
+    built by using this tool and delivered to you.
+
 ## License
+
+Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <me@dalgona.dev>
 
 NeoDunggeunmo font files and its source codes are distributed under SIL Open
 Font License 1.1. Read the `LICENSE.txt` file for the full text of SIL Open Font

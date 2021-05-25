@@ -126,7 +126,21 @@ https://neodgm.dalgona.dev/guides.html
 내려받은 글꼴 파일에 문제가 있는 경우, 또는 우선적으로 추가되었으면 하는 문자나
 기타 의견이 있는 경우에는 망설이지 말고 Issue를 제출해 주세요!
 
+## 관련 프로젝트
+
+- **Neo둥근모 Pro** [(Dalgona/neodgm-pro)](https://github.com/Dalgona/neodgm-pro)
+
+    Neo둥근모를 바탕으로 만들어진 가변폭 글꼴입니다.
+
+- **PixelFont** [(Dalgona/pixel_font)](https://github.com/Dalgona/pixel_font)
+
+    비트맵 이미지로부터 TrueType 윤곽선 글꼴을 만들어 주는 도구입니다.
+    Neo둥근모, Neo둥근모 Code 및 Neo둥근모 Pro의 TTF 파일은 이 도구를 통해
+    빌드되어 여러분에게 제공됩니다.
+
 ## 라이선스
+
+Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <me@dalgona.dev>
 
 Neo둥근모 글꼴 파일과 글꼴의 소스 코드는 SIL Open Font License 1.1 하에
 배포됩니다. SIL Open Font License 1.1의 전체 내용은 `LICENSE.txt`에 저장되어
