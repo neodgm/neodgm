@@ -47,6 +47,8 @@ defmodule NeoDGM.Params do
       avg_char_width: 8,
       weight_class: :normal,
       width_class: :medium,
+      embedding: :installable,
+      allow_subsetting?: true,
       subscript_size: {8, 16},
       subscript_offset: {0, 8},
       superscript_size: {8, 16},
