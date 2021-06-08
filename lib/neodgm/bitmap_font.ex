@@ -1,6 +1,7 @@
 defmodule NeoDGM.BitmapFont do
   common_glyph_sources =
     [
+      NotDef,
       BlockElements,
       BoxDrawing,
       BraillePatterns,

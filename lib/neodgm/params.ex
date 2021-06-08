@@ -17,7 +17,6 @@ defmodule NeoDGM.Params do
       metrics: metrics(),
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(variant),
-      notdef_glyph: BitmapFont.NotDef,
       gpos_lookups: gpos_lookups(variant),
       gsub_lookups: gsub_lookups(variant)
     }
