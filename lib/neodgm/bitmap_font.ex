@@ -16,6 +16,7 @@ defmodule NeoDGM.BitmapFont do
       HangulSyllables,
       NumberForms,
       Trigrams,
+      VariationSelectors,
       Components.Diacritics,
       Components.Enclosed,
       Components.Fractions,
