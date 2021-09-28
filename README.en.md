@@ -1,6 +1,6 @@
 # NeoDunggeunmo
 
-- [한국어 (Korean)](https://github.com/Dalgona/neodgm/blob/main/README.md)
+- [한국어 (Korean)](https://github.com/neodgm/neodgm/blob/main/README.md)
 
 <img alt="Sample image" width="752" src="https://neodgm.dalgona.dev/assets/images/neodgm_demo.png?202011071338">
 
@@ -22,7 +22,7 @@ more information and a list of glyphs available in NeoDunggeunmo.
 ## Downloads
 
 This repository only contains source codes for the font.
-Use [the Releases page](https://github.com/Dalgona/neodgm/releases)
+Use [the Releases page](https://github.com/neodgm/neodgm/releases)
 to download the pre-built font files.
 
 ## Installing Fonts via Package Managers
@@ -70,7 +70,7 @@ This Cask is maintained by [@nyeong](https://github.com/nyeong). 💕
 
 ### Official Web Font Kit (neodgm-webfont)
 
-[Dalgona/neodgm-webfont](https://github.com/Dalgona/neodgm-webfont) is a
+[neodgm/neodgm-webfont](https://github.com/neodgm/neodgm-webfont) is a
 repository for the official NeoDunggeunmo web font kits, and therefore it gets
 updated as fast as possible when a new version of the font is released. Check
 the `README.md` file of the repository for detailed instructions.
@@ -99,7 +99,7 @@ files, the build instruction is provided below:
 1. Clone this repository using Git.
 
     ```sh
-    $ git clone https://github.com/Dalgona/neodgm.git
+    $ git clone https://github.com/neodgm/neodgm.git
     ```
 
 1. Enter these commands to build TTF files.
@@ -132,11 +132,11 @@ Please feel free to submit issues if...
 
 ## Related Projects
 
-- **NeoDunggeunmo Pro** [(Dalgona/neodgm-pro)](https://github.com/Dalgona/neodgm-pro)
+- **NeoDunggeunmo Pro** [(neodgm/neodgm-pro)](https://github.com/neodgm/neodgm-pro)
 
     A proportional font based on NeoDunggeunmo.
 
-- **PixelFont** [(Dalgona/pixel_font)](https://github.com/Dalgona/pixel_font)
+- **PixelFont** [(Dalgona/pixel\_font)](https://github.com/Dalgona/pixel_font)
 
     An all-in-one tool for creating TrueType outline fonts from bitmap images.
     TTF files of NeoDunggeunmo, NeoDunggenumo Code, and NeoDunggeunmo Pro are

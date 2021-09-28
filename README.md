@@ -1,6 +1,6 @@
 # Neo둥근모
 
-- [영문 (English)](https://github.com/Dalgona/neodgm/blob/main/README.en.md)
+- [영문 (English)](https://github.com/neodgm/neodgm/blob/main/README.en.md)
 
 <img alt="데모 이미지" width="752" src="https://neodgm.dalgona.dev/assets/images/neodgm_demo.png?202011071338">
 
@@ -21,7 +21,7 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 ## 내려받기
 
 이 저장소에는 글꼴의 소스 코드만 포함되어 있습니다. 글꼴을 받으시려면
-[Releases 페이지](https://github.com/Dalgona/neodgm/releases)를 이용해 주세요.
+[Releases 페이지](https://github.com/neodgm/neodgm/releases)를 이용해 주세요.
 
 ## 패키지 관리자를 통해 설치하기
 
@@ -71,7 +71,7 @@ $ brew install --cask font-neodunggeunmo-code
 
 ### 공식 웹 폰트 키트 (neodgm-webfont)
 
-[Dalgona/neodgm-webfont](https://github.com/Dalgona/neodgm-webfont)는
+[neodgm/neodgm-webfont](https://github.com/neodgm/neodgm-webfont)는
 Neo둥근모의 공식 웹 폰트 키트 저장소로, Neo둥근모 글꼴의 최신 버전이 공개될 때
 가장 먼저 업데이트됩니다. 자세한 사용법은 해당 저장소의 `README.md` 파일을 확인해
 주세요.
@@ -100,7 +100,7 @@ Webpack을 사용하는 웹 프로젝트에서 아래의 패키지를 설치하�
 1. Git을 사용하여 이 저장소를 복제하세요.
 
     ```sh
-    $ git clone https://github.com/Dalgona/neodgm.git
+    $ git clone https://github.com/neodgm/neodgm.git
     ```
 
 1. 아래 명령을 입력하여 TTF 파일을 빌드하세요.
@@ -128,11 +128,11 @@ https://neodgm.dalgona.dev/guides.html
 
 ## 관련 프로젝트
 
-- **Neo둥근모 Pro** [(Dalgona/neodgm-pro)](https://github.com/Dalgona/neodgm-pro)
+- **Neo둥근모 Pro** [(neodgm/neodgm-pro)](https://github.com/neodgm/neodgm-pro)
 
     Neo둥근모를 바탕으로 만들어진 가변폭 글꼴입니다.
 
-- **PixelFont** [(Dalgona/pixel_font)](https://github.com/Dalgona/pixel_font)
+- **PixelFont** [(Dalgona/pixel\_font)](https://github.com/Dalgona/pixel_font)
 
     비트맵 이미지로부터 TrueType 윤곽선 글꼴을 만들어 주는 도구입니다.
     Neo둥근모, Neo둥근모 Code 및 Neo둥근모 Pro의 TTF 파일은 이 도구를 통해
@@ -149,4 +149,4 @@ Neo둥근모 글꼴 파일과 글꼴의 소스 코드는 SIL Open Font License 1
 **Neo둥근모 또는 Neo둥근모 Code 글꼴은 위 라이선스에서 명시하는 범위 및 조건
 내에서 상업적 또는 비 상업적 용도로 어디서든 자유롭게 이용하실 수 있으며,
 이를 위해 별도로 서면 문의 등을 하실 필요가 없습니다. [그냥 자유롭게 다운로드
-받아 사용해 주세요.](https://github.com/Dalgona/neodgm/releases)**
+받아 사용해 주세요.](https://github.com/neodgm/neodgm/releases)**
