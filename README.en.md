@@ -27,6 +27,19 @@ to download the pre-built font files.
 
 ## Installing Fonts via Package Managers
 
+### Homebrew (macOS, etc.)
+
+You can install font casks via Homebrew. These casks are provided by the
+[neodgm/homebrew-neodgm](https://github.com/neodgm/homebrew-neodgm) tap.
+
+```bash
+$ brew tap neodgm/neodgm
+
+$ brew install --cask font-neodunggeunmo
+# Or,
+$ brew install --cask font-neodunggeunmo-code
+```
+
 > **CAUTION:**
 >
 > These packages below are not officially supported, and may not be up to date.
@@ -51,20 +64,6 @@ $ yay -S ttf-neodgm
 ```
 
 This AUR package is maintained by [@gaeulbyul](https://github.com/gaeulbyul). 💕
-
-### Homebrew (macOS, etc.)
-
-You can install the font package via Homebrew Cask.
-
-```bash
-$ brew tap homebrew/cask-fonts
-
-$ brew install --cask font-neodunggeunmo
-# Or,
-$ brew install --cask font-neodunggeunmo-code
-```
-
-This Cask is maintained by [@nyeong](https://github.com/nyeong). 💕
 
 ## Using Web Fonts
 

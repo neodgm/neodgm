@@ -25,6 +25,20 @@ DOS용 비트맵 한글 글꼴이며, 특유의 미려한 글자 모양 덕분�
 
 ## 패키지 관리자를 통해 설치하기
 
+### Homebrew (macOS 등)
+
+Homebrew를 통해 글꼴 cask를 설치할 수 있습니다. 이 cask는
+[neodgm/homebrew-neodgm](https://github.com/neodgm/homebrew-neodgm) tap에서
+제공합니다.
+
+```bash
+$ brew tap neodgm/neodgm
+
+$ brew install --cask font-neodunggeunmo
+# 또는,
+$ brew install --cask font-neodunggeunmo-code
+```
+
 > **주의:**
 >
 > 아래 패키지는 공식적으로 지원되지 않으며, 글꼴의 최신 버전을 곧바로 반영하지
@@ -52,20 +66,6 @@ $ yay -S ttf-neodgm
 
 이 AUR 패키지는 [@gaeulbyul](https://github.com/gaeulbyul) 님께서 제작해
 주셨습니다. 💕
-
-### Homebrew (macOS 등)
-
-Homebrew Cask를 통해 패키지를 설치할 수 있습니다.
-
-```bash
-$ brew tap homebrew/cask-fonts
-
-$ brew install --cask font-neodunggeunmo
-# 또는,
-$ brew install --cask font-neodunggeunmo-code
-```
-
-이 Cask는 [@nyeong](https://github.com/nyeong) 님께서 제작해 주셨습니다. 💕
 
 ## 웹 폰트로 사용하기
 
