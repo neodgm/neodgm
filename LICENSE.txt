@@ -1,4 +1,4 @@
-Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <me@dalgona.dev>
+Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>
 with Reserved Font Name "Neo둥근모",
                         "Neo둥근모 Code",
                         "NeoDunggeunmo",
