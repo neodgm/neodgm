@@ -250,6 +250,7 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
+  # Slashed zero (default)
   bmp_glyph ?0 do
     advance 8
     bounds 0..7, 0..10
@@ -265,6 +266,136 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     1100011
     1100011
     0111110
+    """
+  end
+
+  # cv08-0: Empty zero, which looks exactly like Latin captal letter O
+  bmp_glyph "zero.cv08.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  # cv08-1: Dotted zero
+  bmp_glyph "zero.cv08.2" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1101011
+    1101011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  # cv08-2: Reverse-slashed zero
+  bmp_glyph "zero.cv08.3" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1110011
+    1111011
+    1101111
+    1100111
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  # cv08-3: Slashed zero, more rounded
+  bmp_glyph "zero.cv08.4" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1100111
+    1101111
+    1111011
+    1110011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.5" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.6" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1100011
+    1101011
+    1101011
+    1100011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.7" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1110011
+    1111011
+    1101111
+    1100111
+    1100011
+    0110110
+    0011100
     """
   end
 
@@ -304,6 +435,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
+  bmp_glyph "two.cv09.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    0000011
+    0000011
+    0011110
+    0110000
+    1100000
+    1100000
+    1100000
+    1111111
+    """
+  end
+
   bmp_glyph ?3 do
     advance 8
     bounds 0..7, 0..10
@@ -322,6 +471,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
+  bmp_glyph "three.cv10.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    0000011
+    0000011
+    0011110
+    0000011
+    0000011
+    0000011
+    1100011
+    0111110
+    """
+  end
+
   bmp_glyph ?4 do
     advance 8
     bounds 0..7, 0..10
@@ -330,6 +497,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     0011110
     0110110
     1100110
+    1100110
+    1100110
+    1111111
+    0000110
+    0000110
+    0000110
+    0000110
+    """
+  end
+
+  bmp_glyph "four.cv11.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0001110
+    0011110
+    0110110
     1100110
     1100110
     1111111
@@ -358,6 +543,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
+  bmp_glyph "five.cv12.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    1100000
+    1100000
+    1100000
+    1111110
+    0000011
+    0000011
+    0000011
+    1100011
+    0111110
+    """
+  end
+
   bmp_glyph ?6 do
     advance 8
     bounds 0..7, 0..10
@@ -365,6 +568,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     data """
     0111110
     1100000
+    1100000
+    1100000
+    1111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph "six.cv13.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
     1100000
     1100000
     1111110
@@ -386,6 +607,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     0000011
     0000011
     0001110
+    0011000
+    0011000
+    0011000
+    0011000
+    0011000
+    """
+  end
+
+  bmp_glyph "seven.cv14.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    0000011
+    0000011
+    0000110
+    0001100
     0011000
     0011000
     0011000
@@ -426,6 +665,24 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     0000011
     0000011
     0000011
+    0111110
+    """
+  end
+
+  bmp_glyph "nine.cv15.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111111
+    0000011
+    0000011
+    1100011
     0111110
     """
   end
