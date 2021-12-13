@@ -5,6 +5,7 @@ defmodule NeoDGM.BitmapFont do
       BlockElements,
       BoxDrawing,
       BraillePatterns,
+      CJKSymbols,
       Dingbats,
       EnclosedAlphanumerics,
       EnclosedCJKLetters,
