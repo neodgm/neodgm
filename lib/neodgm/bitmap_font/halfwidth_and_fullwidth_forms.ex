@@ -1646,6 +1646,59 @@ glyph_source NeoDGM.BitmapFont.HalfwidthAndFullwidthForms do
     """
   end
 
+  bmp_glyph 0xFF61 do
+    advance 8
+    bounds 2..6, -1..3
+
+    data """
+    0110
+    1001
+    1001
+    0110
+    """
+  end
+
+  bmp_glyph 0xFF62 do
+    advance 8
+    bounds 2..7, 4..11
+
+    data """
+    11111
+    10000
+    10000
+    10000
+    10000
+    10000
+    10000
+    """
+  end
+
+  bmp_glyph 0xFF63 do
+    advance 8
+    bounds 1..6, -2..5
+
+    data """
+    00001
+    00001
+    00001
+    00001
+    00001
+    00001
+    11111
+    """
+  end
+
+  bmp_glyph 0xFF64 do
+    advance 8
+    bounds 2..6, -1..2
+
+    data """
+    1100
+    0111
+    0011
+    """
+  end
+
   bmp_glyph 0xFFE0 do
     advance 16
     bounds 4..11, 0..10
