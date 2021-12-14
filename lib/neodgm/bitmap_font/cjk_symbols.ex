@@ -325,7 +325,6 @@ glyph_source NeoDGM.BitmapFont.CJKSymbols do
     """
   end
 
-  # FIXME: glyph shape differs from the standard
   bmp_glyph 0x3018 do
     advance 16
     bounds 7..13, -2..11
@@ -347,7 +346,6 @@ glyph_source NeoDGM.BitmapFont.CJKSymbols do
     """
   end
 
-  # FIXME: glyph shape differs from the standard
   bmp_glyph 0x3019 do
     advance 16
     bounds 3..9, -2..11
