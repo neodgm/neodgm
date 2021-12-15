@@ -20,8 +20,7 @@ defmodule NeoDGM.BitmapFont do
       VariationSelectors,
       Components.Diacritics,
       Components.Enclosed,
-      Components.Fractions,
-      FullwidthBoxes.BoxDrawing
+      Components.Fractions
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
 
