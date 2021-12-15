@@ -18,15 +18,15 @@ glyph_source NeoDGM.BitmapFont.CJKSymbols do
     0111
     0011
     """
+
+    # U+3001 U+FE00 corner-justified form (default)
+    # U+3001 U+FE01 centered form
+    variations default: 1 do
+      2 -> "uni3001.VS2"
+    end
   end
 
-  # U+3001 U+FE00 IDEOGRAPHIC COMMA, corner-justified form
-  composite_glyph "uni3001.VS01" do
-    component 0x3001, 0, 0
-  end
-
-  # U+3001 U+FE01 IDEOGRAPHIC COMMA, centered form
-  composite_glyph "uni3001.VS02" do
+  composite_glyph "uni3001.VS2" do
     component 0x3000, 0, 0, flags: [:use_my_metrics]
     component 0x3001, 4, 3
   end
@@ -42,15 +42,15 @@ glyph_source NeoDGM.BitmapFont.CJKSymbols do
     1001
     0110
     """
+
+    # U+3002 U+FE00 corner-justified form (default)
+    # U+3002 U+FE01 centered form
+    variations default: 1 do
+      2 -> "uni3002.VS2"
+    end
   end
 
-  # U+3002 U+FE00 IDEOGRAPHIC FULL STOP, corner-justified form
-  composite_glyph "uni3002.VS01" do
-    component 0x3002, 0, 0
-  end
-
-  # U+3002 U+FE01 IDEOGRAPHIC FULL STOP, centered form
-  composite_glyph "uni3002.VS02" do
+  composite_glyph "uni3002.VS2" do
     component 0x3000, 0, 0, flags: [:use_my_metrics]
     component 0x3002, 4, 3
   end
