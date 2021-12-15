@@ -92,8 +92,7 @@ defmodule NeoDGM.Params do
     [
       NeoDGM.Lookups.GSUB.Hangul,
       NeoDGM.Lookups.GSUB.HangulPunctuation,
-      NeoDGM.Lookups.GSUB.StylisticVariants,
-      NeoDGM.Lookups.GSUB.FullwidthBoxes
+      NeoDGM.Lookups.GSUB.StylisticVariants
     ]
   end
 end
