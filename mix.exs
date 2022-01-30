@@ -5,8 +5,11 @@ defmodule NeoDGM.Mixfile do
     [
       app: :neodgm,
       version: "1.5.30",
-      elixir: "~> 1.11",
-      deps: deps()
+      elixir: "~> 1.13",
+      deps: deps(),
+      pixel_font: [
+        font_module: NeoDGM.Params
+      ]
     ]
   end
 
@@ -18,7 +21,7 @@ defmodule NeoDGM.Mixfile do
 
   defp deps do
     [
-      {:pixel_font, github: "Dalgona/pixel_font", ref: "6a65bf85e5228296eb29fddbfdd690565767ff76"}
+      {:pixel_font, github: "Dalgona/pixel_font", ref: "78609625f68b2765452219a02bae9b0669425950"}
     ]
   end
 end

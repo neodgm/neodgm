@@ -5,11 +5,15 @@ defmodule NeoDGM.Params do
   alias PixelFont.Font.Metrics
   alias PixelFont.TableSource.OS_2
 
+  @behaviour Font
+
   @version Version.parse!(Mix.Project.config()[:version])
 
-  @spec params(keyword()) :: Font.t()
-  def params(opts \\ []) do
-    variant = to_string(opts[:variant])
+  @impl true
+  def font(args) do
+    options = [variant: :string]
+    {parsed, _args} = OptionParser.parse!(args, switches: options)
+    variant = parsed[:variant]
 
     %Font{
       version: @version,
