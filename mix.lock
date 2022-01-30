@@ -1,3 +1,3 @@
 %{
-  "pixel_font": {:git, "https://github.com/Dalgona/pixel_font.git", "6a65bf85e5228296eb29fddbfdd690565767ff76", [ref: "6a65bf85e5228296eb29fddbfdd690565767ff76"]},
+  "pixel_font": {:git, "https://github.com/Dalgona/pixel_font.git", "78609625f68b2765452219a02bae9b0669425950", [ref: "78609625f68b2765452219a02bae9b0669425950"]},
 }
