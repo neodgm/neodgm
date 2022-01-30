@@ -2,10 +2,6 @@ use PixelFont.OTFLayout
 
 lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
   module do
-    alias PixelFont.TableSource.GSUB
-    alias PixelFont.TableSource.GSUB.Alternate1
-    alias PixelFont.TableSource.OTFLayout.Lookup
-
     defp scripts, do: %{"DFLT" => [:default], "latn" => [:default]}
   end
 
@@ -135,38 +131,31 @@ lookups NeoDGM.Lookups.GSUB.StylisticVariants, for: "GSUB" do
     end
   end
 
-  %Lookup{
-    owner: GSUB,
-    type: 3,
-    name: "Alternative forms of digit zero",
-    features: %{
-      "cv08" => scripts()
-    },
-    subtables: [
-      %Alternate1{
-        alternatives: %{
-          ?0 => [
-            "zero.cv08.1",
-            "zero.cv08.2",
-            "zero.cv08.3",
-            "zero.cv08.4",
-            "zero.cv08.5",
-            "zero.cv08.6",
-            "zero.cv08.7"
-          ],
-          "zero.cv08.4" => [
-            "zero.cv08.5",
-            "zero.cv08.6",
-            "zero.cv08.7",
-            ?0,
-            "zero.cv08.1",
-            "zero.cv08.2",
-            "zero.cv08.3"
-          ]
-        }
-      }
-    ]
-  }
+  lookup :alternate, "Alternative forms of digit zero" do
+    feature "cv08", scripts()
+
+    substitutions do
+      substitute ?0, [
+        "zero.cv08.1",
+        "zero.cv08.2",
+        "zero.cv08.3",
+        "zero.cv08.4",
+        "zero.cv08.5",
+        "zero.cv08.6",
+        "zero.cv08.7"
+      ]
+
+      substitute "zero.cv08.4", [
+        "zero.cv08.5",
+        "zero.cv08.6",
+        "zero.cv08.7",
+        ?0,
+        "zero.cv08.1",
+        "zero.cv08.2",
+        "zero.cv08.3"
+      ]
+    end
+  end
 
   [
     {"two", ?2, "cv09"},
