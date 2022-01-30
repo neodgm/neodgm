@@ -106,10 +106,14 @@ files, the build instruction is provided below:
     ```sh
     $ mix deps.get
 
-    $ MIX_ENV=prod mix build_font [--variant code]
+    # NeoDunggeunmo
+    $ MIX_ENV=prod mix pixel_font.build
+
+    # NeoDunggeunmo Code
+    $ MIX_ENV=prod mix pixel_font.build --variant code
     ```
 
-1. A file named `neodgm[_<variant_name>].ttf` will be created in your PWD.
+1. A file named `NeoDunggeunmo[Code]-Regular.ttf` will be created in your PWD.
 
 ## Typography Guildlines
 
