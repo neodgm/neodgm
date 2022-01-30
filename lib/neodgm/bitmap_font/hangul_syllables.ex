@@ -15,14 +15,8 @@ cho_table = %{
 jung_table = make_map.([0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1])
 jong_table = make_map.([0, 2, 0, 2, 1, 2, 1, 2, 3, 0, 2, 1, 3, 3, 1, 2, 1, 3, 3, 1, 1])
 
-range =
-  case Mix.env() do
-    :prod -> ?가..?힣
-    _ -> [?가, ?힣]
-  end
-
 glyph_source NeoDGM.BitmapFont.HangulSyllables do
-  Enum.map(range, fn code ->
+  Enum.map(?가..?힣, fn code ->
     index = code - ?가
     cho = div(index, 21 * 28)
     jung = div(rem(index, 21 * 28), 28)
