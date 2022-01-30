@@ -8,7 +8,7 @@ defmodule NeoDGM.Mixfile do
       elixir: "~> 1.13",
       deps: deps(),
       pixel_font: [
-        font_module: NeoDGM.Params
+        font_module: NeoDGM.Font
       ]
     ]
   end
