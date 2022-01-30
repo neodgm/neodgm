@@ -17,8 +17,8 @@ jobs:
     - name: Set up Elixir
       uses: erlef/setup-beam@v1
       with:
-        otp-version: '23.3.4.1'
-        elixir-version: '1.11.4'
+        otp-version: '24.2'
+        elixir-version: '1.13.2'
     - name: Set up Google Cloud SDK
       uses: google-github-actions/setup-gcloud@master
       with:
@@ -28,7 +28,7 @@ jobs:
     - name: Fetch and compile dependencies
       run: mix do deps.get, deps.compile
     - name: Build font files
-      run: mix build_font && mix build_font --variant code
+      run: mix pixel_font.build && mix pixel_font.build --variant code
     - name: Rename font files
       run: for ttf in *.ttf; do mv -v "${ttf}" "$(basename "${ttf}" .ttf)-${GITHUB_SHA}.ttf"; done
     - name: Upload font files to GCS
