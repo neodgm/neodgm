@@ -1,4 +1,4 @@
-defmodule NeoDGM.Params do
+defmodule NeoDGM.Font do
   alias NeoDGM.BitmapFont
   alias NeoDGM.NameTable
   alias PixelFont.Font
