@@ -21,7 +21,7 @@ defmodule NeoDGM.Mixfile do
 
   defp deps do
     [
-      {:pixel_font, github: "Dalgona/pixel_font", ref: "424ec9631522cf8015e18b7e8fa90429349bc373"}
+      {:pixel_font, github: "Dalgona/pixel_font", ref: "c8d7047aaec2d8838d940cb1595790ad6ec3cb49"}
     ]
   end
 end
