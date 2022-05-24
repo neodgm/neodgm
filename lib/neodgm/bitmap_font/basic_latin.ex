@@ -1,10 +1,6 @@
 use PixelFont.GlyphSource
 
 glyph_source NeoDGM.BitmapFont.BasicLatin do
-  module do
-    require NeoDGM.Macros.Glyphs.BasicLatin, as: BasicLatinMacros
-  end
-
   bmp_glyph 0 do
     advance 0
     bounds 0..0, 0..0
@@ -254,47 +250,442 @@ glyph_source NeoDGM.BitmapFont.BasicLatin do
     """
   end
 
-  # cv08-0: Slashed zero (default)
-  # cv08-1: Empty zero, which looks exactly like Latin captal letter O
-  # cv08-2: Dotted zero
-  # cv08-3: Reverse-slashed zero
-  # cv08-4: Slashed zero, more rounded
-  # cv08-5: Empty zero, more rounded
-  # cv08-6: Dotted zero, more rounded
-  # cv08-7: Reverse-slashed zero, more rounded
-  bmp_glyph ?0, do: BasicLatinMacros.digit(0, 0)
-  bmp_glyph "zero.cv08.1", do: BasicLatinMacros.digit(0, 1)
-  bmp_glyph "zero.cv08.2", do: BasicLatinMacros.digit(0, 2)
-  bmp_glyph "zero.cv08.3", do: BasicLatinMacros.digit(0, 3)
-  bmp_glyph "zero.cv08.4", do: BasicLatinMacros.digit(0, 4)
-  bmp_glyph "zero.cv08.5", do: BasicLatinMacros.digit(0, 5)
-  bmp_glyph "zero.cv08.6", do: BasicLatinMacros.digit(0, 6)
-  bmp_glyph "zero.cv08.7", do: BasicLatinMacros.digit(0, 7)
+  # Slashed zero (default)
+  bmp_glyph ?0 do
+    advance 8
+    bounds 0..7, 0..10
 
-  bmp_glyph ?1, do: BasicLatinMacros.digit(1, 0)
+    data """
+    0111110
+    1100011
+    1100011
+    1100111
+    1101111
+    1111011
+    1110011
+    1100011
+    1100011
+    0111110
+    """
+  end
 
-  bmp_glyph ?2, do: BasicLatinMacros.digit(2, 0)
-  bmp_glyph "two.cv09.1", do: BasicLatinMacros.digit(2, 1)
+  # cv08-0: Empty zero, which looks exactly like Latin captal letter O
+  bmp_glyph "zero.cv08.1" do
+    advance 8
+    bounds 0..7, 0..10
 
-  bmp_glyph ?3, do: BasicLatinMacros.digit(3, 0)
-  bmp_glyph "three.cv10.1", do: BasicLatinMacros.digit(3, 1)
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
 
-  bmp_glyph ?4, do: BasicLatinMacros.digit(4, 0)
-  bmp_glyph "four.cv11.1", do: BasicLatinMacros.digit(4, 1)
+  # cv08-1: Dotted zero
+  bmp_glyph "zero.cv08.2" do
+    advance 8
+    bounds 0..7, 0..10
 
-  bmp_glyph ?5, do: BasicLatinMacros.digit(5, 0)
-  bmp_glyph "five.cv12.1", do: BasicLatinMacros.digit(5, 1)
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1101011
+    1101011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
 
-  bmp_glyph ?6, do: BasicLatinMacros.digit(6, 0)
-  bmp_glyph "six.cv13.1", do: BasicLatinMacros.digit(6, 1)
+  # cv08-2: Reverse-slashed zero
+  bmp_glyph "zero.cv08.3" do
+    advance 8
+    bounds 0..7, 0..10
 
-  bmp_glyph ?7, do: BasicLatinMacros.digit(7, 0)
-  bmp_glyph "seven.cv14.1", do: BasicLatinMacros.digit(7, 1)
+    data """
+    0111110
+    1100011
+    1100011
+    1110011
+    1111011
+    1101111
+    1100111
+    1100011
+    1100011
+    0111110
+    """
+  end
 
-  bmp_glyph ?8, do: BasicLatinMacros.digit(8, 0)
+  # cv08-3: Slashed zero, more rounded
+  bmp_glyph "zero.cv08.4" do
+    advance 8
+    bounds 0..7, 0..10
 
-  bmp_glyph ?9, do: BasicLatinMacros.digit(9, 0)
-  bmp_glyph "nine.cv15.1", do: BasicLatinMacros.digit(9, 1)
+    data """
+    0011100
+    0110110
+    1100011
+    1100111
+    1101111
+    1111011
+    1110011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.5" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.6" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1100011
+    1101011
+    1101011
+    1100011
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph "zero.cv08.7" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011100
+    0110110
+    1100011
+    1110011
+    1111011
+    1101111
+    1100111
+    1100011
+    0110110
+    0011100
+    """
+  end
+
+  bmp_glyph ?1 do
+    advance 8
+    bounds 1..5, 0..10
+
+    data """
+    0011
+    0111
+    1111
+    0011
+    0011
+    0011
+    0011
+    0011
+    0011
+    0011
+    """
+  end
+
+  bmp_glyph ?2 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111110
+    0000011
+    0000011
+    0000011
+    0111110
+    1100000
+    1100000
+    1100000
+    1100000
+    1111111
+    """
+  end
+
+  bmp_glyph "two.cv09.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    0000011
+    0000011
+    0011110
+    0110000
+    1100000
+    1100000
+    1100000
+    1111111
+    """
+  end
+
+  bmp_glyph ?3 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111110
+    0000011
+    0000011
+    0000011
+    0111110
+    0000011
+    0000011
+    0000011
+    0000011
+    1111110
+    """
+  end
+
+  bmp_glyph "three.cv10.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    0000011
+    0000011
+    0011110
+    0000011
+    0000011
+    0000011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph ?4 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0011110
+    0110110
+    1100110
+    1100110
+    1100110
+    1111111
+    0000110
+    0000110
+    0000110
+    0000110
+    """
+  end
+
+  bmp_glyph "four.cv11.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0001110
+    0011110
+    0110110
+    1100110
+    1100110
+    1111111
+    0000110
+    0000110
+    0000110
+    0000110
+    """
+  end
+
+  bmp_glyph ?5 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    1100000
+    1100000
+    1100000
+    1111110
+    0000011
+    0000011
+    0000011
+    0000011
+    1111110
+    """
+  end
+
+  bmp_glyph "five.cv12.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    1100000
+    1100000
+    1100000
+    1111110
+    0000011
+    0000011
+    0000011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph ?6 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100000
+    1100000
+    1100000
+    1111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph "six.cv13.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100000
+    1100000
+    1111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph ?7 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    0000011
+    0000011
+    0000011
+    0001110
+    0011000
+    0011000
+    0011000
+    0011000
+    0011000
+    """
+  end
+
+  bmp_glyph "seven.cv14.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    1111111
+    0000011
+    0000011
+    0000110
+    0001100
+    0011000
+    0011000
+    0011000
+    0011000
+    0011000
+    """
+  end
+
+  bmp_glyph ?8 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    0111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111110
+    """
+  end
+
+  bmp_glyph ?9 do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    0111111
+    0000011
+    0000011
+    0000011
+    0000011
+    0111110
+    """
+  end
+
+  bmp_glyph "nine.cv15.1" do
+    advance 8
+    bounds 0..7, 0..10
+
+    data """
+    0111110
+    1100011
+    1100011
+    1100011
+    1100011
+    0111111
+    0000011
+    0000011
+    1100011
+    0111110
+    """
+  end
 
   bmp_glyph ?: do
     advance 8
