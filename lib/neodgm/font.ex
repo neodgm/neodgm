@@ -96,7 +96,8 @@ defmodule NeoDGM.Font do
     [
       NeoDGM.Lookups.GSUB.Hangul,
       NeoDGM.Lookups.GSUB.HangulPunctuation,
-      NeoDGM.Lookups.GSUB.StylisticVariants
+      NeoDGM.Lookups.GSUB.StylisticVariants.OldVersionGlyphs,
+      NeoDGM.Lookups.GSUB.StylisticVariants.AltDigits
     ]
   end
 end
