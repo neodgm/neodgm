@@ -34,7 +34,8 @@ defmodule NeoDGM.Font do
   @spec metrics() :: Metrics.t()
   defp metrics do
     %Metrics{
-      units_per_em: 16,
+      pixels_per_em: 16,
+      units_per_em: 1024,
       ascender: 12,
       descender: 4,
       line_gap: 0,
