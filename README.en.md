@@ -147,7 +147,7 @@ Please feel free to submit issues if...
 
 ## License
 
-Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>
+Copyright (c) 2017-2024, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>
 
 NeoDunggeunmo font files and its source codes are distributed under SIL Open
 Font License 1.1. Read the `LICENSE.txt` file for the full text of SIL Open Font

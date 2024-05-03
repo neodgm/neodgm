@@ -144,7 +144,7 @@ https://neodgm.dalgona.dev/guides.html
 
 ## 라이선스
 
-Copyright (c) 2017-2021, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>
+Copyright (c) 2017-2024, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>
 
 Neo둥근모 글꼴 파일과 글꼴의 소스 코드는 SIL Open Font License 1.1 하에
 배포됩니다. SIL Open Font License 1.1의 전체 내용은 `LICENSE.txt`에 저장되어
