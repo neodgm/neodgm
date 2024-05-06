@@ -149,12 +149,6 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     end
 
     context do
-      input '=', apply: "Equals, 1px longer"
-      input '=', apply: "Equals, 1px longer"
-      input '=', apply: "Equals, 1px longer"
-    end
-
-    context do
       input '=', apply: "Slashed equals, left"
       input '/', apply: "Slashed equals, left"
       input '=', apply: "Slashed equals, right"
@@ -186,6 +180,13 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     context do
       input '/', apply: "Slashed equals, left"
       input '=', apply: "Slashed equals, right"
+    end
+
+    # Equals sequence continuation
+
+    context do
+      backtrack ~w(equal.1px)
+      input '=', apply: "Equals, 1px longer"
     end
   end
 end
