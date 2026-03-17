@@ -2,7 +2,7 @@ use PixelFont.OTFLayout
 
 lookups NeoDGM.Lookups.GPOS.Code, for: "GPOS" do
   module do
-    @chars '!:;|'
+    @chars ~c"!:;|"
 
     defp scripts, do: %{"DFLT" => [:default], "latn" => [:default]}
   end
@@ -30,7 +30,7 @@ lookups NeoDGM.Lookups.GPOS.Code, for: "GPOS" do
     feature "calt", scripts()
 
     context do
-      input '!', apply: "Move 1px backward"
+      input ~c"!", apply: "Move 1px backward"
       input ~w(equal.2px), apply: "Move 1px backward"
       lookahead ~w(equal.2px)
     end

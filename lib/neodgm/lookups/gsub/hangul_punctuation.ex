@@ -31,14 +31,14 @@ lookups NeoDGM.Lookups.GSUB.HangulPunctuation, for: "GSUB" do
     context do
       backtrack a_and_wa_components()
       backtrack all_cho_glyphs()
-      input '-~'
+      input ~c"-~"
       lookahead [all_cho_glyphs(), ?가..?힣]
     end
 
     # Ignore: This context is covered by a GPOS lookup.
     context do
       backtrack a_and_wa_syllables()
-      input '-~'
+      input ~c"-~"
       lookahead [all_cho_glyphs(), ?가..?힣]
     end
 
@@ -46,13 +46,13 @@ lookups NeoDGM.Lookups.GSUB.HangulPunctuation, for: "GSUB" do
     context do
       backtrack a_and_wa_components()
       backtrack all_cho_glyphs()
-      input '-~', apply: "Shorter punctuation for Hangul"
+      input ~c"-~", apply: "Shorter punctuation for Hangul"
     end
 
     # Hangul syllable form
     context do
       backtrack a_and_wa_syllables()
-      input '-~', apply: "Shorter punctuation for Hangul"
+      input ~c"-~", apply: "Shorter punctuation for Hangul"
     end
   end
 end

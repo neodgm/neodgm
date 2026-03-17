@@ -16,14 +16,14 @@ lookups NeoDGM.Lookups.GPOS.HangulPunctuation, for: "GPOS" do
     context do
       backtrack a_and_wa_components()
       backtrack all_cho_glyphs()
-      input '-~', apply: "Move 1px forward"
+      input ~c"-~", apply: "Move 1px forward"
       lookahead [all_cho_glyphs(), ?가..?힣]
     end
 
     # Hangul syllable form
     context do
       backtrack a_and_wa_syllables()
-      input '-~', apply: "Move 1px forward"
+      input ~c"-~", apply: "Move 1px forward"
       lookahead [all_cho_glyphs(), ?가..?힣]
     end
   end

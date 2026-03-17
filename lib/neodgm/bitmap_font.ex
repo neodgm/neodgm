@@ -83,7 +83,7 @@ defmodule NeoDGM.BitmapFont do
 
   a_and_wa_syllables =
     [0, 252]
-    |> Enum.map(fn x -> Enum.map(0..18, & &1 * 588 + 0xAC00 + x) end)
+    |> Enum.map(fn x -> Enum.map(0..18, &(&1 * 588 + 0xAC00 + x)) end)
     |> List.flatten()
 
   def a_and_wa_components, do: unquote(a_and_wa_components)

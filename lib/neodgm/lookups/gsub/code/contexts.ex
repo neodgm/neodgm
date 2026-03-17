@@ -9,9 +9,9 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     feature "calt", scripts()
 
     context do
-      backtrack '<'
-      input '-=', apply: "Short bidirectional arrow body"
-      lookahead '>'
+      backtrack ~c"<"
+      input ~c"-=", apply: "Short bidirectional arrow body"
+      lookahead ~c">"
     end
   end
 
@@ -19,14 +19,14 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     feature "calt", scripts()
 
     context do
-      backtrack '<'
-      input '-', apply: "Left arrow head"
+      backtrack ~c"<"
+      input ~c"-", apply: "Left arrow head"
     end
 
     context do
-      backtrack '<'
-      input '=', apply: "Left arrow head"
-      lookahead '-='
+      backtrack ~c"<"
+      input ~c"=", apply: "Left arrow head"
+      lookahead ~c"-="
     end
   end
 
@@ -35,14 +35,14 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
 
     context do
       backtrack ~w(hyphen.larr.head equal.larr.head)
-      backtrack '<'
-      input '-=', apply: "Right arrow head alt"
-      lookahead '>'
+      backtrack ~c"<"
+      input ~c"-=", apply: "Right arrow head alt"
+      lookahead ~c">"
     end
 
     context do
-      input '-=', apply: "Right arrow head"
-      lookahead '>'
+      input ~c"-=", apply: "Right arrow head"
+      lookahead ~c">"
     end
   end
 
@@ -51,15 +51,15 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
 
     context do
       backtrack ~w(hyphen.larr.head equal.larr.head)
-      backtrack '<'
-      input '-=', apply: "Left arrow body"
-      lookahead '-='
+      backtrack ~c"<"
+      input ~c"-=", apply: "Left arrow body"
+      lookahead ~c"-="
     end
 
     context do
       backtrack ~w(hyphen.larr.body equal.larr.body)
-      input '-=', apply: "Left arrow body"
-      lookahead '-='
+      input ~c"-=", apply: "Left arrow body"
+      lookahead ~c"-="
     end
   end
 
@@ -68,9 +68,9 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
 
     context do
       backtrack ~w(hyphen.larr.head hyphen.larr.body equal.larr.head equal.larr.body)
-      input '-=', apply: "Bidirectional arrow joiner"
+      input ~c"-=", apply: "Bidirectional arrow joiner"
       lookahead ~w(hyphen.rarr.head equal.rarr.head)
-      lookahead '>'
+      lookahead ~c">"
     end
   end
 
@@ -79,7 +79,7 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
 
     context do
       backtrack ~w(hyphen.larr.head hyphen.larr.body equal.larr.head equal.larr.body)
-      input '-=', apply: "Left arrow body"
+      input ~c"-=", apply: "Left arrow body"
     end
   end
 
@@ -97,10 +97,10 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     feature "calt", scripts()
 
     context do
-      backtrack '<'
-      input '!', apply: "Markup comment exclam"
-      input '-', apply: "Left arrow body"
-      input '-', apply: "Left arrow body"
+      backtrack ~c"<"
+      input ~c"!", apply: "Markup comment exclam"
+      input ~c"-", apply: "Left arrow body"
+      input ~c"-", apply: "Left arrow body"
     end
   end
 
@@ -108,23 +108,23 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     feature "calt", scripts()
 
     context do
-      input '<', apply: "Pipe operator"
-      input '|', apply: "Pipe operator"
+      input ~c"<", apply: "Pipe operator"
+      input ~c"|", apply: "Pipe operator"
     end
 
     context do
       backtrack ~w(bar.pipeoperator)
-      input '|', apply: "Pipe operator"
+      input ~c"|", apply: "Pipe operator"
     end
 
     context do
-      input '|', apply: "Pipe operator"
-      input '>', apply: "Pipe operator"
+      input ~c"|", apply: "Pipe operator"
+      input ~c">", apply: "Pipe operator"
     end
 
     context do
       backtrack ~w(bar.pipeoperator)
-      input '>', apply: "Pipe operator"
+      input ~c">", apply: "Pipe operator"
     end
   end
 
@@ -143,49 +143,49 @@ lookups NeoDGM.Lookups.GSUB.Code.Contexts, for: "GSUB" do
     # 3-glyph sequences
 
     context do
-      backtrack '!'
-      input '=', apply: "Equals, 2px longer"
-      input '=', apply: "Equals, 2px longer"
+      backtrack ~c"!"
+      input ~c"=", apply: "Equals, 2px longer"
+      input ~c"=", apply: "Equals, 2px longer"
     end
 
     context do
-      input '=', apply: "Equals, 1px longer"
-      input '=', apply: "Equals, 1px longer"
-      input '=', apply: "Equals, 1px longer"
+      input ~c"=", apply: "Equals, 1px longer"
+      input ~c"=", apply: "Equals, 1px longer"
+      input ~c"=", apply: "Equals, 1px longer"
     end
 
     context do
-      input '=', apply: "Slashed equals, left"
-      input '/', apply: "Slashed equals, left"
-      input '=', apply: "Slashed equals, right"
+      input ~c"=", apply: "Slashed equals, left"
+      input ~c"/", apply: "Slashed equals, left"
+      input ~c"=", apply: "Slashed equals, right"
     end
 
     context do
-      input '=', apply: "Equals, 2px longer"
-      input ':', apply: "Colon between equals"
-      input '=', apply: "Equals, 2px longer"
+      input ~c"=", apply: "Equals, 2px longer"
+      input ~c":", apply: "Colon between equals"
+      input ~c"=", apply: "Equals, 2px longer"
     end
 
     # 2-glyph sequences
 
     context do
-      input '=', apply: "Equals, 1px longer"
-      input '=', apply: "Equals, 1px longer"
+      input ~c"=", apply: "Equals, 1px longer"
+      input ~c"=", apply: "Equals, 1px longer"
     end
 
     context do
-      backtrack '!'
-      input '=', apply: "Equals, 3px longer"
+      backtrack ~c"!"
+      input ~c"=", apply: "Equals, 3px longer"
     end
 
     context do
-      input ':', apply: "Colon between equals"
-      input '=', apply: "Equals, 3px longer"
+      input ~c":", apply: "Colon between equals"
+      input ~c"=", apply: "Equals, 3px longer"
     end
 
     context do
-      input '/', apply: "Slashed equals, left"
-      input '=', apply: "Slashed equals, right"
+      input ~c"/", apply: "Slashed equals, left"
+      input ~c"=", apply: "Slashed equals, right"
     end
   end
 end
