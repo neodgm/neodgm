@@ -4,7 +4,7 @@ defmodule NeoDGM.Mixfile do
   def project do
     [
       app: :neodgm,
-      version: "1.6.0",
+      version: "1.6.1",
       elixir: "~> 1.19",
       deps: deps(),
       pixel_font: [
